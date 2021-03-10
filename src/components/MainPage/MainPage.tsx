@@ -1,17 +1,31 @@
 import React from 'react';
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
-import Typography from '@material-ui/core/Typography';
+// import CardContent from '@material-ui/core/CardContent';
+// import Typography from '@material-ui/core/Typography';
+ import CardsCountry from './CardsCountry/CardsCountry'
+// import Video from '../CountryPage/Video'
+
+import Time from '../CountryPage/Time'
+import Currency from '../CountryPage/Currency'
 
 const MainPage: React.FC = () => {
   return (
     <div>
-      <h1>Main Page</h1>
-      <Card>
-        <CardContent>
-          <Typography>Hello</Typography>
-        </CardContent>
-      </Card>
+      <h1>Visit counries</h1>
+      <CardsCountry
+       countryName={'Japan'}
+       capitalName={'Tokyo'}
+       shortDescription={'Lorem ipsum dollar'}
+       />
+
+      {/*ВИДЖЕТЫ. ВСЁ, ЧТО НИЖЕ,  ЭТО ПЕРЕНЕСТИ В КОМПОНЕНТ CountryPage */}
+      <Time 
+      timeZone={'Asia/Tokyo'}
+      capitalName={'Tokyo'}
+      />
+
+      <Currency
+      currency={'JPY'}
+      />
     </div>
   );
 };
