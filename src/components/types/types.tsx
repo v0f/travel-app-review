@@ -8,3 +8,15 @@ export interface IProps {
    export interface ICurrency {
     currency: string;
    }
+
+   export interface ICapital {
+    capitalName: string;
+   }
+   
+   export interface IWidgets {
+    countryName: string;
+    capitalName: string;
+    timeZone: string;
+    currency: string;
+    
+   }

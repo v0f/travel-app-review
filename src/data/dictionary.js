@@ -1,4 +1,4 @@
-export default {
+const dictionary = {
     months: {
         en: [
             'January',
@@ -28,7 +28,7 @@ export default {
             'Ноября',
             'Декабря',
             ],
-        by: [
+        be: [
                 'Студзеня',
                 'Лютага',
                 'Сакавіка',
@@ -46,6 +46,23 @@ export default {
     week: {
         en: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
         ru: ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'],
-        by: ['Панядзелак', 'Аўторак', 'Серада', 'Чацвер', 'Пятніцу', 'Суботу', 'Нядзелю'],
+        be: ['Панядзелак', 'Аўторак', 'Серада', 'Чацвер', 'Пятніцу', 'Суботу', 'Нядзелю'],
+    },
+    RUB: {
+        en: 'RUB',
+        ru: 'РУБ',
+        be: 'РУБ'
+    },
+    EUR: {
+        en: 'EUR',
+        ru: 'ЕВРО',
+        be: 'ЕЎРА'
+    },
+    USD: {
+        en: 'USD',
+        ru: 'ДОЛЛ.',
+        be: 'USD'
     }
 }
+
+export default dictionary;
