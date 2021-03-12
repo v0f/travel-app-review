@@ -4,9 +4,6 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 
-import dictionary from '../../data/dictionary';
-import addZero from '../../helpers/addZero';
-
 import { ICurrency } from '../types/types';
 
 const useStyles = makeStyles({
@@ -28,12 +25,11 @@ const useStyles = makeStyles({
 
 export default function Time ({ currency } : ICurrency){
     const classes = useStyles();
-    let [ toRUB, setToRUB ] = useState<any>('');
-    let [ toUSD, setToUSD] = useState<any>('');
-    let [ toEUR, setToEUR ] = useState<any>('');
+    let [ toRUB, setToRUB ] = useState<string>('');
+    let [ toUSD, setToUSD] = useState<string>('');
+    let [ toEUR, setToEUR ] = useState<string>('');
 
     useEffect(() => {
-        const res: Array<string> = [];
 
         async function getCurrencyData(fromCurrency: string, toCurrency: string) {
             const endpoint: string = `https://free.currconv.com/api/v7/convert?apiKey=9907c9f725cc3b503486&q=${fromCurrency}_${toCurrency},${toCurrency}_${fromCurrency}`;
@@ -42,37 +38,35 @@ export default function Time ({ currency } : ICurrency){
             const base: any = data.results[`${fromCurrency}_${toCurrency}`];
             const result: string = String(base.val.toFixed(2));
 
-            //return result;
-            res.push(result)
+            if (fromCurrency === 'RUB') {
+              setToRUB(result);
+            }  else if (fromCurrency === 'USD') {
+              setToUSD(result);
+            }  else if (fromCurrency === 'EUR') {
+              setToEUR(result);
+            } 
         }
 
-        getCurrencyData(currency, 'RUB')
-        getCurrencyData(currency, 'USD')
-        getCurrencyData(currency, 'EUR')
+        getCurrencyData('RUB', currency)
+        getCurrencyData('USD', currency)
+        getCurrencyData('EUR', currency)
 
-        setToRUB(res[0])
-        setToUSD(res[1])
-        setToEUR(res[2])
-        
-        // setToRUB(await getCurrencyData(currency, 'RUB'))
-        // setToUSD(await getCurrencyData(currency, 'USD'))
-        // setToEUR(await getCurrencyData(currency, 'EUR'))
         }, []);
 
   return (
     <Card className={classes.root} >
       <CardContent>
         <Typography variant="h6" component="h3">
-            Currency course
+            Currency
         </Typography>
-        <Typography className={classes.pos} color="textSecondary">
-            {toRUB}
+        <Typography variant="h6" component="h2">
+          {`1 RUB = ${toRUB} ${currency}`}
         </Typography>
-        <Typography variant="h4" component="h2">
-            {toUSD}
+        <Typography variant="h6" component="h2">
+          {`1 USD = ${toUSD} ${currency}`}
         </Typography>
-        <Typography variant="h4" component="h2">
-            {toEUR}
+        <Typography variant="h6" component="h2">
+          {`1 EUR = ${toEUR} ${currency}`}
         </Typography>
       </CardContent>
     </Card>
