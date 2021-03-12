@@ -5,7 +5,8 @@
   "main": "bin/www.js",
   "scripts": {
     "start:dev": "nodemon ./src/bin/www",
-    "start": "node ./src/bin/www"
+    "start": "node ./src/bin/www",
+    "deploy": "cd .. && git push heroku `git subtree split --prefix=backend backend`:refs/heads/master --force"
   },
   "repository": {
     "type": "git",
@@ -39,7 +40,7 @@
     "yamljs": "^0.3.0"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=14.0.0 <15.0.0"
   },
   "bugs": {
     "url": "https://github.com/rolling-scopes-school/travel-app-be/issues"
