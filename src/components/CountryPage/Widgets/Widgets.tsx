@@ -8,14 +8,21 @@ import './widgets.css'
 
 import { IWidgets } from '../../types/types';
 
- const Widgets = ({ countryName, capitalName, timeZone, currency } : IWidgets ) => { 
+ const Widgets = ({ capitalName, timeZone, currency, currencyCode } : IWidgets ) => { 
     
     return (
         <div className="widgets-wrapper">
-            <h2 className="widgets-city">{`${capitalName}, ${countryName}`}</h2>
+            <div className="capital-wrapper">
+                <i className="fas fa-university"></i>
+                <h3 className="widgets-city">Capital: </h3>
+                <h2 className="widgets-city">{`${capitalName}`}</h2>
+            </div>
             <Time timeZone={timeZone} />   
             <Weather capitalName={capitalName} />
-            <Currency currency={currency} />
+            <Currency
+            currency={currency}
+            currencyCode={currencyCode}
+            />
         </div>
     )
 }

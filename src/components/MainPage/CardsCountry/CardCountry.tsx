@@ -15,21 +15,24 @@ const useStyles = makeStyles({
     media: {
       height: 250,
     },
-    });
+  });
 
 
-const CardCountry = ({ countryName, capitalName, shortDescription } : IProps ) => {
+const CardCountry = ({ countryName, capitalName, shortDescription, id, imageURL } : IProps ) => {
 
     const classes = useStyles();
 
     return (
-      <Card className={classes.root}>
+      <Card
+      className={classes.root}
+      id={id}
+      >
         <CardActionArea>
           <CardMedia
             className={classes.media}
             //image={`./assets/images/countries/${countryName.toLowerCase()}/${countryName.toLowerCase()}.jpg`}
-            image={`./assets/images/countries/japan/japan.jpg`}
-             title={countryName}
+            image={`./assets/images/countries/japan/japan.jpg`} //imageURL
+            title={countryName}
           />
           <CardContent>
             <Typography gutterBottom variant="h4" component="h2">

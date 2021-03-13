@@ -35,4 +35,21 @@
   margin-top: 4rem; }
 
 #map {
-  height: 400px; }
+  height: 400px;
+  margin: 2rem 0; }
+
+.country__text {
+  color: black;
+  padding: 7rem; }
+
+.country__article {
+  font-size: 1.1rem;
+  color: black; }
+
+.country__places {
+  padding: 0 7rem; }
+
+.country__heading {
+  font-family: 'Cormorant', serif;
+  font-size: 4rem;
+  color: black; }

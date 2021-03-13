@@ -17,7 +17,7 @@ const App: React.FC = () => {
   return (
     <Router>
       <React.Fragment>
-        {/* <Header /> */}
+        <Header />
 
         <Route path='/' component={MainPage} exact />
         <Route

@@ -4,8 +4,7 @@ import CardContent from '@material-ui/core/CardContent';
 
 import { ICurrency } from '../../types/types';
 
-
- const Currency =  ({ currency } : ICurrency) => {
+ const Currency =  ({ currency, currencyCode } : ICurrency) => {
     const [ toRUB, setToRUB ] = useState<string>('');
     const [ toUSD, setToUSD] = useState<string>('');
     const [ toEUR, setToEUR ] = useState<string>('');
@@ -36,22 +35,20 @@ import { ICurrency } from '../../types/types';
             }
         }
 
-        getCurrencyData(currency, 'RUB')
-        getCurrencyData(currency, 'USD')
-        getCurrencyData(currency, 'EUR')
+        getCurrencyData(currencyCode, 'RUB')
+        getCurrencyData(currencyCode, 'USD')
+        getCurrencyData(currencyCode, 'EUR')
 
-      }, [currency]
+      }, [currency, currencyCode]
     );
 
   return (
     <Card className={'widget currency'} >
       <CardContent className="currency-content">
         <i className="fas fa-money-bill"></i>
-        <span className="currency-h"> {`1 ${currency}`} </span>
-        <span className="currency-h"> = </span>
-        <span> {`${toRUB} ₽`} </span>
-        <span> {`${toUSD} $`} </span>
-        <span> {`${toEUR} €`} </span>
+        <span className="currency-country"> {`1 ${currencyCode}`} </span>
+        <span className="currency-h">{`${currency}`}</span>
+        <span> {`${toRUB} ₽ | ${toUSD} $ | ${toEUR} €`}  </span>
       </CardContent>
     </Card>
   );

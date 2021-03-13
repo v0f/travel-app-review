@@ -1,10 +1,8 @@
 .cover {
     width: 100vw;
     height: 100vh;
-    // background: url('https://34travel.me/media/posts/58eb8f6dd479f-top.jpg') no-repeat 0 0;
     background: url('../../assets/images/countries/japan/japan_cover.jpg') no-repeat 0 0;
     background-size: cover;
-
     position: absolute;
     top: 0;
     left: 0;
@@ -15,8 +13,6 @@
     height: 100vh;
     position: absolute;
     z-index: 2;
-    // left: 0;
-    // top: 0;
     content: "";
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.81) 0%, rgba(0, 0, 0, 0.61) 58%, rgba(0, 0, 0, 0) 100%)
 }
@@ -45,4 +41,29 @@
 
 #map {
     height: 400px;
+    margin: 2rem 0;
 }
+
+.country {
+    &__text {
+        color: black;
+        padding: 7rem;
+    }
+
+    &__article {
+        font-size: 1.1rem;
+        color: black;
+    }
+
+    &__places {
+        padding: 0 7rem;
+    }
+
+    &__heading{
+        font-family: 'Cormorant', serif;
+        font-size: 4rem;
+        color: black;
+    }
+
+}
+    

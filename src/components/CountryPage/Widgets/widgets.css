@@ -5,52 +5,48 @@
   align-items: flex-end;
   width: 13rem; }
   .widgets-wrapper {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    width: 70%;
+    margin: 0 auto;
+    padding: 3rem 0;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: end;
-    -ms-flex-align: end;
-    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-around;
     color: #282828;
     background-color: #ffffff;
-    box-shadow: 6px 0px 0px -5px rgba(47, 58, 66, 0.6) inset; }
+    box-shadow: 1px -7px 0px -5px rgba(41, 51, 58, 0.6) inset; }
     .widgets-wrapper .MuiPaper-root {
       background-color: transparent; }
   .widgets-city {
     padding: 0 1rem;
-    font-weight: 600;
+    font-weight: 400;
     color: black; }
+
+.capital-wrapper {
+  text-align: center;
+  padding: 1rem; }
+  .capital-wrapper h2 {
+    font-size: 1.5rem; }
+  .capital-wrapper h2, .capital-wrapper h3 {
+    padding: 0;
+    margin: 0; }
 
 .currency-content,
 .time-content,
 .weather-content {
-  padding: 1.5rem;
   display: flex;
   flex-direction: column;
-  align-items: flex-end; }
+  align-items: center; }
 
 .currency,
 .weather,
 .time {
   align-items: flex-end; }
 
-.currency-content > span {
+.currency-content span {
   font-size: 1.1rem; }
 
-.weather-content,
-.currency-content,
-.time-content {
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end; }
+.currency-content .currency-country {
+  font-size: 1.5rem; }
 
 .owf {
   font: normal normal normal 3rem/1 owfont; }
@@ -75,5 +71,6 @@
 .widgets-wrapper > .MuiPaper-elevation1 {
   box-shadow: none; }
 
-.fa-money-bill, .fa-clock {
-  font-size: 2rem; }
+.fa-money-bill, .fa-clock, .fa-university {
+  font-size: 2rem;
+  margin-bottom: 1rem; }
