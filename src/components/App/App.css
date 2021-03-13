@@ -151,73 +151,61 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
-
-.video-react:-moz-full-screen {
-  position: absolute; }
-
-.video-react:-webkit-full-screen {
-  width: 100% !important;
-  height: 100% !important; }
-
-.video-react *,
-.video-react *:before,
-.video-react *:after {
-  box-sizing: inherit; }
-
-.video-react ul {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  list-style-position: outside;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  margin-bottom: 0; }
-
-.video-react.video-react-fluid, .video-react.video-react-16-9, .video-react.video-react-4-3 {
-  width: 100%;
-  max-width: 100%;
-  height: 0; }
-
-.video-react.video-react-16-9 {
-  padding-top: 56.25%; }
-
-.video-react.video-react-4-3 {
-  padding-top: 75%; }
-
-.video-react.video-react-fill {
-  width: 100%;
-  height: 100%; }
-
-.video-react .video-react-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; }
-
-.video-react.video-react-fullscreen {
-  width: 100% !important;
-  height: 100% !important;
-  padding-top: 0 !important; }
-
-.video-react.video-react-fullscreen.video-react-user-inactive {
-  cursor: none; }
+  .video-react:-moz-full-screen {
+    position: absolute; }
+  .video-react:-webkit-full-screen {
+    width: 100% !important;
+    height: 100% !important; }
+  .video-react *,
+  .video-react *:before,
+  .video-react *:after {
+    box-sizing: inherit; }
+  .video-react ul {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    list-style-position: outside;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0; }
+  .video-react.video-react-fluid, .video-react.video-react-16-9, .video-react.video-react-4-3 {
+    width: 100%;
+    max-width: 100%;
+    height: 0; }
+  .video-react.video-react-16-9 {
+    padding-top: 56.25%; }
+  .video-react.video-react-4-3 {
+    padding-top: 75%; }
+  .video-react.video-react-fill {
+    width: 100%;
+    height: 100%; }
+  .video-react .video-react-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  .video-react.video-react-fullscreen {
+    width: 100% !important;
+    height: 100% !important;
+    padding-top: 0 !important; }
+    .video-react.video-react-fullscreen.video-react-user-inactive {
+      cursor: none; }
 
 body.video-react-full-window {
   padding: 0;
   margin: 0;
   height: 100%;
   overflow-y: auto; }
-
-body.video-react-full-window .video-react-fullscreen {
-  position: fixed;
-  overflow: hidden;
-  z-index: 1000;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0; }
+  body.video-react-full-window .video-react-fullscreen {
+    position: fixed;
+    overflow: hidden;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0; }
 
 .video-react button {
   background: none;
@@ -249,21 +237,20 @@ body.video-react-full-window .video-react-fullscreen {
   width: 50px;
   height: 50px;
   border-radius: 25px; }
-
-.video-react .video-react-loading-spinner:before, .video-react .video-react-loading-spinner:after {
-  content: "";
-  position: absolute;
-  margin: -6px;
-  box-sizing: inherit;
-  width: inherit;
-  height: inherit;
-  border-radius: inherit;
-  opacity: 1;
-  border: inherit;
-  border-color: transparent;
-  border-top-color: white;
-  -webkit-animation: video-react-spinner-spin 1.1s cubic-bezier(0.6, 0.2, 0, 0.8) infinite, video-react-spinner-fade 1.1s linear infinite;
-  animation: video-react-spinner-spin 1.1s cubic-bezier(0.6, 0.2, 0, 0.8) infinite, video-react-spinner-fade 1.1s linear infinite; }
+  .video-react .video-react-loading-spinner:before, .video-react .video-react-loading-spinner:after {
+    content: "";
+    position: absolute;
+    margin: -6px;
+    box-sizing: inherit;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    opacity: 1;
+    border: inherit;
+    border-color: transparent;
+    border-top-color: white;
+    -webkit-animation: video-react-spinner-spin 1.1s cubic-bezier(0.6, 0.2, 0, 0.8) infinite, video-react-spinner-fade 1.1s linear infinite;
+    animation: video-react-spinner-spin 1.1s cubic-bezier(0.6, 0.2, 0, 0.8) infinite, video-react-spinner-fade 1.1s linear infinite; }
 
 .video-react-seeking .video-react-loading-spinner,
 .video-react-waiting .video-react-loading-spinner {
@@ -333,15 +320,13 @@ body.video-react-full-window .video-react-fullscreen {
   -moz-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s; }
-
-.video-react .video-react-big-play-button.video-react-big-play-button-center {
-  top: 50%;
-  left: 50%;
-  margin-top: -0.75em;
-  margin-left: -1.5em; }
-
-.video-react .video-react-big-play-button.big-play-button-hide {
-  display: none; }
+  .video-react .video-react-big-play-button.video-react-big-play-button-center {
+    top: 50%;
+    left: 50%;
+    margin-top: -0.75em;
+    margin-left: -1.5em; }
+  .video-react .video-react-big-play-button.big-play-button-hide {
+    display: none; }
 
 .video-react:hover .video-react-big-play-button,
 .video-react .video-react-big-play-button:focus {
@@ -356,9 +341,8 @@ body.video-react-full-window .video-react-fullscreen {
 
 .video-react-menu-button {
   cursor: pointer; }
-
-.video-react-menu-button.video-react-disabled {
-  cursor: default; }
+  .video-react-menu-button.video-react-disabled {
+    cursor: default; }
 
 .video-react-menu .video-react-menu-content {
   display: block;
@@ -374,25 +358,22 @@ body.video-react-full-window .video-react-fullscreen {
   line-height: 1.4em;
   font-size: 1.2em;
   text-align: center; }
-
-.video-react-menu li:focus, .video-react-menu li:hover {
-  outline: 0;
-  background-color: #73859f;
-  background-color: rgba(115, 133, 159, 0.5); }
-
-.video-react-menu li.video-react-selected, .video-react-menu li.video-react-selected:focus, .video-react-menu li.video-react-selected:hover {
-  background-color: #fff;
-  color: #2B333F; }
-
-.video-react-menu li.vjs-menu-title {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 1em;
-  line-height: 2em;
-  padding: 0;
-  margin: 0 0 0.3em 0;
-  font-weight: bold;
-  cursor: default; }
+  .video-react-menu li:focus, .video-react-menu li:hover {
+    outline: 0;
+    background-color: #73859f;
+    background-color: rgba(115, 133, 159, 0.5); }
+  .video-react-menu li.video-react-selected, .video-react-menu li.video-react-selected:focus, .video-react-menu li.video-react-selected:hover {
+    background-color: #fff;
+    color: #2B333F; }
+  .video-react-menu li.vjs-menu-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+    line-height: 2em;
+    padding: 0;
+    margin: 0 0 0.3em 0;
+    font-weight: bold;
+    cursor: default; }
 
 .video-react-scrubbing .vjs-menu-button:hover .video-react-menu {
   display: none; }
@@ -406,14 +387,13 @@ body.video-react-full-window .video-react-fullscreen {
   height: 0em;
   margin-bottom: 1.5em;
   border-top-color: rgba(43, 51, 63, 0.7); }
-
-.video-react .video-react-menu-button-popup .video-react-menu .video-react-menu-content {
-  background-color: #2B333F;
-  background-color: rgba(43, 51, 63, 0.7);
-  position: absolute;
-  width: 100%;
-  bottom: 1.5em;
-  max-height: 15em; }
+  .video-react .video-react-menu-button-popup .video-react-menu .video-react-menu-content {
+    background-color: #2B333F;
+    background-color: rgba(43, 51, 63, 0.7);
+    position: absolute;
+    width: 100%;
+    bottom: 1.5em;
+    max-height: 15em; }
 
 .video-react-menu-button-popup .video-react-menu.video-react-lock-showing {
   display: block; }
@@ -424,42 +404,36 @@ body.video-react-full-window .video-react-fullscreen {
   -o-transition: all 0.4s;
   transition: all 0.4s;
   overflow: hidden; }
-
-.video-react .video-react-menu-button-inline:before {
-  width: 2.222222222em; }
-
-.video-react .video-react-menu-button-inline:hover, .video-react .video-react-menu-button-inline:focus, .video-react .video-react-menu-button-inline.video-react-slider-active {
-  width: 12em; }
-
-.video-react .video-react-menu-button-inline:hover .video-react-menu, .video-react .video-react-menu-button-inline:focus .video-react-menu, .video-react .video-react-menu-button-inline.video-react-slider-active .video-react-menu {
-  display: block;
-  opacity: 1; }
-
-.video-react .video-react-menu-button-inline.video-react-slider-active {
-  -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none; }
-
-.video-react .video-react-menu-button-inline .video-react-menu {
-  opacity: 0;
-  height: 100%;
-  width: auto;
-  position: absolute;
-  left: 4em;
-  top: 0;
-  padding: 0;
-  margin: 0;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s; }
-
-.video-react .video-react-menu-button-inline .video-react-menu-content {
-  width: auto;
-  height: 100%;
-  margin: 0;
-  overflow: hidden; }
+  .video-react .video-react-menu-button-inline:before {
+    width: 2.222222222em; }
+  .video-react .video-react-menu-button-inline:hover, .video-react .video-react-menu-button-inline:focus, .video-react .video-react-menu-button-inline.video-react-slider-active {
+    width: 12em; }
+    .video-react .video-react-menu-button-inline:hover .video-react-menu, .video-react .video-react-menu-button-inline:focus .video-react-menu, .video-react .video-react-menu-button-inline.video-react-slider-active .video-react-menu {
+      display: block;
+      opacity: 1; }
+  .video-react .video-react-menu-button-inline.video-react-slider-active {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none; }
+  .video-react .video-react-menu-button-inline .video-react-menu {
+    opacity: 0;
+    height: 100%;
+    width: auto;
+    position: absolute;
+    left: 4em;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s; }
+  .video-react .video-react-menu-button-inline .video-react-menu-content {
+    width: auto;
+    height: 100%;
+    margin: 0;
+    overflow: hidden; }
 
 .video-react-no-flex .video-react-menu-button-inline .video-react-menu {
   display: block;
@@ -486,14 +460,13 @@ body.video-react-full-window .video-react-fullscreen {
   bottom: 0;
   left: 0;
   height: 100%; }
-
-.video-react .video-react-poster img {
-  display: block;
-  vertical-align: middle;
-  margin: 0 auto;
-  max-height: 100%;
-  padding: 0;
-  width: 100%; }
+  .video-react .video-react-poster img {
+    display: block;
+    vertical-align: middle;
+    margin: 0 auto;
+    max-height: 100%;
+    padding: 0;
+    width: 100%; }
 
 .video-react .video-react-slider {
   outline: 0;
@@ -503,11 +476,10 @@ body.video-react-full-window .video-react-fullscreen {
   margin: 0 0.45em 0 0.45em;
   background-color: #73859f;
   background-color: rgba(115, 133, 159, 0.5); }
-
-.video-react .video-react-slider:focus {
-  -webkit-box-shadow: 0 0 1em #fff;
-  -moz-box-shadow: 0 0 1em #fff;
-  box-shadow: 0 0 1em #fff; }
+  .video-react .video-react-slider:focus {
+    -webkit-box-shadow: 0 0 1em #fff;
+    -moz-box-shadow: 0 0 1em #fff;
+    box-shadow: 0 0 1em #fff; }
 
 .video-react .video-react-control {
   outline: none;
@@ -522,13 +494,11 @@ body.video-react-full-window .video-react-fullscreen {
   -webkit-flex: none;
   -ms-flex: none;
   flex: none; }
-
-.video-react .video-react-control:before {
-  font-size: 1.8em;
-  line-height: 1.67; }
-
-.video-react .video-react-control:focus:before, .video-react .video-react-control:hover:before, .video-react .video-react-control:focus {
-  text-shadow: 0em 0em 1em #fff, 0em 0em 0.5em #fff; }
+  .video-react .video-react-control:before {
+    font-size: 1.8em;
+    line-height: 1.67; }
+  .video-react .video-react-control:focus:before, .video-react .video-react-control:hover:before, .video-react .video-react-control:focus {
+    text-shadow: 0em 0em 1em #fff, 0em 0em 0.5em #fff; }
 
 .video-react .video-react-control-text {
   border: 0;
@@ -645,12 +615,11 @@ body.video-react-full-window .video-react-fullscreen {
 
 .video-react .video-react-play-progress {
   background-color: #fff; }
-
-.video-react .video-react-play-progress:before {
-  position: absolute;
-  top: -0.333333333333333em;
-  right: -0.5em;
-  font-size: 0.9em; }
+  .video-react .video-react-play-progress:before {
+    position: absolute;
+    top: -0.333333333333333em;
+    right: -0.5em;
+    font-size: 0.9em; }
 
 .video-react .video-react-time-tooltip,
 .video-react .video-react-mouse-display:after,
@@ -801,45 +770,38 @@ body.video-react-full-window .video-react-fullscreen {
 
 .video-react .video-react-volume-bar {
   margin: 1.35em 0.45em; }
-
-.video-react .video-react-volume-bar.video-react-slider-horizontal {
-  width: 5em;
-  height: 0.3em; }
-
-.video-react .video-react-volume-bar.video-react-slider-horizontal .video-react-volume-level {
-  width: 100%; }
-
-.video-react .video-react-volume-bar.video-react-slider-vertical {
-  width: 0.3em;
-  height: 5em;
-  margin: 1.35em auto; }
-
-.video-react .video-react-volume-bar.video-react-slider-vertical .video-react-volume-level {
-  height: 100%; }
+  .video-react .video-react-volume-bar.video-react-slider-horizontal {
+    width: 5em;
+    height: 0.3em; }
+    .video-react .video-react-volume-bar.video-react-slider-horizontal .video-react-volume-level {
+      width: 100%; }
+  .video-react .video-react-volume-bar.video-react-slider-vertical {
+    width: 0.3em;
+    height: 5em;
+    margin: 1.35em auto; }
+    .video-react .video-react-volume-bar.video-react-slider-vertical .video-react-volume-level {
+      height: 100%; }
 
 .video-react .video-react-volume-level {
   position: absolute;
   bottom: 0;
   left: 0;
   background-color: #fff; }
-
-.video-react .video-react-volume-level:before {
-  position: absolute;
-  font-size: 0.9em; }
+  .video-react .video-react-volume-level:before {
+    position: absolute;
+    font-size: 0.9em; }
 
 .video-react .video-react-slider-vertical .video-react-volume-level {
   width: 0.3em; }
-
-.video-react .video-react-slider-vertical .video-react-volume-level:before {
-  top: -0.5em;
-  left: -0.3em; }
+  .video-react .video-react-slider-vertical .video-react-volume-level:before {
+    top: -0.5em;
+    left: -0.3em; }
 
 .video-react .video-react-slider-horizontal .video-react-volume-level {
   height: 0.3em; }
-
-.video-react .video-react-slider-horizontal .video-react-volume-level:before {
-  top: -0.3em;
-  right: -0.5em; }
+  .video-react .video-react-slider-horizontal .video-react-volume-level:before {
+    top: -0.3em;
+    right: -0.5em; }
 
 .video-react .video-react-menu-button-popup.video-react-volume-menu-button .video-react-menu {
   display: block;
@@ -896,26 +858,23 @@ body.video-react-full-window .video-react-fullscreen {
   margin-top: -26px;
   background: rgba(0, 0, 0, 0.5);
   border-radius: 26px; }
-
-.video-react .video-react-bezel.video-react-bezel-animation {
-  -moz-animation: video-react-bezel-fadeout .5s linear 1 normal forwards;
-  -webkit-animation: video-react-bezel-fadeout .5s linear 1 normal forwards;
-  animation: video-react-bezel-fadeout .5s linear 1 normal forwards;
-  pointer-events: none; }
-
-.video-react .video-react-bezel.video-react-bezel-animation-alt {
-  -moz-animation: video-react-bezel-fadeout-alt .5s linear 1 normal forwards;
-  -webkit-animation: video-react-bezel-fadeout-alt .5s linear 1 normal forwards;
-  animation: video-react-bezel-fadeout-alt .5s linear 1 normal forwards;
-  pointer-events: none; }
-
-.video-react .video-react-bezel .video-react-bezel-icon {
-  width: 36px;
-  height: 36px;
-  margin: 8px;
-  font-size: 26px;
-  line-height: 36px;
-  text-align: center; }
+  .video-react .video-react-bezel.video-react-bezel-animation {
+    -moz-animation: video-react-bezel-fadeout .5s linear 1 normal forwards;
+    -webkit-animation: video-react-bezel-fadeout .5s linear 1 normal forwards;
+    animation: video-react-bezel-fadeout .5s linear 1 normal forwards;
+    pointer-events: none; }
+  .video-react .video-react-bezel.video-react-bezel-animation-alt {
+    -moz-animation: video-react-bezel-fadeout-alt .5s linear 1 normal forwards;
+    -webkit-animation: video-react-bezel-fadeout-alt .5s linear 1 normal forwards;
+    animation: video-react-bezel-fadeout-alt .5s linear 1 normal forwards;
+    pointer-events: none; }
+  .video-react .video-react-bezel .video-react-bezel-icon {
+    width: 36px;
+    height: 36px;
+    margin: 8px;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center; }
 
 @keyframes video-react-bezel-fadeout {
   0% {

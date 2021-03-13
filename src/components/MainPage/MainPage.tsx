@@ -17,7 +17,10 @@ const MainPage: React.FC = () => {
 
   return (
     <>
-      <CountriesCards dataCountries={tempData}/>
+      <CountriesCards
+      dataCountries={tempData}
+      // redirectCountryPage={redirectCountryPage}
+      />
     </>
   );
 };
