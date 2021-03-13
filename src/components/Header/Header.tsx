@@ -1,5 +1,11 @@
 import React from 'react';
 
-const Header: React.FC = () => <header>Header</header>;
+import SelectLang from '../Select/Select';
+
+const Header: React.FC = () => (
+  <header>
+    <SelectLang />
+  </header>
+);
 
 export default Header;
