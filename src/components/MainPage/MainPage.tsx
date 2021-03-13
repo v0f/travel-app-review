@@ -4,7 +4,12 @@ import Video from '../CountryPage/Video'
 
 import Widgets from '../CountryPage/Widgets/Widgets';
 
-const MainPage: React.FC = () => {
+type Props = {
+  children: Array<String>,
+};
+
+const MainPage: React.FC<Props> = (props: Props) => {
+  console.log(props.children);
 
   // TEMP DATA FOR TESTING
   const tempData = {
@@ -30,7 +35,7 @@ const MainPage: React.FC = () => {
        currency={tempData.currency}
        timeZone={tempData.timeZone}
        />
-       <Video />
+       {/* <Video /> */}
     </div>
   );
 };

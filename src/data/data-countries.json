@@ -1,114 +1,10 @@
 {
-    "japan": {
-      "id": "japan",
-      "countryName": {
-        "en": "Japan",
-        "ru": "Япония",
-        "be": "Японія"
-      },
-      "capitalName": {
-        "en": "Tokyo",
-        "ru": "Токио",
-        "be": "Токіо"
-      },
-      "shortDescription": {
-        "en": "The land of the rising sun. Consisting of more than 3000 islands. Rodiina sushi, geisha, robots, anime, minimalism and Mount Fuji",
-        "ru": "Страна восходящего солнца. состоящая из более чем 3000 островов. Родиина суши, гейш, роботов, аниме, минимализма и горы Фудзи",
-        "be": "Краіна ўзыходзячага сонца. Якая складаецца з больш чым 3000 выспаў. Родиина сушы, гейш, робатаў, анімэ, мінімалізму і горы Фуджы"
-      },
-      "description": {
-        "en": "Japan is probably the most unusual country on the planet. Many of those who have been here call it a country of anothercivilization. Indeed, there is much that is unusual and sometimes defies standard logical, ethical and cultural thinking. And all due to the fact that for a long time Japan was a closed country for all foreigners. be limiting foreign presence in the country in the 17th century, Japan thus protected its culture and traditions from foreign influence. For almost 250 years, until the Meiji Restoration, the country developed in its own way. This period was marked be the flourishing of many trends in art and culture, which to this day are strongly associated with Japan. At this time, haiku poetry, kabuki drama, plebeian novels, woodcuts appeared, as well as the Ura Senke tea ceremony school - the largest of the modern ones. This is the heyday of the samurai class with its moral code bushi-do  - literally 'the way of the warrior. All this has left a significant imprint on modern Japanese society, and althoughin recent years Japanese culture has been increasingly influenced be Western cultures, it still remains one of the most amazing and controversial in the world.",
-        "ru": "Япония – это, наверное, самая необычная страна на планете. Многие из тех, кто побывал здесь, называют ее страной иной цивилизации. И правда, здесь много что необычно и подчас не поддается стандартному логическому, этическому и культурному мышлению. А все из-за того, что долгое время Япония была закрытой страной для всех иностранцев. Ограничив в XVII веке иностранное присутствие в стране, Япония таким образом защитила свою культуру и традиции от иностранного влияния. На протяжении почти 250 лет, вплоть до реставрации Мэйдзи, страна развивалась своим собственным путем. Этот период ознаменовался расцветом многих направлений в искусстве и культуре, которые по сей день прочно ассоциируются с Японией. В это время появились поэзия хайку, драма кабуки, плебейские романы, гравюры по дереву, а также школа чайной церемонии Ура Сэнкэ — самая крупная из современных. Это период расцвета самурайского сословия с его моральным кодексом буси-до - дословно «путь воина». Все это наложило существенный отпечаток на современное японское общество, и хоть в последние годы японская культура все больше и больше подвергается влиянию западных культур, она до сих пор остается одной из самых удивительных и спорных в мире.",
-        "be": "Японія - гэта, напэўна, самая незвычайная краіна на планеце. Многія з тых, хто пабываў тут, называюць яе краінай іншай цывілізацыі. І праўда, тут шмат што незвычайна і часам не паддаецца стандартнага лагічнага, этычнаму і культурнаму мыслення. А ўсё з-за таго, што доўгі час Японія была закрытай краінай для ўсіх замежнікаў. Абмежаваўшы ў XVII стагоддзі замежнае прысутнасць у краіне, Японія такім чынам абараніла сваю культуру і традыцыі ад замежнага ўплыву. На працягу амаль 250 гадоў, аж да рэстаўрацыі Мэйдзі, краіна развівалася сваім уласным шляхам. Гэты перыяд адзначыўся росквітам многіх напрамкаў у мастацтве і культуры, якія па гэты дзень трывала асацыююцца з Японіяй. У гэты час з'явіліся паэзія хайку, драма кабукі, плебейскай раманы, гравюры па дрэве, а таксама школа чайнай цырымоніі Ура Сэнкэ - самая буйная з сучасных. Гэта перыяд росквіту самурайскага саслоўя з яго маральным кодэксам буси-да - даслоўна «шлях ваяра». Усё гэта наклала істотны адбітак на сучаснае японскае грамадства, і хоць у апошнія гады японская культура ўсё больш і больш падвяргаецца ўплыву заходніх культур, яна да гэтага часу застаецца адной з самых дзіўных і спрэчных у свеце."
-      },
-      "currency":{
-        "en": "JPY",
-        "ru": "ИЕН",
-        "be": "ИЕН"
-      },
-      "timeZone": "Asia/Tokyo",
-      "imageURL": "japan.jpg",
-      "videoURL": "https://www.youtube.com/watch?v=WLIv7HnZ_fE",
-      "places": [
-        {
-          "name": {
-            "en": "Fuji",
-            "ru": "Фудзи",
-            "be": "Фудзі"
-          },
-          "imageUrl": "",
-          "description": {
-            "en": "Mount Fuji is the tallest mountain in Japan (3776 meters). The exceptionally symmetrical cone of the volcano is a world famous symbol of Japan. Fuji-san is a popular attraction for hikers and climbers. Every year about 200 thousand people climb Mount Fuji, 30% of whom are foreigners. The ascent can take from 3 to 8 hours, and the descent can take from 2 to 5 hours.",
-            "ru": "Гора Фудзи - самая высокая гора в Японии (3776 метров). Исключительно симметричный конус вулкана является всемирно известным символом Японии. Фудзи-сан - популярная достопримечательность для туристов и альпинистов. Ежегодно около 200 тысяч человек поднимаются на гору Фудзи, 30% из которых - иностранцы. Подъем может занять от 3 до 8 часов, а спуск - от 2 до 5 часов.",
-            "be": "Гара Фудзі - самая высокая гара ў Японіі (3776 метраў). Выключна сіметрычны конус вулкана з'яўляецца сусветна вядомым сімвалам Японіі. Фудзі-сан - папулярная славутасць для турыстаў і альпіністаў. Штогод каля 200 тысяч чалавек падымаюцца на гару Фудзі, 30% з якіх - замежнікі. Ўздым можа заняць ад 3 да 8 гадзін, а спуск - ад 2 да 5 гадзін."
-          }
-        },
-        {
-          "name": {
-            "en": "Jigokudani Monkey Park",
-            "ru": "Парк обезьян Джигокудани",
-            "be": "Парк малпаў Джигокудани"
-          },
-          "imageUrl": "",
-          "description": {
-            "en": "Jigokudani Monkey Park is a famous hot spring area near Nagano. The park got its name Jigokudani (which means 'Hell Valley') for the steam and boiling water that bubbles in the springs surrounded be steep rocks and dense forests. This park is famous for its large population of wild snow monkeys that travel to the valley in winter when snow covers everything around. Monkeys descend from steep cliffs and forests to bask in warm hot springs, and return to the woods in the evenings.",
-            "ru": "Парк обезьян Дзигокудани - это известная область с горячими источниками недалеко от Нагано. Название Джигокудани (что означает «Адская долина») парк получил за пар и кипящую воду, которая пузырится в источниках, окружённых крутыми скалами и густыми лесами. Данный парк славится большой популяцией диких снежных обезьян, которые отправляются в долину зимой, когда снег покрывает всё вокруг. Обезьяны спускаются с крутых скал и лесов, чтобы погреться в теплых горячих источниках, а по вечерам возвращаются обратно в леса.",
-            "be": "Парк малпаў Дзигокудани - гэта вядомая вобласць з гарачымі крыніцамі недалёка ад Нагана. Назва Джигокудани (што азначае «Адская даліна») парк атрымаў за пар і кіпячую ваду, якая бурбалкі ў крыніцах, акружаных стромкімі скаламі і густымі лясамі. Дадзены парк славіцца вялікай папуляцыяй дзікіх снежных малпаў, якія адпраўляюцца ў даліну зімой, калі снег пакрывае ўсё вакол. Малпы спускаюцца з стромкіх скал і лясоў, каб пагрэцца ў цёплых гарачых крыніцах, а па вечарах вяртаюцца назад у лясы."
-          }
-        },
-        {
-          "name": {
-            "en": "Arashiyama bamboo grove",
-            "ru": "Бамбуковая роща Арасияма",
-            "be": "Бамбукавая гай Арасияма"
-          },
-          "imageUrl": "",
-          "description": {
-            "en": "Himeji is called the White Heron's castle. Its walls are snow-white, and the lines and features are graceful, like a bird. During its existence, the castle did not suffer from fires or enemy raids. And if anyone tried to capture the castle, he would be entangled in the maze of gardens and rooms. The whole complex is 83 buildings. Sakura blossoms around them, which makes the castle even more beautiful. Not surprisingly, he has been featured in films on numerous occasions.",
-            "ru": "Химэдзи называют замком Белой Цапли. Его стены белоснежные, а линии и черты грациозные, как у птицы. За время своего существования замок не страдал от пожаров или вражеских набегов. А если бы кто и попытался захватить замок, то запутался бы в лабиринтах садов и комнат. Весь комплекс – это 83 сооружения. Вокруг них цветет сакура, что делает замок еще прекраснее. Не удивительно, что его неоднократно снимали в фильмах.",
-            "be": "Химэдзи называюць замкам белай чаплі. Яго сцены беласнежныя, а лініі і рысы грацыёзныя, як у птушкі. За час свайго існавання замак не пакутаваў ад пажараў або варожых набегаў. А калі б хто і паспрабаваў захапіць замак, то заблытаўся бы ў лабірынтах садоў і пакояў. Увесь комплекс - гэта 83 збудавання. Вакол іх квітнее сакура, што робіць замак яшчэ выдатней. Не дзіўна, што яго неаднаразова здымалі ў фільмах."
-          }
-        },
-        {
-          "name": {
-            "en": "Shibuya area",
-            "ru": "Район Сибуя",
-            "be": "Раён Сибуя"
-          },
-          "imageUrl": "",
-          "description": {
-            "en": "It is one of Tokyo's 23 special districts. Once it was a village, then a small town. It is now part of the capital and the center of nightlife, entertainment, fashion and shopping. There are also some of the tallest skyscrapers in the city, Microsoft and Coca-Cola offices. The center of the district is the Hachiko monument. In addition to boutiques and entertainment centers, there are museums and temples.",
-            "ru": "Это один из 23 специальных районов Токио. Когда-то он был деревней, потом небольшим городком. Теперь это часть столицы и центр ночной жизни, развлечений, моды и шопинга. Также тут расположены одни из самых высоких небоскребов города, офисы Майкрософт и Кока-Кола. Центром района считают памятник Хатико. Кроме бутиков и развлекательных центров тут есть музеи и храмы.",
-            "be": "Гэта адзін з 23 спецыяльных раёнаў Токіо. Калісьці ён быў вёскай, потым невялікім мястэчкам. Цяпер гэта частка сталіцы і цэнтр начнога жыцця, забаў, моды і шопінгу. Таксама тут размешчаны адны з самых высокіх хмарачосаў горада, офісы Майкрасофт і Кока-Кола. Цэнтрам раёна лічаць помнік Хатико. Акрамя буцікаў і забаўляльных цэнтраў тут ёсць музеі і храмы."
-          }
-        },
-        {
-          "name": {
-            "en": "Fushimi Inari shrine in Kyoto",
-            "ru": "Храм Фусими Инари в Киото",
-            "be": "Храм Фусими Інара ў Кіёта"
-          },
-          "imageUrl": "",
-          "description": {
-            "en": "Fushimi Inari Shrine is known mainly for the myriad Torii Gates donated be the faithful. The gate is located along the road to the temple, which goes up a wooded mountain to Inari-san, where the main building of the temple is located. It takes about two hours to walk to the temple along this alley. On the way to the top, passing through the torii, you will see small chapels, tombs and statues of foxes that are the messengers of this god. Also, about halfway up there will be an observation deck overlooking Kyoto.",
-            "ru": "Храм Фусими Инари известен, главным образом, несметным количеством Ворот-Тории, которые были пожертвованы верующими. Ворота располагаются по дороге к храму, которая уходит в лесистую гору к Инари-сан, где расположено основное здание храма. Чтобы дойти пешком до храма по этой аллее, необходимо около двух часов. По пути к вершине, проходя через тории, вы будете видеть небольшие часовни, могилы и статуи лис, которые являются посланниками этого бога. Так же где-то на полпути наверх будет обзорная площадка с видом на Киото.",
-            "be": "Храм Фусими Інара вядомы, галоўнай выявай, незлічоным колькасцю Брамы-Тории, якія былі ахвяраваны вернікамі. Вароты размяшчаюцца па дарозе да храма, якая сыходзіць у лясістую гару да Інара-сан, дзе размешчана асноўны будынак храма. Каб дайсці пешшу да храма па гэтай алеі, неабходна каля двух гадзін. Па шляху да вяршыні, праходзячы праз тории, вы будзеце бачыць невялікія капліцы, магілы і статуі ліс, якія з'яўляюцца пасланцамі гэтага бога. Гэтак жа дзесьці на паўшляху наверх будзе аглядная пляцоўка з выглядам на Кіёта."
-          }
-        },
-        {
-          "name": {
-            "en": "Kinkakuji Temple",
-            "ru": "Храм Кинкакудзи",
-            "be": "Храм Кинкакудзи"
-          },
-          "imageUrl": "",
-          "description": {
-            "en": "The three-story Kinkakuji Temple or Golden Pavilion is a repository of Buddhist relics on the territory of the Rokuonji temple complex in the Japanese city of Kyoto. The Buddhist temple began to be called the 'Golden Pavilion' because it is covered with gold leaf, on top of which a layer of protective varnish is applied. Kinkakuji Temple is famous as an architectural monument of Japanese culture of the early XIV century and fits perfectly into the surrounding landscape.",
-            "ru": "Трехэтажный храм Кинкакудзи или Золотой павильон – это хранилище буддистских реликвий на территории храмового комплекса Рокуондзи в японском городе Киото. «Золотым павильоном» буддистский храм стали называть потому, что он покрыт сусальным золотом, поверх которого нанесен слой защитного лака. Храм Кинкакудзи знаменит как архитектурный памятник японской культуры начала XIV века и прекрасно вписывается в окружающий ландшафт.",
-            "be": "Трохпавярховы храм Кинкакудзи або Залаты павільён - гэта сховішча будысцкіх рэліквій на тэрыторыі храмавага комплексу Рокуондзи ў японскім горадзе Кіёта. «Залатым павільёнам» будысцкі храм сталі называць таму, што ён пакрыты сусальным золатам, па-над якім нанесены пласт ахоўнага лаку. Храм Кинкакудзи знакаміты як архітэктурны помнік японскай культуры пачатку XIV стагоддзя і выдатна ўпісваецца ў навакольны ландшафт."
-          }
-        }
-      ]
+  "japan": {
+    "id": "japan",
+    "countryName": {
+      "en": "Japan",
+      "ru": "Япония",
+      "be": "Японія"
     },
     "capitalName": {
       "en": "Tokyo",
@@ -121,11 +17,15 @@
       "be": "Краіна ўзыходзячага сонца. Якая складаецца з больш чым 3000 выспаў. Родиина сушы, гейш, робатаў, анімэ, мінімалізму і горы Фуджы"
     },
     "description": {
-      "en": "Japan is probably the most unusual country on the planet. Many of those who have been here call it a country of anothercivilization. Indeed, there is much that is unusual and sometimes defies standard logical, ethical and cultural thinking. And all due to the fact that for a long time Japan was a closed country for all foreigners. By limiting foreign presence in the country in the 17th century, Japan thus protected its culture and traditions from foreign influence. For almost 250 years, until the Meiji Restoration, the country developed in its own way. This period was marked by the flourishing of many trends in art and culture, which to this day are strongly associated with Japan. At this time, haiku poetry, kabuki drama, plebeian novels, woodcuts appeared, as well as the Ura Senke tea ceremony school - the largest of the modern ones. This is the heyday of the samurai class with its moral code bushi-do  - literally 'the way of the warrior. All this has left a significant imprint on modern Japanese society, and althoughin recent years Japanese culture has been increasingly influenced by Western cultures, it still remains one of the most amazing and controversial in the world.",
+      "en": "Japan is probably the most unusual country on the planet. Many of those who have been here call it a country of anothercivilization. Indeed, there is much that is unusual and sometimes defies standard logical, ethical and cultural thinking. And all due to the fact that for a long time Japan was a closed country for all foreigners. be limiting foreign presence in the country in the 17th century, Japan thus protected its culture and traditions from foreign influence. For almost 250 years, until the Meiji Restoration, the country developed in its own way. This period was marked be the flourishing of many trends in art and culture, which to this day are strongly associated with Japan. At this time, haiku poetry, kabuki drama, plebeian novels, woodcuts appeared, as well as the Ura Senke tea ceremony school - the largest of the modern ones. This is the heyday of the samurai class with its moral code bushi-do  - literally 'the way of the warrior. All this has left a significant imprint on modern Japanese society, and althoughin recent years Japanese culture has been increasingly influenced be Western cultures, it still remains one of the most amazing and controversial in the world.",
       "ru": "Япония – это, наверное, самая необычная страна на планете. Многие из тех, кто побывал здесь, называют ее страной иной цивилизации. И правда, здесь много что необычно и подчас не поддается стандартному логическому, этическому и культурному мышлению. А все из-за того, что долгое время Япония была закрытой страной для всех иностранцев. Ограничив в XVII веке иностранное присутствие в стране, Япония таким образом защитила свою культуру и традиции от иностранного влияния. На протяжении почти 250 лет, вплоть до реставрации Мэйдзи, страна развивалась своим собственным путем. Этот период ознаменовался расцветом многих направлений в искусстве и культуре, которые по сей день прочно ассоциируются с Японией. В это время появились поэзия хайку, драма кабуки, плебейские романы, гравюры по дереву, а также школа чайной церемонии Ура Сэнкэ — самая крупная из современных. Это период расцвета самурайского сословия с его моральным кодексом буси-до - дословно «путь воина». Все это наложило существенный отпечаток на современное японское общество, и хоть в последние годы японская культура все больше и больше подвергается влиянию западных культур, она до сих пор остается одной из самых удивительных и спорных в мире.",
       "be": "Японія - гэта, напэўна, самая незвычайная краіна на планеце. Многія з тых, хто пабываў тут, называюць яе краінай іншай цывілізацыі. І праўда, тут шмат што незвычайна і часам не паддаецца стандартнага лагічнага, этычнаму і культурнаму мыслення. А ўсё з-за таго, што доўгі час Японія была закрытай краінай для ўсіх замежнікаў. Абмежаваўшы ў XVII стагоддзі замежнае прысутнасць у краіне, Японія такім чынам абараніла сваю культуру і традыцыі ад замежнага ўплыву. На працягу амаль 250 гадоў, аж да рэстаўрацыі Мэйдзі, краіна развівалася сваім уласным шляхам. Гэты перыяд адзначыўся росквітам многіх напрамкаў у мастацтве і культуры, якія па гэты дзень трывала асацыююцца з Японіяй. У гэты час з'явіліся паэзія хайку, драма кабукі, плебейскай раманы, гравюры па дрэве, а таксама школа чайнай цырымоніі Ура Сэнкэ - самая буйная з сучасных. Гэта перыяд росквіту самурайскага саслоўя з яго маральным кодэксам буси-да - даслоўна «шлях ваяра». Усё гэта наклала істотны адбітак на сучаснае японскае грамадства, і хоць у апошнія гады японская культура ўсё больш і больш падвяргаецца ўплыву заходніх культур, яна да гэтага часу застаецца адной з самых дзіўных і спрэчных у свеце."
     },
-    "currency": "JPY",
+    "currency":{
+      "en": "JPY",
+      "ru": "ИЕН",
+      "be": "ИЕН"
+    },
     "timeZone": "Asia/Tokyo",
     "imageURL": "japan.jpg",
     "videoURL": "https://www.youtube.com/watch?v=WLIv7HnZ_fE",
@@ -151,7 +51,7 @@
         },
         "imageUrl": "",
         "description": {
-          "en": "Jigokudani Monkey Park is a famous hot spring area near Nagano. The park got its name Jigokudani (which means 'Hell Valley') for the steam and boiling water that bubbles in the springs surrounded by steep rocks and dense forests. This park is famous for its large population of wild snow monkeys that travel to the valley in winter when snow covers everything around. Monkeys descend from steep cliffs and forests to bask in warm hot springs, and return to the woods in the evenings.",
+          "en": "Jigokudani Monkey Park is a famous hot spring area near Nagano. The park got its name Jigokudani (which means 'Hell Valley') for the steam and boiling water that bubbles in the springs surrounded be steep rocks and dense forests. This park is famous for its large population of wild snow monkeys that travel to the valley in winter when snow covers everything around. Monkeys descend from steep cliffs and forests to bask in warm hot springs, and return to the woods in the evenings.",
           "ru": "Парк обезьян Дзигокудани - это известная область с горячими источниками недалеко от Нагано. Название Джигокудани (что означает «Адская долина») парк получил за пар и кипящую воду, которая пузырится в источниках, окружённых крутыми скалами и густыми лесами. Данный парк славится большой популяцией диких снежных обезьян, которые отправляются в долину зимой, когда снег покрывает всё вокруг. Обезьяны спускаются с крутых скал и лесов, чтобы погреться в теплых горячих источниках, а по вечерам возвращаются обратно в леса.",
           "be": "Парк малпаў Дзигокудани - гэта вядомая вобласць з гарачымі крыніцамі недалёка ад Нагана. Назва Джигокудани (што азначае «Адская даліна») парк атрымаў за пар і кіпячую ваду, якая бурбалкі ў крыніцах, акружаных стромкімі скаламі і густымі лясамі. Дадзены парк славіцца вялікай папуляцыяй дзікіх снежных малпаў, якія адпраўляюцца ў даліну зімой, калі снег пакрывае ўсё вакол. Малпы спускаюцца з стромкіх скал і лясоў, каб пагрэцца ў цёплых гарачых крыніцах, а па вечарах вяртаюцца назад у лясы."
         }
@@ -190,7 +90,7 @@
         },
         "imageUrl": "",
         "description": {
-          "en": "Fushimi Inari Shrine is known mainly for the myriad Torii Gates donated by the faithful. The gate is located along the road to the temple, which goes up a wooded mountain to Inari-san, where the main building of the temple is located. It takes about two hours to walk to the temple along this alley. On the way to the top, passing through the torii, you will see small chapels, tombs and statues of foxes that are the messengers of this god. Also, about halfway up there will be an observation deck overlooking Kyoto.",
+          "en": "Fushimi Inari Shrine is known mainly for the myriad Torii Gates donated be the faithful. The gate is located along the road to the temple, which goes up a wooded mountain to Inari-san, where the main building of the temple is located. It takes about two hours to walk to the temple along this alley. On the way to the top, passing through the torii, you will see small chapels, tombs and statues of foxes that are the messengers of this god. Also, about halfway up there will be an observation deck overlooking Kyoto.",
           "ru": "Храм Фусими Инари известен, главным образом, несметным количеством Ворот-Тории, которые были пожертвованы верующими. Ворота располагаются по дороге к храму, которая уходит в лесистую гору к Инари-сан, где расположено основное здание храма. Чтобы дойти пешком до храма по этой аллее, необходимо около двух часов. По пути к вершине, проходя через тории, вы будете видеть небольшие часовни, могилы и статуи лис, которые являются посланниками этого бога. Так же где-то на полпути наверх будет обзорная площадка с видом на Киото.",
           "be": "Храм Фусими Інара вядомы, галоўнай выявай, незлічоным колькасцю Брамы-Тории, якія былі ахвяраваны вернікамі. Вароты размяшчаюцца па дарозе да храма, якая сыходзіць у лясістую гару да Інара-сан, дзе размешчана асноўны будынак храма. Каб дайсці пешшу да храма па гэтай алеі, неабходна каля двух гадзін. Па шляху да вяршыні, праходзячы праз тории, вы будзеце бачыць невялікія капліцы, магілы і статуі ліс, якія з'яўляюцца пасланцамі гэтага бога. Гэтак жа дзесьці на паўшляху наверх будзе аглядная пляцоўка з выглядам на Кіёта."
         }
@@ -436,110 +336,534 @@
       }
     ]
   },
-
-    "х": {
-      "id": "х",
-      "countryName": {
-        "en": "х",
-        "ru": "х",
-        "be": "х"
-      },
-      "capitalName": {
-        "en": "х",
-        "ru": "х",
-        "be": "х"
-      },
-      "description": {
-        "en": "х",
-        "ru": "х",
-        "be": "х"
-      },
-      "shortDescription": {
-        "en": "х",
-        "ru": "х",
-        "be": "х"
-      },
-      "currency": "х", 
-      "imageUrl": "х", 
-      "videoURL": "х",
-      "places": [
-        {
-          "name": {
-            "en": "х",
-            "ru": "х",
-            "be": "х"
-          },
-          "imageUrl": "х",
-          "description": {
-            "en": "х",
-            "ru": "х",
-            "be": "х"
-          }
+  "philippines": {
+    "id": "philippines",
+    "countryName": {
+      "en": "Philippines",
+      "ru": "Филиппины",
+      "be": "Філіпіны"
+    },
+    "capitalName": {
+      "en": "Manila",
+      "ru": "Манила",
+      "be": "Маніла"
+    },
+    "description": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "shortDescription": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "currency": "х",
+    "imageUrl": "х",
+    "videoURL": "х",
+    "places": [
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
         },
-        {
-          "name": {
-            "en": "х",
-            "ru": "х",
-            "be": "х"
-          },
-          "imageUrl": "х",
-          "description": {
-            "en": "х",
-            "ru": "х",
-            "be": "х"
-          }
-        },
-        {
-          "name": {
-            "en": "х",
-            "ru": "х",
-            "be": "х"
-          },
-          "imageUrl": "х",
-          "description": {
-            "en": "х",
-            "ru": "х",
-            "be": "х"
-          }
-        },
-        {
-          "name": {
-            "en": "х",
-            "ru": "х",
-            "be": "х"
-          },
-          "imageUrl": "х",
-          "description": {
-            "en": "х",
-            "ru": "х",
-            "be": "х"
-          }
-        },
-        {
-          "name": {
-            "en": "х",
-            "ru": "х",
-            "be": "х"
-          },
-          "imageUrl": "х",
-          "description": {
-            "en": "х",
-            "ru": "х",
-            "be": "х"
-          }
-        },
-        {
-          "name": {
-            "en": "х",
-            "ru": "х",
-            "be": "х"
-          },
-          "imageUrl": "х",
-          "description": {
-            "en": "х",
-            "ru": "х",
-            "be": "х"
-          }
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
         }
-      ]
-    }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      }
+    ]
+  },
+  "vietnam": {
+    "id": "vietnam",
+    "countryName": {
+      "en": "Vietnam",
+      "ru": "Вьетнам",
+      "be": "В'етнам"
+    },
+    "capitalName": {
+      "en": "Hanoi",
+      "ru": "Ханой",
+      "be": "Ханой"
+    },
+    "description": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "shortDescription": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "currency": "х",
+    "imageUrl": "х",
+    "videoURL": "х",
+    "places": [
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      }
+    ]
+  },
+  "laos": {
+    "id": "laos",
+    "countryName": {
+      "en": "Laos",
+      "ru": "Лаос",
+      "be": "Лаос"
+    },
+    "capitalName": {
+      "en": "Vientiane",
+      "ru": "Вьентьян",
+      "be": "Вьентьян"
+    },
+    "description": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "shortDescription": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "currency": "х",
+    "imageUrl": "х",
+    "videoURL": "х",
+    "places": [
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      }
+    ]
+  },
+  "myanmar": {
+    "id": "myanmar",
+    "countryName": {
+      "en": "Myanmar",
+      "ru": "Мьянма",
+      "be": "М'янма"
+    },
+    "capitalName": {
+      "en": "Naypyidaw",
+      "ru": "Нейпьидо",
+      "be": "Нейпьидо"
+    },
+    "description": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "shortDescription": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "currency": "х",
+    "imageUrl": "х",
+    "videoURL": "х",
+    "places": [
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      }
+    ]
+  },
+  "singapore": {
+    "id": "singapore",
+    "countryName": {
+      "en": "Singapore",
+      "ru": "Сингапур",
+      "be": "Сінгапур"
+    },
+    "capitalName": {
+      "en": "Singapore",
+      "ru": "Сингапур",
+      "be": "Сінгапур"
+    },
+    "description": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "shortDescription": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "currency": "х",
+    "imageUrl": "х",
+    "videoURL": "х",
+    "places": [
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      }
+    ]
+  }
+}
