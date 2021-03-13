@@ -1,25 +1,19 @@
 const { Schema, model } = require('mongoose');
 
-const placeLocaleSchema = new Schema({
-  _id: false,
-  lang: {
-    type: String,
-    required: true,
-  },
-  name: String,
-  description: String,
-});
-
 const placeSchema = new Schema({
-  countryId: {
-    type: Schema.Types.ObjectId,
-    require: true,
+  countrySlug: String,
+  slug: { type: String, unique: true },
+  name: {
+    en: String,
+    ru: String,
+    be: String,
   },
-  imageUrl: {
-    type: String,
-    require: true,
+  imageUrl: String,
+  description: {
+    en: String,
+    ru: String,
+    be: String,
   },
-  localizations: [placeLocaleSchema],
 });
 
 const Place = model('Place', placeSchema);
