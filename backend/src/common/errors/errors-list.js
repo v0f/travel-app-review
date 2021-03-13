@@ -19,11 +19,11 @@ class NotFoundError extends Error {
 }
 
 class InternalServerError extends Error {
-  constructor() {
+  constructor(reason = 'something went wrong') {
     super();
     this.status = StatusCodes.INTERNAL_SERVER_ERROR;
     this.statusText = ReasonPhrases.INTERNAL_SERVER_ERROR;
-    this.reason = 'something went wrong';
+    this.reason = reason; // 'something went wrong';
   }
 }
 

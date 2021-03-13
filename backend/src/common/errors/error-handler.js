@@ -11,7 +11,9 @@ module.exports = (err, path) => {
 
   if (!err.reason) {
     logger.error(err.message, err.stack);
-    err = new InternalServerError();
+    if (err.name === 'SyntaxError') {
+      err = new InternalServerError('syntax error');
+    } else err = new InternalServerError();
   }
 
   const response = {};
