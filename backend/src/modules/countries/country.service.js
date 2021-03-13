@@ -10,7 +10,10 @@ const getOne = async (id, lang) => {
   return country;
 };
 
+const saveCountry = async (body) => countryRepo.saveCountry(body);
+
 module.exports = {
   getAll,
   getOne,
+  saveCountry,
 };

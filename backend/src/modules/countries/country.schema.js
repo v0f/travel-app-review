@@ -1,50 +1,37 @@
 const { Schema, model } = require('mongoose');
 
-const localeSchema = new Schema({
-  _id: false,
-  lang: {
-    type: String,
-    required: true,
+const countrySchema = new Schema({
+  slug: { type: String, unique: true },
+  countryName: {
+    en: String,
+    ru: String,
+    be: String,
   },
-  name: {
-    type: String,
-    required: true,
+  capitalName: {
+    en: String,
+    ru: String,
+    be: String,
   },
-  capital: {
-    type: String,
-    required: true,
+  shortDescription: {
+    en: String,
+    ru: String,
+    be: String,
   },
   description: {
-    type: String,
-    required: true,
+    en: String,
+    ru: String,
+    be: String,
   },
-});
-
-const countrySchema = new Schema({
-  imageUrl: String,
-  videoUrl: String,
   currency: {
-    type: String,
-    required: true,
+    en: String,
+    ru: String,
+    be: String,
   },
-  ISOCode: {
-    type: String,
-    uppercase: true,
-    unique: true,
-    required: true,
-  },
-  capitalLocation: {
-    type: {
-      type: String,
-      enum: ['Point'],
-      required: true,
-    },
-    coordinates: {
-      type: [Number],
-      required: true,
-    },
-  },
-  localizations: [localeSchema],
+  geoCenter: [Number, Number],
+  countryCode: String,
+  timeZone: String,
+  imageURL: String,
+  videoURL: String,
 });
 
 const Country = model('Country', countrySchema);
