@@ -4,30 +4,29 @@
   flex-direction: column;
   align-items: flex-end;
   width: 13rem; }
-
-.widgets-wrapper {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
-  background-color: #e6bb00; }
-
-.widgets-wrapper .MuiPaper-root {
-  background-color: #e6bb00; }
-
-.widgets-city {
-  padding: 0 1rem;
-  font-weight: 600;
-  color: black; }
+  .widgets-wrapper {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    color: #282828;
+    background-color: #ffffff;
+    box-shadow: 6px 0px 0px -5px rgba(47, 58, 66, 0.6) inset; }
+    .widgets-wrapper .MuiPaper-root {
+      background-color: transparent; }
+  .widgets-city {
+    padding: 0 1rem;
+    font-weight: 600;
+    color: black; }
 
 .currency-content,
 .time-content,

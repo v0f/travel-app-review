@@ -12,21 +12,24 @@
         "be": "Токіо"
       },
       "shortDescription": {
-        "en": "The land of the rising sun. Consisting of more than 3000 islands. Rodiina sushi, geisha, robots, anime, minimalism and Mount Fuji",
-        "ru": "Страна восходящего солнца. состоящая из более чем 3000 островов. Родиина суши, гейш, роботов, аниме, минимализма и горы Фудзи",
-        "be": "Краіна ўзыходзячага сонца. Якая складаецца з больш чым 3000 выспаў. Родиина сушы, гейш, робатаў, анімэ, мінімалізму і горы Фуджы"
+        "en": "The land of the rising sun. Consisting of more than 3000 islands. Homeland of sushi, geisha, robots, anime, minimalism and Mount Fuji",
+        "ru": "Страна восходящего солнца. состоящая из более чем 3000 островов. Родина суши, гейш, роботов, аниме, минимализма и горы Фудзи",
+        "be": "Краіна ўзыходзячага сонца. Якая складаецца з больш чым 3000 выспаў. Радзіма сушы, гейш, робатаў, анімэ, мінімалізму і горы Фуджы"
       },
       "description": {
         "en": "Japan is probably the most unusual country on the planet. Many of those who have been here call it a country of anothercivilization. Indeed, there is much that is unusual and sometimes defies standard logical, ethical and cultural thinking. And all due to the fact that for a long time Japan was a closed country for all foreigners. be limiting foreign presence in the country in the 17th century, Japan thus protected its culture and traditions from foreign influence. For almost 250 years, until the Meiji Restoration, the country developed in its own way. This period was marked be the flourishing of many trends in art and culture, which to this day are strongly associated with Japan. At this time, haiku poetry, kabuki drama, plebeian novels, woodcuts appeared, as well as the Ura Senke tea ceremony school - the largest of the modern ones. This is the heyday of the samurai class with its moral code bushi-do  - literally 'the way of the warrior. All this has left a significant imprint on modern Japanese society, and althoughin recent years Japanese culture has been increasingly influenced be Western cultures, it still remains one of the most amazing and controversial in the world.",
         "ru": "Япония – это, наверное, самая необычная страна на планете. Многие из тех, кто побывал здесь, называют ее страной иной цивилизации. И правда, здесь много что необычно и подчас не поддается стандартному логическому, этическому и культурному мышлению. А все из-за того, что долгое время Япония была закрытой страной для всех иностранцев. Ограничив в XVII веке иностранное присутствие в стране, Япония таким образом защитила свою культуру и традиции от иностранного влияния. На протяжении почти 250 лет, вплоть до реставрации Мэйдзи, страна развивалась своим собственным путем. Этот период ознаменовался расцветом многих направлений в искусстве и культуре, которые по сей день прочно ассоциируются с Японией. В это время появились поэзия хайку, драма кабуки, плебейские романы, гравюры по дереву, а также школа чайной церемонии Ура Сэнкэ — самая крупная из современных. Это период расцвета самурайского сословия с его моральным кодексом буси-до - дословно «путь воина». Все это наложило существенный отпечаток на современное японское общество, и хоть в последние годы японская культура все больше и больше подвергается влиянию западных культур, она до сих пор остается одной из самых удивительных и спорных в мире.",
         "be": "Японія - гэта, напэўна, самая незвычайная краіна на планеце. Многія з тых, хто пабываў тут, называюць яе краінай іншай цывілізацыі. І праўда, тут шмат што незвычайна і часам не паддаецца стандартнага лагічнага, этычнаму і культурнаму мыслення. А ўсё з-за таго, што доўгі час Японія была закрытай краінай для ўсіх замежнікаў. Абмежаваўшы ў XVII стагоддзі замежнае прысутнасць у краіне, Японія такім чынам абараніла сваю культуру і традыцыі ад замежнага ўплыву. На працягу амаль 250 гадоў, аж да рэстаўрацыі Мэйдзі, краіна развівалася сваім уласным шляхам. Гэты перыяд адзначыўся росквітам многіх напрамкаў у мастацтве і культуры, якія па гэты дзень трывала асацыююцца з Японіяй. У гэты час з'явіліся паэзія хайку, драма кабукі, плебейскай раманы, гравюры па дрэве, а таксама школа чайнай цырымоніі Ура Сэнкэ - самая буйная з сучасных. Гэта перыяд росквіту самурайскага саслоўя з яго маральным кодэксам буси-да - даслоўна «шлях ваяра». Усё гэта наклала істотны адбітак на сучаснае японскае грамадства, і хоць у апошнія гады японская культура ўсё больш і больш падвяргаецца ўплыву заходніх культур, яна да гэтага часу застаецца адной з самых дзіўных і спрэчных у свеце."
       },
+      "currencyCode": "JPY",
       "currency":{
-        "en": "JPY",
-        "ru": "ИЕН",
-        "be": "ИЕН"
+        "en": "Japanese yen",
+        "ru": "Японская иена",
+        "be": "Іена"
       },
       "timeZone": "Asia/Tokyo",
+      "geoCenter": [139.77098768864576, 35.69016815938184],
+      "countryCode": "JPN",
       "imageURL": "japan.jpg",
       "videoURL": "https://www.youtube.com/watch?v=WLIv7HnZ_fE",
       "places": [
@@ -111,36 +114,44 @@
       ]
     },
 
-    "х": {
-      "id": "х",
+    "philippines": {
+      "id": "philippines",
       "countryName": {
-        "en": "х",
-        "ru": "х",
-        "be": "х"
+        "en": "Philippines",
+        "ru": "Филиппины",
+        "be": "Філіпіны"
       },
       "capitalName": {
-        "en": "х",
-        "ru": "х",
-        "be": "х"
+        "en": "Manila",
+        "ru": "Манила",
+        "be": "Маніла"
       },
       "description": {
-        "en": "х",
-        "ru": "х",
-        "be": "х"
+        "en": "The Philippines is truly a holiday paradise. This island nation in Southeast Asia is becoming more and more popular with tourists. And if a couple of decades ago, mainly vacationers from Japan, South Korea and the United States came to the Philippines, then in recent years the islands have really attracted tourists from all over the world. And all because independent vacation in the Philippines is incredibly diverse and exciting.The nature of the Philippines will surprise even the most sophisticated traveler - on the islands there is an opportunity to visit remote corners and reserves with landscapes untouched by the human hand and the best beaches washed by the seas of the Philippines, the zest of which is given by volcanic rocks covered with greenery.Absolutely everyone, even the most demanding tourist, young and old, will find something to their liking in the Philippines.Beach lovers in the Philippines will be happy to spend time on the white beaches in the shade of tall palm trees, swimming in the emerald water.At the same time, on the best beaches in the world, you can spend time not only passively - the rich underwater world of the Philippines provides an opportunity for: fascinating snorkeling - colorful coral forests, starfish and urchins, a variety of bizarre underwater plants, fish and turtles - all this can be seen right next to the coast of the islands.The Philippines is popular with diving and freediving enthusiasts, with over 7,000 diving spots near the islands. The richest underwater world with coral reefs and their inhabitants, coupled with many wrecks from the Second World War, create ideal conditions for diving.Holidays in the Philippines are truly varied. Interesting and beautiful natural attractions are found throughout the Philippines. As a result, it is truly difficult for many travelers to choose which islands of the archipelago to visit.",
+        "ru": "Филиппины — поистине райское место для отдыха. Это островное государство в юго-восточной Азии становится все более популярным среди туристов. И если еще пару десятков лет назад на Филиппины приезжали в основном отдыхающие из Японии, Южной Кореи и США, то в последние годы острова привлекают туристов действительно со всего мира. А все потому, что самостоятельный отдых на Филиппинах невероятно разнообразен и увлекателен.Природа Филиппин удивит даже самого искушенного путешественника — на островах есть возможность посетить отдаленные уголки и заповедники с нетронутыми рукой человека пейзажами и лучшими пляжами, омываемыми морями Филиппин, изюминку которым придают вулканические скалы, покрытые зеленью.Абсолютно каждый, даже самый притязательный турист от мала до велика, найдет на Филиппинах занятие себе по душе. Любители пляжного отдыха на Филиппинах будут рады провести время на белоснежных пляжах в тени высоких пальм, купаясь в изумрудной воде.В то же время на лучших пляжах мира можно проводить время не только пассивно — богатый подводный мир Филиппин предоставляет возможность: увлекательного сноркелинга — разноцветные коралловые леса, морские звезды и ежи, разнообразные подводные растения причудливых форм, рыбки и черепахи — все это можно увидеть прямо у берегов островов.Филиппины популярны среди любителей дайвинга и фридайвинга — близ островов находится свыше 7,000 мест для дайвинга. Богатейший подводный мир с коралловыми рифами и их обитателями вкупе со множеством затонувших кораблей времен Второй мировой войны создают идеальные условия для дайвинга.Отдых на Филиппинах действительно разнообразен. Интересные и красивые природные достопримечательности находятся на Филиппинах повсеместно. И как следствие, многим путешественникам поистине сложно выбрать, какие именно острова архипелага выбрать для посещения.",
+        "be": "Філіпіны - сапраўды райскае месца для адпачынку. Гэта астраўная дзяржава ў паўднёва-ўсходняй Азіі становіцца ўсё больш папулярным сярод турыстаў. І калі яшчэ пару дзесяткаў гадоў таму на Філіпіны прыязджалі ў асноўным адпачывальнікі з Японіі, Паўднёвай Карэі і ЗША, то ў апошнія гады выспы прыцягваюць турыстаў сапраўды з усяго свету. А ўсё таму, што самастойны адпачынак на Філіпінах неверагодна разнастайны і цікавы.Прырода Філіпін здзівіць нават самага спрактыкаванага вандроўцы - на астравах ёсць магчымасць наведаць аддаленыя куткі і запаведнікі з некранутымі рукой чалавека краявідамі і лепшымі пляжамі, абмываецца морамі Філіпін, разыначку якім надаюць вулканічныя скалы, пакрытыя зелянінай.Абсалютна кожны, нават самы дамагальны турыст ад малога да вялікага, знойдзе на Філіпінах занятак сабе па душы.Аматары пляжнага адпачынку на Філіпінах будуць рады правесці час на беласнежных пляжах у цені высокіх пальмаў, купаючыся ў смарагдавай вадзе.У той жа час на лепшых пляжах свету можна праводзіць час не толькі пасіўна - багаты падводны свет Філіпін дае магчымасць: займальнага сноркелінга - рознакаляровыя каралавыя лясы, марскія зоркі і вожыкі, разнастайныя падводныя расліны мудрагелістых формаў, рыбкі і чарапахі - усё гэта можна ўбачыць прама ў берагоў астравоў.Філіпіны папулярныя сярод аматараў дайвінга і фридайвинга - блізу выспаў знаходзіцца звыш 7,000 месцаў для дайвінга. Найбагацейшы падводны свет з каралавымі рыфамі і іх насельнікамі разам са мноствам патанулых караблёў часоў Другой сусветнай вайны ствараюць ідэальныя ўмовы для дайвінга.Адпачынак на Філіпінах сапраўды разнастайны. Цікавыя і прыгожыя прыродныя славутасці знаходзяцца на Філіпінах паўсюдна. І як вынік, многім падарожнікам сапраўды складана выбраць, якія менавіта выспы архіпелага выбраць для наведвання."
       },
       "shortDescription": {
-        "en": "х",
-        "ru": "х",
-        "be": "х"
+        "en": "The state, consisting of 7641 islands, fully corresponds to the image of 'paradise on Earth': the warm waters of the Pacific Ocean, the silence of cozy lagoons, white beaches, the charm of volcanoes, sunsets of unique beauty and picturesque coral reefs with their colorful inhabitants.",
+        "ru": "Государство, состоящее из 7641 островов, полностью соответствующее образу «рая на Земле»: тёплые воды Тихого окена, тишина уютных лагун, белоснежные пляжи, очарование вулканов, неповторимой красоты закаты и живописные коралловые рифы с их красочными обитателями. ",
+        "be": "Дзяржава, якое складаецца з 7641 выспаў, цалкам адпаведнае вобразу «раю на Зямлі»: цёплыя воды Ціхага Окена, цішыня ўтульных лагун, беласнежныя пляжы, зачараванне вулканаў, непаўторнай прыгажосці заходы і жывапісныя каралавыя рыфы з іх маляўнічымі насельнікамі."
       },
-      "currency": "х", 
+      "currencyCode": "PHP",
+      "currency":{
+        "en": "Philippine peso",
+        "ru": "Филиппинское песо",
+        "be": "ПЕСО"
+      },
+      "timeZone": "Asia/Manila",
+      "countryCode": "PHP",
+      "geoCenter": [120.966667, 14.583333],
       "imageUrl": "х", 
-      "videoURL": "х",
+      "videoURL": "https://www.youtube.com/watch?v=o6lPnf0SR9E",
       "places": [
         {
           "name": {
             "en": "х",
-            "ru": "х",
+            "ru": "Эль-Нидо",
             "be": "х"
           },
           "imageUrl": "х",
@@ -153,7 +164,7 @@
         {
           "name": {
             "en": "х",
-            "ru": "х",
+            "ru": "Барокай",
             "be": "х"
           },
           "imageUrl": "х",
@@ -166,7 +177,7 @@
         {
           "name": {
             "en": "х",
-            "ru": "х",
+            "ru": "Шоколадные холмы Бохоль",
             "be": "х"
           },
           "imageUrl": "х",
@@ -179,7 +190,7 @@
         {
           "name": {
             "en": "х",
-            "ru": "х",
+            "ru": "Китовые акулы",
             "be": "х"
           },
           "imageUrl": "х",

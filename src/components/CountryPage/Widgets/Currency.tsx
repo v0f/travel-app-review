@@ -14,8 +14,8 @@ import { ICurrency } from '../../types/types';
 
         async function getCurrencyData(fromCurrency: string, toCurrency: string): Promise<void> {
             const endpoint = `https://free.currconv.com/api/v7/convert?apiKey=9907c9f725cc3b503486&q=${fromCurrency}_${toCurrency},${toCurrency}_${fromCurrency}`;
-            const response= await fetch(endpoint);
-            const data: any = await response.json();
+            const response = await fetch(endpoint);
+            const data  = await response.json();
 
             try {
               const currencyObject = data.results[`${fromCurrency}_${toCurrency}`];

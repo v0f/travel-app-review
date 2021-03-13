@@ -20,3 +20,8 @@ export interface IProps {
     currency: string;
     
    }
+
+   export interface IMap {
+    geoCenter: Array<number>;
+    countryCode: string;   
+   }
