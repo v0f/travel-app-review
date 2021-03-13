@@ -6,7 +6,7 @@ import Footer from '../Footer/Footer';
 import MainPage from '../MainPage/MainPage';
 import CountryPage from '../CountryPage/CountryPage';
 
-import LangContext from '../Language-context';
+import LangContext from '../Language-context/LangContext';
 
 import './App.css';
 
@@ -18,7 +18,7 @@ interface MatchProps extends RouteComponentProps<MatchParams> {}
 const App: React.FC = () => {
   const fromLS = localStorage.getItem('lang') || 'en';
 
-  const [lang, setLang] = React.useState(fromLS);
+  const [lang, setLang] = useState<string>(fromLS);
 
   const changeLang = (language: string) => {
     setLang(language);

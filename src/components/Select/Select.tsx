@@ -4,7 +4,8 @@ import FormControl from '@material-ui/core/FormControl';
 import MenuItem from '@material-ui/core/MenuItem';
 import Select from '@material-ui/core/Select';
 
-import LangContext from '../Language-context';
+import LangContext from '../Language-context/LangContext';
+import dict from '../../data/dictionary';
 
 const SelectLang: React.FC = () => {
   const { lang, changeLang } = React.useContext(LangContext);
@@ -14,9 +15,11 @@ const SelectLang: React.FC = () => {
     changeLang(selectedLang);
   };
 
+  const label = dict.lang;
+
   return (
     <FormControl>
-      <InputLabel>Language</InputLabel>
+      <InputLabel>{label[lang]}</InputLabel>
       <Select value={lang} onChange={handleChange}>
         <MenuItem value={'en'}>EN</MenuItem>
         <MenuItem value={'ru'}>RU</MenuItem>
