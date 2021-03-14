@@ -19,16 +19,16 @@ const useStyles = makeStyles({
 
 interface ICard {
   id: string;
+  getId: (id: string) => void;
 }
 
-const CountryCard: React.FC<ICard> = ({ id }) => {
+const CountryCard: React.FC<ICard> = ({ id, getId }) => {
   const lang = 'en';
 
-  console.log('id', id);
   const classes = useStyles();
 
   return (
-    <Card className={classes.root} id={id}>
+    <Card className={classes.root} id={id} onClick={() => getId(id)}>
       <CardActionArea>
         <CardMedia
           className={classes.media}

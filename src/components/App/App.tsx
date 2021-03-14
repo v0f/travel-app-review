@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, RouteComponentProps } from 'react-router-dom';
 
@@ -13,10 +12,9 @@ interface MatchParams {
   id: string;
 }
 
-
 interface MatchProps extends RouteComponentProps<MatchParams> {}
 
-const dataCount = require('../../data/data-countries.json');
+interface HistoryProps extends RouteComponentProps<any> {}
 
 const App: React.FC = () => {
   const [countries, setCountries] = useState<Array<string>>([
@@ -28,28 +26,25 @@ const App: React.FC = () => {
     'laos',
     'myanmar',
     'singapore',
-  ])
+  ]);
 
-  const updateCountries = (list:Array<string>) => {
-    setCountries(list)
+  const updateCountries = (list: Array<string>) => {
+    setCountries(list);
   };
-
-  // const redirectCountryPage = (id: string) => {
-  //     console.log('переход на ', id)
-  // }
 
   return (
     <Router>
       <React.Fragment>
-        <Header
-          countries={countries}
-          updateCountries={updateCountries}
-        />
+        <Header countries={countries} updateCountries={updateCountries} />
 
-        <Route path='/' render = {() => <MainPage>{countries}</MainPage>} exact />
+        <Route
+          path='/'
+          render={({ history }: HistoryProps) => <MainPage history={history}>{countries}</MainPage>}
+          exact
+        />
         <Route
           path='/country/:id'
-          render={({ match }: MatchProps) => <CountryPage countryId={match.params.id} />}
+          render={({ match }: MatchProps) => <CountryPage id={match.params.id} />}
         />
 
         <Footer />
