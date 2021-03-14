@@ -1,4 +1,5 @@
-import { TextField } from '@material-ui/core';
+import { IconButton, InputAdornment, TextField } from '@material-ui/core';
+import CancelIcon from '@material-ui/icons/Cancel';
 import React, { useCallback, useState, useContext } from 'react';
 import {ISearch} from '../types/types';
 import LangContext from '../Language-context/LangContext';
@@ -38,11 +39,29 @@ const Search: React.FC<ISearch> = ({updateCountries}) => {
     updateCountries(matches);
   },[newData, updateCountries]);
 
+  const resetInput = useCallback(()=> {
+    const input = (document.getElementById('input-search') as HTMLInputElement);
+    input.value = '';
+    setSearchInput('');
+    const matches:Array<string> = findMatches(newData, input.value);
+    updateCountries(matches);
+  },[newData, updateCountries]);
+
   return(
       <form className='g' noValidate autoComplete="off">
-        <TextField label="Search" variant="outlined" placeholder="Search"
-        value={searchInput}
-        onChange={handleChange}/>
+        <TextField id='input-search' label="Search" variant="outlined" placeholder="Search"
+          value={searchInput}
+          onChange={handleChange}
+          InputProps={{
+            endAdornment:<InputAdornment position="end">
+              <IconButton
+                aria-label="clean input"
+                onClick={resetInput}
+                edge="end"
+              ><CancelIcon></CancelIcon></IconButton>
+            </InputAdornment>,
+          }}
+        />
     </form>
   );
 };
