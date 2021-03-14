@@ -1,6 +1,7 @@
 import { TextField } from '@material-ui/core';
-import React, { useCallback, useState } from 'react';
+import React, { useCallback, useState, useContext } from 'react';
 import {ISearch} from '../types/types';
+import LangContext from '../Language-context/LangContext';
 
 interface IList {
   [key:string]: Array<string>
@@ -20,7 +21,7 @@ const findMatches = (list: IList,textToMatch:String) => {
 const Search: React.FC<ISearch> = ({updateCountries}) => {
   // const data = useCallback(() => getCountriesData()); ??
   const data = require('../../data/data-countries.json');
-  const lang = 'en';
+  const { lang } = useContext(LangContext);
   const newData = Object.keys(data).reduce((acc:IList, item:string) => {
     acc[item] = [
       data[item].countryName[lang].toLowerCase(),
