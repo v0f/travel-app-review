@@ -2,7 +2,12 @@ import React from 'react';
 import CountriesCards from './CardsCountry/CountriesCards'
 import './CountryPage.css'
 
-const MainPage: React.FC = () => {
+type Props = {
+  children: Array<String>,
+};
+
+const MainPage: React.FC<Props> = (props: Props) => {
+  console.log(props.children);
 
   /* ЗАПРОС СПИСКА ВСЕХ СТРАН И ГЕНЕРИРОВАНИЕ МАССИВА С ЭТИМИ ПОЛЯМИ
   (ОНИ НУЖНЫ ДЛЯ СОЗДАНИЯ КАРТОЧКИ)*/

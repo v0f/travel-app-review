@@ -15,15 +15,24 @@ export interface IProps {
    export interface ICapital {
     capitalName: string;
    }
-   
+
    export interface IWidgets {
     countryName: string;
     capitalName: string;
     timeZone: string;
     currency: string;
     currencyCode: string;
-    
    }
+
+   export interface ICountryData {
+       name: string,
+
+   }
+
+   export interface ISearch {
+    countries: Array<string>,
+    updateCountries: (list: Array<string>) => void
+  }
 
    export interface IMap {
     geoCenter: Array<number>;

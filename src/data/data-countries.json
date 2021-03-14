@@ -111,7 +111,6 @@
             "be": "Трохпавярховы храм Кинкакудзи або Залаты павільён - гэта сховішча будысцкіх рэліквій на тэрыторыі храмавага комплексу Рокуондзи ў японскім горадзе Кіёта. «Залатым павільёнам» будысцкі храм сталі называць таму, што ён пакрыты сусальным золатам, па-над якім нанесены пласт ахоўнага лаку. Храм Кинкакудзи знакаміты як архітэктурны помнік японскай культуры пачатку XIV стагоддзя і выдатна ўпісваецца ў навакольны ландшафт."
           }
         }
-      ]
   },
   "korea": {
     "id": "korea",
@@ -258,8 +257,8 @@
     },
     "currencyCode": "IDR",
     "timeZone": "Asia/Jakarta",
-    "imageUrl": "х",
-    "videoURL": "х",
+    "imageUrl": "indonesia.jpg",
+    "videoURL": "https://www.youtube.com/watch?v=8c1cU4CI7SE&ab_channel=TheWorldTravelGuy",
     "places": [
       {
         "name": {
@@ -342,6 +341,533 @@
     ]
   },
   "philippines": {
+    "id": "philippines",
+    "countryName": {
+      "en": "Philippines",
+      "ru": "Филиппины",
+      "be": "Філіпіны"
+    },
+    "capitalName": {
+      "en": "Manila",
+      "ru": "Манила",
+      "be": "Маніла"
+    },
+    "description": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "shortDescription": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "currency": "х",
+    "imageUrl": "х",
+    "videoURL": "х",
+    "places": [
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      }
+    ]
+  },
+  "vietnam": {
+    "id": "vietnam",
+    "countryName": {
+      "en": "Vietnam",
+      "ru": "Вьетнам",
+      "be": "В'етнам"
+    },
+    "capitalName": {
+      "en": "Hanoi",
+      "ru": "Ханой",
+      "be": "Ханой"
+    },
+    "description": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "shortDescription": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "currency": "х",
+    "imageUrl": "х",
+    "videoURL": "х",
+    "places": [
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      }
+    ]
+  },
+  "laos": {
+    "id": "laos",
+    "countryName": {
+      "en": "Laos",
+      "ru": "Лаос",
+      "be": "Лаос"
+    },
+    "capitalName": {
+      "en": "Vientiane",
+      "ru": "Вьентьян",
+      "be": "Вьентьян"
+    },
+    "description": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "shortDescription": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "currency": "х",
+    "imageUrl": "х",
+    "videoURL": "х",
+    "places": [
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      }
+    ]
+  },
+  "myanmar": {
+    "id": "myanmar",
+    "countryName": {
+      "en": "Myanmar",
+      "ru": "Мьянма",
+      "be": "М'янма"
+    },
+    "capitalName": {
+      "en": "Naypyidaw",
+      "ru": "Нейпьидо",
+      "be": "Нейпьидо"
+    },
+    "description": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "shortDescription": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "currency": "х",
+    "imageUrl": "х",
+    "videoURL": "х",
+    "places": [
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      }
+    ]
+  },
+  "singapore": {
+    "id": "singapore",
+    "countryName": {
+      "en": "Singapore",
+      "ru": "Сингапур",
+      "be": "Сінгапур"
+    },
+    "capitalName": {
+      "en": "Singapore",
+      "ru": "Сингапур",
+      "be": "Сінгапур"
+    },
+    "description": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "shortDescription": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "currency": "х",
+    "imageUrl": "х",
+    "videoURL": "х",
+    "places": [
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
       "id": "philippines",
       "countryName": {
         "en": "Philippines",
@@ -453,6 +979,5 @@
             "be": "х"
           }
         }
-      ]
   }
 }
