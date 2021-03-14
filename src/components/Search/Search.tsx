@@ -1,14 +1,14 @@
 import { TextField } from '@material-ui/core';
-import React, { useState } from 'react';
+import React, { useCallback, useState } from 'react';
 import {ISearch} from '../types/types';
 
 interface IList {
   [key:string]: Array<string>
 }
 
-const getCountriesData = () => {
-  return require('../../data/data-countries.json');
-}
+// const getCountriesData = () => {
+//   return require('../../data/data-countries.json');
+// }
 
 const findMatches = (list: IList,textToMatch:String) => {
   const isMatch = (str:string) => str.includes(textToMatch.toLowerCase());
@@ -17,23 +17,25 @@ const findMatches = (list: IList,textToMatch:String) => {
   return Object.keys(Object.fromEntries(results));
 }
 
-const Search: React.FC<ISearch> = ({countries, updateCountries}) => {
-  const data = getCountriesData();
+const Search: React.FC<ISearch> = ({updateCountries}) => {
+  // const data = useCallback(() => getCountriesData()); ??
+  const data = require('../../data/data-countries.json');
   const lang = 'en';
-  const newData = Object.keys(data).reduce(
-    (acc:IList, item:string) => {acc[item] = [
+  const newData = Object.keys(data).reduce((acc:IList, item:string) => {
+    acc[item] = [
       data[item].countryName[lang].toLowerCase(),
       data[item].capitalName[lang].toLowerCase()
     ]
-  return acc},{});
+    return acc;
+  },{});
 
   const [searchInput, setSearchInput] = useState('');
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchInput(e.target.value);
     const matches:Array<string> = findMatches(newData, e.target.value);
     updateCountries(matches);
-  }
+  },[newData, updateCountries]);
 
   return(
       <form className='g' noValidate autoComplete="off">
