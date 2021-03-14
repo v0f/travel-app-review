@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, RouteComponentProps } from 'react-router-dom';
 
 import Header from '../Header/Header';
@@ -11,18 +11,40 @@ import './App.css';
 interface MatchParams {
   id: string;
 }
+
 interface MatchProps extends RouteComponentProps<MatchParams> {}
 
+interface HistoryProps extends RouteComponentProps<any> {}
+
 const App: React.FC = () => {
+  const [countries, setCountries] = useState<Array<string>>([
+    'japan',
+    'korea',
+    'indonesia',
+    'philippines',
+    'vietnam',
+    'laos',
+    'myanmar',
+    'singapore',
+  ]);
+
+  const updateCountries = (list: Array<string>) => {
+    setCountries(list);
+  };
+
   return (
     <Router>
       <React.Fragment>
-        <Header />
+        <Header countries={countries} updateCountries={updateCountries} />
 
-        <Route path='/' component={MainPage} exact />
+        <Route
+          path='/'
+          render={({ history }: HistoryProps) => <MainPage history={history}>{countries}</MainPage>}
+          exact
+        />
         <Route
           path='/country/:id'
-          render={({ match }: MatchProps) => <CountryPage countryId={match.params.id} />}
+          render={({ match }: MatchProps) => <CountryPage id={match.params.id} />}
         />
 
         <Footer />

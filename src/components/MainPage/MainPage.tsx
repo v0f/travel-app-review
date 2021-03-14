@@ -1,18 +1,26 @@
 import React from 'react';
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
-import Typography from '@material-ui/core/Typography';
+import Grid from '@material-ui/core/Grid';
 
-const MainPage: React.FC = () => {
+import './MainPage.css';
+
+import CountryCard from '../Card/Card';
+
+type Props = {
+  history: any;
+  children: Array<string>;
+};
+
+const MainPage: React.FC<Props> = (props) => {
+  const getCountryId = (id: string) => {
+    props.history.push(`/country/${id}`);
+  };
+
   return (
-    <div>
-      <h1>Main Page</h1>
-      <Card>
-        <CardContent>
-          <Typography>Hello</Typography>
-        </CardContent>
-      </Card>
-    </div>
+    <Grid className='cards-container' container spacing={4}>
+      {React.Children.map(props.children, (countryName) => {
+        return <CountryCard id={countryName} getId={getCountryId} />;
+      })}
+    </Grid>
   );
 };
 
