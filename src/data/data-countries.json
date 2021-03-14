@@ -170,8 +170,8 @@
     },
     "currencyCode": "KRW",
     "timeZone": "Asia/Seoul",
-    "imageURL": "korea.jpg",
-    "videoURL": "https://www.youtube.com/watch?v=sHPdvjovVjs&list=PL4Lb93R1nd7enmsWJgYEgmSi-dnwy3OMx&index=2",
+    "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745059/travel-app/korea/korea.jpg",
+    "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615745745/travel-app/korea/korea_video.mp4",
     "places": [
       {
         "name": {
@@ -179,7 +179,7 @@
           "ru": "Чхандоккун",
           "be": "Чхандоккун"
         },
-        "imageURL": "palace.jpg",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745058/travel-app/korea/palace.jpg",
         "description": {
           "en": "The World Heritage–listed Changdeokgung is the most beautiful of Seoul's five main palaces. The 'Palace of Illustrious Virtue' was built in the early 15th century as a secondary palace to Gyeongbukgung, but when Gyeongbokgung was destroyed during the Japanese invasion in the 1590s, it became the primary royal residence until 1872. Many of its buildings were actually lived in by members of the royal family well into the 20th century. Like all Joseon palaces, it has a mountain behind it and a small stream in front – good pungsu (feng shui). The most charming section is the Huwon, a ‘secret garden’ that is a royal horticultural idyll.",
           "ru": "Чхандоккун, внесенный в список всемирного наследия, является самым красивым из пяти главных дворцов Сеула. «Дворец выдающейся добродетели» был построен в начале 15 века как второй дворец после Кёнбуккуна, но когда Кёнбоккун был разрушен во время японского вторжения в 1590-х годах, он стал главной королевской резиденцией до 1872 года. В его стенах жили члены королевской семьи вплоть до ХХ века. Как и все дворцы Чосон, за ним виднеется гора, а спереди небольшой ручей - хорошее пунгсу (фэн-шуй). Самая очаровательная часть дворца - Хувон, «секретный сад», представляющий собой королевскую садоводческую идиллию.",
@@ -192,7 +192,7 @@
           "ru": "Деревня Букчон Ханок",
           "be": "Вёска Букчон Ханок"
         },
-        "imageURL": "village.jpg",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745059/travel-app/korea/village.jpg",
         "description": {
           "en": "Check out this folk village if you're interested in seeing how people lived in South Korea a long time ago. It is an open-air museum of small tiled houses selling souvenirs, tea ceremonies and small museums that tell the story of the country.",
           "ru": "Загляни в эту фольклорную деревню, если тебе интересно увидеть, как жили в Южной Корее энное количество времени назад. Это музей под открытым небом, состоящий из маленьких домиков, покрытых черепицей, в которых продаются сувениры, устраиваются чайные церемонии и находятся небольшие музеи, рассказывающие об истории страны.",
@@ -218,7 +218,7 @@
           "ru": "Чеджу",
           "be": "Чеджу"
         },
-        "imageURL": "island.jpg",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745059/travel-app/korea/island.jpg",
         "description": {
           "en": "Jeju is a volcanic island, nicknamed the Hawaii of South Korea. The island boasts beautiful beaches along with a lot of culture and history. The highest mountain in South Korea (a dormant volcano called Hallasan) is here along with miles of giant lava tubes. The lava tubes, which can be explored, are natural air pockets in the hardened lava, the size of railway tunnels.",
           "ru": "Чеджу - вулканический остров, прозванный южнокорейскими Гавайями. Остров может похвастаться прекрасными пляжами, а также богатой культурой и историей. Здесь находится самая высокая гора в Южной Корее (спящий вулкан Халласан), а также километры гигантских лавовых труб. Лавовые трубы, которые можно исследовать, представляют собой естественные воздушные карманы в затвердевшей лаве размером с железнодорожные туннели.",
@@ -231,7 +231,7 @@
           "ru": "Национальный парк Сораксан",
           "be": "Нацыянальны парк Сораксан"
         },
-        "imageURL": "park2.jpg",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745059/travel-app/korea/park2.jpg",
         "description": {
           "en": "If you want to go hiking, see the best known mountain range in South Korea or just get some epic photos, then make sure you visit the Seoraksan National Park. Within the park you’ll find pine forests, jagged and rocky mountain peaks, crystal clear streams and stunning lakes. The park is also known for its natural diversity, it is home to over 2,000 animal species.",
           "ru": "Если вы хотите отправиться в поход, увидеть самый известный горный хребет в Южной Корее или просто сделать несколько эпических фотографий, обязательно посетите национальный парк Сораксан. В парке вы найдете сосновые леса, неровные и скалистые горные вершины, кристально чистые ручьи и потрясающие озера. Парк также известен своим природным разнообразием, в нем обитает более 2000 видов животных.",
@@ -244,7 +244,7 @@
           "ru": "Демилитаризованная зона DMZ",
           "be": "Дэмілітарызаваная зона DMZ"
         },
-        "imageURL": "dmz.jpg",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745059/travel-app/korea/dmz.jpg",
         "description": {
           "en": "The 4km-wide, 240km-long buffer known as the Demilitarized Zone (DMZ) slashes across the peninsula, separating North and South Korea. From Freedom House, tourists can observe the North Korean side through binoculars. Also, depending on the chosen tour, you will have the opportunity to go down into the underground military tunnel and visit the 'blue houses' of the UN. Inside them is the official border of the two countries - an invisible line dividing South and North Korea.",
           "ru": "Буферная зона шириной 4 км и длиной 240 км, известная как демилитаризованная зона (ДМЗ), пересекает полуостров, разделяя Северную и Южную Корею. Из Дома свободы туристы могут понаблюдать за северокорейской стороной через бинокль. Также, в зависимости от выбранного тура, у тебя будет возможность спуститься в подземный военный туннель и посетить «голубые домики» ООН. Внутри них проходит официальная граница двух стран – невидимая линия, разделяющая Южную и Северную Кореи.",
@@ -284,7 +284,7 @@
     },
     "currencyCode": "IDR",
     "timeZone": "Asia/Jakarta",
-    "imageURL": "indonesia.jpg",
+    "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745249/travel-app/indonesia/indonesia.jpg",
     "videoURL": "https://www.youtube.com/watch?v=8c1cU4CI7SE&ab_channel=TheWorldTravelGuy",
     "places": [
       {
@@ -293,7 +293,7 @@
           "ru": "Плато Диенг",
           "be": "Плато Диенг"
         },
-        "imageURL": "dieng.jpg",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745246/travel-app/indonesia/dieng.jpg",
         "description": {
           "en": "The lofty volcanic plateau of Dieng (Abode of the Gods), a fertile landscape laced with terraced potato and tobacco fields, is home to some of the oldest Hindu architecture in Java. More than 400 temples, most dating from the 8th and 9th centuries, originally covered this 2000m-high plain, but they were abandoned and forgotten and only rediscovered in 1856 by the archaeologist Van Kinsbergen. In addition, there are many interesting natural attractions formed by volcanic activity: geysers, volcanic lakes, hot springs, inactive volcanoes.",
           "ru": "Высокогорное вулканическое плато Диенг (Обитель богов), плодородный ландшафт, пронизанный террасами картофельных и табачных полей, является домом для некоторых из старейших индуистских построек на Яве. Более 400 храмов, большинство из которых относятся к VIII и IX векам, первоначально занимали эту равнину высотой 2000 м, но они были заброшены и забыты, и вновь обнаружены только в 1856 году археологом Ван Кинсбергеном. Кроме того, здесь находится множество природных достопримечательностей, образованных вулканической активностью: гейзеры, вулканические озера, горячие источники, неактивные вулканы.",
@@ -306,7 +306,7 @@
           "ru": "Боробудур",
           "be": "Барабудур"
         },
-        "imageURL": "borobudur.jpg",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745246/travel-app/indonesia/borobudur.jpg",
         "description": {
           "en": "The Borobudur Temple is one of the greatest Buddhist monuments in the world, and was built in the 8th and 9th centuries. For hundreds of years, Borobudur lay covered with volcanic ash and overgrown with jungle and was discovered only in 1814 during the Anglo-Dutch war. After the monument was plundered, the reliefs, sculptures, ornaments were taken away by the merchants of souvenirs. And only in the 1970s the monument was restored with UNESCO's help. Until now, Borobudur is a place of pilgrimage and prayer. Pilgrims walk seven times clockwise at each level. Touching each Buddha from the stupas on the upper tier, according to beliefs, brings happiness.",
           "ru": "Храм Боробудур - один из величайших буддийских памятников в мире, он был построен в 8-м и 9-м веках. Сотни лет Боробудур лежал покрытый вулканическим пеплом и заросший джунглями и обнаружен лишь в 1814 году во время англо-голландской войны. После памятник разворовывали, рельефы, скульптуры, орнамент растаскивали торговцы сувенирами. И только в 1970-е гг. была проведена реставрация под эгидой ЮНЕСКО. До сих пор Боробудур является местом паломничества и молитв. Паломники проходят семь раз по часовой стрелке на каждом уровне. Прикосновение к каждому Будде из ступ на верхнем ярусе, согласно повериям, приносит счастье.",
@@ -319,7 +319,7 @@
           "ru": "Национальный парк Танджунгпутинг",
           "be": "Нацыянальны парк Танджунгпутінг"
         },
-        "imageURL": "orangutan.jpg",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745246/travel-app/indonesia/orangutan.jpg",
         "description": {
           "en": "No trip to Indonesia would be complete without seeing some orangutans, and Tanjung Puting is home to the largest orangutan population in the world, as well as other primates, birds, and reptiles. Also you will get a vast, mostly untouched tropical jungle with fresh air, mystical morning fog, birds chirping, and rivers gushing.",
           "ru": "Ни одно путешествие в Индонезию не будет полным, если вы не увидите орангутанов, а Танджунг Путинг является домом для самой большой в мире популяции орангутанов, а также других приматов, птиц и рептилий. Также вас ждут обширные, в основном нетронутые тропические джунгли со свежим воздухом, мистическим утренним туманом, щебетанием птиц и фонтаном рек.",
@@ -332,7 +332,7 @@
           "ru": "Раджа-Ампат",
           "be": "Раджа-Ампат"
         },
-        "imageURL": "island.jpg",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745246/travel-app/indonesia/island.jpg",
         "description": {
           "en": "The fairlyland of lush, cone-shaped islands set against blue and turquoise waters is one of Indonesia's most spectacular sights. Hundreds of islands and cays make up this tropical paradise, but the beauty extends beneath the surface as well. Colorful fish and a diverse variety of marine life thrive in the warm, clear waters. In fact, the coral reefs here are some of the most biodiverse on the planet, making it a popular area for diving in Indonesia.",
           "ru": "Волшебный мир пышных островов конической формы на фоне голубых и бирюзовых вод - одна из самых впечатляющих достопримечательностей Индонезии. Сотни островов и рифов составляют этот тропический рай, но красота простирается и под водой. Яркие рыбы и разнообразные морские обитатели прекрасно чувствуют себя в теплых, чистых водах. Находящиеся здесь коралловые рифы одни из самых биоразнообразных на планете, что делает Раджа-Ампат популярным местом для дайвинга.",
@@ -345,7 +345,7 @@
           "ru": "Национальный парк Комодо",
           "be": "Нацыянальны парк Комодо"
         },
-        "imageURL": "komodo.jpg",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745246/travel-app/indonesia/komodo.jpg",
         "description": {
           "en": "A mighty and otherworldly lizard, the Komodo is arguably one of the most fascinating creatures on earth—one you can only encounter in the wild at Indonesia’s Komodo National Park. Captivating as it is, the Komodo is hardly the only interesting thing in this string of exotic islands that constitute the Komodo National Park. The three islands—Komodo, Padar, and Rinca—have glorious tropical hills and a beach view, along with a breathtaking coastline and thriving underwater wildlife. The Komodo Island even has the famed pink sand beach, while Padar Island has an iconic hill with a view of three magnificent bays.",
           "ru": "Могучий и опасный дракон Комодо, возможно, является одним из самых очаровательных существ на земле, с которым вы можете встретиться в дикой природе только в национальном парке Комодо. Комодо - увлекательный, но далеко не единственный интересный остров в национальном парке. Все три острова - Комодо, Падар и Ринка - могут похвастаться пышными тропическими холмами и великолепными пляжами, а также захватывающую дух береговой линией и богатым подводным миром. На острове Комодо найдете знаменитый пляж с розовым песком, а на острове Падар есть знаменитый холм с видом на три великолепных залива.",
@@ -358,7 +358,7 @@
           "ru": "Рисовые террасы Джатилувих",
           "be": "Рысавыя тэрасы Джацілувіх"
         },
-        "imageURL": "rice.jpg",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745246/travel-app/indonesia/rice.jpg",
         "description": {
           "en": "One of UNESCO Cultural Heritage Sites, the Jatiluwih rice terraces comprise over 600 hectares of rice fields that follow the flowing topography of the Batukaru mountain range. These rice terraces are maintained the local culture heritage in form of water irrigation system managed traditionally called by subak. It is one of recommended places to visit in Bali with the beautiful view. They give new meaning to the word green. They crawl up the sides of the hills like steps leading you towards the sky.",
           "ru": "Один из объектов культурного наследия ЮНЕСКО, рисовые террасы Джатилувих составляют более 600 гектаров рисовых полей, которые повторяют рельеф горного хребта Батукару. Эти рисовые террасы сохраняют местное культурное наследие в виде системы водного орошения, которая называется субак. Это одно из самых рекомендуемых к посещению мест на Бали с прекрасными видами. Они придают новое значение слову зеленый. Рисовые террасы ползут вверх по склонам холмов, как ступеньки, ведущие к небу.",

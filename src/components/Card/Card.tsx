@@ -10,7 +10,7 @@ const data = require('../../data/data-countries.json');
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    maxWidth: 320,
   },
   media: {
     height: 250,
