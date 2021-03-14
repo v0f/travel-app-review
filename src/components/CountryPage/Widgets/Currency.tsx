@@ -29,9 +29,9 @@ import { ICurrency } from '../../types/types';
               } 
               
             } catch(err){
-              setToRUB('Истекло');
-              setToUSD('количество');
-              setToEUR('запросов');
+              setToRUB('-');
+              setToUSD('-');
+              setToEUR('-');
             }
         }
 

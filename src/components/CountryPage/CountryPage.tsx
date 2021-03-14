@@ -1,7 +1,6 @@
 import React from 'react';
 import Widgets from '../CountryPage/Widgets/Widgets';
 import Map from '../CountryPage/Map';
-
 import Video from './Video';
 
 import './CountryPage.css';
@@ -12,13 +11,15 @@ interface CountryProps {
 }
 
 const CountryPage: React.FC<CountryProps> = ({ id }) => {
-  const lang = 'en';
 
-  console.log(data[id].countryName[lang]);
+  const lang = 'en';
 
   return (
     <React.Fragment>
-      <div className='cover'>
+      <div
+      className='cover'
+      style={{ backgroundImage:`url(${data[id].imageURL})` }}
+      >
         <div className='cover__text'>
           <h1 className='cover__title'>{data[id].countryName[lang]}</h1>
           <hr />
@@ -38,7 +39,7 @@ const CountryPage: React.FC<CountryProps> = ({ id }) => {
           <p className='country__article'>{data[id].description[lang]}</p>
         </div>
 
-        <Video />
+        <Video videoURL={data[id].videoURL}/>
 
         <div className='country__places'>
           <h1 className='country__heading'>Places</h1>

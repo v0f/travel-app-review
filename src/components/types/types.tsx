@@ -12,6 +12,19 @@ export interface ICurrency {
   currencyCode: string;
 }
 
+interface iDictObj {
+  [key: string]: Array<string>;
+}
+
+export interface iDict {
+  months: iDictObj;
+  weekDay: iDictObj;
+  lang: {
+    [key: string]: string;
+  };
+  // currencyCode: string;
+}
+
 export interface ICapital {
   capitalName: string;
 }

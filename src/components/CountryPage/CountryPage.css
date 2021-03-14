@@ -1,7 +1,7 @@
 .cover {
   width: 100vw;
   height: 100vh;
-  background: url("../../assets/images/countries/japan/japan_cover.jpg") no-repeat 0 0;
+  /* background: url("../../assets/images/countries/japan/japan_cover.jpg") no-repeat 0 0; */
   background-size: cover;
   position: absolute;
   top: 0;

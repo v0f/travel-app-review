@@ -10,7 +10,7 @@ const data = require('../../data/data-countries.json');
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    maxWidth: 320,
   },
   media: {
     height: 250,
@@ -32,7 +32,7 @@ const CountryCard: React.FC<ICard> = ({ id, getId }) => {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image={`./assets/images/countries/japan/japan.jpg`}
+          image={data[id].imageURL}
           // title={data.id.countryName[lang]}
         />
         <CardContent>
