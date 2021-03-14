@@ -5,21 +5,19 @@ import Video from './Video';
 
 import './CountryPage.css';
 
+import LangContext from '../Language-context/LangContext';
+
 const data = require('../../data/data-countries.json');
 interface CountryProps {
   id: string;
 }
 
 const CountryPage: React.FC<CountryProps> = ({ id }) => {
-
-  const lang = 'en';
+  const { lang } = React.useContext(LangContext);
 
   return (
     <React.Fragment>
-      <div
-      className='cover'
-      style={{ backgroundImage:`url(${data[id].imageURL})` }}
-      >
+      <div className='cover' style={{ backgroundImage: `url(${data[id].imageURL})` }}>
         <div className='cover__text'>
           <h1 className='cover__title'>{data[id].countryName[lang]}</h1>
           <hr />
@@ -39,7 +37,7 @@ const CountryPage: React.FC<CountryProps> = ({ id }) => {
           <p className='country__article'>{data[id].description[lang]}</p>
         </div>
 
-        <Video videoURL={data[id].videoURL}/>
+        <Video videoURL={data[id].videoURL} />
 
         <div className='country__places'>
           <h1 className='country__heading'>Places</h1>

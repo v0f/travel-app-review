@@ -55,6 +55,11 @@ const dict: iDict = {
     ru: 'Язык',
     be: 'Мова',
   },
+  capital: {
+    en: 'Capital:',
+    ru: 'Столица:',
+    be: 'Сталіца:',
+  },
 };
 
 export default dict;

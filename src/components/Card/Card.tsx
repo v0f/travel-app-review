@@ -6,6 +6,8 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 
+import LangContext from '../Language-context/LangContext';
+
 const data = require('../../data/data-countries.json');
 
 const useStyles = makeStyles({
@@ -23,7 +25,7 @@ interface ICard {
 }
 
 const CountryCard: React.FC<ICard> = ({ id, getId }) => {
-  const lang = 'en';
+  const { lang } = React.useContext(LangContext);
 
   const classes = useStyles();
 

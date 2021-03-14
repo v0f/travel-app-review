@@ -22,6 +22,9 @@ export interface iDict {
   lang: {
     [key: string]: string;
   };
+  capital: {
+    [key: string]: string;
+  };
   // currencyCode: string;
 }
 
