@@ -1,19 +1,21 @@
- import React from 'react';
-// import { Player } from 'video-react';
+import React from 'react';
+import { Player, ControlBar} from 'video-react';
 
-//import "node_modules/video-react/dist/video-react.css"; 
-//@import "~video-react/styles/scss/video-react";
+const Video = () => {
 
- const Video = () => {
   return (
-    <div>Video</div>
-    // <Player
-    //   playsInline
-    //   poster="/assets/poster.png"
-    //   src="https://www.youtube.com/watch?v=WLIv7HnZ_fE"
-    // />
+    <Player
+    playsInline
+    poster="https://video-react.js.org/assets/poster.png"
+    src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+    >
+      <ControlBar
+      autoHide={true}
+      autoHideTime={500}
+      />
+      
+    </Player>
   );
 };
 
-
- export default Video;
+export default Video;

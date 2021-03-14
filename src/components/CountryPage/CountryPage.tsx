@@ -1,21 +1,54 @@
 import React from 'react';
+import Widgets from '../CountryPage/Widgets/Widgets';
+import Map from '../CountryPage/Map';
 
+import Video from './Video';
+
+import './CountryPage.css';
+
+const data = require('../../data/data-countries.json');
 interface CountryProps {
-  countryId: string;
+  id: string;
 }
 
-const CountryPage: React.FC<CountryProps> = ({ countryId }) => {
+const CountryPage: React.FC<CountryProps> = ({ id }) => {
+  const lang = 'en';
 
+  console.log(data[id].countryName[lang]);
 
   return (
-    <>
-    <h1>Country Page {countryId}</h1>
-      {/* <h1>{data['japan'].countryName['en']}</h1>
-      <h2>{data['japan'].capitalName['en']}</h2>
-      <img src={`./assets/images/countries/japan/japan.jpg`}/>
-      <p>{data['japan'].description['en']}</p> */}
-    </>
-  )
+    <React.Fragment>
+      <div className='cover'>
+        <div className='cover__text'>
+          <h1 className='cover__title'>{data[id].countryName[lang]}</h1>
+          <hr />
+          <p className='cover__subtitle'>{data[id].shortDescription[lang]}</p>
+        </div>
+      </div>
+      <div className='main-content'>
+        <Widgets
+          countryName={data[id].countryName[lang]}
+          capitalName={data[id].capitalName[lang]}
+          currency={data[id].currency[lang]}
+          currencyCode={data[id].currencyCode}
+          timeZone={data[id].timeZone}
+        />
+
+        <div className='country__text'>
+          <p className='country__article'>{data[id].description[lang]}</p>
+        </div>
+
+        <Video />
+
+        <div className='country__places'>
+          <h1 className='country__heading'>Places</h1>
+          <p className='country__article'>Галерея достопримечательностей</p>
+        </div>
+
+        <Map geoCenter={data[id].geoCenter} countryCode={data[id].countryCode} />
+      </div>
+    </React.Fragment>
+  );
 };
 
 export default CountryPage;

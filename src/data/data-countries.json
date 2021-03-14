@@ -1,216 +1,988 @@
 {
-    "japan": {
-      "id": "japan",
-      "countryName": {
-        "en": "Japan",
-        "ru": "Япония",
-        "by": "Японія"
-      },
-      "capitalName": {
-        "en": "Tokyo",
-        "ru": "Токио",
-        "by": "Токіо"
-      },
-      "shortDescription": {
-        "en": "The land of the rising sun. Consisting of more than 3000 islands. Rodiina sushi, geisha, robots, anime, minimalism and Mount Fuji",
-        "ru": "Страна восходящего солнца. состоящая из более чем 3000 островов. Родиина суши, гейш, роботов, аниме, минимализма и горы Фудзи",
-        "by": "Краіна ўзыходзячага сонца. Якая складаецца з больш чым 3000 выспаў. Родиина сушы, гейш, робатаў, анімэ, мінімалізму і горы Фуджы"
-      },
-      "description": {
-        "en": "Japan is probably the most unusual country on the planet. Many of those who have been here call it a country of anothercivilization. Indeed, there is much that is unusual and sometimes defies standard logical, ethical and cultural thinking. And all due to the fact that for a long time Japan was a closed country for all foreigners. By limiting foreign presence in the country in the 17th century, Japan thus protected its culture and traditions from foreign influence. For almost 250 years, until the Meiji Restoration, the country developed in its own way. This period was marked by the flourishing of many trends in art and culture, which to this day are strongly associated with Japan. At this time, haiku poetry, kabuki drama, plebeian novels, woodcuts appeared, as well as the Ura Senke tea ceremony school - the largest of the modern ones. This is the heyday of the samurai class with its moral code bushi-do  - literally 'the way of the warrior. All this has left a significant imprint on modern Japanese society, and althoughin recent years Japanese culture has been increasingly influenced by Western cultures, it still remains one of the most amazing and controversial in the world.",
-        "ru": "Япония – это, наверное, самая необычная страна на планете. Многие из тех, кто побывал здесь, называют ее страной иной цивилизации. И правда, здесь много что необычно и подчас не поддается стандартному логическому, этическому и культурному мышлению. А все из-за того, что долгое время Япония была закрытой страной для всех иностранцев. Ограничив в XVII веке иностранное присутствие в стране, Япония таким образом защитила свою культуру и традиции от иностранного влияния. На протяжении почти 250 лет, вплоть до реставрации Мэйдзи, страна развивалась своим собственным путем. Этот период ознаменовался расцветом многих направлений в искусстве и культуре, которые по сей день прочно ассоциируются с Японией. В это время появились поэзия хайку, драма кабуки, плебейские романы, гравюры по дереву, а также школа чайной церемонии Ура Сэнкэ — самая крупная из современных. Это период расцвета самурайского сословия с его моральным кодексом буси-до - дословно «путь воина». Все это наложило существенный отпечаток на современное японское общество, и хоть в последние годы японская культура все больше и больше подвергается влиянию западных культур, она до сих пор остается одной из самых удивительных и спорных в мире.",
-        "by": "Японія - гэта, напэўна, самая незвычайная краіна на планеце. Многія з тых, хто пабываў тут, называюць яе краінай іншай цывілізацыі. І праўда, тут шмат што незвычайна і часам не паддаецца стандартнага лагічнага, этычнаму і культурнаму мыслення. А ўсё з-за таго, што доўгі час Японія была закрытай краінай для ўсіх замежнікаў. Абмежаваўшы ў XVII стагоддзі замежнае прысутнасць у краіне, Японія такім чынам абараніла сваю культуру і традыцыі ад замежнага ўплыву. На працягу амаль 250 гадоў, аж да рэстаўрацыі Мэйдзі, краіна развівалася сваім уласным шляхам. Гэты перыяд адзначыўся росквітам многіх напрамкаў у мастацтве і культуры, якія па гэты дзень трывала асацыююцца з Японіяй. У гэты час з'явіліся паэзія хайку, драма кабукі, плебейскай раманы, гравюры па дрэве, а таксама школа чайнай цырымоніі Ура Сэнкэ - самая буйная з сучасных. Гэта перыяд росквіту самурайскага саслоўя з яго маральным кодэксам буси-да - даслоўна «шлях ваяра». Усё гэта наклала істотны адбітак на сучаснае японскае грамадства, і хоць у апошнія гады японская культура ўсё больш і больш падвяргаецца ўплыву заходніх культур, яна да гэтага часу застаецца адной з самых дзіўных і спрэчных у свеце."
-      },
-      "currency": "JPY",
-      "timeZone": "Asia/Tokyo",
-      "imageURL": "japan.jpg",
-      "videoURL": "https://www.youtube.com/watch?v=WLIv7HnZ_fE",
-      "places": [
-        {
-          "name": {
-            "en": "Fuji",
-            "ru": "Фудзи",
-            "by": "Фудзі"
-          },
-          "imageUrl": "",
-          "description": {
-            "en": "Mount Fuji is the tallest mountain in Japan (3776 meters). The exceptionally symmetrical cone of the volcano is a world famous symbol of Japan. Fuji-san is a popular attraction for hikers and climbers. Every year about 200 thousand people climb Mount Fuji, 30% of whom are foreigners. The ascent can take from 3 to 8 hours, and the descent can take from 2 to 5 hours.",
-            "ru": "Гора Фудзи - самая высокая гора в Японии (3776 метров). Исключительно симметричный конус вулкана является всемирно известным символом Японии. Фудзи-сан - популярная достопримечательность для туристов и альпинистов. Ежегодно около 200 тысяч человек поднимаются на гору Фудзи, 30% из которых - иностранцы. Подъем может занять от 3 до 8 часов, а спуск - от 2 до 5 часов.",
-            "by": "Гара Фудзі - самая высокая гара ў Японіі (3776 метраў). Выключна сіметрычны конус вулкана з'яўляецца сусветна вядомым сімвалам Японіі. Фудзі-сан - папулярная славутасць для турыстаў і альпіністаў. Штогод каля 200 тысяч чалавек падымаюцца на гару Фудзі, 30% з якіх - замежнікі. Ўздым можа заняць ад 3 да 8 гадзін, а спуск - ад 2 да 5 гадзін."
-          }
-        },
-        {
-          "name": {
-            "en": "Jigokudani Monkey Park",
-            "ru": "Парк обезьян Джигокудани",
-            "by": "Парк малпаў Джигокудани"
-          },
-          "imageUrl": "",
-          "description": {
-            "en": "Jigokudani Monkey Park is a famous hot spring area near Nagano. The park got its name Jigokudani (which means 'Hell Valley') for the steam and boiling water that bubbles in the springs surrounded by steep rocks and dense forests. This park is famous for its large population of wild snow monkeys that travel to the valley in winter when snow covers everything around. Monkeys descend from steep cliffs and forests to bask in warm hot springs, and return to the woods in the evenings.",
-            "ru": "Парк обезьян Дзигокудани - это известная область с горячими источниками недалеко от Нагано. Название Джигокудани (что означает «Адская долина») парк получил за пар и кипящую воду, которая пузырится в источниках, окружённых крутыми скалами и густыми лесами. Данный парк славится большой популяцией диких снежных обезьян, которые отправляются в долину зимой, когда снег покрывает всё вокруг. Обезьяны спускаются с крутых скал и лесов, чтобы погреться в теплых горячих источниках, а по вечерам возвращаются обратно в леса.",
-            "by": "Парк малпаў Дзигокудани - гэта вядомая вобласць з гарачымі крыніцамі недалёка ад Нагана. Назва Джигокудани (што азначае «Адская даліна») парк атрымаў за пар і кіпячую ваду, якая бурбалкі ў крыніцах, акружаных стромкімі скаламі і густымі лясамі. Дадзены парк славіцца вялікай папуляцыяй дзікіх снежных малпаў, якія адпраўляюцца ў даліну зімой, калі снег пакрывае ўсё вакол. Малпы спускаюцца з стромкіх скал і лясоў, каб пагрэцца ў цёплых гарачых крыніцах, а па вечарах вяртаюцца назад у лясы."
-          }
-        },
-        {
-          "name": {
-            "en": "Arashiyama bamboo grove",
-            "ru": "Бамбуковая роща Арасияма",
-            "by": "Бамбукавая гай Арасияма"
-          },
-          "imageUrl": "",
-          "description": {
-            "en": "Himeji is called the White Heron's castle. Its walls are snow-white, and the lines and features are graceful, like a bird. During its existence, the castle did not suffer from fires or enemy raids. And if anyone tried to capture the castle, he would be entangled in the maze of gardens and rooms. The whole complex is 83 buildings. Sakura blossoms around them, which makes the castle even more beautiful. Not surprisingly, he has been featured in films on numerous occasions.",
-            "ru": "Химэдзи называют замком Белой Цапли. Его стены белоснежные, а линии и черты грациозные, как у птицы. За время своего существования замок не страдал от пожаров или вражеских набегов. А если бы кто и попытался захватить замок, то запутался бы в лабиринтах садов и комнат. Весь комплекс – это 83 сооружения. Вокруг них цветет сакура, что делает замок еще прекраснее. Не удивительно, что его неоднократно снимали в фильмах.",
-            "by": "Химэдзи называюць замкам белай чаплі. Яго сцены беласнежныя, а лініі і рысы грацыёзныя, як у птушкі. За час свайго існавання замак не пакутаваў ад пажараў або варожых набегаў. А калі б хто і паспрабаваў захапіць замак, то заблытаўся бы ў лабірынтах садоў і пакояў. Увесь комплекс - гэта 83 збудавання. Вакол іх квітнее сакура, што робіць замак яшчэ выдатней. Не дзіўна, што яго неаднаразова здымалі ў фільмах."
-          }
-        },
-        {
-          "name": {
-            "en": "Shibuya area",
-            "ru": "Район Сибуя",
-            "by": "Раён Сибуя"
-          },
-          "imageUrl": "",
-          "description": {
-            "en": "It is one of Tokyo's 23 special districts. Once it was a village, then a small town. It is now part of the capital and the center of nightlife, entertainment, fashion and shopping. There are also some of the tallest skyscrapers in the city, Microsoft and Coca-Cola offices. The center of the district is the Hachiko monument. In addition to boutiques and entertainment centers, there are museums and temples.",
-            "ru": "Это один из 23 специальных районов Токио. Когда-то он был деревней, потом небольшим городком. Теперь это часть столицы и центр ночной жизни, развлечений, моды и шопинга. Также тут расположены одни из самых высоких небоскребов города, офисы Майкрософт и Кока-Кола. Центром района считают памятник Хатико. Кроме бутиков и развлекательных центров тут есть музеи и храмы.",
-            "by": "Гэта адзін з 23 спецыяльных раёнаў Токіо. Калісьці ён быў вёскай, потым невялікім мястэчкам. Цяпер гэта частка сталіцы і цэнтр начнога жыцця, забаў, моды і шопінгу. Таксама тут размешчаны адны з самых высокіх хмарачосаў горада, офісы Майкрасофт і Кока-Кола. Цэнтрам раёна лічаць помнік Хатико. Акрамя буцікаў і забаўляльных цэнтраў тут ёсць музеі і храмы."
-          }
-        },
-        {
-          "name": {
-            "en": "Fushimi Inari shrine in Kyoto",
-            "ru": "Храм Фусими Инари в Киото",
-            "by": "Храм Фусими Інара ў Кіёта"
-          },
-          "imageUrl": "",
-          "description": {
-            "en": "Fushimi Inari Shrine is known mainly for the myriad Torii Gates donated by the faithful. The gate is located along the road to the temple, which goes up a wooded mountain to Inari-san, where the main building of the temple is located. It takes about two hours to walk to the temple along this alley. On the way to the top, passing through the torii, you will see small chapels, tombs and statues of foxes that are the messengers of this god. Also, about halfway up there will be an observation deck overlooking Kyoto.",
-            "ru": "Храм Фусими Инари известен, главным образом, несметным количеством Ворот-Тории, которые были пожертвованы верующими. Ворота располагаются по дороге к храму, которая уходит в лесистую гору к Инари-сан, где расположено основное здание храма. Чтобы дойти пешком до храма по этой аллее, необходимо около двух часов. По пути к вершине, проходя через тории, вы будете видеть небольшие часовни, могилы и статуи лис, которые являются посланниками этого бога. Так же где-то на полпути наверх будет обзорная площадка с видом на Киото.",
-            "by": "Храм Фусими Інара вядомы, галоўнай выявай, незлічоным колькасцю Брамы-Тории, якія былі ахвяраваны вернікамі. Вароты размяшчаюцца па дарозе да храма, якая сыходзіць у лясістую гару да Інара-сан, дзе размешчана асноўны будынак храма. Каб дайсці пешшу да храма па гэтай алеі, неабходна каля двух гадзін. Па шляху да вяршыні, праходзячы праз тории, вы будзеце бачыць невялікія капліцы, магілы і статуі ліс, якія з'яўляюцца пасланцамі гэтага бога. Гэтак жа дзесьці на паўшляху наверх будзе аглядная пляцоўка з выглядам на Кіёта."
-          }
-        },
-        {
-          "name": {
-            "en": "Kinkakuji Temple",
-            "ru": "Храм Кинкакудзи",
-            "by": "Храм Кинкакудзи"
-          },
-          "imageUrl": "",
-          "description": {
-            "en": "The three-story Kinkakuji Temple or Golden Pavilion is a repository of Buddhist relics on the territory of the Rokuonji temple complex in the Japanese city of Kyoto. The Buddhist temple began to be called the 'Golden Pavilion' because it is covered with gold leaf, on top of which a layer of protective varnish is applied. Kinkakuji Temple is famous as an architectural monument of Japanese culture of the early XIV century and fits perfectly into the surrounding landscape.",
-            "ru": "Трехэтажный храм Кинкакудзи или Золотой павильон – это хранилище буддистских реликвий на территории храмового комплекса Рокуондзи в японском городе Киото. «Золотым павильоном» буддистский храм стали называть потому, что он покрыт сусальным золотом, поверх которого нанесен слой защитного лака. Храм Кинкакудзи знаменит как архитектурный памятник японской культуры начала XIV века и прекрасно вписывается в окружающий ландшафт.",
-            "by": "Трохпавярховы храм Кинкакудзи або Залаты павільён - гэта сховішча будысцкіх рэліквій на тэрыторыі храмавага комплексу Рокуондзи ў японскім горадзе Кіёта. «Залатым павільёнам» будысцкі храм сталі называць таму, што ён пакрыты сусальным золатам, па-над якім нанесены пласт ахоўнага лаку. Храм Кинкакудзи знакаміты як архітэктурны помнік японскай культуры пачатку XIV стагоддзя і выдатна ўпісваецца ў навакольны ландшафт."
-          }
-        }
-      ]
+  "japan": {
+    "id": "japan",
+    "countryName": {
+      "en": "Japan",
+      "ru": "Япония",
+      "be": "Японія"
     },
-
-    "х": {
-      "id": "х",
-      "countryName": {
-        "en": "х",
-        "ru": "х",
-        "by": "х"
-      },
-      "capitalName": {
-        "en": "х",
-        "ru": "х",
-        "by": "х"
-      },
-      "description": {
-        "en": "х",
-        "ru": "х",
-        "by": "х"
-      },
-      "shortDescription": {
-        "en": "х",
-        "ru": "х",
-        "by": "х"
-      },
-      "currency": "х", 
-      "imageUrl": "х", 
-      "videoURL": "х",
-      "places": [
-        {
-          "name": {
-            "en": "х",
-            "ru": "х",
-            "by": "х"
-          },
-          "imageUrl": "х",
-          "description": {
-            "en": "х",
-            "ru": "х",
-            "by": "х"
-          }
+    "capitalName": {
+      "en": "Tokyo",
+      "ru": "Токио",
+      "be": "Токіо"
+    },
+    "shortDescription": {
+      "en": "The land of the rising sun. Consisting of more than 3000 islands. Homeland of sushi, geisha, robots, anime, minimalism and Mount Fuji",
+      "ru": "Страна восходящего солнца. состоящая из более чем 3000 островов. Родина суши, гейш, роботов, аниме, минимализма и горы Фудзи",
+      "be": "Краіна ўзыходзячага сонца. Якая складаецца з больш чым 3000 выспаў. Радзіма сушы, гейш, робатаў, анімэ, мінімалізму і горы Фуджы"
+    },
+    "description": {
+      "en": "Japan is probably the most unusual country on the planet. Many of those who have been here call it a country of anothercivilization. Indeed, there is much that is unusual and sometimes defies standard logical, ethical and cultural thinking. And all due to the fact that for a long time Japan was a closed country for all foreigners. be limiting foreign presence in the country in the 17th century, Japan thus protected its culture and traditions from foreign influence. For almost 250 years, until the Meiji Restoration, the country developed in its own way. This period was marked be the flourishing of many trends in art and culture, which to this day are strongly associated with Japan. At this time, haiku poetry, kabuki drama, plebeian novels, woodcuts appeared, as well as the Ura Senke tea ceremony school - the largest of the modern ones. This is the heyday of the samurai class with its moral code bushi-do  - literally 'the way of the warrior. All this has left a significant imprint on modern Japanese society, and althoughin recent years Japanese culture has been increasingly influenced be Western cultures, it still remains one of the most amazing and controversial in the world.",
+      "ru": "Япония – это, наверное, самая необычная страна на планете. Многие из тех, кто побывал здесь, называют ее страной иной цивилизации. И правда, здесь много что необычно и подчас не поддается стандартному логическому, этическому и культурному мышлению. А все из-за того, что долгое время Япония была закрытой страной для всех иностранцев. Ограничив в XVII веке иностранное присутствие в стране, Япония таким образом защитила свою культуру и традиции от иностранного влияния. На протяжении почти 250 лет, вплоть до реставрации Мэйдзи, страна развивалась своим собственным путем. Этот период ознаменовался расцветом многих направлений в искусстве и культуре, которые по сей день прочно ассоциируются с Японией. В это время появились поэзия хайку, драма кабуки, плебейские романы, гравюры по дереву, а также школа чайной церемонии Ура Сэнкэ — самая крупная из современных. Это период расцвета самурайского сословия с его моральным кодексом буси-до - дословно «путь воина». Все это наложило существенный отпечаток на современное японское общество, и хоть в последние годы японская культура все больше и больше подвергается влиянию западных культур, она до сих пор остается одной из самых удивительных и спорных в мире.",
+      "be": "Японія - гэта, напэўна, самая незвычайная краіна на планеце. Многія з тых, хто пабываў тут, называюць яе краінай іншай цывілізацыі. І праўда, тут шмат што незвычайна і часам не паддаецца стандартнага лагічнага, этычнаму і культурнаму мыслення. А ўсё з-за таго, што доўгі час Японія была закрытай краінай для ўсіх замежнікаў. Абмежаваўшы ў XVII стагоддзі замежнае прысутнасць у краіне, Японія такім чынам абараніла сваю культуру і традыцыі ад замежнага ўплыву. На працягу амаль 250 гадоў, аж да рэстаўрацыі Мэйдзі, краіна развівалася сваім уласным шляхам. Гэты перыяд адзначыўся росквітам многіх напрамкаў у мастацтве і культуры, якія па гэты дзень трывала асацыююцца з Японіяй. У гэты час з'явіліся паэзія хайку, драма кабукі, плебейскай раманы, гравюры па дрэве, а таксама школа чайнай цырымоніі Ура Сэнкэ - самая буйная з сучасных. Гэта перыяд росквіту самурайскага саслоўя з яго маральным кодэксам буси-да - даслоўна «шлях ваяра». Усё гэта наклала істотны адбітак на сучаснае японскае грамадства, і хоць у апошнія гады японская культура ўсё больш і больш падвяргаецца ўплыву заходніх культур, яна да гэтага часу застаецца адной з самых дзіўных і спрэчных у свеце."
+    },
+    "currencyCode": "JPY",
+    "currency": {
+      "en": "Japanese yen",
+      "ru": "Японская иена",
+      "be": "Іена"
+    },
+    "timeZone": "Asia/Tokyo",
+    "geoCenter": [139.77098768864576, 35.69016815938184],
+    "countryCode": "JPN",
+    "imageURL": "japan.jpg",
+    "videoURL": "https://www.youtube.com/watch?v=WLIv7HnZ_fE",
+    "places": [
+      {
+        "name": {
+          "en": "Fuji",
+          "ru": "Фудзи",
+          "be": "Фудзі"
         },
-        {
-          "name": {
-            "en": "х",
-            "ru": "х",
-            "by": "х"
-          },
-          "imageUrl": "х",
-          "description": {
-            "en": "х",
-            "ru": "х",
-            "by": "х"
-          }
-        },
-        {
-          "name": {
-            "en": "х",
-            "ru": "х",
-            "by": "х"
-          },
-          "imageUrl": "х",
-          "description": {
-            "en": "х",
-            "ru": "х",
-            "by": "х"
-          }
-        },
-        {
-          "name": {
-            "en": "х",
-            "ru": "х",
-            "by": "х"
-          },
-          "imageUrl": "х",
-          "description": {
-            "en": "х",
-            "ru": "х",
-            "by": "х"
-          }
-        },
-        {
-          "name": {
-            "en": "х",
-            "ru": "х",
-            "by": "х"
-          },
-          "imageUrl": "х",
-          "description": {
-            "en": "х",
-            "ru": "х",
-            "by": "х"
-          }
-        },
-        {
-          "name": {
-            "en": "х",
-            "ru": "х",
-            "by": "х"
-          },
-          "imageUrl": "х",
-          "description": {
-            "en": "х",
-            "ru": "х",
-            "by": "х"
-          }
+        "imageUrl": "",
+        "description": {
+          "en": "Mount Fuji is the tallest mountain in Japan (3776 meters). The exceptionally symmetrical cone of the volcano is a world famous symbol of Japan. Fuji-san is a popular attraction for hikers and climbers. Every year about 200 thousand people climb Mount Fuji, 30% of whom are foreigners. The ascent can take from 3 to 8 hours, and the descent can take from 2 to 5 hours.",
+          "ru": "Гора Фудзи - самая высокая гора в Японии (3776 метров). Исключительно симметричный конус вулкана является всемирно известным символом Японии. Фудзи-сан - популярная достопримечательность для туристов и альпинистов. Ежегодно около 200 тысяч человек поднимаются на гору Фудзи, 30% из которых - иностранцы. Подъем может занять от 3 до 8 часов, а спуск - от 2 до 5 часов.",
+          "be": "Гара Фудзі - самая высокая гара ў Японіі (3776 метраў). Выключна сіметрычны конус вулкана з'яўляецца сусветна вядомым сімвалам Японіі. Фудзі-сан - папулярная славутасць для турыстаў і альпіністаў. Штогод каля 200 тысяч чалавек падымаюцца на гару Фудзі, 30% з якіх - замежнікі. Ўздым можа заняць ад 3 да 8 гадзін, а спуск - ад 2 да 5 гадзін."
         }
-      ]
-    }
+      },
+      {
+        "name": {
+          "en": "Jigokudani Monkey Park",
+          "ru": "Парк обезьян Джигокудани",
+          "be": "Парк малпаў Джигокудани"
+        },
+        "imageUrl": "",
+        "description": {
+          "en": "Jigokudani Monkey Park is a famous hot spring area near Nagano. The park got its name Jigokudani (which means 'Hell Valley') for the steam and boiling water that bubbles in the springs surrounded be steep rocks and dense forests. This park is famous for its large population of wild snow monkeys that travel to the valley in winter when snow covers everything around. Monkeys descend from steep cliffs and forests to bask in warm hot springs, and return to the woods in the evenings.",
+          "ru": "Парк обезьян Дзигокудани - это известная область с горячими источниками недалеко от Нагано. Название Джигокудани (что означает «Адская долина») парк получил за пар и кипящую воду, которая пузырится в источниках, окружённых крутыми скалами и густыми лесами. Данный парк славится большой популяцией диких снежных обезьян, которые отправляются в долину зимой, когда снег покрывает всё вокруг. Обезьяны спускаются с крутых скал и лесов, чтобы погреться в теплых горячих источниках, а по вечерам возвращаются обратно в леса.",
+          "be": "Парк малпаў Дзигокудани - гэта вядомая вобласць з гарачымі крыніцамі недалёка ад Нагана. Назва Джигокудани (што азначае «Адская даліна») парк атрымаў за пар і кіпячую ваду, якая бурбалкі ў крыніцах, акружаных стромкімі скаламі і густымі лясамі. Дадзены парк славіцца вялікай папуляцыяй дзікіх снежных малпаў, якія адпраўляюцца ў даліну зімой, калі снег пакрывае ўсё вакол. Малпы спускаюцца з стромкіх скал і лясоў, каб пагрэцца ў цёплых гарачых крыніцах, а па вечарах вяртаюцца назад у лясы."
+        }
+      },
+      {
+        "name": {
+          "en": "Arashiyama bamboo grove",
+          "ru": "Бамбуковая роща Арасияма",
+          "be": "Бамбукавая гай Арасияма"
+        },
+        "imageUrl": "",
+        "description": {
+          "en": "Himeji is called the White Heron's castle. Its walls are snow-white, and the lines and features are graceful, like a bird. During its existence, the castle did not suffer from fires or enemy raids. And if anyone tried to capture the castle, he would be entangled in the maze of gardens and rooms. The whole complex is 83 buildings. Sakura blossoms around them, which makes the castle even more beautiful. Not surprisingly, he has been featured in films on numerous occasions.",
+          "ru": "Химэдзи называют замком Белой Цапли. Его стены белоснежные, а линии и черты грациозные, как у птицы. За время своего существования замок не страдал от пожаров или вражеских набегов. А если бы кто и попытался захватить замок, то запутался бы в лабиринтах садов и комнат. Весь комплекс – это 83 сооружения. Вокруг них цветет сакура, что делает замок еще прекраснее. Не удивительно, что его неоднократно снимали в фильмах.",
+          "be": "Химэдзи называюць замкам белай чаплі. Яго сцены беласнежныя, а лініі і рысы грацыёзныя, як у птушкі. За час свайго існавання замак не пакутаваў ад пажараў або варожых набегаў. А калі б хто і паспрабаваў захапіць замак, то заблытаўся бы ў лабірынтах садоў і пакояў. Увесь комплекс - гэта 83 збудавання. Вакол іх квітнее сакура, што робіць замак яшчэ выдатней. Не дзіўна, што яго неаднаразова здымалі ў фільмах."
+        }
+      },
+      {
+        "name": {
+          "en": "Shibuya area",
+          "ru": "Район Сибуя",
+          "be": "Раён Сибуя"
+        },
+        "imageUrl": "",
+        "description": {
+          "en": "It is one of Tokyo's 23 special districts. Once it was a village, then a small town. It is now part of the capital and the center of nightlife, entertainment, fashion and shopping. There are also some of the tallest skyscrapers in the city, Microsoft and Coca-Cola offices. The center of the district is the Hachiko monument. In addition to boutiques and entertainment centers, there are museums and temples.",
+          "ru": "Это один из 23 специальных районов Токио. Когда-то он был деревней, потом небольшим городком. Теперь это часть столицы и центр ночной жизни, развлечений, моды и шопинга. Также тут расположены одни из самых высоких небоскребов города, офисы Майкрософт и Кока-Кола. Центром района считают памятник Хатико. Кроме бутиков и развлекательных центров тут есть музеи и храмы.",
+          "be": "Гэта адзін з 23 спецыяльных раёнаў Токіо. Калісьці ён быў вёскай, потым невялікім мястэчкам. Цяпер гэта частка сталіцы і цэнтр начнога жыцця, забаў, моды і шопінгу. Таксама тут размешчаны адны з самых высокіх хмарачосаў горада, офісы Майкрасофт і Кока-Кола. Цэнтрам раёна лічаць помнік Хатико. Акрамя буцікаў і забаўляльных цэнтраў тут ёсць музеі і храмы."
+        }
+      },
+      {
+        "name": {
+          "en": "Fushimi Inari shrine in Kyoto",
+          "ru": "Храм Фусими Инари в Киото",
+          "be": "Храм Фусими Інара ў Кіёта"
+        },
+        "imageUrl": "",
+        "description": {
+          "en": "Fushimi Inari Shrine is known mainly for the myriad Torii Gates donated be the faithful. The gate is located along the road to the temple, which goes up a wooded mountain to Inari-san, where the main building of the temple is located. It takes about two hours to walk to the temple along this alley. On the way to the top, passing through the torii, you will see small chapels, tombs and statues of foxes that are the messengers of this god. Also, about halfway up there will be an observation deck overlooking Kyoto.",
+          "ru": "Храм Фусими Инари известен, главным образом, несметным количеством Ворот-Тории, которые были пожертвованы верующими. Ворота располагаются по дороге к храму, которая уходит в лесистую гору к Инари-сан, где расположено основное здание храма. Чтобы дойти пешком до храма по этой аллее, необходимо около двух часов. По пути к вершине, проходя через тории, вы будете видеть небольшие часовни, могилы и статуи лис, которые являются посланниками этого бога. Так же где-то на полпути наверх будет обзорная площадка с видом на Киото.",
+          "be": "Храм Фусими Інара вядомы, галоўнай выявай, незлічоным колькасцю Брамы-Тории, якія былі ахвяраваны вернікамі. Вароты размяшчаюцца па дарозе да храма, якая сыходзіць у лясістую гару да Інара-сан, дзе размешчана асноўны будынак храма. Каб дайсці пешшу да храма па гэтай алеі, неабходна каля двух гадзін. Па шляху да вяршыні, праходзячы праз тории, вы будзеце бачыць невялікія капліцы, магілы і статуі ліс, якія з'яўляюцца пасланцамі гэтага бога. Гэтак жа дзесьці на паўшляху наверх будзе аглядная пляцоўка з выглядам на Кіёта."
+        }
+      },
+      {
+        "name": {
+          "en": "Kinkakuji Temple",
+          "ru": "Храм Кинкакудзи",
+          "be": "Храм Кинкакудзи"
+        },
+        "imageUrl": "",
+        "description": {
+          "en": "The three-story Kinkakuji Temple or Golden Pavilion is a repository of Buddhist relics on the territory of the Rokuonji temple complex in the Japanese city of Kyoto. The Buddhist temple began to be called the 'Golden Pavilion' because it is covered with gold leaf, on top of which a layer of protective varnish is applied. Kinkakuji Temple is famous as an architectural monument of Japanese culture of the early XIV century and fits perfectly into the surrounding landscape.",
+          "ru": "Трехэтажный храм Кинкакудзи или Золотой павильон – это хранилище буддистских реликвий на территории храмового комплекса Рокуондзи в японском городе Киото. «Золотым павильоном» буддистский храм стали называть потому, что он покрыт сусальным золотом, поверх которого нанесен слой защитного лака. Храм Кинкакудзи знаменит как архитектурный памятник японской культуры начала XIV века и прекрасно вписывается в окружающий ландшафт.",
+          "be": "Трохпавярховы храм Кинкакудзи або Залаты павільён - гэта сховішча будысцкіх рэліквій на тэрыторыі храмавага комплексу Рокуондзи ў японскім горадзе Кіёта. «Залатым павільёнам» будысцкі храм сталі называць таму, што ён пакрыты сусальным золатам, па-над якім нанесены пласт ахоўнага лаку. Храм Кинкакудзи знакаміты як архітэктурны помнік японскай культуры пачатку XIV стагоддзя і выдатна ўпісваецца ў навакольны ландшафт."
+        }
+      }
+    ]
+  },
+  "korea": {
+    "id": "korea",
+    "geoCenter": [127.047325, 37.517235],
+    "countryCode": "KOR",
+    "countryName": {
+      "en": "South Korea",
+      "ru": "Южная Корея",
+      "be": "Паўднёвая Карэя"
+    },
+    "capitalName": {
+      "en": "Seoul",
+      "ru": "Сеул",
+      "be": "Сеул"
+    },
+    "description": {
+      "en": "Korea might be known as the Land of the Morning Calm, but dive into its capital Seoul, the powerhouse of Asia’s third-largest economy, and serenity may be the last thing you’ll perceive. This round-the-clock city is constantly in motion. It captivates with its contrasts: an ancient Buddhist temple surrounded by skyscrapers, plastic surgery clinics at every corner, women of fashion walking in stilettos and light coats in 12-degree frost, grandmothers with the same hairstyle and traditional street food. Here, always and everywhere, you can catch high-speed free Internet. It's never boring in South Korea.",
+      "ru": "Южная Корея, так же известна как Страна утреннего спокойствия, но погрузитесь в ее столицу Сеул, центр третьей по величине экономики Азии, и спокойствие может быть последним, что вы почувствуете. Этот город постоянно находится в движении. Он подкупает своими контрастами: древний буддистский храм, окруженный небоскребами, клиники пластической хирургии на каждом углу, модницы, вышагивающие в туфлях на шпильке и легких пальто в 12-градусный мороз, бабушки с одинаковыми прическами и традиционная уличная еда. Здесь всегда и везде можно поймать скоростной бесплатный интернет. В Южной Корее никогда не бывает скучно.",
+      "be": "Паўднёвая Карэя можа быць вядомая як Краіна ранішняга спакою, але акунуцца ў яе сталіцу Сеул, цэнтр трэцяй па велічыні эканомікі Азіі, і спакой можа быць апошнім, што вы адчуеце. Гэты горад пастаянна знаходзіцца ў руху. Ён падкупляе сваімі кантрастамі: старажытны будысцкі храм, акружаны хмарачосамі, клінікі пластычнай хірургіі на кожным куце, модніцы, крочыў у туфлях на шпільцы і лёгкіх паліто ў 12-градусны мароз, бабулі з аднолькавымі прычоскамі і традыцыйная вулічная ежа. Тут заўсёды і паўсюль можна злавіць хуткасны бясплатны інтэрнэт. У Паўднёвай Карэі ніколі не бывае сумна."
+    },
+    "shortDescription": {
+      "en": "The Land of Morning Calm, the birthplace of k-pop, k-dramas, k-fashion, k-beauty. Maybe it's time to find out why the whole world is crazy about South Korea?",
+      "ru": "Страна Утренней Свежести, родина k-pop, k-dramas, k-fashion, k-beauty. Может пора узнать, почему весь мир без ума от Южной Кореи?",
+      "be": "Краіна ранішняй свежасці, радзіма k-pop, k-dramas, k-fashion, k-beauty. Может пора даведацца, чаму ўвесь свет без розуму ад Паўднёвай Карэі?"
+    },
+    "currency": {
+      "en": "Korean Republic won",
+      "ru": "Южнокорейская вона",
+      "be": "Паўднёвакарэйская вона"
+    },
+    "currencyCode": "KRW",
+    "timeZone": "Asia/Seoul",
+    "imageUrl": "korea.jpg",
+    "videoURL": "https://www.youtube.com/watch?v=sHPdvjovVjs&list=PL4Lb93R1nd7enmsWJgYEgmSi-dnwy3OMx&index=2",
+    "places": [
+      {
+        "name": {
+          "en": "Changdeokgung",
+          "ru": "Чхандоккун",
+          "be": "Чхандоккун"
+        },
+        "imageUrl": "palace.jpg",
+        "description": {
+          "en": "The World Heritage–listed Changdeokgung is the most beautiful of Seoul's five main palaces. The 'Palace of Illustrious Virtue' was built in the early 15th century as a secondary palace to Gyeongbukgung, but when Gyeongbokgung was destroyed during the Japanese invasion in the 1590s, it became the primary royal residence until 1872. Many of its buildings were actually lived in by members of the royal family well into the 20th century. Like all Joseon palaces, it has a mountain behind it and a small stream in front – good pungsu (feng shui). The most charming section is the Huwon, a ‘secret garden’ that is a royal horticultural idyll.",
+          "ru": "Чхандоккун, внесенный в список всемирного наследия, является самым красивым из пяти главных дворцов Сеула. «Дворец выдающейся добродетели» был построен в начале 15 века как второй дворец после Кёнбуккуна, но когда Кёнбоккун был разрушен во время японского вторжения в 1590-х годах, он стал главной королевской резиденцией до 1872 года. В его стенах жили члены королевской семьи вплоть до ХХ века. Как и все дворцы Чосон, за ним виднеется гора, а спереди небольшой ручей - хорошее пунгсу (фэн-шуй). Самая очаровательная часть дворца - Хувон, «секретный сад», представляющий собой королевскую садоводческую идиллию.",
+          "be": "Чхандоккун, унесены ў спіс сусветнай спадчыны, з'яўляецца самым прыгожым з пяці галоўных палацаў Сеула. «Палац выбітнай цноты» быў пабудаваны ў пачатку 15 стагоддзя як другі палац пасля Кёнбуккуна, але калі Кёнбоккун быў разбураны падчас японскага ўварвання ў 1590-х гадах, ён стаў галоўнай каралеўскай рэзідэнцыяй да 1872 года. У яго сценах жылі члены каралеўскай сям'і аж да ХХ стагоддзя. Як і ўсе палацы Чосон, за ім віднеецца гара, а спераду невялікі ручай - добрае пунгсу (фэн-шуй). Самая чароўная частка палаца - Хувон, «сакрэтны сад», які ўяўляе сабой каралеўскую садаводчых ідылію."
+        }
+      },
+      {
+        "name": {
+          "en": "Bukchon Hanok Village",
+          "ru": "Деревня Букчон Ханок",
+          "be": "Вёска Букчон Ханок"
+        },
+        "imageUrl": "village.jpg",
+        "description": {
+          "en": "Check out this folk village if you're interested in seeing how people lived in South Korea a long time ago. It is an open-air museum of small tiled houses selling souvenirs, tea ceremonies and small museums that tell the story of the country.",
+          "ru": "Загляни в эту фольклорную деревню, если тебе интересно увидеть, как жили в Южной Корее энное количество времени назад. Это музей под открытым небом, состоящий из маленьких домиков, покрытых черепицей, в которых продаются сувениры, устраиваются чайные церемонии и находятся небольшие музеи, рассказывающие об истории страны.",
+          "be": "Зазірні ў гэтую фальклорную вёску, калі табе цікава ўбачыць, як жылі ў Паўднёвай Карэі энная колькасць часу таму. Гэта музей пад адкрытым небам, які складаецца з маленькіх домікаў, пакрытых дахоўкай, у якіх прадаюцца сувеніры, уладкоўваюцца чайныя цырымоніі і знаходзяцца невялікія музеі, якія распавядаюць пра гісторыю краіны."
+        }
+      },
+      {
+        "name": {
+          "en": "Hallyeohaesang National Park",
+          "ru": "Национальный парк Халлеохэсан",
+          "be": "Нацыянальны парк Халлеохэсан"
+        },
+        "imageUrl": "park.jpg",
+        "description": {
+          "en": "This beautiful national park includes miles of raw coastline on over 300 separate islands. Each has hiking trails with spectacular ocean and cliff views. The area also features a cable car, known as the Hallyeosudo Viewing Ropeway. The ride is almost 2.4 kilometers long and takes nine minutes to reach the summit. You're rewarded with sweeping views of the countryside and coastline, including the Japanese island of Daemado.",
+          "ru": "Этот красивый национальный парк включает километры необработанной береговой линии на более чем 300 отдельных островах. У каждого есть пешеходные тропы с захватывающим видом на океан и скалы. В этом районе также есть канатная дорога, известная как канатная дорога Халлиёсудо. Поездка протяженностью почти 2,4 километра занимает девять минут, чтобы добраться до вершины. Вы будете вознаграждены потрясающим видом на сельскую местность и побережье, в том числе на японский остров Дэмадо.",
+          "be": "Гэты прыгожы нацыянальны парк ўключае кіламетры неапрацаванай берагавой лініі на больш чым 300 асобных выспах. У кожнага ёсць пешаходныя сцежкі з захапляльным выглядам на акіян і скалы. У гэтым раёне таксама ёсць канатная дарога, вядомая як канатная дарога Халлиёсудо. Паездка працягласцю амаль 2,4 кіламетра займае дзевяць хвілін, каб дабрацца да вяршыні. Вы будзеце ўзнагароджаныя узрушаючым выглядам на сельскую мясцовасць і ўзбярэжжа, у тым ліку на японскі востраў Дэмадо."
+        }
+      },
+      {
+        "name": {
+          "en": "Jeju Island",
+          "ru": "Чеджу",
+          "be": "Чеджу"
+        },
+        "imageUrl": "island.jpg",
+        "description": {
+          "en": "Jeju is a volcanic island, nicknamed the Hawaii of South Korea. The island boasts beautiful beaches along with a lot of culture and history. The highest mountain in South Korea (a dormant volcano called Hallasan) is here along with miles of giant lava tubes. The lava tubes, which can be explored, are natural air pockets in the hardened lava, the size of railway tunnels.",
+          "ru": "Чеджу - вулканический остров, прозванный южнокорейскими Гавайями. Остров может похвастаться прекрасными пляжами, а также богатой культурой и историей. Здесь находится самая высокая гора в Южной Корее (спящий вулкан Халласан), а также километры гигантских лавовых труб. Лавовые трубы, которые можно исследовать, представляют собой естественные воздушные карманы в затвердевшей лаве размером с железнодорожные туннели.",
+          "be": "Чеджу - вулканічны востраў, празваны паўднёвакарэйскімі Гаваях. Востраў можа пахваліцца выдатнымі пляжамі, а таксама багатай культурай і гісторыяй. Тут знаходзіцца самая высокая гара ў Паўднёвай Карэі (спячы вулкан Халласан), а таксама кіламетры гіганцкіх лававых труб. Лававыя трубы, якія можна даследаваць, ўяўляюць сабой натуральныя паветраныя кішэні ў зацвярдзелай лаве памерам з чыгуначныя тунэлі."
+        }
+      },
+      {
+        "name": {
+          "en": "Seoraksan National Park",
+          "ru": "Национальный парк Сораксан",
+          "be": "Нацыянальны парк Сораксан"
+        },
+        "imageUrl": "park2.jpg",
+        "description": {
+          "en": "If you want to go hiking, see the best known mountain range in South Korea or just get some epic photos, then make sure you visit the Seoraksan National Park. Within the park you’ll find pine forests, jagged and rocky mountain peaks, crystal clear streams and stunning lakes. The park is also known for its natural diversity, it is home to over 2,000 animal species.",
+          "ru": "Если вы хотите отправиться в поход, увидеть самый известный горный хребет в Южной Корее или просто сделать несколько эпических фотографий, обязательно посетите национальный парк Сораксан. В парке вы найдете сосновые леса, неровные и скалистые горные вершины, кристально чистые ручьи и потрясающие озера. Парк также известен своим природным разнообразием, в нем обитает более 2000 видов животных.",
+          "be": "Калі вы жадаеце адправіцца ў паход, убачыць самы вядомы горны хрыбет у Паўднёвай Карэі ці проста зрабіць некалькі эпічных фотаздымкаў, абавязкова наведайце нацыянальны парк Сораксан. У парку вы знойдзеце сасновыя лясы, няроўныя і скалістыя горныя вяршыні, крышталёва чыстыя ручаі і цудоўныя возера. Парк таксама вядомы сваім прыродным разнастайнасцю, і ў ім прабывае больш за 2000 відаў жывёл."
+        }
+      },
+      {
+        "name": {
+          "en": "Demilitarized Zone DMZ",
+          "ru": "Демилитаризованная зона DMZ",
+          "be": "Дэмілітарызаваная зона DMZ"
+        },
+        "imageUrl": "dmz.jpg",
+        "description": {
+          "en": "The 4km-wide, 240km-long buffer known as the Demilitarized Zone (DMZ) slashes across the peninsula, separating North and South Korea. From Freedom House, tourists can observe the North Korean side through binoculars. Also, depending on the chosen tour, you will have the opportunity to go down into the underground military tunnel and visit the 'blue houses' of the UN. Inside them is the official border of the two countries - an invisible line dividing South and North Korea.",
+          "ru": "Буферная зона шириной 4 км и длиной 240 км, известная как демилитаризованная зона (ДМЗ), пересекает полуостров, разделяя Северную и Южную Корею. Из Дома свободы туристы могут понаблюдать за северокорейской стороной через бинокль. Также, в зависимости от выбранного тура, у тебя будет возможность спуститься в подземный военный туннель и посетить «голубые домики» ООН. Внутри них проходит официальная граница двух стран – невидимая линия, разделяющая Южную и Северную Кореи.",
+          "be": "Буферная зона шырынёй 4 км і даўжынёй 240 км, вядомая як дэмілітарызаваная зона (ДМЗ), перасякае паўвостраў, падзяляючы Паўночную і Паўднёвую Карэю. З Дома свабоды турысты могуць паназіраць за паўночнакарэйскай бокам праз бінокль. Таксама, у залежнасці ад абранага тура, у цябе будзе магчымасць спусціцца ў падземны ваенны тунэль і наведаць «блакітныя домікі» ААН. Унутры іх праходзіць афіцыйная мяжа дзвюх краін - нябачная лінія, якая падзяляе Паўднёвую і Паўночную Карэі."
+        }
+      }
+    ]
+  },
+  "indonesia": {
+    "id": "indonesia",
+    "geoCenter": [106.774124, -6.121435],
+    "countryCode": "IDN",
+    "countryName": {
+      "en": "Indonesia",
+      "ru": "Индонезия",
+      "be": "Інданезія"
+    },
+    "capitalName": {
+      "en": "Jakarta",
+      "ru": "Джакарта",
+      "be": "Джакарта"
+    },
+    "description": {
+      "en": "Indonesia is the world's largest island country. It consists of more than seventeen thousand islands, including Sumatra, Java, Sulawesi, Bali, parts of Borneo (Kalimantan) and the western half of New Guinea. With more than 270 million people, Indonesia is the world's fourth-most populous country and the most populous Muslim-majority country.",
+      "ru": "Индонезия является крупнейшим островным государством в мире. Расположена на более чем семнадцати тысяч островов, включая Суматру, Яву, Сулавеси, Бали, части Борнео (Калимантан) и западную половину Новой Гвинеи. Индонезия с населением более 270 миллионов человек занимает четвёртое место в мире по численности населения. Около 88 % населения исповедует ислам, что делает её страной с наибольшим мусульманским населением в мире.",
+      "be": "Інданезія з'яўляецца найбуйнейшай астраўной дзяржавай у свеце. Размешчана на больш чым семнаццаць тысяч выспаў, уключаючы Суматру, Яву, Сулавесі, Балі, часткі Барнэа (Калімантан) і заходнюю палову Новай Гвінеі. Інданезія з насельніцтвам больш за 270 мільёнаў чалавек займае чацвёртае месца ў свеце па колькасці насельніцтва. Каля 88% насельніцтва вызнае іслам, што робіць яе краінай з найбольшым мусульманскім насельніцтвам у свеце."
+    },
+    "shortDescription": {
+      "en": "Travel to Indonesia can be as varied as possible: there are majestic mountains, glorious temples, national parks, several volcanoes, and paradise beaches where you can watch turtles or learn how to surf.",
+      "ru": "Путешествие в Индонезию может получиться максимально разнообразным: тут и величественные горы, и храмы, и национальные парки, и несколько вулканов, и райские пляжи, где можно понаблюдать за черепахами или научиться серфингу.",
+      "be": "Падарожжа ў Інданэзію можа атрымацца максімальна разнастайным: тут і велічныя горы, і храмы, і нацыянальныя паркі, і некалькі вулканаў, і райскія пляжы, дзе можна паназіраць за чарапахамі або навучыцца серфінгу."
+    },
+    "currency": {
+      "en": "Indonesian rupiah",
+      "ru": "Индонезийская рупия",
+      "be": "Інданезійская рупія"
+    },
+    "currencyCode": "IDR",
+    "timeZone": "Asia/Jakarta",
+    "imageUrl": "indonesia.jpg",
+    "videoURL": "https://www.youtube.com/watch?v=8c1cU4CI7SE&ab_channel=TheWorldTravelGuy",
+    "places": [
+      {
+        "name": {
+          "en": "Dieng Plateau",
+          "ru": "Плато Диенг",
+          "be": "Плато Диенг"
+        },
+        "imageUrl": "dieng.jpg",
+        "description": {
+          "en": "The lofty volcanic plateau of Dieng (Abode of the Gods), a fertile landscape laced with terraced potato and tobacco fields, is home to some of the oldest Hindu architecture in Java. More than 400 temples, most dating from the 8th and 9th centuries, originally covered this 2000m-high plain, but they were abandoned and forgotten and only rediscovered in 1856 by the archaeologist Van Kinsbergen. In addition, there are many interesting natural attractions formed by volcanic activity: geysers, volcanic lakes, hot springs, inactive volcanoes.",
+          "ru": "Высокогорное вулканическое плато Диенг (Обитель богов), плодородный ландшафт, пронизанный террасами картофельных и табачных полей, является домом для некоторых из старейших индуистских построек на Яве. Более 400 храмов, большинство из которых относятся к VIII и IX векам, первоначально занимали эту равнину высотой 2000 м, но они были заброшены и забыты, и вновь обнаружены только в 1856 году археологом Ван Кинсбергеном. Кроме того, здесь находится множество природных достопримечательностей, образованных вулканической активностью: гейзеры, вулканические озера, горячие источники, неактивные вулканы.",
+          "be": "Высакагорнае вулканічнае плато Диенг (Прыстанак багоў), урадлівы ландшафт, працяты тэрасамі бульбяных і тытунёвых палёў, з'яўляецца домам для некаторых з найстарэйшых індуісцкіх пабудоў на Яве. Больш за 400 храмаў, большасць з якіх адносяцца да VIII і IX стагоддзям, першапачаткова займалі гэтую раўніну вышынёй 2000 м, але яны былі закінуты і забыты, і зноў выяўлены толькі ў 1856 году археолагам Ван Кинсбергеном. Акрамя таго, тут знаходзіцца мноства прыродных славутасцяў, адукаваных вулканічнай актыўнасцю: гейзеры, вулканічныя возера, гарачыя крыніцы, неактыўныя вулканы."
+        }
+      },
+      {
+        "name": {
+          "en": "Borobudur",
+          "ru": "Боробудур",
+          "be": "Барабудур"
+        },
+        "imageUrl": "borobudur.jpg",
+        "description": {
+          "en": "The Borobudur Temple is one of the greatest Buddhist monuments in the world, and was built in the 8th and 9th centuries. For hundreds of years, Borobudur lay covered with volcanic ash and overgrown with jungle and was discovered only in 1814 during the Anglo-Dutch war. After the monument was plundered, the reliefs, sculptures, ornaments were taken away by the merchants of souvenirs. And only in the 1970s the monument was restored with UNESCO's help. Until now, Borobudur is a place of pilgrimage and prayer. Pilgrims walk seven times clockwise at each level. Touching each Buddha from the stupas on the upper tier, according to beliefs, brings happiness.",
+          "ru": "Храм Боробудур - один из величайших буддийских памятников в мире, он был построен в 8-м и 9-м веках. Сотни лет Боробудур лежал покрытый вулканическим пеплом и заросший джунглями и обнаружен лишь в 1814 году во время англо-голландской войны. После памятник разворовывали, рельефы, скульптуры, орнамент растаскивали торговцы сувенирами. И только в 1970-е гг. была проведена реставрация под эгидой ЮНЕСКО. До сих пор Боробудур является местом паломничества и молитв. Паломники проходят семь раз по часовой стрелке на каждом уровне. Прикосновение к каждому Будде из ступ на верхнем ярусе, согласно повериям, приносит счастье.",
+          "be": "Храм Боробудур - адзін з найвялікшых будыйскіх помнікаў у свеце, ён быў пабудаваны ў 8-м і 9-м стагоддзях. Сотні гадоў Барабудур ляжаў пакрыты вулканічным попелам і зарослы джунглямі, і знойдзены толькі ў 1814 годзе падчас англа-галандскай вайны. Пасля помнік раскрадалі, рэльефы, скульптуры, арнамент развалакалі гандляры сувенірамі. І толькі ў 1970-я гг. была праведзена рэстаўрацыя пад эгідай ЮНЕСКА. Да гэтага часу Барабудур з'яўляецца месцам паломніцтва і малітваў. Паломнікі праходзяць сем разоў па гадзіннікавай стрэлцы на кожным узроўні. Дотык да кожнага Буды з ступ на верхнім ярусе, паводле павер'яў, прыносіць шчасце."
+        }
+      },
+      {
+        "name": {
+          "en": "Tanjung Puting National Park",
+          "ru": "Национальный парк Танджунгпутинг",
+          "be": "Нацыянальны парк Танджунгпутінг"
+        },
+        "imageUrl": "orangutan.jpg",
+        "description": {
+          "en": "No trip to Indonesia would be complete without seeing some orangutans, and Tanjung Puting is home to the largest orangutan population in the world, as well as other primates, birds, and reptiles. Also you will get a vast, mostly untouched tropical jungle with fresh air, mystical morning fog, birds chirping, and rivers gushing.",
+          "ru": "Ни одно путешествие в Индонезию не будет полным, если вы не увидите орангутанов, а Танджунг Путинг является домом для самой большой в мире популяции орангутанов, а также других приматов, птиц и рептилий. Также вас ждут обширные, в основном нетронутые тропические джунгли со свежим воздухом, мистическим утренним туманом, щебетанием птиц и фонтаном рек.",
+          "be": "Ні адно падарожжа ў Інданэзію не будзе поўным, калі вы не ўбачыце арангутанаў, а Танджунг Путинг з'яўляецца домам для самай вялікай у свеце папуляцыі арангутанаў, а таксама іншых прыматаў, птушак і рэптылій. Таксама вас чакаюць шырокія, у асноўным некранутыя трапічныя джунглі са свежым паветрам, містычным ранішнім туманам, ціўканнем птушак і фантанам рэк."
+        }
+      },
+      {
+        "name": {
+          "en": "Raja Ampat",
+          "ru": "Раджа-Ампат",
+          "be": "Раджа-Ампат"
+        },
+        "imageUrl": "island.jpg",
+        "description": {
+          "en": "The fairlyland of lush, cone-shaped islands set against blue and turquoise waters is one of Indonesia's most spectacular sights. Hundreds of islands and cays make up this tropical paradise, but the beauty extends beneath the surface as well. Colorful fish and a diverse variety of marine life thrive in the warm, clear waters. In fact, the coral reefs here are some of the most biodiverse on the planet, making it a popular area for diving in Indonesia.",
+          "ru": "Волшебный мир пышных островов конической формы на фоне голубых и бирюзовых вод - одна из самых впечатляющих достопримечательностей Индонезии. Сотни островов и рифов составляют этот тропический рай, но красота простирается и под водой. Яркие рыбы и разнообразные морские обитатели прекрасно чувствуют себя в теплых, чистых водах. Находящиеся здесь коралловые рифы одни из самых биоразнообразных на планете, что делает Раджа-Ампат популярным местом для дайвинга.",
+          "be": "Чароўны свет пышных выспаў канічнай формы на фоне блакітных і бірузовы вод - адна з самых уражлівых славутасцяў Інданезіі. Сотні выспаў і рыфаў складаюць гэты трапічны рай, але прыгажосць распасціраецца і пад вадой. Яркія рыбы і разнастайныя марскія насельнікі выдатна адчуваюць сябе ў цёплых, чыстых водах. Каралавыя рыфы, што знаходзяцца тут, адны з самых біяразнастайных на планеце, што робіць Раджа-Ампат папулярным месцам для дайвінга."
+        }
+      },
+      {
+        "name": {
+          "en": "Komodo National Park",
+          "ru": "Национальный парк Комодо",
+          "be": "Нацыянальны парк Комодо"
+        },
+        "imageUrl": "komodo.jpg",
+        "description": {
+          "en": "A mighty and otherworldly lizard, the Komodo is arguably one of the most fascinating creatures on earth—one you can only encounter in the wild at Indonesia’s Komodo National Park. Captivating as it is, the Komodo is hardly the only interesting thing in this string of exotic islands that constitute the Komodo National Park. The three islands—Komodo, Padar, and Rinca—have glorious tropical hills and a beach view, along with a breathtaking coastline and thriving underwater wildlife. The Komodo Island even has the famed pink sand beach, while Padar Island has an iconic hill with a view of three magnificent bays.",
+          "ru": "Могучий и опасный дракон Комодо, возможно, является одним из самых очаровательных существ на земле, с которым вы можете встретиться в дикой природе только в национальном парке Комодо. Комодо - увлекательный, но далеко не единственный интересный остров в национальном парке. Все три острова - Комодо, Падар и Ринка - могут похвастаться пышными тропическими холмами и великолепными пляжами, а также захватывающую дух береговой линией и богатым подводным миром. На острове Комодо найдете знаменитый пляж с розовым песком, а на острове Падар есть знаменитый холм с видом на три великолепных залива.",
+          "be": "Магутны і небяспечны цмок Комодо, магчыма, з'яўляецца адным з самых чароўных істот на зямлі, з якім вы можаце сустрэцца ў дзікай прыродзе толькі ў нацыянальным парку Комодо. Комодо - займальны, але далёка не адзіны цікавы востраў у нацыянальным парку. Усе тры выспы - Комодо, Падар і Рынке - могуць пахваліцца пышнымі трапічнымі пагоркамі і пышнымі пляжамі, а таксама захапляльны дух берагавой лініяй і багатым падводным светам. На выспе Комодо знойдзеце знакаміты пляж з ружовым пяском, а на востраве Падар ёсць знакаміты пагорак з выглядам на тры цудоўных заліва."
+        }
+      },
+      {
+        "name": {
+          "en": "Jatiluwih Rice Terraces",
+          "ru": "Рисовые террасы Джатилувих",
+          "be": "Рысавыя тэрасы Джацілувіх"
+        },
+        "imageUrl": "rice.jpg",
+        "description": {
+          "en": "One of UNESCO Cultural Heritage Sites, the Jatiluwih rice terraces comprise over 600 hectares of rice fields that follow the flowing topography of the Batukaru mountain range. These rice terraces are maintained the local culture heritage in form of water irrigation system managed traditionally called by subak. It is one of recommended places to visit in Bali with the beautiful view. They give new meaning to the word green. They crawl up the sides of the hills like steps leading you towards the sky.",
+          "ru": "Один из объектов культурного наследия ЮНЕСКО, рисовые террасы Джатилувих составляют более 600 гектаров рисовых полей, которые повторяют рельеф горного хребта Батукару. Эти рисовые террасы сохраняют местное культурное наследие в виде системы водного орошения, которая называется субак. Это одно из самых рекомендуемых к посещению мест на Бали с прекрасными видами. Они придают новое значение слову зеленый. Рисовые террасы ползут вверх по склонам холмов, как ступеньки, ведущие к небу.",
+          "be": "Адзін з аб'ектаў культурнай спадчыны ЮНЕСКА, рысавыя тэрасы Джацілувіх складаюць больш за 600 гектараў рысавых палёў, якія паўтараюць рэльеф горнага хрыбта Батукару. Гэтыя рысавыя тэрасы захоўваюць мясцовую культурную спадчыну ў выглядзе сістэмы воднага арашэння, якая называецца субак. Гэта адно з самых рэкамендуемых да наведвання месцаў на Балі з выдатнымі відамі. Яны надаюць новае значэнне слову зялёны. Рысавыя тэрасы паўзуць уверх па схілах пагоркаў, як прыступкі, якія вядуць да неба."
+        }
+      }
+    ]
+  },
+  "philippines": {
+    "id": "philippines",
+    "countryName": {
+      "en": "Philippines",
+      "ru": "Филиппины",
+      "be": "Філіпіны"
+    },
+    "capitalName": {
+      "en": "Manila",
+      "ru": "Манила",
+      "be": "Маніла"
+    },
+    "description": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "shortDescription": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "currency": "х",
+    "imageUrl": "х",
+    "videoURL": "х",
+    "places": [
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      }
+    ]
+  },
+  "vietnam": {
+    "id": "vietnam",
+    "countryName": {
+      "en": "Vietnam",
+      "ru": "Вьетнам",
+      "be": "В'етнам"
+    },
+    "capitalName": {
+      "en": "Hanoi",
+      "ru": "Ханой",
+      "be": "Ханой"
+    },
+    "description": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "shortDescription": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "currency": "х",
+    "imageUrl": "х",
+    "videoURL": "х",
+    "places": [
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      }
+    ]
+  },
+  "laos": {
+    "id": "laos",
+    "countryName": {
+      "en": "Laos",
+      "ru": "Лаос",
+      "be": "Лаос"
+    },
+    "capitalName": {
+      "en": "Vientiane",
+      "ru": "Вьентьян",
+      "be": "Вьентьян"
+    },
+    "description": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "shortDescription": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "currency": "х",
+    "imageUrl": "х",
+    "videoURL": "х",
+    "places": [
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      }
+    ]
+  },
+  "myanmar": {
+    "id": "myanmar",
+    "countryName": {
+      "en": "Myanmar",
+      "ru": "Мьянма",
+      "be": "М'янма"
+    },
+    "capitalName": {
+      "en": "Naypyidaw",
+      "ru": "Нейпьидо",
+      "be": "Нейпьидо"
+    },
+    "description": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "shortDescription": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "currency": "х",
+    "imageUrl": "х",
+    "videoURL": "х",
+    "places": [
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      }
+    ]
+  },
+  "singapore": {
+    "id": "singapore",
+    "countryName": {
+      "en": "Singapore",
+      "ru": "Сингапур",
+      "be": "Сінгапур"
+    },
+    "capitalName": {
+      "en": "Singapore",
+      "ru": "Сингапур",
+      "be": "Сінгапур"
+    },
+    "description": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "shortDescription": {
+      "en": "х",
+      "ru": "х",
+      "be": "х"
+    },
+    "currency": "х",
+    "imageUrl": "х",
+    "videoURL": "х",
+    "places": [
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      }
+    ]
+  },
+  "philippines": {
+    "id": "philippines",
+    "countryName": {
+      "en": "Philippines",
+      "ru": "Филиппины",
+      "be": "Філіпіны"
+    },
+    "capitalName": {
+      "en": "Manila",
+      "ru": "Манила",
+      "be": "Маніла"
+    },
+    "description": {
+      "en": "The Philippines is truly a holiday paradise. This island nation in Southeast Asia is becoming more and more popular with tourists. And if a couple of decades ago, mainly vacationers from Japan, South Korea and the United States came to the Philippines, then in recent years the islands have really attracted tourists from all over the world. And all because independent vacation in the Philippines is incredibly diverse and exciting.The nature of the Philippines will surprise even the most sophisticated traveler - on the islands there is an opportunity to visit remote corners and reserves with landscapes untouched by the human hand and the best beaches washed by the seas of the Philippines, the zest of which is given by volcanic rocks covered with greenery.Absolutely everyone, even the most demanding tourist, young and old, will find something to their liking in the Philippines.Beach lovers in the Philippines will be happy to spend time on the white beaches in the shade of tall palm trees, swimming in the emerald water.At the same time, on the best beaches in the world, you can spend time not only passively - the rich underwater world of the Philippines provides an opportunity for: fascinating snorkeling - colorful coral forests, starfish and urchins, a variety of bizarre underwater plants, fish and turtles - all this can be seen right next to the coast of the islands.The Philippines is popular with diving and freediving enthusiasts, with over 7,000 diving spots near the islands. The richest underwater world with coral reefs and their inhabitants, coupled with many wrecks from the Second World War, create ideal conditions for diving.Holidays in the Philippines are truly varied. Interesting and beautiful natural attractions are found throughout the Philippines. As a result, it is truly difficult for many travelers to choose which islands of the archipelago to visit.",
+      "ru": "Филиппины — поистине райское место для отдыха. Это островное государство в юго-восточной Азии становится все более популярным среди туристов. И если еще пару десятков лет назад на Филиппины приезжали в основном отдыхающие из Японии, Южной Кореи и США, то в последние годы острова привлекают туристов действительно со всего мира. А все потому, что самостоятельный отдых на Филиппинах невероятно разнообразен и увлекателен.Природа Филиппин удивит даже самого искушенного путешественника — на островах есть возможность посетить отдаленные уголки и заповедники с нетронутыми рукой человека пейзажами и лучшими пляжами, омываемыми морями Филиппин, изюминку которым придают вулканические скалы, покрытые зеленью.Абсолютно каждый, даже самый притязательный турист от мала до велика, найдет на Филиппинах занятие себе по душе. Любители пляжного отдыха на Филиппинах будут рады провести время на белоснежных пляжах в тени высоких пальм, купаясь в изумрудной воде.В то же время на лучших пляжах мира можно проводить время не только пассивно — богатый подводный мир Филиппин предоставляет возможность: увлекательного сноркелинга — разноцветные коралловые леса, морские звезды и ежи, разнообразные подводные растения причудливых форм, рыбки и черепахи — все это можно увидеть прямо у берегов островов.Филиппины популярны среди любителей дайвинга и фридайвинга — близ островов находится свыше 7,000 мест для дайвинга. Богатейший подводный мир с коралловыми рифами и их обитателями вкупе со множеством затонувших кораблей времен Второй мировой войны создают идеальные условия для дайвинга.Отдых на Филиппинах действительно разнообразен. Интересные и красивые природные достопримечательности находятся на Филиппинах повсеместно. И как следствие, многим путешественникам поистине сложно выбрать, какие именно острова архипелага выбрать для посещения.",
+      "be": "Філіпіны - сапраўды райскае месца для адпачынку. Гэта астраўная дзяржава ў паўднёва-ўсходняй Азіі становіцца ўсё больш папулярным сярод турыстаў. І калі яшчэ пару дзесяткаў гадоў таму на Філіпіны прыязджалі ў асноўным адпачывальнікі з Японіі, Паўднёвай Карэі і ЗША, то ў апошнія гады выспы прыцягваюць турыстаў сапраўды з усяго свету. А ўсё таму, што самастойны адпачынак на Філіпінах неверагодна разнастайны і цікавы.Прырода Філіпін здзівіць нават самага спрактыкаванага вандроўцы - на астравах ёсць магчымасць наведаць аддаленыя куткі і запаведнікі з некранутымі рукой чалавека краявідамі і лепшымі пляжамі, абмываецца морамі Філіпін, разыначку якім надаюць вулканічныя скалы, пакрытыя зелянінай.Абсалютна кожны, нават самы дамагальны турыст ад малога да вялікага, знойдзе на Філіпінах занятак сабе па душы.Аматары пляжнага адпачынку на Філіпінах будуць рады правесці час на беласнежных пляжах у цені высокіх пальмаў, купаючыся ў смарагдавай вадзе.У той жа час на лепшых пляжах свету можна праводзіць час не толькі пасіўна - багаты падводны свет Філіпін дае магчымасць: займальнага сноркелінга - рознакаляровыя каралавыя лясы, марскія зоркі і вожыкі, разнастайныя падводныя расліны мудрагелістых формаў, рыбкі і чарапахі - усё гэта можна ўбачыць прама ў берагоў астравоў.Філіпіны папулярныя сярод аматараў дайвінга і фридайвинга - блізу выспаў знаходзіцца звыш 7,000 месцаў для дайвінга. Найбагацейшы падводны свет з каралавымі рыфамі і іх насельнікамі разам са мноствам патанулых караблёў часоў Другой сусветнай вайны ствараюць ідэальныя ўмовы для дайвінга.Адпачынак на Філіпінах сапраўды разнастайны. Цікавыя і прыгожыя прыродныя славутасці знаходзяцца на Філіпінах паўсюдна. І як вынік, многім падарожнікам сапраўды складана выбраць, якія менавіта выспы архіпелага выбраць для наведвання."
+    },
+    "shortDescription": {
+      "en": "The state, consisting of 7641 islands, fully corresponds to the image of 'paradise on Earth': the warm waters of the Pacific Ocean, the silence of cozy lagoons, white beaches, the charm of volcanoes, sunsets of unique beauty and picturesque coral reefs with their colorful inhabitants.",
+      "ru": "Государство, состоящее из 7641 островов, полностью соответствующее образу «рая на Земле»: тёплые воды Тихого окена, тишина уютных лагун, белоснежные пляжи, очарование вулканов, неповторимой красоты закаты и живописные коралловые рифы с их красочными обитателями. ",
+      "be": "Дзяржава, якое складаецца з 7641 выспаў, цалкам адпаведнае вобразу «раю на Зямлі»: цёплыя воды Ціхага Окена, цішыня ўтульных лагун, беласнежныя пляжы, зачараванне вулканаў, непаўторнай прыгажосці заходы і жывапісныя каралавыя рыфы з іх маляўнічымі насельнікамі."
+    },
+    "currencyCode": "PHP",
+    "currency": {
+      "en": "Philippine peso",
+      "ru": "Филиппинское песо",
+      "be": "ПЕСО"
+    },
+    "timeZone": "Asia/Manila",
+    "countryCode": "PHP",
+    "geoCenter": [120.966667, 14.583333],
+    "imageUrl": "х",
+    "videoURL": "https://www.youtube.com/watch?v=o6lPnf0SR9E",
+    "places": [
+      {
+        "name": {
+          "en": "х",
+          "ru": "Эль-Нидо",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "Барокай",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "Шоколадные холмы Бохоль",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "Китовые акулы",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      },
+      {
+        "name": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        },
+        "imageUrl": "х",
+        "description": {
+          "en": "х",
+          "ru": "х",
+          "be": "х"
+        }
+      }
+    ]
   }
+}

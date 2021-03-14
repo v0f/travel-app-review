@@ -5,7 +5,6 @@ import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import MainPage from '../MainPage/MainPage';
 import CountryPage from '../CountryPage/CountryPage';
-
 import LangContext from '../Language-context/LangContext';
 
 import './App.css';
@@ -13,12 +12,29 @@ import './App.css';
 interface MatchParams {
   id: string;
 }
+
 interface MatchProps extends RouteComponentProps<MatchParams> {}
+
+interface HistoryProps extends RouteComponentProps<any> {}
 
 const App: React.FC = () => {
   const fromLS = localStorage.getItem('lang') || 'en';
-
   const [lang, setLang] = useState<string>(fromLS);
+  const [countries, setCountries] = useState<Array<string>>([
+    'japan',
+    'korea',
+    'indonesia',
+    'philippines',
+    'vietnam',
+    'laos',
+    'myanmar',
+    'singapore',
+  ]);
+
+ 
+  const updateCountries = (list: Array<string>) => {
+    setCountries(list);
+  };
 
   const changeLang = (language: string) => {
     setLang(language);
@@ -29,12 +45,17 @@ const App: React.FC = () => {
     <Router>
       <React.Fragment>
         <LangContext.Provider value={{ lang, changeLang }}>
-          <Header />
+          <Header countries={countries} updateCountries={updateCountries} />
 
-          <Route path='/' component={MainPage} exact />
+          <Route
+          path='/'
+          render={({ history }: HistoryProps) => <MainPage history={history}>{countries}</MainPage>}
+          exact
+          />
+
           <Route
             path='/country/:id'
-            render={({ match }: MatchProps) => <CountryPage countryId={match.params.id} />}
+            render={({ match }: MatchProps) => <CountryPage id={match.params.id} />}
           />
 
           <Footer />
