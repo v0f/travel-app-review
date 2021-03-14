@@ -1,32 +1,13 @@
 const { Schema, model } = require('mongoose');
+const i18nSchema = require('../../common/schemas/i18nSchema');
 
 const countrySchema = new Schema({
   slug: { type: String, unique: true, lowercase: true },
-  countryName: {
-    en: String,
-    ru: String,
-    be: String,
-  },
-  capitalName: {
-    en: String,
-    ru: String,
-    be: String,
-  },
-  shortDescription: {
-    en: String,
-    ru: String,
-    be: String,
-  },
-  description: {
-    en: String,
-    ru: String,
-    be: String,
-  },
-  currency: {
-    en: String,
-    ru: String,
-    be: String,
-  },
+  countryName: i18nSchema,
+  capitalName: i18nSchema,
+  shortDescription: i18nSchema,
+  description: i18nSchema,
+  currency: i18nSchema,
   geoCenter: [Number, Number],
   countryCode: String,
   timeZone: String,

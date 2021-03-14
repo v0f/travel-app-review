@@ -7,13 +7,26 @@ const saveCountry = async (body) => {
   return savedCountry;
 };
 
-const getAllByLang = async (/*lang*/) => {
-  return await Country.find({}).exec();
+const getAllByLang = async (lang) => {
+  const countries = await Country.find({}).exec();
+  if (lang) {
+    return countries.map(
+      (country) => country.toObject({
+        transform: (doc, docObj) => doc instanceof Country ? docObj : docObj[lang]
+      })
+    );
+  }
+  return countries;
 };
 
-const getOneByLang = async (id/*lang*/) => {
+const getOneByLang = async (id, lang) => {
   const country = await Country.findOne({slug: id}).exec();
   if (!country) throw new NotFoundError(ENTITY_NAME);
+  if (lang) {
+    return country.toObject({
+      transform: (doc, docObj) => doc instanceof Country ? docObj : docObj[lang]
+    });
+  }
   return country;
 };
 
