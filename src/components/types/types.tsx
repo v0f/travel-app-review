@@ -1,12 +1,15 @@
 export interface IProps {
     countryName?: string;
+    id?: string;
     capitalName?: string;
     shortDescription?: string;
     timeZone?: string;
+    imageURL?: string;
    }
 
    export interface ICurrency {
     currency: string;
+    currencyCode: string;
    }
 
    export interface ICapital {
@@ -18,7 +21,7 @@ export interface IProps {
     capitalName: string;
     timeZone: string;
     currency: string;
-
+    currencyCode: string;
    }
 
    export interface ICountryData {
@@ -30,3 +33,8 @@ export interface IProps {
     countries: Array<string>,
     updateCountries: (list: Array<string>) => void
   }
+
+   export interface IMap {
+    geoCenter: Array<number>;
+    countryCode: string;   
+   }

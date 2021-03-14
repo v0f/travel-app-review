@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, RouteComponentProps } from 'react-router-dom';
 
@@ -11,6 +12,8 @@ import './App.css';
 interface MatchParams {
   id: string;
 }
+
+
 interface MatchProps extends RouteComponentProps<MatchParams> {}
 
 const dataCount = require('../../data/data-countries.json');
@@ -30,6 +33,10 @@ const App: React.FC = () => {
   const updateCountries = (list:Array<string>) => {
     setCountries(list)
   };
+
+  // const redirectCountryPage = (id: string) => {
+  //     console.log('переход на ', id)
+  // }
 
   return (
     <Router>
