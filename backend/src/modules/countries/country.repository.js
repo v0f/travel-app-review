@@ -12,7 +12,7 @@ const getAllByLang = async (/*lang*/) => {
 };
 
 const getOneByLang = async (id/*lang*/) => {
-  const country = await Country.find({slug: id}).exec();
+  const country = await Country.findOne({slug: id}).exec();
   if (!country) throw new NotFoundError(ENTITY_NAME);
   return country;
 };

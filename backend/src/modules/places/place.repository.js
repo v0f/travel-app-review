@@ -12,7 +12,7 @@ const getAllByLang = async (country/*lang*/) => {
 };
 
 const getOneByLang = async (slug/*lang*/) => {
-  return await Place.find({slug: slug}).exec();
+  return await Place.findOne({slug: slug}).exec();
 };
 
 module.exports = {
