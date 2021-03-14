@@ -1,10 +1,14 @@
 import React, { useEffect, useCallback } from 'react';
-import { IMap } from '../types/types';
+
+interface IMap {
+    geoCenter: Array<number>;
+    countryCode: string;
+}
 
 const mapboxgl = require('mapbox-gl');
 mapboxgl.accessToken = 'pk.eyJ1Ijoia29waWthdCIsImEiOiJja203amx5dmkwNGt2Mm9waHd0NG82MWFtIn0.h_8idiDKrB-FaaE6eX8ixg';
 
-const Map = ({geoCenter, countryCode} : IMap ) => {
+const Map: React.FC<IMap> = ({geoCenter, countryCode}) => {
 
   const createMap = useCallback(
     () => {

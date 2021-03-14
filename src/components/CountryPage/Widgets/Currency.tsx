@@ -2,9 +2,12 @@ import React, { useEffect, useState } from 'react';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 
-import { ICurrency } from '../../types/types';
+interface ICurrency {
+    currency: string;
+    currencyCode: string;
+}
 
- const Currency =  ({ currency, currencyCode } : ICurrency) => {
+const Currency: React.FC<ICurrency> =  ({ currency, currencyCode }) => {
     const [ toRUB, setToRUB ] = useState<string>('');
     const [ toUSD, setToUSD] = useState<string>('');
     const [ toEUR, setToEUR ] = useState<string>('');
@@ -18,7 +21,7 @@ import { ICurrency } from '../../types/types';
 
             try {
               const currencyObject = data.results[`${fromCurrency}_${toCurrency}`];
-              const result: string = String(currencyObject.val.toFixed(2));
+              const result: string = String((currencyObject.val * 100).toFixed(2));
 
               if (toCurrency === 'RUB') {
                 setToRUB(result);
@@ -46,7 +49,7 @@ import { ICurrency } from '../../types/types';
     <Card className={'widget currency'} >
       <CardContent className="currency-content">
         <i className="fas fa-money-bill"></i>
-        <span className="currency-country"> {`1 ${currencyCode}`} </span>
+        <span className="currency-country"> {`100 ${currencyCode}`} </span>
         <span className="currency-h">{`${currency}`}</span>
         <span> {`${toRUB} ₽ | ${toUSD} $ | ${toEUR} €`}  </span>
       </CardContent>

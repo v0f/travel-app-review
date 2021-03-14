@@ -3,11 +3,14 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import addZeroBeforeNumber from '../../../helpers/addZeroBeforeNumber';
 import dict from '../../../data/dictionary';
-import { IProps } from '../../types/types';
+import LangContext from '../../Language-context/LangContext';
 
+interface ITime {
+  timeZone: string;
+}
 
- const Time = ({ timeZone } : IProps) => {
-    const lang = 'en'; // TEMP LANG
+ const Time: React.FC<ITime> = ({ timeZone }) => {
+    const { lang } = React.useContext(LangContext);
     const [ time, setTime ] = useState<string>('');
     const [ date, setDate ] = useState<string>('');
 
@@ -19,8 +22,8 @@ import { IProps } from '../../types/types';
                 sec  = today.getSeconds(),
                 day  = today.getDate(),
                 month  = today.getMonth(),
-                week  = today.getDay();
-
+                week = today.getDay();
+              
           const time: string = `${addZeroBeforeNumber(hour)}:${addZeroBeforeNumber(min)}:${addZeroBeforeNumber(sec)}`;
 
           const date: string = `${day} 
@@ -30,7 +33,7 @@ import { IProps } from '../../types/types';
           setTime(time);
           setDate(date);
 
-      }, [timeZone]
+      }, [timeZone, lang]
     )
     
     useEffect(()=> {

@@ -47,7 +47,8 @@
   color: black; }
 
 .country__places {
-  padding: 0 7rem; }
+  padding: 0 7rem;
+  color: black; }
 
 .country__heading {
   font-family: 'Cormorant', serif;
