@@ -1,7 +1,7 @@
 const { Schema, model } = require('mongoose');
 
 const countrySchema = new Schema({
-  slug: { type: String, unique: true },
+  slug: { type: String, unique: true, lowercase: true },
   countryName: {
     en: String,
     ru: String,

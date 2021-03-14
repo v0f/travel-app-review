@@ -1,8 +1,8 @@
 const { Schema, model } = require('mongoose');
 
 const placeSchema = new Schema({
-  countrySlug: String,
-  slug: { type: String, unique: true },
+  countrySlug: {type: String, lowercase: true},
+  slug: { type: String, unique: true, lowercase: true },
   name: {
     en: String,
     ru: String,
