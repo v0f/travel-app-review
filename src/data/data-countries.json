@@ -39,7 +39,7 @@
             "ru": "Фудзи",
             "be": "Фудзі"
           },
-          "imageUrl": "https://res.cloudinary.com/travel-app/image/upload/v1615734319/travel-app/japan/place_fuji.jpg",
+          "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615734319/travel-app/japan/place_fuji.jpg",
           "description": {
             "en": "Mount Fuji is the tallest mountain in Japan (3776 meters). The exceptionally symmetrical cone of the volcano is a world famous symbol of Japan. Fuji-san is a popular attraction for hikers and climbers. Every year about 200 thousand people climb Mount Fuji, 30% of whom are foreigners. The ascent can take from 3 to 8 hours, and the descent can take from 2 to 5 hours.",
             "ru": "Гора Фудзи - самая высокая гора в Японии (3776 метров). Исключительно симметричный конус вулкана является всемирно известным символом Японии. Фудзи-сан - популярная достопримечательность для туристов и альпинистов. Ежегодно около 200 тысяч человек поднимаются на гору Фудзи, 30% из которых - иностранцы. Подъем может занять от 3 до 8 часов, а спуск - от 2 до 5 часов.",
@@ -52,7 +52,7 @@
             "ru": "Парк обезьян Джигокудани",
             "be": "Парк малпаў Джигокудани"
           },
-          "imageUrl": "https://res.cloudinary.com/travel-app/image/upload/v1615734319/travel-app/japan/place_monkey.jpg",
+          "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615734319/travel-app/japan/place_monkey.jpg",
           "description": {
             "en": "Jigokudani Monkey Park is a famous hot spring area near Nagano. The park got its name Jigokudani (which means 'Hell Valley') for the steam and boiling water that bubbles in the springs surrounded be steep rocks and dense forests. This park is famous for its large population of wild snow monkeys that travel to the valley in winter when snow covers everything around. Monkeys descend from steep cliffs and forests to bask in warm hot springs, and return to the woods in the evenings.",
             "ru": "Парк обезьян Дзигокудани - это известная область с горячими источниками недалеко от Нагано. Название Джигокудани (что означает «Адская долина») парк получил за пар и кипящую воду, которая пузырится в источниках, окружённых крутыми скалами и густыми лесами. Данный парк славится большой популяцией диких снежных обезьян, которые отправляются в долину зимой, когда снег покрывает всё вокруг. Обезьяны спускаются с крутых скал и лесов, чтобы погреться в теплых горячих источниках, а по вечерам возвращаются обратно в леса.",
@@ -65,7 +65,7 @@
             "ru": "Замок Химэдзи",
             "be": "Замак Хімэдзі"
           },
-          "imageUrl": "https://res.cloudinary.com/travel-app/image/upload/v1615734626/travel-app/japan/place_himeji.jpg",
+          "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615734626/travel-app/japan/place_himeji.jpg",
           "description": {
             "en": "Himeji is called the White Heron's castle. Its walls are snow-white, and the lines and features are graceful, like a bird. During its existence, the castle did not suffer from fires or enemy raids. And if anyone tried to capture the castle, he would be entangled in the maze of gardens and rooms. The whole complex is 83 buildings. Sakura blossoms around them, which makes the castle even more beautiful. Not surprisingly, he has been featured in films on numerous occasions.",
             "ru": "Химэдзи называют замком Белой Цапли. Его стены белоснежные, а линии и черты грациозные, как у птицы. За время своего существования замок не страдал от пожаров или вражеских набегов. А если бы кто и попытался захватить замок, то запутался бы в лабиринтах садов и комнат. Весь комплекс – это 83 сооружения. Вокруг них цветет сакура, что делает замок еще прекраснее. Не удивительно, что его неоднократно снимали в фильмах.",
@@ -78,7 +78,7 @@
             "ru": "Бамбуковая роща Арасияма",
             "be": "Бамбукавая гай Арасияма"
           },
-          "imageUrl": "https://res.cloudinary.com/travel-app/image/upload/v1615734320/travel-app/japan/place_bamboo.jpg",
+          "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615734320/travel-app/japan/place_bamboo.jpg",
           "description": {
             "en": "Arashiyama Bamboo Grove, also known as Sagano Bamboo Forest, is located in the west of Kyoto city. The size of the bamboo forest is more like a small park. The area of this picturesque place is about 16 sq. km. Some plants reach a height of 40-50 meters, covering the sky. There is a network of paths in the territory of the bamboo grove. At night, the paths in the park are illuminated with artificial light, and the entire park can be walked in half an hour.",
             "ru": "Бамбуковая роща Арасияма, также известная под названием бамбуковый лес Сагано, расположена на западе города Киото. По своим размерам бамбуковый лес больше похож на небольшой парк. Площадь этого живописного места около 16 кв. км. Некоторые растения достигают в высоту 40–50 метров, закрывая небосклон. На территории бамбуковой рощи находится сеть тропинок. Ночью дорожки в парке подсвечены искусственным светом, а весь парк можно пройти за полчаса.",
@@ -91,7 +91,7 @@
             "ru": "Святилище Ицукусима",
             "be": "Сьвятыню Ицукусима"
           },
-          "imageUrl": "https://res.cloudinary.com/travel-app/image/upload/v1615734321/travel-app/japan/place_itsukushima.jpg",
+          "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615734321/travel-app/japan/place_itsukushima.jpg",
           "description": {
             "en": "This Shinto shrine, nestled in a cozy bay, sheltered from stormy winds, is one of the most revered in the country. Itsukushima shrine ritual gate or torii is one of the most popular attractions in Japan. Along with the Amanohashidate sand spit and Matsushima Bay, the view of the torii from one of the island's hills is part of the so-called Three Famous Landscapes of Japan.",
             "ru": "Эта синтоистская святыня, расположенная в уютной бухте, закрытой от штормовых ветров, является одной из самых почитаемых в стране. Ритуальные врата или тории святилища Ицукусима являются одной из наиболее популярных достопримечательностей Японии. Наряду с песчаной косой Аманохасидатэ и заливом Мацусима вид на тории со стороны одной из возвышенностей острова входит в так называемые «Три знаменитых пейзажа Японии».",
@@ -104,7 +104,7 @@
             "ru": "Район Сибуя",
             "be": "Раён Сибуя"
           },
-          "imageUrl": "https://res.cloudinary.com/travel-app/image/upload/v1615734320/travel-app/japan/place_shibuja.jpg",
+          "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615734320/travel-app/japan/place_shibuja.jpg",
           "description": {
             "en": "It is one of Tokyo's 23 special districts. Once it was a village, then a small town. It is now part of the capital and the center of nightlife, entertainment, fashion and shopping. There are also some of the tallest skyscrapers in the city, Microsoft and Coca-Cola offices. The center of the district is the Hachiko monument. In addition to boutiques and entertainment centers, there are museums and temples.",
             "ru": "Это один из 23 специальных районов Токио. Когда-то он был деревней, потом небольшим городком. Теперь это часть столицы и центр ночной жизни, развлечений, моды и шопинга. Также тут расположены одни из самых высоких небоскребов города, офисы Майкрософт и Кока-Кола. Центром района считают памятник Хатико. Кроме бутиков и развлекательных центров тут есть музеи и храмы.",
@@ -117,7 +117,7 @@
             "ru": "Храм Фусими Инари в Киото",
             "be": "Храм Фусими Інара ў Кіёта"
           },
-          "imageUrl": "https://res.cloudinary.com/travel-app/image/upload/v1615734321/travel-app/japan/place_inari.jpg",
+          "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615734321/travel-app/japan/place_inari.jpg",
           "description": {
             "en": "Fushimi Inari Shrine is known mainly for the myriad Torii Gates donated be the faithful. The gate is located along the road to the temple, which goes up a wooded mountain to Inari-san, where the main building of the temple is located. It takes about two hours to walk to the temple along this alley. On the way to the top, passing through the torii, you will see small chapels, tombs and statues of foxes that are the messengers of this god. Also, about halfway up there will be an observation deck overlooking Kyoto.",
             "ru": "Храм Фусими Инари известен, главным образом, несметным количеством Ворот-Тории, которые были пожертвованы верующими. Ворота располагаются по дороге к храму, которая уходит в лесистую гору к Инари-сан, где расположено основное здание храма. Чтобы дойти пешком до храма по этой аллее, необходимо около двух часов. По пути к вершине, проходя через тории, вы будете видеть небольшие часовни, могилы и статуи лис, которые являются посланниками этого бога. Так же где-то на полпути наверх будет обзорная площадка с видом на Киото.",
@@ -130,7 +130,7 @@
             "ru": "Храм Кинкакудзи",
             "be": "Храм Кинкакудзи"
           },
-          "imageUrl": "https://res.cloudinary.com/travel-app/image/upload/v1615734319/travel-app/japan/place_kinkakuji.jpg",
+          "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615734319/travel-app/japan/place_kinkakuji.jpg",
           "description": {
             "en": "The three-story Kinkakuji Temple or Golden Pavilion is a repository of Buddhist relics on the territory of the Rokuonji temple complex in the Japanese city of Kyoto. The Buddhist temple began to be called the 'Golden Pavilion' because it is covered with gold leaf, on top of which a layer of protective varnish is applied. Kinkakuji Temple is famous as an architectural monument of Japanese culture of the early XIV century and fits perfectly into the surrounding landscape.",
             "ru": "Трехэтажный храм Кинкакудзи или Золотой павильон – это хранилище буддистских реликвий на территории храмового комплекса Рокуондзи в японском городе Киото. «Золотым павильоном» буддистский храм стали называть потому, что он покрыт сусальным золотом, поверх которого нанесен слой защитного лака. Храм Кинкакудзи знаменит как архитектурный памятник японской культуры начала XIV века и прекрасно вписывается в окружающий ландшафт.",
@@ -170,7 +170,7 @@
     },
     "currencyCode": "KRW",
     "timeZone": "Asia/Seoul",
-    "imageUrl": "korea.jpg",
+    "imageURL": "korea.jpg",
     "videoURL": "https://www.youtube.com/watch?v=sHPdvjovVjs&list=PL4Lb93R1nd7enmsWJgYEgmSi-dnwy3OMx&index=2",
     "places": [
       {
@@ -179,7 +179,7 @@
           "ru": "Чхандоккун",
           "be": "Чхандоккун"
         },
-        "imageUrl": "palace.jpg",
+        "imageURL": "palace.jpg",
         "description": {
           "en": "The World Heritage–listed Changdeokgung is the most beautiful of Seoul's five main palaces. The 'Palace of Illustrious Virtue' was built in the early 15th century as a secondary palace to Gyeongbukgung, but when Gyeongbokgung was destroyed during the Japanese invasion in the 1590s, it became the primary royal residence until 1872. Many of its buildings were actually lived in by members of the royal family well into the 20th century. Like all Joseon palaces, it has a mountain behind it and a small stream in front – good pungsu (feng shui). The most charming section is the Huwon, a ‘secret garden’ that is a royal horticultural idyll.",
           "ru": "Чхандоккун, внесенный в список всемирного наследия, является самым красивым из пяти главных дворцов Сеула. «Дворец выдающейся добродетели» был построен в начале 15 века как второй дворец после Кёнбуккуна, но когда Кёнбоккун был разрушен во время японского вторжения в 1590-х годах, он стал главной королевской резиденцией до 1872 года. В его стенах жили члены королевской семьи вплоть до ХХ века. Как и все дворцы Чосон, за ним виднеется гора, а спереди небольшой ручей - хорошее пунгсу (фэн-шуй). Самая очаровательная часть дворца - Хувон, «секретный сад», представляющий собой королевскую садоводческую идиллию.",
@@ -192,7 +192,7 @@
           "ru": "Деревня Букчон Ханок",
           "be": "Вёска Букчон Ханок"
         },
-        "imageUrl": "village.jpg",
+        "imageURL": "village.jpg",
         "description": {
           "en": "Check out this folk village if you're interested in seeing how people lived in South Korea a long time ago. It is an open-air museum of small tiled houses selling souvenirs, tea ceremonies and small museums that tell the story of the country.",
           "ru": "Загляни в эту фольклорную деревню, если тебе интересно увидеть, как жили в Южной Корее энное количество времени назад. Это музей под открытым небом, состоящий из маленьких домиков, покрытых черепицей, в которых продаются сувениры, устраиваются чайные церемонии и находятся небольшие музеи, рассказывающие об истории страны.",
@@ -205,7 +205,7 @@
           "ru": "Национальный парк Халлеохэсан",
           "be": "Нацыянальны парк Халлеохэсан"
         },
-        "imageUrl": "park.jpg",
+        "imageURL": "park.jpg",
         "description": {
           "en": "This beautiful national park includes miles of raw coastline on over 300 separate islands. Each has hiking trails with spectacular ocean and cliff views. The area also features a cable car, known as the Hallyeosudo Viewing Ropeway. The ride is almost 2.4 kilometers long and takes nine minutes to reach the summit. You're rewarded with sweeping views of the countryside and coastline, including the Japanese island of Daemado.",
           "ru": "Этот красивый национальный парк включает километры необработанной береговой линии на более чем 300 отдельных островах. У каждого есть пешеходные тропы с захватывающим видом на океан и скалы. В этом районе также есть канатная дорога, известная как канатная дорога Халлиёсудо. Поездка протяженностью почти 2,4 километра занимает девять минут, чтобы добраться до вершины. Вы будете вознаграждены потрясающим видом на сельскую местность и побережье, в том числе на японский остров Дэмадо.",
@@ -218,7 +218,7 @@
           "ru": "Чеджу",
           "be": "Чеджу"
         },
-        "imageUrl": "island.jpg",
+        "imageURL": "island.jpg",
         "description": {
           "en": "Jeju is a volcanic island, nicknamed the Hawaii of South Korea. The island boasts beautiful beaches along with a lot of culture and history. The highest mountain in South Korea (a dormant volcano called Hallasan) is here along with miles of giant lava tubes. The lava tubes, which can be explored, are natural air pockets in the hardened lava, the size of railway tunnels.",
           "ru": "Чеджу - вулканический остров, прозванный южнокорейскими Гавайями. Остров может похвастаться прекрасными пляжами, а также богатой культурой и историей. Здесь находится самая высокая гора в Южной Корее (спящий вулкан Халласан), а также километры гигантских лавовых труб. Лавовые трубы, которые можно исследовать, представляют собой естественные воздушные карманы в затвердевшей лаве размером с железнодорожные туннели.",
@@ -231,7 +231,7 @@
           "ru": "Национальный парк Сораксан",
           "be": "Нацыянальны парк Сораксан"
         },
-        "imageUrl": "park2.jpg",
+        "imageURL": "park2.jpg",
         "description": {
           "en": "If you want to go hiking, see the best known mountain range in South Korea or just get some epic photos, then make sure you visit the Seoraksan National Park. Within the park you’ll find pine forests, jagged and rocky mountain peaks, crystal clear streams and stunning lakes. The park is also known for its natural diversity, it is home to over 2,000 animal species.",
           "ru": "Если вы хотите отправиться в поход, увидеть самый известный горный хребет в Южной Корее или просто сделать несколько эпических фотографий, обязательно посетите национальный парк Сораксан. В парке вы найдете сосновые леса, неровные и скалистые горные вершины, кристально чистые ручьи и потрясающие озера. Парк также известен своим природным разнообразием, в нем обитает более 2000 видов животных.",
@@ -244,7 +244,7 @@
           "ru": "Демилитаризованная зона DMZ",
           "be": "Дэмілітарызаваная зона DMZ"
         },
-        "imageUrl": "dmz.jpg",
+        "imageURL": "dmz.jpg",
         "description": {
           "en": "The 4km-wide, 240km-long buffer known as the Demilitarized Zone (DMZ) slashes across the peninsula, separating North and South Korea. From Freedom House, tourists can observe the North Korean side through binoculars. Also, depending on the chosen tour, you will have the opportunity to go down into the underground military tunnel and visit the 'blue houses' of the UN. Inside them is the official border of the two countries - an invisible line dividing South and North Korea.",
           "ru": "Буферная зона шириной 4 км и длиной 240 км, известная как демилитаризованная зона (ДМЗ), пересекает полуостров, разделяя Северную и Южную Корею. Из Дома свободы туристы могут понаблюдать за северокорейской стороной через бинокль. Также, в зависимости от выбранного тура, у тебя будет возможность спуститься в подземный военный туннель и посетить «голубые домики» ООН. Внутри них проходит официальная граница двух стран – невидимая линия, разделяющая Южную и Северную Кореи.",
@@ -284,7 +284,7 @@
     },
     "currencyCode": "IDR",
     "timeZone": "Asia/Jakarta",
-    "imageUrl": "indonesia.jpg",
+    "imageURL": "indonesia.jpg",
     "videoURL": "https://www.youtube.com/watch?v=8c1cU4CI7SE&ab_channel=TheWorldTravelGuy",
     "places": [
       {
@@ -293,7 +293,7 @@
           "ru": "Плато Диенг",
           "be": "Плато Диенг"
         },
-        "imageUrl": "dieng.jpg",
+        "imageURL": "dieng.jpg",
         "description": {
           "en": "The lofty volcanic plateau of Dieng (Abode of the Gods), a fertile landscape laced with terraced potato and tobacco fields, is home to some of the oldest Hindu architecture in Java. More than 400 temples, most dating from the 8th and 9th centuries, originally covered this 2000m-high plain, but they were abandoned and forgotten and only rediscovered in 1856 by the archaeologist Van Kinsbergen. In addition, there are many interesting natural attractions formed by volcanic activity: geysers, volcanic lakes, hot springs, inactive volcanoes.",
           "ru": "Высокогорное вулканическое плато Диенг (Обитель богов), плодородный ландшафт, пронизанный террасами картофельных и табачных полей, является домом для некоторых из старейших индуистских построек на Яве. Более 400 храмов, большинство из которых относятся к VIII и IX векам, первоначально занимали эту равнину высотой 2000 м, но они были заброшены и забыты, и вновь обнаружены только в 1856 году археологом Ван Кинсбергеном. Кроме того, здесь находится множество природных достопримечательностей, образованных вулканической активностью: гейзеры, вулканические озера, горячие источники, неактивные вулканы.",
@@ -306,7 +306,7 @@
           "ru": "Боробудур",
           "be": "Барабудур"
         },
-        "imageUrl": "borobudur.jpg",
+        "imageURL": "borobudur.jpg",
         "description": {
           "en": "The Borobudur Temple is one of the greatest Buddhist monuments in the world, and was built in the 8th and 9th centuries. For hundreds of years, Borobudur lay covered with volcanic ash and overgrown with jungle and was discovered only in 1814 during the Anglo-Dutch war. After the monument was plundered, the reliefs, sculptures, ornaments were taken away by the merchants of souvenirs. And only in the 1970s the monument was restored with UNESCO's help. Until now, Borobudur is a place of pilgrimage and prayer. Pilgrims walk seven times clockwise at each level. Touching each Buddha from the stupas on the upper tier, according to beliefs, brings happiness.",
           "ru": "Храм Боробудур - один из величайших буддийских памятников в мире, он был построен в 8-м и 9-м веках. Сотни лет Боробудур лежал покрытый вулканическим пеплом и заросший джунглями и обнаружен лишь в 1814 году во время англо-голландской войны. После памятник разворовывали, рельефы, скульптуры, орнамент растаскивали торговцы сувенирами. И только в 1970-е гг. была проведена реставрация под эгидой ЮНЕСКО. До сих пор Боробудур является местом паломничества и молитв. Паломники проходят семь раз по часовой стрелке на каждом уровне. Прикосновение к каждому Будде из ступ на верхнем ярусе, согласно повериям, приносит счастье.",
@@ -319,7 +319,7 @@
           "ru": "Национальный парк Танджунгпутинг",
           "be": "Нацыянальны парк Танджунгпутінг"
         },
-        "imageUrl": "orangutan.jpg",
+        "imageURL": "orangutan.jpg",
         "description": {
           "en": "No trip to Indonesia would be complete without seeing some orangutans, and Tanjung Puting is home to the largest orangutan population in the world, as well as other primates, birds, and reptiles. Also you will get a vast, mostly untouched tropical jungle with fresh air, mystical morning fog, birds chirping, and rivers gushing.",
           "ru": "Ни одно путешествие в Индонезию не будет полным, если вы не увидите орангутанов, а Танджунг Путинг является домом для самой большой в мире популяции орангутанов, а также других приматов, птиц и рептилий. Также вас ждут обширные, в основном нетронутые тропические джунгли со свежим воздухом, мистическим утренним туманом, щебетанием птиц и фонтаном рек.",
@@ -332,7 +332,7 @@
           "ru": "Раджа-Ампат",
           "be": "Раджа-Ампат"
         },
-        "imageUrl": "island.jpg",
+        "imageURL": "island.jpg",
         "description": {
           "en": "The fairlyland of lush, cone-shaped islands set against blue and turquoise waters is one of Indonesia's most spectacular sights. Hundreds of islands and cays make up this tropical paradise, but the beauty extends beneath the surface as well. Colorful fish and a diverse variety of marine life thrive in the warm, clear waters. In fact, the coral reefs here are some of the most biodiverse on the planet, making it a popular area for diving in Indonesia.",
           "ru": "Волшебный мир пышных островов конической формы на фоне голубых и бирюзовых вод - одна из самых впечатляющих достопримечательностей Индонезии. Сотни островов и рифов составляют этот тропический рай, но красота простирается и под водой. Яркие рыбы и разнообразные морские обитатели прекрасно чувствуют себя в теплых, чистых водах. Находящиеся здесь коралловые рифы одни из самых биоразнообразных на планете, что делает Раджа-Ампат популярным местом для дайвинга.",
@@ -345,7 +345,7 @@
           "ru": "Национальный парк Комодо",
           "be": "Нацыянальны парк Комодо"
         },
-        "imageUrl": "komodo.jpg",
+        "imageURL": "komodo.jpg",
         "description": {
           "en": "A mighty and otherworldly lizard, the Komodo is arguably one of the most fascinating creatures on earth—one you can only encounter in the wild at Indonesia’s Komodo National Park. Captivating as it is, the Komodo is hardly the only interesting thing in this string of exotic islands that constitute the Komodo National Park. The three islands—Komodo, Padar, and Rinca—have glorious tropical hills and a beach view, along with a breathtaking coastline and thriving underwater wildlife. The Komodo Island even has the famed pink sand beach, while Padar Island has an iconic hill with a view of three magnificent bays.",
           "ru": "Могучий и опасный дракон Комодо, возможно, является одним из самых очаровательных существ на земле, с которым вы можете встретиться в дикой природе только в национальном парке Комодо. Комодо - увлекательный, но далеко не единственный интересный остров в национальном парке. Все три острова - Комодо, Падар и Ринка - могут похвастаться пышными тропическими холмами и великолепными пляжами, а также захватывающую дух береговой линией и богатым подводным миром. На острове Комодо найдете знаменитый пляж с розовым песком, а на острове Падар есть знаменитый холм с видом на три великолепных залива.",
@@ -358,7 +358,7 @@
           "ru": "Рисовые террасы Джатилувих",
           "be": "Рысавыя тэрасы Джацілувіх"
         },
-        "imageUrl": "rice.jpg",
+        "imageURL": "rice.jpg",
         "description": {
           "en": "One of UNESCO Cultural Heritage Sites, the Jatiluwih rice terraces comprise over 600 hectares of rice fields that follow the flowing topography of the Batukaru mountain range. These rice terraces are maintained the local culture heritage in form of water irrigation system managed traditionally called by subak. It is one of recommended places to visit in Bali with the beautiful view. They give new meaning to the word green. They crawl up the sides of the hills like steps leading you towards the sky.",
           "ru": "Один из объектов культурного наследия ЮНЕСКО, рисовые террасы Джатилувих составляют более 600 гектаров рисовых полей, которые повторяют рельеф горного хребта Батукару. Эти рисовые террасы сохраняют местное культурное наследие в виде системы водного орошения, которая называется субак. Это одно из самых рекомендуемых к посещению мест на Бали с прекрасными видами. Они придают новое значение слову зеленый. Рисовые террасы ползут вверх по склонам холмов, как ступеньки, ведущие к небу.",
@@ -396,9 +396,9 @@
       "be": "Філіпінскія песа"
     },
     "timeZone": "Asia/Manila",
-    "countryCode": "PHP",
+    "countryCode": "PHL",
     "geoCenter": [120.966667, 14.583333],
-    "imageUrl": "https://res.cloudinary.com/travel-app/image/upload/v1615729162/travel-app/philippines/main.jpg", 
+    "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615729162/travel-app/philippines/main.jpg", 
     "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615735890/travel-app/philippines/video_philippines.mp4",
     "places": [
       {
@@ -407,7 +407,7 @@
           "ru": "Эль-Нидо",
           "be": "Эль-Нидо"
         },
-        "imageUrl": "https://res.cloudinary.com/travel-app/image/upload/v1615730355/travel-app/philippines/place_el_nido.jpg",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615730355/travel-app/philippines/place_el_nido.jpg",
         "description": {
           "en": "Almost all of the natural wonders of Palawan Island are concentrated in the El Nido conservation area. El Nido and its Bakuit Bay are 39 small, mostly uninhabited islands, hidden coves, virgin lagoons hidden from prying eyes by majestic limestone cliffs, deserted beaches, tropical forests, and the sea here is rich in all kinds of tropical fish and corals.",
           "ru": "Почти все чудеса природы острова Палаван сосредоточены в заповедной области Эль Нидо. Эль Нидо и его залив Бакуит – это 39 небольших, в большинстве своем необитаемых островов, потаенные бухты, девственные лагуны, скрытые от посторонних глаз величественными известняковыми скалами, пустынные пляжи, тропические леса, а море здесь богато всевозможными тропическими рыбками и кораллами.",
@@ -420,7 +420,7 @@
           "ru": "Боракай",
           "be": "Боракай"
         },
-        "imageUrl": "https://res.cloudinary.com/travel-app/image/upload/v1615730113/travel-app/philippines/place_boracay.jpg",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615730113/travel-app/philippines/place_boracay.jpg",
         "description": {
           "en": "The small island of Boracay has become world famous for the beauty of its beaches. The main beach of the island - White beach (White Beach) has been leading the ratings of the best beaches in the world according to the largest travel publications for many years. In addition to a relaxed beach holiday, Boracay is an ideal place for diving, snorkeling, kite surfing and windsurfing.",
           "ru": "Маленький остров Боракай стал известен на весь мир благодаря красоте своих пляжей. Главный пляж острова – White beach (Белый пляж) уже много лет лидирует в рейтингах лучших пляжей мира по версиям крупнейших туристических изданий. Кроме раслабленного пляжного отдыха Боракай - олтичное место для дайвинга, сноргклинга, кайт-серфинга и виндсерфинга.",
@@ -433,7 +433,7 @@
           "ru": "Шоколадные холмы Бохоль",
           "be": "Шакаладныя пагоркі Бохол"
         },
-        "imageUrl": "https://res.cloudinary.com/travel-app/image/upload/v1615729315/travel-app/philippines/place_bohol.jpg",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615729315/travel-app/philippines/place_bohol.jpg",
         "description": {
           "en": "In the vastness of the island of Bohol, there are unusual geological formations, which are popularly called the Chocolate Hills. During the dry season, the green hills turn brown, which is why they got such a sweet name. According to various estimates, on an area of almost 50 hectares, there are from 1,260 to 1,770 hills of various shapes and heights.",
           "ru": "На просторах острова Бохоль раскинулись необычные геологические образования, которые в народе получили наименование Шоколадные холмы. В период засухи покрытые зеленью холмы приобретают коричневый цвет, из-за чего и получили такое сладкое наименование. По разным подсчетам на площади почти 50 га расположено от 1 260 до 1 770 холмов разной формы и высоты.",
@@ -446,7 +446,7 @@
           "ru": "Плавание с китовыми акулами",
           "be": "Плаванне з кітоў акула"
         },
-        "imageUrl": "https://res.cloudinary.com/travel-app/image/upload/v1615729415/travel-app/philippines/place_shark.jpg",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615729415/travel-app/philippines/place_shark.jpg",
         "description": {
           "en": "Whale sharks, reaching a length of up to 12 meters, are completely safe creatures for people, because owls are not by nature huts, and feed mainly on plankt. That is why it is completely safe to be very close to them. There are only a few places in the world to swim with whale sharks, and one of them is in the village of Oslob on the island of Cebu.",
           "ru": "Китовые акулы,  достигающие в длину до 12 метров, совершенно безопасные существа для людей, т.к. по природе совей не хижники, и питаются в основном планктом. Именно поэтому с ними можно совершенно безопасно находиться совсем рядом. Поплавать с китовыми акулами можно всего лишь в нескольких местах в мире, и одно из них — в деревушке Ослоб на острове Себу. ",
@@ -459,7 +459,7 @@
           "ru": "Рисовые поля Банау",
           "be": "Рысавыя палі Банан"
         },
-        "imageUrl": "https://res.cloudinary.com/travel-app/image/upload/v1615730061/travel-app/philippines/place_rice.jpg",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615730061/travel-app/philippines/place_rice.jpg",
         "description": {
           "en": "Banaue rice terraces are called the Eighth Wonder of the World and are listed as UNESCO World Heritage Sites. The terraces are located in the picturesque province of Luzon, where the topography is characterized by tall, forested mountains that rise more than 1,500 meters above sea level. The terraces are a seemingly endless staircase of vegetable gardens and flooded rice fields. Following the shape of the mountain slopes, Banaue Terraces are 22,000 meters long and took the Batad people more than 2,000 years to create these terraces with primitive tools.",
           "ru": "Рисовые террасы Банауэ называют Восьмым чудом света, они занесены в список объектов Всемирного наследия ЮНЕСКО. Террасы находятся в живописной провинции Лусон, где рельеф характеризуется высокими, поросшими лесом горами, поднимающимися более чем на 1500 м над уровнем моря. Террасы представляют собой кажущуюся бесконечной лестницу огородов и заливных рисовых полей. Повторяя очертания горных склонов , террасы Банауэ простираются в длину на 22 000 метров, а на создание этих террас с помощью примитивных инструментов народу батад потребовалось более 2000 лет.",
@@ -472,7 +472,7 @@
           "ru": "Вулкан Пинатубо",
           "be": "Вулкан Пінатуба"
         },
-        "imageUrl": "https://res.cloudinary.com/travel-app/image/upload/v1615733156/travel-app/philippines/place_volcano.jpg",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615733156/travel-app/philippines/place_volcano.jpg",
         "description": {
           "en": "Pinatubo is an active volcano located on the island of Luzon. The eruption of this volcano in 1991 was one of the most powerful in the 20th century. There are two options to see the volcano: a one-day trekking to the volcano, including a guide, all permits, and a jeep ride to the starting point of the ascent. At the same time, you can swim in the lake itself in the crater! The second option is to look at Pinatubo from above from a small, light, single-engine aircraft.",
           "ru": "Пинатубо — действующий вулкан, расположенный на острове Лусон. Извержение этого вулкана в 1991 году стало одним из самых сильных в 20 веке. Есть два варианта увидеть вулкан: однодневный трекинг к вулкану, включающий проводника, все пермиты, проезд на джипе к точке начала восхождения. В самом озере в кратере при этом можно покупаться! Второй вариант - это посмотреть на Пинатубо сверху из маленького легкого одномоторного самолета.",
@@ -504,8 +504,8 @@
       "be": "х"
     },
     "currency": "х",
-    "imageUrl": "х",
-    "videoURL": "х",
+    "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615734320/travel-app/japan/main.jpg",
+    "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615735378/travel-app/japan/japan_video.mp4",
     "places": [
       {
         "name": {
@@ -513,7 +513,7 @@
           "ru": "х",
           "be": "х"
         },
-        "imageUrl": "х",
+        "imageURL": "х",
         "description": {
           "en": "х",
           "ru": "х",
@@ -526,7 +526,7 @@
           "ru": "х",
           "be": "х"
         },
-        "imageUrl": "х",
+        "imageURL": "х",
         "description": {
           "en": "х",
           "ru": "х",
@@ -539,7 +539,7 @@
           "ru": "х",
           "be": "х"
         },
-        "imageUrl": "х",
+        "imageURL": "х",
         "description": {
           "en": "х",
           "ru": "х",
@@ -552,7 +552,7 @@
           "ru": "х",
           "be": "х"
         },
-        "imageUrl": "х",
+        "imageURL": "х",
         "description": {
           "en": "х",
           "ru": "х",
@@ -565,7 +565,7 @@
           "ru": "х",
           "be": "х"
         },
-        "imageUrl": "х",
+        "imageURL": "х",
         "description": {
           "en": "х",
           "ru": "х",
@@ -578,7 +578,7 @@
           "ru": "х",
           "be": "х"
         },
-        "imageUrl": "х",
+        "imageURL": "х",
         "description": {
           "en": "х",
           "ru": "х",
@@ -610,8 +610,8 @@
       "be": "х"
     },
     "currency": "х",
-    "imageUrl": "х",
-    "videoURL": "х",
+    "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615734320/travel-app/japan/main.jpg",
+    "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615735378/travel-app/japan/japan_video.mp4",
     "places": [
       {
         "name": {
@@ -619,7 +619,7 @@
           "ru": "х",
           "be": "х"
         },
-        "imageUrl": "х",
+        "imageURL": "х",
         "description": {
           "en": "х",
           "ru": "х",
@@ -632,7 +632,7 @@
           "ru": "х",
           "be": "х"
         },
-        "imageUrl": "х",
+        "imageURL": "х",
         "description": {
           "en": "х",
           "ru": "х",
@@ -645,7 +645,7 @@
           "ru": "х",
           "be": "х"
         },
-        "imageUrl": "х",
+        "imageURL": "х",
         "description": {
           "en": "х",
           "ru": "х",
@@ -658,7 +658,7 @@
           "ru": "х",
           "be": "х"
         },
-        "imageUrl": "х",
+        "imageURL": "х",
         "description": {
           "en": "х",
           "ru": "х",
@@ -671,7 +671,7 @@
           "ru": "х",
           "be": "х"
         },
-        "imageUrl": "х",
+        "imageURL": "х",
         "description": {
           "en": "х",
           "ru": "х",
@@ -684,7 +684,7 @@
           "ru": "х",
           "be": "х"
         },
-        "imageUrl": "х",
+        "imageURL": "х",
         "description": {
           "en": "х",
           "ru": "х",
@@ -716,8 +716,8 @@
       "be": "х"
     },
     "currency": "х",
-    "imageUrl": "х",
-    "videoURL": "х",
+    "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615734320/travel-app/japan/main.jpg",
+    "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615735378/travel-app/japan/japan_video.mp4",
     "places": [
       {
         "name": {
@@ -725,7 +725,7 @@
           "ru": "х",
           "be": "х"
         },
-        "imageUrl": "х",
+        "imageURL": "х",
         "description": {
           "en": "х",
           "ru": "х",
@@ -738,7 +738,7 @@
           "ru": "х",
           "be": "х"
         },
-        "imageUrl": "х",
+        "imageURL": "х",
         "description": {
           "en": "х",
           "ru": "х",
@@ -751,7 +751,7 @@
           "ru": "х",
           "be": "х"
         },
-        "imageUrl": "х",
+        "imageURL": "х",
         "description": {
           "en": "х",
           "ru": "х",
@@ -764,7 +764,7 @@
           "ru": "х",
           "be": "х"
         },
-        "imageUrl": "х",
+        "imageURL": "х",
         "description": {
           "en": "х",
           "ru": "х",
@@ -777,7 +777,7 @@
           "ru": "х",
           "be": "х"
         },
-        "imageUrl": "х",
+        "imageURL": "х",
         "description": {
           "en": "х",
           "ru": "х",
@@ -790,7 +790,7 @@
           "ru": "х",
           "be": "х"
         },
-        "imageUrl": "х",
+        "imageURL": "х",
         "description": {
           "en": "х",
           "ru": "х",
@@ -822,8 +822,8 @@
       "be": "х"
     },
     "currency": "х",
-    "imageUrl": "х",
-    "videoURL": "х",
+    "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615734320/travel-app/japan/main.jpg",
+    "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615735378/travel-app/japan/japan_video.mp4",
     "places": [
       {
         "name": {
@@ -831,7 +831,7 @@
           "ru": "х",
           "be": "х"
         },
-        "imageUrl": "х",
+        "imageURL": "х",
         "description": {
           "en": "х",
           "ru": "х",
@@ -844,7 +844,7 @@
           "ru": "х",
           "be": "х"
         },
-        "imageUrl": "х",
+        "imageURL": "х",
         "description": {
           "en": "х",
           "ru": "х",
@@ -857,7 +857,7 @@
           "ru": "х",
           "be": "х"
         },
-        "imageUrl": "х",
+        "imageURL": "х",
         "description": {
           "en": "х",
           "ru": "х",
@@ -870,7 +870,7 @@
           "ru": "х",
           "be": "х"
         },
-        "imageUrl": "х",
+        "imageURL": "х",
         "description": {
           "en": "х",
           "ru": "х",
@@ -883,7 +883,7 @@
           "ru": "х",
           "be": "х"
         },
-        "imageUrl": "х",
+        "imageURL": "х",
         "description": {
           "en": "х",
           "ru": "х",
@@ -896,7 +896,7 @@
           "ru": "х",
           "be": "х"
         },
-        "imageUrl": "х",
+        "imageURL": "х",
         "description": {
           "en": "х",
           "ru": "х",

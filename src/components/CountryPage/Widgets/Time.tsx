@@ -1,8 +1,8 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import dictionary from '../../../data/dictionary';
 import addZeroBeforeNumber from '../../../helpers/addZeroBeforeNumber';
+import dict from '../../../data/dictionary';
 import { IProps } from '../../types/types';
 
 
@@ -24,8 +24,8 @@ import { IProps } from '../../types/types';
           const time: string = `${addZeroBeforeNumber(hour)}:${addZeroBeforeNumber(min)}:${addZeroBeforeNumber(sec)}`;
 
           const date: string = `${day} 
-                                ${dictionary['months'][lang][month]}, 
-                                ${dictionary['week'][lang][week]}`; 
+                                ${dict['months'][lang][month]}, 
+                                ${dict['weekDay'][lang][week]}`; 
 
           setTime(time);
           setDate(date);

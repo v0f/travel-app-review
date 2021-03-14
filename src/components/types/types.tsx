@@ -9,6 +9,7 @@ export interface IProps {
 
 export interface ICurrency {
   currency: string;
+  currencyCode: string;
 }
 
 interface iDictObj {
@@ -21,7 +22,7 @@ export interface iDict {
   lang: {
     [key: string]: string;
   };
-  currencyCode: string;
+  // currencyCode: string;
 }
 
 export interface ICapital {

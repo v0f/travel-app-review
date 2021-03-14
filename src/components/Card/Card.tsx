@@ -32,7 +32,7 @@ const CountryCard: React.FC<ICard> = ({ id, getId }) => {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image={`./assets/images/countries/japan/japan.jpg`}
+          image={data[id].imageURL}
           // title={data.id.countryName[lang]}
         />
         <CardContent>
