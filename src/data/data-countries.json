@@ -524,7 +524,7 @@
     "geoCenter": [105.8342, 21.0278],
     "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835115/travel-app/vietnam/vietnam.jpg",
     "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615835349/travel-app/vietnam/vietnam_video.mp4",
-    "videoPoster": "https://res.cloudinary.com/travel-app/video/upload/v1615745745/travel-app/vietnam/video_poster.jpg",
+    "videoPoster": "https://res.cloudinary.com/travel-app/image/upload/v1615837128/travel-app/vietnam/video_poster.jpg",
     "places": [
       {
         "name": {
@@ -637,8 +637,9 @@
     },
     "currencyCode": "LAK",
     "timeZone": "Asia/Vientiane",
-    "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615734320/travel-app/japan/main.jpg",
-    "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615735378/travel-app/japan/japan_video.mp4",
+    "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835690/travel-app/laos/laos.jpg",
+    "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615840877/travel-app/laos/laos_video.mp4",
+    "videoPoster": "https://res.cloudinary.com/travel-app/image/upload/v1615837289/travel-app/laos/video_poster.jpg",
     "places": [
       {
         "name": {
@@ -646,7 +647,7 @@
           "ru": "Ванг Вьенг",
           "be": "Ванг Вьенг"
         },
-        "imageURL": "х",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835691/travel-app/laos/VangVieng.jpg",
         "description": {
           "en": "Backpackers “discovered” this little town in the late 1990s. It didn’t take long to develop into a crazy, hedonistic city. Nowadays, things have calmed down and Vang Vieng has become a hub for outdoor adventure, jungle hikes, and lazy days on the river. There’s still a party scene but now it’s focused on a handful of bars.",
           "ru": "Путешественники «открыли» этот городок в конце 1990-х годов. Он быстро превратился в сумасшедший гедонистический город. В настоящее время все успокоилось, и Ванг-Вьенг стал центром приключений на свежем воздухе, походов в джунгли и ленивых дней на реке. Есть еще вечеринки, но теперь они сосредоточены в нескольких барах.",
@@ -659,7 +660,7 @@
           "ru": "Луангпхабанг",
           "be": "Луангпхабанг"
         },
-        "imageURL": "х",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835691/travel-app/laos/LuangPrabang.jpg",
         "description": {
           "en": "Luang Prabang is a slow-paced city. There is not much to do here other than enjoy epic sunsets over the Mekong River, spend time at the incredible Kuang Si Waterfalls, and shop at the night market. Every morning at sunrise, the monks walk through the main streets receiving alms from the local residents.",
           "ru": "Луангпхабанг - это тихий город. Здесь нечего делать, кроме как наслаждаться эпическими закатами над рекой Меконг, проводить время у невероятных водопадов Куанг Си и делать покупки на ночном рынке. Каждое утро с восходом солнца монахи гуляют по центральным улицам, получая милостыню от местных жителей.",
@@ -672,7 +673,7 @@
           "ru": "4000 островов",
           "be": "4000 выспаў"
         },
-        "imageURL": "х",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835689/travel-app/laos/4kLands.jpg",
         "description": {
           "en": "Located in Southern Laos, the 4,000 Islands are an area of tiny inhabited islands in the Mekong River near the Cambodian border. They are popular with backpackers and the vibe is laid-back and chill. Accommodation is cheap, and there’s really not much to do here besides chill in the river and relax at night. You’ll have to take a boat from Pakse to reach the islands.",
           "ru": "Расположенные в Южном Лаосе, 4000 островов представляют собой крошечные населенные острова на реке Меконг недалеко от границы с Камбоджей. Они популярны среди туристов, здесь царит непринужденная и расслабляющая атмосфера. Проживание дешевое, и здесь действительно нечем заняться, кроме как расслабиться в реке и расслабиться ночью. Чтобы добраться до островов, вам нужно будет сесть на лодку из Паксе.",
@@ -685,7 +686,7 @@
           "ru": "Вьентьян",
           "be": "Вьентьян"
         },
-        "imageURL": "х",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835690/travel-app/laos/Vientiane.jpg",
         "description": {
           "en": "The capital and largest city in Laos is full of important national monuments and temples, like the Great Stupa and the Sisaket Temple. While there, be sure to check out Buddha Park, a sculpture garden full of giant Buddha statues. It’s the most cosmopolitan city in the country, and you’ll find an up and coming foodie scene here",
           "ru": "Столица и самый большой город Лаоса полон важных национальных памятников и храмов, таких как Великая ступа и храм Сисакет. Находясь там, обязательно посетите Парк Будды, сад скульптур, полный гигантских статуй Будды. Это самый космополитичный город в стране, и вы найдете здесь многообещающую кулинарную сцену.",
@@ -698,7 +699,7 @@
           "ru": "Пообщайтесь с монахом",
           "be": "Пагутарыце з манахам"
         },
-        "imageURL": "х",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835690/travel-app/laos/monk.jpg",
         "description": {
           "en": "On the first Sunday of every month, monks gather at the Sangha College in Vientiane to chat with tourists. You’re able to ask them about their practice and daily life, and in return, they’ll practice their English.",
           "ru": "В первое воскресенье каждого месяца монахи собираются в колледже Сангха во Вьентьяне, чтобы пообщаться с туристами. Вы можете спросить их об их практике и повседневной жизни, и в ответ они будут практиковать свой английский",
@@ -711,7 +712,7 @@
           "ru": "Нонг Кие (Муанг Нгой)",
           "be": "Нонг кіі (Муанг Нгой)"
         },
-        "imageURL": "х",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835689/travel-app/laos/nongKiew.jpg",
         "description": {
           "en": "Life in this quaint village on the Nam Ou River is slow and peaceful, but Nong Kiew is a popular draw for outdoor lovers. The towering limestone cliffs are ideal for experienced climbers, and there are many hiking trails leading to nearby waterfalls and caves. To get there, you can take a bus from Luang Prabang to Pak Mong and then a tuk-tuk the rest of the way",
           "ru": "Жизнь в этой причудливой деревне на реке Нам Оу протекает медленно и мирно, но Нонг Кие является популярным местом для любителей активного отдыха. Высокие известняковые скалы идеально подходят для опытных альпинистов, а также есть множество пешеходных троп, ведущих к близлежащим водопадам и пещерам. Чтобы добраться туда, вы можете сесть на автобус из Луангпхабанга в Пак Монг, а затем на тук-туке до конца пути",
@@ -857,8 +858,9 @@
     },
     "currencyCode": "SGD",
     "timeZone": "Asia/Singapore",
-    "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615734320/travel-app/japan/main.jpg",
-    "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615735378/travel-app/japan/japan_video.mp4",
+    "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835535/travel-app/singapore/Singapore.jpg",
+    "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615841149/travel-app/singapore/singapore_video.mp4",
+    "videoPoster": "https://res.cloudinary.com/travel-app/image/upload/v1615837411/travel-app/singapore/video_poster.jpg",
     "places": [
       {
         "name": {
@@ -866,7 +868,7 @@
           "ru": "Марина Бей Сандс",
           "be": "Марына Бэй Сандс"
         },
-        "imageURL": "х",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835534/travel-app/singapore/marinaBaySands.jpg",
         "description": {
           "en": "The opulent Marina Bay Sands resort complex includes a high-end luxury hotel, a mall with a canal running through it, the ArtScience Museum, and the Marina Bay Sands Skypark Observation Deck—a vantage point for taking in the entire city. The Skypark's viewing deck and infinity pool are found in the ship (yes, ship) that tops the hotel. Only hotel guests are allowed to use the infinity pool, but anyone can visit the observation deck. From the Skypark, you can see the innovative double helix bridge, the port, the Gardens by the Bay (101 hectares of land converted into waterfront gardens), and the impressive skyline.",
           "ru": "Роскошный курортный комплекс Marina Bay Sands включает в себя элитный роскошный отель, торговый центр с проходящим через него каналом, Музей ArtScience и смотровую площадку Marina Bay Sands Skypark - точку обзора для осмотра всего города. Смотровая площадка Skypark и пейзажный бассейн находятся на корабле (да, корабле), который возглавляет отель. Только гости отеля могут пользоваться пейзажным бассейном, но любой желающий может посетить смотровую площадку.Из Skypark вы можете увидеть инновационный мост с двойной спиралью, порт, Сады у залива (101 га земли, преобразованные в сады на набережной) и впечатляющий горизонт.",
@@ -879,7 +881,7 @@
           "ru": "Сады у залива",
           "be": "Сады ў заліва"
         },
-        "imageURL": "х",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835535/travel-app/singapore/gardensByTheBay.jpg",
         "description": {
           "en": "Once you've glimpsed this beautifully designed green space (from the top of the Marina Bay Sands, perhaps) you won't be able to stay away. Wander through the Bay East Garden, perfect for enjoying the vibrant plant life and escaping the city bustle for a moment. You won't want to miss Supertree Grove, where you'll find a cluster of the iconic, futuristic structures designed to perform environmentally sustainable functions. Then, head to the Cloud Forest Dome to see the world's tallest indoor waterfall and learn a bit about biodiversity",
           "ru": "Как только вы увидите это красиво оформленное зеленое пространство (возможно, с вершины Marina Bay Sands), вы не сможете оставаться в стороне. Прогуляйтесь по Восточному саду залива, который идеально подходит для того, чтобы насладиться яркой растительностью и на мгновение уйти от городской суеты. Вы не захотите пропустить Supertree Grove, где вы найдете группу культовых футуристических построек, предназначенных для выполнения экологически безопасных функций. Затем отправляйтесь к Куполу Облачного леса, чтобы увидеть самый высокий в мире закрытый водопад и немного узнать о биоразнообразии",
@@ -892,7 +894,7 @@
           "ru": "Ботанический сад",
           "be": "Батанічны сад"
         },
-        "imageURL": "х",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835533/travel-app/singapore/botanicGardens.jpg",
         "description": {
           "en": "Not to be confused with the Gardens on the Bay, the Botanic Gardens are also worth a visit. Singapore received its first UNESCO World Heritage nomination for its botanical gardens, and with good reason. The city can sometimes feel like a concrete jungle, albeit a clean and comfortable one, but the botanic gardens preserve pieces of Singapore's wilder heritage. Here, a walking trail leads to the gardens' heritage trees, which are conserved as part of an effort to protect the city's mature tree species. Make sure to visit the impressive National Orchid Garden as well.",
           "ru": "Не путайте с Садами на берегу залива, стоит посетить и Ботанические сады. Сингапур получил свою первую номинацию в список Всемирного наследия ЮНЕСКО за свои ботанические сады, и не без оснований. Город иногда может казаться бетонными джунглями, хотя и чистыми и удобными, но ботанические сады хранят кусочки дикой природы Сингапура. Здесь пешеходная тропа ведет к историческим деревьям в саду, которые сохраняются в рамках усилий по защите зрелых пород деревьев в городе. Не забудьте также посетить впечатляющий Национальный сад орхидей.",
@@ -905,7 +907,7 @@
           "ru": "Орчард-роуд",
           "be": "Орчард-роўд"
         },
-        "imageURL": "х",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835534/travel-app/singapore/orchardRoad.jpg",
         "description": {
           "en": "One could be forgiven for coming to Singapore and doing nothing but shopping, as this is a world-class city for style and designer chic. The Orchard Road area is a great place to start a shopping spree, as there are high-end stores at every turn. You'd expect nothing less from a neighborhood that boasts 22 malls and six department stores. There are also four movie theaters, including an IMAX cinema, and a KTV karaoke establishment.",
           "ru": "Можно простительно приехать в Сингапур и ничего не делать, кроме покупок, поскольку это город мирового класса по стилю и дизайнерскому шику. Район Орчард-роуд - отличное место для начала покупок, так как элитные магазины есть на каждом шагу. Вы не ожидаете ничего меньшего от района, в котором есть 22 торговых центра и шесть универмагов. Есть также четыре кинотеатра, включая кинотеатр IMAX и караоке KTV.",
@@ -918,7 +920,7 @@
           "ru": "Сингапурский флаер",
           "be": "Cінгапурскі флаер"
         },
-        "imageURL": "х",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835535/travel-app/singapore/singaporeFlyer.jpg",
         "description": {
           "en": "If the observation deck at the Marina Bay Sands doesn't quite do it for you, try taking in high tea while looking out over the city from the Singapore Flyer, the world's largest giant observation wheel. Choose from several different packages that allow you to be served and pampered while enjoying a view that encompasses not only the Singapore skyline but as far away as the Spice Islands of Indonesia and Malaysia's Straits of Johor.",
           "ru": "Если смотровая площадка в Marina Bay Sands не совсем подходит для вас, попробуйте полдник, глядя на город с Singapore Flyer, самого большого в мире гигантского колеса обозрения. Выберите один из нескольких различных пакетов, которые позволят вам обслужить и побаловать себя, наслаждаясь видом, который охватывает не только панораму Сингапура, но и даже острова специй в Индонезии и Малайзийский пролив Джохор.",
