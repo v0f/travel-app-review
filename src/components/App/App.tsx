@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react';
+import React, { useCallback, useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, RouteComponentProps } from 'react-router-dom';
 
 import Header from '../Header/Header';
@@ -6,6 +6,9 @@ import Footer from '../Footer/Footer';
 import MainPage from '../MainPage/MainPage';
 import CountryPage from '../CountryPage/CountryPage';
 import LangContext from '../Language-context/LangContext';
+
+import ICountry from '../types/ICountry';
+import { API_URL } from '../constants';
 
 import './App.css';
 import '../CountryPage/Gallery/gallery.css'
@@ -32,6 +35,17 @@ const App: React.FC = () => {
     'singapore',
   ]);
 
+  const [countriesList, setCountriesList] = useState<ICountry[]>([]);
+
+  useEffect(() => {
+    fetch(`${API_URL}/countries?lang=${lang}`)
+      .then((data) => data.json())
+      .then((countriesResult) => {
+        setCountriesList(countriesResult);
+      })
+      .catch();
+  }, [lang]);
+
   const updateCountries = useCallback((list: Array<string>) => {
     setCountries(list);
   },[]);
@@ -49,7 +63,9 @@ const App: React.FC = () => {
 
           <Route
           path='/'
-          render={({ history }: HistoryProps) => <MainPage history={history}>{countries}</MainPage>}
+          render={({ history }: HistoryProps) => (
+            <MainPage history={history} countriesList={countriesList}>{countries}</MainPage>
+          )}
           exact
           />
 
