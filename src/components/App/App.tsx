@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useCallback, useState } from 'react';
 import { BrowserRouter as Router, Route, RouteComponentProps } from 'react-router-dom';
 
 import Header from '../Header/Header';
@@ -32,15 +32,14 @@ const App: React.FC = () => {
     'singapore',
   ]);
 
- 
-  const updateCountries = (list: Array<string>) => {
+  const updateCountries = useCallback((list: Array<string>) => {
     setCountries(list);
-  };
+  },[]);
 
-  const changeLang = (language: string) => {
+  const changeLang = useCallback((language: string) => {
     setLang(language);
     localStorage.setItem('lang', language);
-  };
+  },[]);
 
   return (
     <Router>

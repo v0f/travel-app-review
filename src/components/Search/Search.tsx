@@ -1,13 +1,12 @@
-import { TextField } from '@material-ui/core';
-import React, { useState } from 'react';
+import { Button, IconButton, InputAdornment, TextField } from '@material-ui/core';
+import CancelIcon from '@material-ui/icons/Cancel';
+import SearchIcon from '@material-ui/icons/Search';
+import React, { useCallback, useState, useContext, useEffect } from 'react';
 import {ISearch} from '../types/types';
+import LangContext from '../Language-context/LangContext';
 
 interface IList {
   [key:string]: Array<string>
-}
-
-const getCountriesData = () => {
-  return require('../../data/data-countries.json');
 }
 
 const findMatches = (list: IList,textToMatch:String) => {
@@ -17,29 +16,62 @@ const findMatches = (list: IList,textToMatch:String) => {
   return Object.keys(Object.fromEntries(results));
 }
 
-const Search: React.FC<ISearch> = ({countries, updateCountries}) => {
-  const data = getCountriesData();
-  const lang = 'en';
-  const newData = Object.keys(data).reduce(
-    (acc:IList, item:string) => {acc[item] = [
+
+const Search: React.FC<ISearch> = ({updateCountries}) => {
+  const data = require('../../data/data-countries.json');
+  const { lang } = useContext(LangContext);
+  const newData = Object.keys(data).reduce((acc:IList, item:string) => {
+    acc[item] = [
       data[item].countryName[lang].toLowerCase(),
       data[item].capitalName[lang].toLowerCase()
     ]
-  return acc},{});
+    return acc;
+  },{});
 
   const [searchInput, setSearchInput] = useState('');
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  useEffect(() => {
+    document.getElementById('input-search')?.focus();
+  },[]);
+
+  const handleChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchInput(e.target.value);
     const matches:Array<string> = findMatches(newData, e.target.value);
     updateCountries(matches);
-  }
+  },[newData, updateCountries]);
+
+  const resetInput = useCallback(()=> {
+    setSearchInput('');
+    const matches:Array<string> = findMatches(newData, '');
+    updateCountries(matches);
+  },[newData, updateCountries]);
+
+  const handleSubmit = useCallback((event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const matches:Array<string> = findMatches(newData, searchInput);
+    updateCountries(matches);
+  },[newData, searchInput, updateCountries]);
 
   return(
-      <form className='g' noValidate autoComplete="off">
-        <TextField label="Search" variant="outlined" placeholder="Search"
-        value={searchInput}
-        onChange={handleChange}/>
+      <form noValidate autoComplete="off" onSubmit={handleSubmit}>
+        <TextField id='input-search' label="Search" variant="outlined" placeholder="Search"
+          value={searchInput}
+          onChange={handleChange}
+          InputProps={{
+            endAdornment:<InputAdornment position="end">
+              <IconButton
+                aria-label="clean input"
+                onClick={resetInput}
+                edge="end"
+              ><CancelIcon></CancelIcon></IconButton>
+            </InputAdornment>,
+          }}
+        />
+        <Button
+          type="submit"
+          color="default"
+          startIcon={<SearchIcon />}
+        ><>search</></Button>
     </form>
   );
 };
