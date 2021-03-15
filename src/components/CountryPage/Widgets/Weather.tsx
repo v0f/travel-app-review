@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import { ICapital } from '../../types/types';
-// import './weather.css'
+import LangContext from '../../Language-context/LangContext';
 
- const Weather = ({ capitalName } : ICapital) => {
-    const lang: string = "en";
+interface IWeather {
+  capitalNameEN: string;
+}
+
+ const Weather: React.FC<IWeather> = ({ capitalNameEN }) => {
+    const { lang } = React.useContext(LangContext);
 
     const [ weatherIcon, setWeatherIcon ] = useState<string>('weather-icon owf');
     const [ temperature, setTemperature] = useState<string>('');
@@ -16,6 +19,7 @@ import { ICapital } from '../../types/types';
     useEffect(() => {
 
         async function getWeather(capital : string): Promise<void> {
+
             const endpoint = `https://api.openweathermap.org/data/2.5/weather?q=${capital}&lang=${lang}&appid=93f3893d8ca2513b9dff95fa5ec0f1ca&units=metric`;
             const response = await fetch(endpoint);
             const data = await response.json();
@@ -30,9 +34,9 @@ import { ICapital } from '../../types/types';
                   console.log('error')
               }
         } 
-        getWeather(capitalName)
+        getWeather(capitalNameEN)
 
-    }, [capitalName]);
+    }, [capitalNameEN, lang]);
 
   return (
     <Card className="widget weather">

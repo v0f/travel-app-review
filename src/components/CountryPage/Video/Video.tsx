@@ -1,19 +1,18 @@
 import React from 'react';
 import { Player, ControlBar} from 'video-react';
-
-
+import './video.css';
 
 interface IVideo{
   videoURL: string;
+  videoPoster: string;
 }
 
-
-const Video: React.FC<IVideo> = ({ videoURL } ) => {
+const Video: React.FC<IVideo> = ({ videoURL, videoPoster } ) => {
 
   return (
     <Player
     playsInline
-    // poster="https://video-react.js.org/assets/poster.png"
+    poster={videoPoster}
     src={videoURL}
     >
       <ControlBar

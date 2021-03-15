@@ -35,7 +35,6 @@ const CountryCard: React.FC<ICard> = ({ id, getId }) => {
         <CardMedia
           className={classes.media}
           image={data[id].imageURL}
-          // title={data.id.countryName[lang]}
         />
         <CardContent>
           <Typography gutterBottom variant='h4' component='h2'>
