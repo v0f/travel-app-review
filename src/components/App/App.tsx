@@ -8,6 +8,7 @@ import CountryPage from '../CountryPage/CountryPage';
 import LangContext from '../Language-context/LangContext';
 
 import './App.css';
+import '../CountryPage/gallery.css'
 
 interface MatchParams {
   id: string;
