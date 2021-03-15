@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Widgets from './Widgets/Widgets';
 import Map from './Map/Map';
 import Video from './Video/Video';
 import Gallery from './Gallery/Gallery';
 import LangContext from '../Language-context/LangContext';
+import ICountry from '../types/ICountry';
+import IPlace from '../types/IPlace';
+import { API_URL } from '../constants';
 
 import './CountryPage.css';
 
@@ -16,37 +19,55 @@ interface CountryProps {
 const CountryPage: React.FC<CountryProps> = ({ id }) => {
   const { lang } = React.useContext(LangContext);
 
+  const [countryData, setCountryData] = useState<ICountry>({} as ICountry);
+  const [places, setPlaces] = useState<IPlace[]>([]);
+
+  useEffect(() => {
+    fetch(`${API_URL}/countries/${id}?lang=${lang}`)
+      .then((data) => data.json())
+      .then((countryResult) => {
+        setCountryData(countryResult);
+      })
+      .catch();
+    fetch(`${API_URL}/places?country=${id}&lang=${lang}`)
+      .then((data) => data.json())
+      .then((placesResult) => {
+        setPlaces(placesResult);
+      })
+      .catch();
+  }, [lang, id]);
+
   return (
     <React.Fragment>
-      <div className='cover' style={{ backgroundImage: `url(${data[id].imageURL})` }}>
+      <div className='cover' style={{ backgroundImage: `url(${countryData.imageURL})` }}>
         <div className='cover__text'>
-          <h1 className='cover__title'>{data[id].countryName[lang]}</h1>
+          <h1 className='cover__title'>{countryData.countryName}</h1>
           <hr />
-          <p className='cover__subtitle'>{data[id].shortDescription[lang]}</p>
+          <p className='cover__subtitle'>{countryData.shortDescription}</p>
         </div>
       </div>
       <div className='main-content'>
         <Widgets
-          capitalName={data[id].capitalName[lang]}
+          capitalName={countryData.capitalName}
           capitalNameEN={data[id].capitalName['en']}
-          currency={data[id].currency[lang]}
-          currencyCode={data[id].currencyCode}
-          timeZone={data[id].timeZone}
+          currency={countryData.currency}
+          currencyCode={countryData.currencyCode}
+          timeZone={countryData.timeZone}
         />
 
         <div className='country__text'>
-          <p className='country__article'>{data[id].description[lang]}</p>
+          <p className='country__article'>{countryData.description}</p>
         </div>
 
         <Video
-        videoURL={data[id].videoURL}
-        videoPoster={data[id].videoPoster}/>
+        videoURL={countryData.videoURL || ''}
+        videoPoster={countryData.videoPoster || ''}/>
 
         <Gallery
-        places={data[id].places}
+        places={places}
         />
 
-        <Map geoCenter={data[id].geoCenter} countryCode={data[id].countryCode} />
+        <Map geoCenter={countryData.geoCenter || [0, 0]} countryCode={countryData.countryCode} />
       </div>
     </React.Fragment>
   );
