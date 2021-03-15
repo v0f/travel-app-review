@@ -1,6 +1,6 @@
-const Place = require('./place.schema');
-const { NotFoundError } = require('../../common/errors/errors-list');
-const { ENTITY_NAME } = require('./constants');
+import Place from './place.schema';
+import { NotFoundError } from '../../common/errors/errors-list';
+import { ENTITY_NAME } from './constants';
 
 const savePlace = async (body) => {
   const savedPlace = await Place.findOneAndReplace({slug: body.slug}, body, {new: true, upsert: true});
@@ -31,7 +31,7 @@ const getOneByLang = async (slug, lang) => {
   return place;
 };
 
-module.exports = {
+export default {
   getAllByLang,
   savePlace,
   getOneByLang,

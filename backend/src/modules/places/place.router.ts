@@ -1,8 +1,8 @@
-const express = require('express');
-const wrap = require('../../common/errors/async-error-wrapper');
-const countryService = require('./country.service');
+import express from 'express';
+import wrap from '../../common/errors/async-error-wrapper';
+import placeService from './place.service';
 // const validateId = require('../../common/validation/objectID.validation');
-const { DEFAULT_LANG } = require('../../common/config');
+import { DEFAULT_LANG } from '../../common/config';
 // const { ENTITY_NAME } = require('./constants');
 
 const router = express.Router();
@@ -20,14 +20,15 @@ router.route('/')
   .get(
     wrap(async (req, res) => {
       const lang = req.query.lang || DEFAULT_LANG;
-      const data = await countryService.getAll(lang);
+      const country = req.query.country || null;
+      const data = await placeService.getAll(country, lang);
       res.send(data);
     })
   )
   .post(
     wrap(async (req, res) => {
-      const savedCountry = await countryService.saveCountry(req.body);
-      res.json(savedCountry);
+      const savedPlace = await placeService.savePlace(req.body);
+      res.json(savedPlace);
     })
   );
 
@@ -36,9 +37,9 @@ router.get(
   wrap(async (req, res) => {
     const lang = req.query.lang || DEFAULT_LANG;
     const { slug } = req.params;
-    const data = await countryService.getOne(slug, lang);
+    const data = await placeService.getOne(slug, lang);
     res.json(data);
   })
 );
 
-module.exports = router;
+export default router;

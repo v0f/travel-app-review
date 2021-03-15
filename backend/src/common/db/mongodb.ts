@@ -1,8 +1,8 @@
-const mongoose = require('mongoose');
-const { MONGO_CONNECTION_STRING } = require('../config');
-const logger = require('../logging/logger');
+import mongoose from 'mongoose';
+import { MONGO_CONNECTION_STRING } from '../config';
+import logger from '../logging/logger';
 
-const connectToDB = () => {
+const connectToDB = (): void => {
   mongoose
     .connect(MONGO_CONNECTION_STRING, {
       useNewUrlParser: true,
@@ -18,4 +18,4 @@ const connectToDB = () => {
   });
 };
 
-module.exports = { connectToDB };
+export { connectToDB };

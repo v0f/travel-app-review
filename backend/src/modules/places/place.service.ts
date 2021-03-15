@@ -1,4 +1,4 @@
-const placeRepo = require('./place.repository');
+import placeRepo from './place.repository';
 
 const getAll = async (country, lang) => {
   const places = await placeRepo.getAllByLang(country, lang);
@@ -12,7 +12,7 @@ const getOne = async (id, lang) => {
 
 const savePlace = async (body) => placeRepo.savePlace(body);
 
-module.exports = {
+export default {
   getAll,
   getOne,
   savePlace,

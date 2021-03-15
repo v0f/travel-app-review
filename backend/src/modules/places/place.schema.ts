@@ -1,5 +1,5 @@
-const { Schema, model } = require('mongoose');
-const i18nSchema = require('../../common/schemas/i18nSchema');
+import { Schema, model } from 'mongoose';
+import i18nSchema from '../../common/schemas/i18nSchema';
 
 const placeSchema = new Schema({
   countrySlug: {type: String, lowercase: true},
@@ -11,4 +11,4 @@ const placeSchema = new Schema({
 
 const Place = model('Place', placeSchema);
 
-module.exports = Place;
+export default Place;

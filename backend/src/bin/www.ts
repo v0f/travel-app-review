@@ -1,6 +1,6 @@
-const app = require('../app');
-const { DEV_PORT } = require('../common/config');
-const { connectToDB } = require('../common/db/mongodb');
+import app from '../app';
+import { DEV_PORT } from '../common/config';
+import { connectToDB } from '../common/db/mongodb';
 
 const port = process.env.PORT || DEV_PORT;
 

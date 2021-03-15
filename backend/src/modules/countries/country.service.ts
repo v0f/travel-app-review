@@ -1,4 +1,4 @@
-const countryRepo = require('./country.repository');
+import countryRepo from './country.repository';
 
 const getAll = async (lang) => {
   const countries = await countryRepo.getAllByLang(lang);
@@ -12,7 +12,7 @@ const getOne = async (id, lang) => {
 
 const saveCountry = async (body) => countryRepo.saveCountry(body);
 
-module.exports = {
+export default {
   getAll,
   getOne,
   saveCountry,

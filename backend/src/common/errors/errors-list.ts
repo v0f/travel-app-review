@@ -1,7 +1,10 @@
-const { StatusCodes, ReasonPhrases } = require('http-status-codes');
+import { StatusCodes, ReasonPhrases } from 'http-status-codes';
 
 class BadRequestError extends Error {
-  constructor(reason) {
+  status: StatusCodes;
+  statusText: ReasonPhrases;
+  reason: string;
+  constructor(reason: string) {
     super();
     this.status = StatusCodes.BAD_REQUEST;
     this.statusText = ReasonPhrases.BAD_REQUEST;
@@ -10,7 +13,10 @@ class BadRequestError extends Error {
 }
 
 class NotFoundError extends Error {
-  constructor(entity) {
+  status: StatusCodes;
+  statusText: ReasonPhrases;
+  reason: string;
+  constructor(entity: string) {
     super();
     this.status = StatusCodes.NOT_FOUND;
     this.statusText = ReasonPhrases.NOT_FOUND;
@@ -19,6 +25,9 @@ class NotFoundError extends Error {
 }
 
 class InternalServerError extends Error {
+  status: StatusCodes;
+  statusText: ReasonPhrases;
+  reason: string;
   constructor(reason = 'something went wrong') {
     super();
     this.status = StatusCodes.INTERNAL_SERVER_ERROR;
@@ -28,7 +37,10 @@ class InternalServerError extends Error {
 }
 
 class MongoDuplicateError extends Error {
-  constructor(reason) {
+  status: StatusCodes;
+  statusText: ReasonPhrases;
+  reason: string;
+  constructor(reason: string) {
     super();
     this.status = StatusCodes.CONFLICT;
     this.statusText = ReasonPhrases.CONFLICT;
@@ -36,7 +48,7 @@ class MongoDuplicateError extends Error {
   }
 }
 
-module.exports = {
+export {
   BadRequestError,
   NotFoundError,
   InternalServerError,

@@ -1,5 +1,5 @@
-const { Schema, model } = require('mongoose');
-const i18nSchema = require('../../common/schemas/i18nSchema');
+import { Schema, model } from 'mongoose';
+import i18nSchema from '../../common/schemas/i18nSchema';
 
 const countrySchema = new Schema({
   slug: { type: String, unique: true, lowercase: true },
@@ -17,4 +17,4 @@ const countrySchema = new Schema({
 
 const Country = model('Country', countrySchema);
 
-module.exports = Country;
+export default Country;

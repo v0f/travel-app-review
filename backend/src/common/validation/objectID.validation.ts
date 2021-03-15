@@ -1,7 +1,7 @@
-var mongoose = require('mongoose');
-const { BadRequestError } = require('../errors/errors-list');
+import mongoose from 'mongoose';
+import { BadRequestError } from '../errors/errors-list';
 
-module.exports = (id, resource) => {
+export default (id, resource) => {
   if (mongoose.Types.ObjectId.isValid(id)) {
     return true;
   }

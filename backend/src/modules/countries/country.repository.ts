@@ -1,6 +1,6 @@
-const Country = require('./country.schema');
-const { NotFoundError } = require('../../common/errors/errors-list');
-const { ENTITY_NAME } = require('./constants');
+import Country from'./country.schema';
+import { NotFoundError } from'../../common/errors/errors-list';
+import { ENTITY_NAME } from './constants';
 
 const saveCountry = async (body) => {
   const savedCountry = await Country.findOneAndReplace({slug: body.slug}, body, {new: true, upsert: true});
@@ -30,7 +30,7 @@ const getOneByLang = async (id, lang) => {
   return country;
 };
 
-module.exports = {
+export default {
   getAllByLang,
   getOneByLang,
   saveCountry,

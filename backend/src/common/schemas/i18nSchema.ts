@@ -1,4 +1,4 @@
-const { Schema } = require('mongoose');
+import { Schema } from 'mongoose';
 
 const i18nSchema = new Schema({
   en: String,
@@ -6,4 +6,4 @@ const i18nSchema = new Schema({
   be: String,
 });
 
-module.exports = i18nSchema;
+export default i18nSchema;
