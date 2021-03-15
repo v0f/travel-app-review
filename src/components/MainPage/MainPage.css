@@ -1,5 +1,26 @@
 .cards-container {
   column-gap: 2rem;
   row-gap: 2rem;
-  padding: 3rem;
-}
+  padding: 3rem; }
+
+.main-gallery .image-gallery-slides {
+  height: 600px;
+  width: 100vw;
+  background-size: cover; }
+
+.main-gallery .image-gallery-slides::before {
+  height: 600px;
+  width: 100vw;
+  position: absolute;
+  z-index: 2;
+  content: '';
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.81) 0%, rgba(0, 0, 0, 0.61) 58%, rgba(0, 0, 0, 0) 100%); }
+
+.main-gallery .image-gallery-content .image-gallery-slide .image-gallery-image {
+  max-height: 100% !important; }
+
+.main-heading {
+  color: black;
+  font-family: 'Cormorant', serif;
+  font-size: 4rem;
+  text-align: center; }
