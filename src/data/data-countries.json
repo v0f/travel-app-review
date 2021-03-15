@@ -32,6 +32,7 @@
     "countryCode": "JPN",
     "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615734320/travel-app/japan/main.jpg",
     "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615735378/travel-app/japan/japan_video.mp4",
+    "videoPoster": "https://res.cloudinary.com/travel-app/image/upload/v1615838987/travel-app/japan/video_poster.jpg",
     "places": [
       {
         "name": {
@@ -172,6 +173,7 @@
     "timeZone": "Asia/Seoul",
     "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745059/travel-app/korea/korea.jpg",
     "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615745745/travel-app/korea/korea_video.mp4",
+    "videoPoster": "https://res.cloudinary.com/travel-app/image/upload/v1615839030/travel-app/korea/video_poster.jpg",
     "places": [
       {
         "name": {
@@ -292,6 +294,7 @@
     "timeZone": "Asia/Jakarta",
     "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745249/travel-app/indonesia/indonesia.jpg",
     "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615746953/travel-app/indonesia/video_indonesia.mp4",
+    "videoPoster": "https://res.cloudinary.com/travel-app/image/upload/v1615838636/travel-app/indonesia/video_poster.jpg",
     "places": [
       {
         "name": {
@@ -406,6 +409,7 @@
     "geoCenter": [120.966667, 14.583333],
     "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615729162/travel-app/philippines/main.jpg",
     "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615735890/travel-app/philippines/video_philippines.mp4",
+    "videoPoster": "https://res.cloudinary.com/travel-app/image/upload/v1615839084/travel-app/philippines/video_poster.jpg",
     "places": [
       {
         "name": {

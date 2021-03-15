@@ -49,7 +49,6 @@ const Gallery: React.FC<IGallery> = ({ places } ) => {
         })
 
         setImages(imgs)
-
         setSlideTitle(imgs[0].originalTitle)
         setPlaceRating(imgs[0].rating)
 

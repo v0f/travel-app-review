@@ -38,7 +38,9 @@ const CountryPage: React.FC<CountryProps> = ({ id }) => {
           <p className='country__article'>{data[id].description[lang]}</p>
         </div>
 
-        <Video videoURL={data[id].videoURL} />
+        <Video
+        videoURL={data[id].videoURL}
+        videoPoster={data[id].videoPoster}/>
 
         <Gallery
         places={data[id].places}
