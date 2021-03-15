@@ -2,15 +2,20 @@ import React from 'react';
 import Time from './Time';
 import Currency from './Currency';
 import Weather from './Weather';
-
 import LangContext from '../../Language-context/LangContext';
 import dict from '../../../data/dictionary';
 
 import './widgets.css';
 
-import { IWidgets } from '../../types/types';
+interface IWidgets {
+  capitalName: string;
+  capitalNameEN: string;
+  timeZone: string;
+  currency: string;
+  currencyCode: string;
+}
 
-const Widgets = ({ capitalName, timeZone, currency, currencyCode }: IWidgets) => {
+const Widgets: React.FC<IWidgets> = ({ capitalName, capitalNameEN, timeZone, currency, currencyCode }) => {
   const { lang } = React.useContext(LangContext);
 
   return (
@@ -21,7 +26,7 @@ const Widgets = ({ capitalName, timeZone, currency, currencyCode }: IWidgets) =>
         <h2 className='widgets-city'>{`${capitalName}`}</h2>
       </div>
       <Time timeZone={timeZone} />
-      <Weather capitalName={capitalName} />
+      <Weather capitalNameEN={capitalNameEN} />
       <Currency currency={currency} currencyCode={currencyCode} />
     </div>
   );
