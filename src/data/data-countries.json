@@ -608,6 +608,8 @@
   },
   "laos": {
     "id": "laos",
+    "geoCenter": [102.630867, 17.974855],
+    "countryCode": "LAO",
     "countryName": {
       "en": "Laos",
       "ru": "Лаос",
@@ -619,95 +621,101 @@
       "be": "Вьентьян"
     },
     "description": {
-      "en": "х",
-      "ru": "х",
-      "be": "х"
+      "en": "Even though many long-term travelers in the region only stop in Laos on the way to Thailand or Vietnam, the country is still waiting to be discovered by people around the world. The best that this country can offer people traveling in Laos is its wild nature. From wild waterfalls tucked away in the jungle, to lush green rice fields and winding mountain roads connecting all the best Laos must-see spots, discovering Laos will be exciting. And the undeniable French influence that you see on the streets and in Laotian food makes the experience even more interesting. The country is still growing in terms of honest, responsible and hospitable tourism.",
+      "ru": "Лаос известен как одно из самых неизведанных мест в Юго-Восточной Азии. Несмотря на то, что многие путешественники, давно путешествующие по региону, останавливаются в Лаосе только по пути в Таиланд или Вьетнам, страна все еще ждет, чтобы ее открыли люди со всего мира. Лучшее, что эта страна может предложить людям, путешествующим по Лаосу - это дикая природа. От диких водопадов, спрятанных в джунглях, до пышных зеленых рисовых полей и извилистых горных дорог, соединяющих все лучшие места Лаоса, которые стоит посетить  - открытие Лаоса будет захватывающим. А неоспоримое французское влияние, которое вы видите на улицах и в лаосской кухне, делает этот опыт еще более интересным. Страна продолжает расти в плане честного, ответственного и гостеприимного туризма.",
+      "be": "Лаос вядомы як адно з самых нязведаных месцаў у Паўднёва-Усходняй Азіі. Нягледзячы на ​​тое, што многія вандроўнікі, даўно якія вандруюць па рэгіёне, спыняюцца ў Лаосе толькі па шляху ў Тайланд або В'етнам, краіна ўсё яшчэ чакае, каб яе адкрылі людзі з усяго свету. Лепшае, што гэтая краіна можа прапанаваць людзям, якія вандруюць па Лаосу - гэта дзікая прырода. Ад дзікіх вадаспадаў, схаваных у джунглях, да пышных зялёных рысавых палёў і звілістых горных дарог, якія вядуць у ўсе лепшыя месцы Лаоса, якія варта наведаць - адкрыццё Лаоса будзе захапляльным. А бясспрэчныфранцузскi ўплыў, якi вы ўбачыце на вуліцах і ў лаоскай кухні, робіць гэты вопыт яшчэ больш цікавым. Краіна працягвае расці ў плане сумленнага, адказнага і гасціннага турызму."
     },
     "shortDescription": {
-      "en": "х",
-      "ru": "х",
-      "be": "х"
+      "en": "Laotians are some of the shortest people in the world. Laotians drink coffee in a plastic bag! They also have papayas – lots and lots of papayas – some of which are absolutely ginormous!",
+      "ru": "Лаосцы - одни из самых низких людей в мире. Лаосцы пьют кофе в полиэтиленовом пакете! У них также есть папайи - много-много папай, некоторые из которых просто огромны!",
+      "be": "Лаосцы - аднi з самых нізкіх людзей у свеце. Лаосцы п'юць каву ў поліэтыленавым пакеце! У іх таксама ёсць папаі - шмат-шмат папай, некаторыя з якіх проста велізарныя!"
     },
-    "currency": "х",
+    "currency": {
+      "en": "Lao kip",
+      "ru": "Лаосский кип",
+      "be": "Лаоскі кіп"
+    },
+    "currencyCode": "LAK",
+    "timeZone": "Asia/Vientiane",
     "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615734320/travel-app/japan/main.jpg",
     "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615735378/travel-app/japan/japan_video.mp4",
     "places": [
       {
         "name": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "Vang Vieng",
+          "ru": "Ванг Вьенг",
+          "be": "Ванг Вьенг"
         },
         "imageURL": "х",
         "description": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "Backpackers “discovered” this little town in the late 1990s. It didn’t take long to develop into a crazy, hedonistic city. Nowadays, things have calmed down and Vang Vieng has become a hub for outdoor adventure, jungle hikes, and lazy days on the river. There’s still a party scene but now it’s focused on a handful of bars.",
+          "ru": "Путешественники «открыли» этот городок в конце 1990-х годов. Он быстро превратился в сумасшедший гедонистический город. В настоящее время все успокоилось, и Ванг-Вьенг стал центром приключений на свежем воздухе, походов в джунгли и ленивых дней на реке. Есть еще вечеринки, но теперь они сосредоточены в нескольких барах.",
+          "be": "Вандроўцы «адкрылі» гэты гарадок у канцы 1990-х гадоў. Ён хутка ператварыўся ў вар'ят геданічным горад. У цяперашні час усё супакоілася, і Ванг-Вьенг стаў цэнтрам прыгод на свежым паветры, паходаў у джунглі і лянівых дзён на рацэ. Ёсць яшчэ вечарынкі, але цяпер яны сканцэнтраваны ў некалькіх барах."
         }
       },
       {
         "name": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "Luang Prabang",
+          "ru": "Луангпхабанг",
+          "be": "Луангпхабанг"
         },
         "imageURL": "х",
         "description": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "Luang Prabang is a slow-paced city. There is not much to do here other than enjoy epic sunsets over the Mekong River, spend time at the incredible Kuang Si Waterfalls, and shop at the night market. Every morning at sunrise, the monks walk through the main streets receiving alms from the local residents.",
+          "ru": "Луангпхабанг - это тихий город. Здесь нечего делать, кроме как наслаждаться эпическими закатами над рекой Меконг, проводить время у невероятных водопадов Куанг Си и делать покупки на ночном рынке. Каждое утро с восходом солнца монахи гуляют по центральным улицам, получая милостыню от местных жителей.",
+          "be": "Луангпхабанг - гэта ціхі горад. Тут няма чаго рабіць, акрамя як атрымліваць асалоду ад эпічных заходаў над ракой Меконг, праводзіць час у неверагодных вадаспадаў Куанг Сі і рабіць пакупкі на начным рынку. Кожную раніцу з узыходам сонца манахі шпацыруюць па цэнтральных вуліцах, атрымліваючы міласціну ад мясцовых жыхароў."
         }
       },
       {
         "name": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "4000 islands",
+          "ru": "4000 островов",
+          "be": "4000 выспаў"
         },
         "imageURL": "х",
         "description": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "Located in Southern Laos, the 4,000 Islands are an area of tiny inhabited islands in the Mekong River near the Cambodian border. They are popular with backpackers and the vibe is laid-back and chill. Accommodation is cheap, and there’s really not much to do here besides chill in the river and relax at night. You’ll have to take a boat from Pakse to reach the islands.",
+          "ru": "Расположенные в Южном Лаосе, 4000 островов представляют собой крошечные населенные острова на реке Меконг недалеко от границы с Камбоджей. Они популярны среди туристов, здесь царит непринужденная и расслабляющая атмосфера. Проживание дешевое, и здесь действительно нечем заняться, кроме как расслабиться в реке и расслабиться ночью. Чтобы добраться до островов, вам нужно будет сесть на лодку из Паксе.",
+          "be": "Размешчаныя ў Паўднёвым Лаосе, 4000 выспаў ўяўляюць сабой малюсенькія населеныя выспы на рацэ Меконг недалёка ад мяжы з Камбоджай. Яны папулярныя сярод турыстаў, тут пануе нязмушаная і расслабляльная атмасфера. Пражыванне таннае, і тут сапраўды няма чым заняцца, акрамя як расслабіцца ў рацэ і расслабіцца ноччу. Каб дабрацца да выспаў, вам трэба будзе сесці на лодку з Пакс."
         }
       },
       {
         "name": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "Vientiane",
+          "ru": "Вьентьян",
+          "be": "Вьентьян"
         },
         "imageURL": "х",
         "description": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "The capital and largest city in Laos is full of important national monuments and temples, like the Great Stupa and the Sisaket Temple. While there, be sure to check out Buddha Park, a sculpture garden full of giant Buddha statues. It’s the most cosmopolitan city in the country, and you’ll find an up and coming foodie scene here",
+          "ru": "Столица и самый большой город Лаоса полон важных национальных памятников и храмов, таких как Великая ступа и храм Сисакет. Находясь там, обязательно посетите Парк Будды, сад скульптур, полный гигантских статуй Будды. Это самый космополитичный город в стране, и вы найдете здесь многообещающую кулинарную сцену.",
+          "be": "Сталіца і самы вялікі горад Лаоса поўны важных нацыянальных помнікаў і храмаў, такіх як Вялікая ступа і храм Сисакет. Знаходзячыся там, абавязкова наведайце Парк Буды, сад скульптур, поўны гіганцкіх статуй Буды. Гэта самы касмапалітычным горад у краіне, і вы знойдзеце тут шматспадзеўную кулінарную сцэну."
         }
       },
       {
         "name": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "Chat with a monk",
+          "ru": "Пообщайтесь с монахом",
+          "be": "Пагутарыце з манахам"
         },
         "imageURL": "х",
         "description": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "On the first Sunday of every month, monks gather at the Sangha College in Vientiane to chat with tourists. You’re able to ask them about their practice and daily life, and in return, they’ll practice their English.",
+          "ru": "В первое воскресенье каждого месяца монахи собираются в колледже Сангха во Вьентьяне, чтобы пообщаться с туристами. Вы можете спросить их об их практике и повседневной жизни, и в ответ они будут практиковать свой английский",
+          "be": "У першую нядзелю кожнага месяца манахі збіраюцца ў каледжы Сангха у Вьентьяне, каб пагутарыць з турыстамі. Вы можаце спытаць іх аб іх практыцы і штодзённым жыцці, і ў адказ яны будуць практыкаваць свой англійскi"
         }
       },
       {
         "name": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "Nong Kiew (Muang Ngoi)",
+          "ru": "Нонг Кие (Муанг Нгой)",
+          "be": "Нонг кіі (Муанг Нгой)"
         },
         "imageURL": "х",
         "description": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "Life in this quaint village on the Nam Ou River is slow and peaceful, but Nong Kiew is a popular draw for outdoor lovers. The towering limestone cliffs are ideal for experienced climbers, and there are many hiking trails leading to nearby waterfalls and caves. To get there, you can take a bus from Luang Prabang to Pak Mong and then a tuk-tuk the rest of the way",
+          "ru": "Жизнь в этой причудливой деревне на реке Нам Оу протекает медленно и мирно, но Нонг Кие является популярным местом для любителей активного отдыха. Высокие известняковые скалы идеально подходят для опытных альпинистов, а также есть множество пешеходных троп, ведущих к близлежащим водопадам и пещерам. Чтобы добраться туда, вы можете сесть на автобус из Луангпхабанга в Пак Монг, а затем на тук-туке до конца пути",
+          "be": "Жыццё ў гэтай мудрагелістай вёсцы на рацэ Нам Оу працякае павольна і мірна, але Нонг кіі з'яўляецца папулярным месцам для аматараў актыўнага адпачынку. Высокія вапняковыя скалы ідэальна падыходзяць для вопытных альпіністаў, а таксама ёсць мноства пешаходных сцежак, якія вядуць да найбліжэйшых вадаспадаў і пячор. Каб дабрацца туды, вы можаце сесці на аўтобус з Луангпхабанг ў Пак Монг, а затым на тук-тлушчы да канца шляху"
         }
       }
     ]
@@ -820,6 +828,8 @@
   },
   "singapore": {
     "id": "singapore",
+    "geoCenter": [103.851959, 1.290270],
+    "countryCode": "SGP",
     "countryName": {
       "en": "Singapore",
       "ru": "Сингапур",
@@ -831,95 +841,101 @@
       "be": "Сінгапур"
     },
     "description": {
-      "en": "х",
-      "ru": "х",
-      "be": "х"
+      "en": "Singapore is a tiny island nation in Southeast Asia that’s become one of the world’s most prosperous countries. Walk around for a day and you’ll see all the features of an ultramodern society with its impressive skyline, contemporary architecture, high-end shopping malls, and highly efficient subway system. But in spite of its facade of steel and glass, Singapore retains much of the ethnic and cultural diversity that earned it its nickname – “the melting pot of Asia”. Iconic structures like Marina Bay Sands and Supertree Grove are impressive but equally of note are the ethnic pockets within the city that preserve each culture’s unique heritage and traditions. In spite of being a city-state with 100% of its population urbanized, over 50% of Singapore’s area is covered by greenery. It boasts over 50 major parks and 4 nature reserves, all within a 720 sq km area.",
+      "ru": "Сингапур - крошечное островное государство в Юго-Восточной Азии, ставшее одной из самых процветающих стран мира. Погуляйте по городу в течение дня, и вы увидите все черты ультрасовременного общества с его впечатляющим горизонтом, современной архитектурой, элитными торговыми центрами и высокоэффективной системой метро. Но, несмотря на свой фасад из стали и стекла, Сингапур сохраняет большую часть этнического и культурного разнообразия, за которое он получил свое прозвище - «плавильный котел Азии». Знаменитые сооружения, такие как Marina Bay Sands и Supertree Grove, впечатляют, но не менее примечательны этнические районы города, которые хранят уникальное наследие и традиции каждой культуры. Несмотря на то, что это город-государство, 100% населения которого урбанизировано, более 50% территории Сингапура покрыто зеленью. Он может похвастаться более чем 50 крупными парками и 4 заповедниками на площади 720 кв. км.",
+      "be": "Сінгапур - малюсенькая астраўная дзяржава ў Паўднёва-Усходняй Азіі, якае стала адной з самых заможных краінаў свету. Пагуляйце па горадзе на працягу дня, і вы ўбачыце ўсе рысы ўльтрасучаснага грамадства з яго уражлівым гарызонтам, сучаснай архітэктурай, элітнымі гандлёвымі цэнтрамі і высокаэфектыўнай сістэмай метро. Але, нягледзячы на ​​свой фасад з сталі і шкла, Сінгапур захоўвае большую частку этнічнай і культурнай разнастайнасці, за што ён атрымаў сваю мянушку - «плавільны кацёл Азіі». Знакамітыя будынкі, такія як Marina Bay Sands і Supertree Grove, уражваюць, але не меней характэрныя этнічныя раёны горада, якія захоўваюць унікальную спадчыну і традыцыі кожнай культуры. Нягледзячы на ​​тое, што гэта горад-дзяржава, 100% насельніцтва якога ўрбанізавана, больш за 50% тэрыторыі Сінгапура пакрыта зелянінай. Ён можа пахваліцца больш чым 50 буйнымі паркамі і 4 запаведнікамі на плошчы 720 кв. км."
     },
     "shortDescription": {
-      "en": "х",
-      "ru": "х",
-      "be": "х"
+      "en": "Since 1905, Singapore has changed its time zones 6 times! Presently its time zone is GMT+8 (just to be in synch with Malaysia), but it is technically still incorrect. Singapore should be in the GMT +7.5 time zone. Chewing gum is banned in Singapore. Only those with medical prescription can chew gum!",
+      "ru": "С 1905 года Сингапур 6 раз менял часовые пояса! В настоящее время его часовой пояс GMT + 8 (просто для синхронизации с Малайзией), но технически он все еще неверен. Сингапур должен находиться в часовом поясе GMT   +7,5. Жевательная резинка запрещена в Сингапуре. Жевать жевательную резинку могут только те, у кого есть рецепт врача!",
+      "be": "З 1905 года Сінгапур 6 разоў мяняў гадзінныя паясы! У цяперашні час яго гадзінны пояс GMT + 8 (проста для сінхранізацыі з Малайзіяй), але тэхнічна ён усё яшчэ з'яўляецца памылковым. Сінгапур павінен знаходзіцца ў часавым поясе GMT   7,5. Жавальная гумка забароненая ў Сінгапуры. Жаваць жавальную гумку могуць толькі тыя, у каго ёсць рэцэпт лекара!"
     },
-    "currency": "х",
+    "currency": {
+      "en": "Singapore dollar",
+      "ru": "Сингапурский доллар",
+      "be": "Сінгапурскі долар"
+    },
+    "currencyCode": "SGD",
+    "timeZone": "Asia/Singapore",
     "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615734320/travel-app/japan/main.jpg",
     "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615735378/travel-app/japan/japan_video.mp4",
     "places": [
       {
         "name": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "Marina Bay Sands",
+          "ru": "Марина Бей Сандс",
+          "be": "Марына Бэй Сандс"
         },
         "imageURL": "х",
         "description": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "The opulent Marina Bay Sands resort complex includes a high-end luxury hotel, a mall with a canal running through it, the ArtScience Museum, and the Marina Bay Sands Skypark Observation Deck—a vantage point for taking in the entire city. The Skypark's viewing deck and infinity pool are found in the ship (yes, ship) that tops the hotel. Only hotel guests are allowed to use the infinity pool, but anyone can visit the observation deck. From the Skypark, you can see the innovative double helix bridge, the port, the Gardens by the Bay (101 hectares of land converted into waterfront gardens), and the impressive skyline.",
+          "ru": "Роскошный курортный комплекс Marina Bay Sands включает в себя элитный роскошный отель, торговый центр с проходящим через него каналом, Музей ArtScience и смотровую площадку Marina Bay Sands Skypark - точку обзора для осмотра всего города. Смотровая площадка Skypark и пейзажный бассейн находятся на корабле (да, корабле), который возглавляет отель. Только гости отеля могут пользоваться пейзажным бассейном, но любой желающий может посетить смотровую площадку.Из Skypark вы можете увидеть инновационный мост с двойной спиралью, порт, Сады у залива (101 га земли, преобразованные в сады на набережной) и впечатляющий горизонт.",
+          "be": "Раскошны курортны комплекс Marina Bay Sands ўключае ў сябе элітны раскошны гатэль, гандлёвы цэнтр з праходзілым праз яго каналам, Музей ArtScience і назіральную пляцоўку Marina Bay Sands Skypark - кропку агляду для агляду ўсяго горада. Назіральная пляцоўка Skypark і пейзажны басейн знаходзяцца на караблі (так, караблі), які ўзначальвае гатэль. Толькі госці гатэля могуць карыстацца пейзажных басейнам, але любы жадаючы можа наведаць назіральную пляцоўку. Skypark вы можаце ўбачыць інавацыйны мост з двайны спіраллю, порт, Сады ў заліва (101 га зямлі, ператвораныя ў сады на набярэжнай) і ўражлівы гарызонт."
         }
       },
       {
         "name": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "Gardens by the Bay",
+          "ru": "Сады у залива",
+          "be": "Сады ў заліва"
         },
         "imageURL": "х",
         "description": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "Once you've glimpsed this beautifully designed green space (from the top of the Marina Bay Sands, perhaps) you won't be able to stay away. Wander through the Bay East Garden, perfect for enjoying the vibrant plant life and escaping the city bustle for a moment. You won't want to miss Supertree Grove, where you'll find a cluster of the iconic, futuristic structures designed to perform environmentally sustainable functions. Then, head to the Cloud Forest Dome to see the world's tallest indoor waterfall and learn a bit about biodiversity",
+          "ru": "Как только вы увидите это красиво оформленное зеленое пространство (возможно, с вершины Marina Bay Sands), вы не сможете оставаться в стороне. Прогуляйтесь по Восточному саду залива, который идеально подходит для того, чтобы насладиться яркой растительностью и на мгновение уйти от городской суеты. Вы не захотите пропустить Supertree Grove, где вы найдете группу культовых футуристических построек, предназначенных для выполнения экологически безопасных функций. Затем отправляйтесь к Куполу Облачного леса, чтобы увидеть самый высокий в мире закрытый водопад и немного узнать о биоразнообразии",
+          "be": "Як толькі вы ўбачыце гэта прыгожа аформленае зялёная прастора (магчыма, з вяршыні Marina Bay Sands), вы не зможаце заставацца ў баку. Прагуляйцеся па Ўсходнім садзе заліва, які ідэальна падыходзіць для таго, каб атрымаць асалоду ад яркай расліннасцю і на імгненне адысці ад гарадской мітусні. Вы не захочаце прапусціць Supertree Grove, дзе вы знойдзеце групу культавых футурыстычных пабудоў, прызначаных для выканання экалагічна бяспечных функцый. Затым адпраўляйцеся да купалы Хмарнага лесу, каб убачыць самы высокі ў свеце зачынены вадаспад і трохі даведацца аб біяразнастайнасці"
         }
       },
       {
         "name": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "Botanic Gardens",
+          "ru": "Ботанический сад",
+          "be": "Батанічны сад"
         },
         "imageURL": "х",
         "description": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "Not to be confused with the Gardens on the Bay, the Botanic Gardens are also worth a visit. Singapore received its first UNESCO World Heritage nomination for its botanical gardens, and with good reason. The city can sometimes feel like a concrete jungle, albeit a clean and comfortable one, but the botanic gardens preserve pieces of Singapore's wilder heritage. Here, a walking trail leads to the gardens' heritage trees, which are conserved as part of an effort to protect the city's mature tree species. Make sure to visit the impressive National Orchid Garden as well.",
+          "ru": "Не путайте с Садами на берегу залива, стоит посетить и Ботанические сады. Сингапур получил свою первую номинацию в список Всемирного наследия ЮНЕСКО за свои ботанические сады, и не без оснований. Город иногда может казаться бетонными джунглями, хотя и чистыми и удобными, но ботанические сады хранят кусочки дикой природы Сингапура. Здесь пешеходная тропа ведет к историческим деревьям в саду, которые сохраняются в рамках усилий по защите зрелых пород деревьев в городе. Не забудьте также посетить впечатляющий Национальный сад орхидей.",
+          "be": "Не блытайце з садамі на беразе заліва, варта наведаць і Батанічныя сады. Сінгапур атрымаў сваю першую намінацыю ў спіс Сусветнай спадчыны ЮНЕСКА за свае батанічныя сады, і не без падстаў. Горад часам можа здавацца бетоннымі джунглямі, хоць і чыстымі і зручнымі, але батанічныя сады захоўваюць кавалачкі дзікай прыроды Сінгапура. Тут пешаходная сцежка вядзе да гістарычных дрэваў у садзе, якія захоўваюцца ў рамках намаганняў па абароне спелых парод дрэў у горадзе. Не забудзьцеся таксама наведаць ўражлівы Нацыянальны сад архідэй."
         }
       },
       {
         "name": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "Orchard Road",
+          "ru": "Орчард-роуд",
+          "be": "Орчард-роўд"
         },
         "imageURL": "х",
         "description": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "One could be forgiven for coming to Singapore and doing nothing but shopping, as this is a world-class city for style and designer chic. The Orchard Road area is a great place to start a shopping spree, as there are high-end stores at every turn. You'd expect nothing less from a neighborhood that boasts 22 malls and six department stores. There are also four movie theaters, including an IMAX cinema, and a KTV karaoke establishment.",
+          "ru": "Можно простительно приехать в Сингапур и ничего не делать, кроме покупок, поскольку это город мирового класса по стилю и дизайнерскому шику. Район Орчард-роуд - отличное место для начала покупок, так как элитные магазины есть на каждом шагу. Вы не ожидаете ничего меньшего от района, в котором есть 22 торговых центра и шесть универмагов. Есть также четыре кинотеатра, включая кинотеатр IMAX и караоке KTV.",
+          "be": "Можна даравальна прыехаць у Сінгапур і нічога не рабіць, акрамя пакупак, паколькі гэта горад сусветнага класа па стылі і дызайнерскаму шыку. Раён Орчард-роўд - выдатнае месца для пачатку пакупак, так як элітныя крамы ёсць на кожным кроку. Вы не чакаеце нічога меншага ад раёна, у якім ёсць 22 гандлёвых цэнтра і шэсць універмагаў. Ёсць таксама чатыры кінатэатра, уключаючы кінатэатр IMAX і караоке KTV."
         }
       },
       {
         "name": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "Singapore Flyer",
+          "ru": "Сингапурский флаер",
+          "be": "Cінгапурскі флаер"
         },
         "imageURL": "х",
         "description": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "If the observation deck at the Marina Bay Sands doesn't quite do it for you, try taking in high tea while looking out over the city from the Singapore Flyer, the world's largest giant observation wheel. Choose from several different packages that allow you to be served and pampered while enjoying a view that encompasses not only the Singapore skyline but as far away as the Spice Islands of Indonesia and Malaysia's Straits of Johor.",
+          "ru": "Если смотровая площадка в Marina Bay Sands не совсем подходит для вас, попробуйте полдник, глядя на город с Singapore Flyer, самого большого в мире гигантского колеса обозрения. Выберите один из нескольких различных пакетов, которые позволят вам обслужить и побаловать себя, наслаждаясь видом, который охватывает не только панораму Сингапура, но и даже острова специй в Индонезии и Малайзийский пролив Джохор.",
+          "be": "Калі назіральная пляцоўка ў Marina Bay Sands не зусім падыходзіць для вас, паспрабуйце падвячорак, гледзячы на горад з Singapore Flyer, самага вялікага ў свеце гіганцкага колы агляду. Выбераце адзін з некалькіх розных пакетаў, якія дазволяць вам абслужыць і папесціць сябе, атрымліваючы асалоду ад выглядам, які ахоплівае не толькі панараму Сінгапура, але і нават выспы спецый ў Інданезіі і Малайзійскі праліў Джахор."
         }
       },
       {
         "name": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "Chinatown",
+          "ru": "Китайский квартал",
+          "be": "Кітайскі квартал"
         },
-        "imageURL": "х",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835557/travel-app/singapore/chinatown.jpg",
         "description": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "If you've ever visited China, Singapore's Chinatown neighborhood will bring you right back here. From the small mom-and-pop stores and authentic Chinese food to the bright red lanterns, there's excitement and hustle in this district. You can visit the Chinese Heritage Centre and see the impressive and beautiful Sri Mariamman Hindu temple. Another temple worth seeing is the Buddha Tooth Relic temple. If you're up early enough (think 4am), you can hear the morning drum ceremony. Or you can just check out the closing ceremony in the evening after viewing the relic",
+          "ru": "Если вы когда-либо были в Китае, китайский квартал Сингапура вернет вас сюда. От небольших семейных магазинов и аутентичной китайской еды до ярко-красных фонарей - в этом районе царит оживление и суеты. Вы можете посетить Центр китайского наследия и увидеть впечатляющий и красивый индуистский храм Шри Мариамман. Еще один храм, который стоит посетить, - это храм реликвии Зуба Будды. Если вы встаете достаточно рано (представьте, 4 часа ночи), вы можете услышать утреннюю барабанную церемонию. А можно просто посмотреть церемонию закрытия вечером после осмотра реликвии.",
+          "be": "Калі вы калі-небудзь былі ў Кітаі, кітайскі квартал Сінгапура верне вас сюды. Ад невялікіх сямейных магазінаў і аўтэнтычнай кітайскай ежы да ярка-чырвоных ліхтароў - у гэтым раёне пануе ажыўленне і мітусні. Вы можаце наведаць Цэнтр кітайскай спадчыны і ўбачыць ўражлівы і прыгожы індуісцкай храм Шры Мариамман. Яшчэ адзін храм, які варта наведаць, - гэта храм рэліквіі зуба Буды. Калі вы ўстаяце досыць рана (уявіце, 4 гадзіны ночы), вы можаце пачуць ранішнюю барабанную цырымонію. А можна проста паглядзець цырымонію закрыцця вечарам пасля агляду рэліквіі."
         }
       }
     ]
