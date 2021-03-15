@@ -172,6 +172,7 @@
     "timeZone": "Asia/Seoul",
     "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745059/travel-app/korea/korea.jpg",
     "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615745745/travel-app/korea/korea_video.mp4",
+    "videoPoster": "https://res.cloudinary.com/travel-app/video/upload/v1615745745/travel-app/korea/video_poster.jpg",
     "places": [
       {
         "name": {
@@ -286,6 +287,7 @@
     "timeZone": "Asia/Jakarta",
     "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745249/travel-app/indonesia/indonesia.jpg",
     "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615746953/travel-app/indonesia/video_indonesia.mp4",
+    "videoPoster": "https://res.cloudinary.com/travel-app/video/upload/v1615745745/travel-app/indonesia/video_poster.jpg",
     "places": [
       {
         "name": {
@@ -494,95 +496,104 @@
       "be": "Ханой"
     },
     "description": {
-      "en": "х",
-      "ru": "х",
-      "be": "х"
+      "en": "Vietnam is a rather large and very rich in sights country. The turquoise waters of the South China Sea, miles of white sand beaches and lobsters in basins are what you get at all resorts in Vietnam. Whirling in the streams of bikes, eating seafood delicacies, lying on the beaches, learning more about the ancient Champ culture and relaxing in one of the mud baths is the minimum program for them. But if you are interested in a different vacation, choose North Vietnam. There are mountains with deep caves, limestone islands and beautiful beaches in Halong Bay, and, of course, Hanoi, the capital of Vietnam. Hanoi is very lively at any time of the day: during the day the locals cook, trade, build something, make noise, chase chickens from food and dogs from chickens. Those who come for the winter are looking for their hostels, while those who have settled down work in cafes and enjoy the views by the lake, while local Vietnamese children run up to them to practice their English. In general, there are a million and one discussions on the Internet about which of the regions to choose, so spend more time in Vietnam.",
+      "ru": "Вьетнам – довольно большая и очень богатая на достопримечательности страна. Бирюзовые воды Южно-Китайского моря, многокилометровый пляжи с белоснежным песком и лобстеры в тазиках - все это курорты Вьетнама. Закружиться в потоках байков, поесть морских деликатесов, отлежаться на пляжах, узнать больше о старинной чампской культуре и отдохнуть в одной из грязелечебниц – программа минимум для них. Но если тебя интересует другой отдых, выбрай Северный Вьетнам. Там есть и горы с глубокими пещерами, известняковые острова и прекрасные пляжи в Халонг-заливе, и, конечно же, Ханой – столица Вьетнама. Ханой – очень живой в любое время суток: днем местные готовят, торгуют, строят что-то, шумят, гоняют кур от еды и собак от кур. Приезжие на зимовку ищут свои хостелы, осевшие же работают по кафе и наслаждаются видами у озера, пока к ним подбегают местные вьетнамские дети, чтобы потренироваться в английском. Вообще, в интернете есть миллион и одна дискуссия, какой из регионов выбрать, поэтому удели Вьетнаму побольше времени.",
+      "be": "В'етнам - даволі вялікая і вельмі багатая на славутасці краіна. Бірузовыя вады Паўднёва-Кітайскага мора, шматкіламятровы пляжы з белым пяском і лобстары ў тазіках - усё гэта курорты В'етнама. Закруціцца ў патоках байкаў, паесці марскіх далікатэсаў, адляжацца на пляжах, даведацца больш пра старадаўняй чампской культуры і адпачыць у адной з гразелячэбніца - праграма мінімум для іх. Але калі цябе цікавіць іншы адпачынак, выбрай Паўночны В'етнам. Там ёсць і горы з глыбокімі пячорамі, вапняковыя выспы і выдатныя пляжы ў Халонг-заліве, і, вядома ж, Ханой - сталіца В'етнама. Ханой - вельмі жывы ў любы час сутак: днём мясцовыя рыхтуюць, гандлююць, будуюць нешта, шумяць, ганяюць курэй ад ежы і сабак ад курэй. Прыезджыя на зімоўку шукаюць свае хостелы, аселыя ж працуюць па кавярнях і атрымліваюць асалоду ад відамі ля возера, пакуль да іх падбягаюць мясцовыя в'етнамскія дзеці, каб патрэніравацца ў англійскай. Наогул, у інтэрнэце ёсць мільён і адна дыскусія, які з рэгіёнаў выбраць, таму надай В'етнаму пабольш часу."
     },
     "shortDescription": {
-      "en": "х",
-      "ru": "х",
-      "be": "х"
+      "en": "Vietnam with its socialist dreams, friendly smiles and breathtaking nature is unlikely to leave you indifferent, so quickly master the profession of a web-developer and fly away for the winter.",
+      "ru": "Вьетнам с его социалистическими мечтами, дружелюбными улыбками и умопомрачительной природой вряд ли оставит тебя равнодушным, поэтому скорей осваивай профессию программиста и улетай на зимовку.",
+      "be": "В'етнам з яго сацыялістычнымі марамі, прыязнымі ўсмешкамі і ашаламляльнай прыродай наўрад ці пакіне цябе абыякавым, таму хутчэй асвойвай прафесію праграміста і ляці на зімоўку."
     },
-    "currency": "х",
-    "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615734320/travel-app/japan/main.jpg",
-    "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615735378/travel-app/japan/japan_video.mp4",
+    "currencyCode": "VND",
+    "currency": {
+      "en": "Vietnamese dong",
+      "ru": "Вьетнамский донг",
+      "be": "В’етнамскі донг"
+    },
+    "timeZone": "Asia/Ho_Chi_Minh",
+    "countryCode": "VNM",
+    "geoCenter": [105.8342, 21.0278],
+    "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835115/travel-app/vietnam/vietnam.jpg",
+    "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615835349/travel-app/vietnam/vietnam_video.mp4",
+    "videoPoster": "https://res.cloudinary.com/travel-app/video/upload/v1615745745/travel-app/vietnam/video_poster.jpg",
     "places": [
       {
         "name": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "Halong Bay",
+          "ru": "Залив Халонг",
+          "be": "Залів Халонг"
         },
-        "imageURL": "х",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835115/travel-app/vietnam/bay.jpg",
         "description": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "The karst seascape of Halong Bay is one of the world's most spellbinding sea views and is a UNESCO World Heritage Site. Thousands of limestone islands sit within this bay in the Gulf of Tonkin, eroded into jagged pinnacles by wind and water action over millennia. There are plenty of caves in the bay that can be entered including the Hang Sung Sot, with three mammoth caverns, and the Hang Dao Go, with superbly weird stalagmites and stalactites. For most people though, the highlight is simply cruising amid the karsts and soaking up the changing scenery of pinnacles as you pass by.",
+          "ru": "Карстовый морской пейзаж залива Халонг является одним из самых завораживающих видовв мире и внесен в список Всемирного наследия ЮНЕСКО. Тысячи известняковых островов расположены в этой бухте Тонкинского залива, которые за тысячелетия превратились в зазубренные вершины под действием ветра и воды. В заливе есть множество пещер, в которые можно попасть, включая Ханг Сунг Сот с тремя гигантскими пещерами и Ханг Дао Го с невероятно странными сталагмитами и сталактитами. Однако для большинства людей изюминкой является просто путешествие среди карстов и погружение в постоянно меняющийся мир вершин, пока вы проплываете мимо.",
+          "be": "Карстовый пейзаж заліва Халонг з'яўляецца адным з самых зачаравальных відаў свету і ўнесены ў спіс Сусветнай спадчыны. Тысячы вапняковых прылад у гэтай бухце Тонкинского заліва, якія за тысячагоддзе ператварыліся ў вышчэрбленыя вяршыні пад уздзеяннем ветру і вады. У заліве ёсць мноства пячор, у якія можна трапіць, уключаючы Ганс Сунг. Аднак вы праплывалі міма Карстэн і апускаецеся ў пастаянна змяняецца свет вяршыняў, пакуль вы праплывалі міма."
         }
       },
       {
         "name": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "Phong Nha-Ke Bang National Park",
+          "ru": "Национальный парк Фонг Нха-Ке Банг",
+          "be": "Нацыянальны парк Фонг Нха-Ке Банг"
         },
-        "imageURL": "х",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835115/travel-app/vietnam/cave.jpg",
         "description": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "Designated a Unesco World Heritage Site in 2003, the remarkable Phong Nha-Ke Bang National Park contains the oldest karst mountains in Asia, riddled with hundreds of cave systems. One of them is Hang Son Doong - world's biggest cave. It's so large, that even a skyscraper could fit into. It is more than 5 km long, 200 meters high and 150 meters wide and has its own spectacular underground river, jungle (as sunlight enters sections of it resulting in the growth of trees and other vegetation) and climate. The caves are the region's absolute highlights, but the above-ground attractions of forest trekking, the area's war history, and rural mountain biking means it deserves a stay of around three days.",
+          "ru": "Внесенный в список Всемирного наследия ЮНЕСКО в 2003 году национальный парк Фонг Нха-Ке Банг содержит самые старые карстовые горы в Азии, пронизанные сотнями пещерных систем. Одна из них - Ханг Сон Дунг - самая большая пещера в мире. Она настолько огромна, что может вместить даже небоскреб. Длина пещеры - более 5 км, высота - 200 метров и ширина - 150 метров. Она имеет свою собственную впечатляющую подземную реку, джунгли (поскольку солнечный свет проникает, что позовляет расти деревьям и другой растительности) и климат. Конечно, пещеры - абсолютная жемчужина региона, но такие наземные развлечения, как походы по лесу и катание на горных велосипедах в сельской местности, означают, что вам следует задержаться здесь хотя бы на три дня.",
+          "be": "Унесены ў спіс Сусветнай спадчыны ЮНЕСКА ў 2003 годзе нацыянальны парк Фонг Нха-Ке Банг змяшчае самыя старыя карставыя горы ў Азіі, працятыя сотнямі пячорных сістэм. Адна з іх - Ганс Сон Дунг - самая вялікая пячора ў свеце. Яна настолькі велізарная, што можа змясціць нават хмарачос. Даўжыня пячоры - больш за 5 км, вышыня - 200 метраў і шырыня - 150 метраў. Яна мае сваю ўласную ўражальную падземную раку, джунглі (паколькі сонечнае святло пранікае, што позовляет расці дрэвам і іншай расліннасці) і клімат. Вядома, пячоры - абсалютная жамчужына рэгіёну, але такія наземныя забавы, як паходы па лесе і катанне на горных роварах ў сельскай мясцовасці, азначаюць, што вам варта затрымацца тут хоць бы на тры дні."
         }
       },
       {
         "name": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "Sapa Countryside",
+          "ru": "Сельская местность Сапа",
+          "be": "Сельская мясцовасць Сапа"
         },
-        "imageURL": "х",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835115/travel-app/vietnam/countryside.jpg",
         "description": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "The verdant rice field countryside surrounding Sapa, bordered by the jagged peaks of the Hoang Lien Mountains, are home to Vietnam's most beautiful rural vistas. This is the top trekking destination in Vietnam with all these tiny villages and experience the staggering mountain views. The deep valleys here are home to a diverse mix of the country's ethnic minorities, including the Hmong, Giay, and Red Dzao people, while the rippling hills are terraced with rice fields and overlooked by the country's tallest peak, Fansipan Mountain.",
+          "ru": "Зеленые рисовые поля, окружающие Сапу, граничащие с зазубренными пиками гор Хоанг Лиен, являются домом для самых красивых сельских пейзажей Вьетнама. Это лучшее место для треккинга во Вьетнаме, с множеством крошечных деревень и захватывающими видами на горы. Глубокие долины являются домом для разнообразных этнических меньшинств, включая народы хмонг, гай и красный дзао, а волнистые холмы с рисовыми террасами выходят на самую высокую вершину страны, гору Фансипан.",
+          "be": "Зялёныя рысавыя палі, навакольныя Сапу, якія мяжуюць з вышчэрбленымі пікамі гор Хаанг Ліене, з'яўляюцца домам для самых прыгожых сельскіх пейзажаў В'етнама. Гэта лепшае месца для треккинга ў В'етнаме, з мноствам маленькіх вёсак і захапляльнымі відамі на горы. Глыбокія даліны з'яўляюцца домам для разнастайных этнічных меншасцяў, уключаючы народы Хмонг, гай і чырвоны дзао, а хвалістыя пагоркі з рысавымі тэрасамі выходзяць на самую высокую вяршыню краіны, гару Фансипан."
         }
       },
       {
         "name": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "Ninh Binh Province",
+          "ru": "Провинция Ниньбинь",
+          "be": "Правінцыя Ніньбінь"
         },
-        "imageURL": "х",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835115/travel-app/vietnam/province.jpg",
         "description": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "It can be said that the province contains all the scenic quintessence of whole Vietnam within its relatively small size. Ninh Binh is also known as the Ha Long Bay on land for an obvious reason – it looks like Ha Long Bay but on land instead of water. There are hundreds of limestone monoliths topped by dense greenery that emerge from the ground, scattered around the city with rivers flowing through them and caves formed in them. Not only that, Ninh Binh represents typical rural villages with vast green paddy field and a lot of goats. Enjoy being peddled around and through limestone mountains with  many pagodas set within them and breathe in the fresh air.",
+          "ru": "Можно сказать, что провинция Ниньбинь содержит всю живописную квинтэссенцию Вьетнама при ее относительно небольших размерах. Ниньбинь также известна как залив Халонг на суше по очевидной причине - она выглядит как залив Халонг, только на суше, а не на воде. Сотни известняковых монолитов, увенчанных густой зеленью, выходят из-под земли, разбросанных по всей провинции с текущими через них реками и образованными в них пещерами. Мало того, в Ниньбинь вы найдете и типичные сельские деревни с огромным зелеными рисовыми полями и множеством коз. Наслаждайтесь прогулками по горам с живописными пагодами внутри них и дышите свежим воздухом.",
+          "be": "Можна сказаць, што правінцыя Ниньбинь змяшчае ўсю жывапісную квінтэсенцыю В'етнама пры яе адносна невялікіх памерах. Ниньбинь таксама вядома як заліў Халонг на сушы па відавочнай прычыне - яна выглядае як заліў Халонг, толькі на сушы, а не на вадзе. Сотні вапняковых маналітных, увянчаных густой зелянінай, выходзяць з-пад зямлі, якія былі раскіданыя па ўсёй правінцыі з бягучымі праз іх рэкамі і адукаванымі ў іх пячорамі. Мала таго, у Ниньбинь вы знойдзеце і тыповыя сельскія вёскі з велізарным зялёнымі рысавымі палямі і мноствам коз. Атрымлівайце асалоду ад шпацырамі па горах з маляўнічымі пагадамі ўнутры іх і дыхайце свежым паветрам."
         }
       },
       {
         "name": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "Cuc Phuong National Park",
+          "ru": "Национальный парк Кук Фыонг",
+          "be": "Нацыянальны парк Кук Пхуонг"
         },
-        "imageURL": "х",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835115/travel-app/vietnam/park.jpg",
         "description": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "This national park is one of Vietnam’s most important protected areas. Though wildlife has suffered a precipitous decline in Vietnam in recent decades, the park’s 222 sq km of primary tropical forest remains home to an amazing variety of animal and plant life: 336 species of bird, 135 species of mammal, 122 species of reptile, 2000 plant species and counting. The park is also a home to the minority Muong people. Every April and May, the park is always dotted with thousands of colorful butterflies, which is one of the highlights there. During the period of time, you may feel that you are in a butterfly paradise in the park. They may stand on your shoulder, head or just fly around you.",
+          "ru": "Этот национальный парк - одна из самых охраняемых территорий Вьетнама. Несмотря на то, что за последние десятилетия в стране произошло резкое сокращение популяций дикой природы, эти 222 кв.км девственных тропических лесов по-прежнему являются домом для удивительного разнообразия животных и растений: 336 видов птиц, 135 видов млекопитающих, 122 вида рептилий, 2000 виды растений. Парк также является домом и для людей - меньшинства мыонг. Один из лучших месяцев для посещения будет апрель и май, когда парк усеян тысячами разноцветных бабочек. Вы словно в раю, где бабочки сидят у вас на плече, на голове или просто летают вокруг.",
+          "be": "Гэты нацыянальны парк - адна з самых ахоўных тэрыторый В'етнама. Нягледзячы на ​​тое, што за апошнія дзесяцігоддзі ў краіне адбылося рэзкае скарачэнне папуляцый дзікай прыроды, гэтыя 222 кв.км цнатлівых трапічных лясоў па-ранейшаму з'яўляюцца домам для дзіўнага разнастайнасці жывёл і раслін: 336 відаў птушак, 135 відаў млекакормячых, 122 віду рэптылій, 2000. віды раслін. Парк таксама з'яўляецца домам і для людзей - меншасці мыонг. Адзін з лепшых месяцаў для наведвання будзе красавік і травень, калі парк усеяны тысячамі рознакаляровых матылькоў. Вы нібы ў раі, дзе матылі сядзяць у вас на плячы, на галаве, альбо проста лётаюць вакол."
         }
       },
       {
         "name": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "Ban Gioc Waterfall",
+          "ru": "Водопад Бан Джок",
+          "be": "Вадаспад Бан Джок"
         },
-        "imageURL": "х",
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835115/travel-app/vietnam/waterfall.jpg",
         "description": {
-          "en": "х",
-          "ru": "х",
-          "be": "х"
+          "en": "Ban Gioc is one of Vietnam’s best-known waterfalls, and its image adorns the lobby of many a cheap guesthouse. The falls, fed by the Quay Son River that marks the border with China, are an impressive sight in a highly scenic location. Boat owners here will punt you on bamboo rafts close enough to the waterfall so you can feel the spray on your face. Rafts on the Vietnamese side have blue canopies; on the Chinese side canopies are green.",
+          "ru": "Бан Джок - один из самых известных водопадов Вьетнама, и его изображение украшает вестибюль многих дешевых гостевых домов. Водопад, питаемый рекой Набережная Сон, которая отмечает границу с Китаем, представляет собой впечатляющее зрелище в очень живописном месте. Владельцы лодок бамбуковых плотов будут подъезжать достаточно близко к водопаду, чтобы вы могли почувствовать брызги на своем лице. Плоты на вьетнамской стороне имеют голубые навесы; с китайской стороны навесы зеленые.",
+          "be": "Бан Джок - адзін з самых вядомых вадаспадаў В'етнама, і яго малюнак упрыгожвае вестыбюль многіх танных гасцявых дамоў. Вадаспад, кормлены ракой Набярэжная Сон, якая адзначае мяжу з Кітаем, уяўляе сабой ўражлівае відовішча ў вельмі маляўнічым месцы. Уладальнікі лодак бамбукавых плытоў будуць пад'язджаць досыць блізка да вадаспаду, каб вы маглі адчуць пырскі на сваім твары. Плыты на в'етнамскай баку маюць блакітныя навесы; з кітайскага боку навесы зялёныя."
         }
       }
     ]
