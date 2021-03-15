@@ -1,8 +1,8 @@
 import React from 'react';
 import Widgets from './Widgets/Widgets';
-import Map from './Map';
-import Video from './Video';
-import Gallery from './Gallery';
+import Map from './Map/Map';
+import Video from './Video/Video';
+import Gallery from './Gallery/Gallery';
 import LangContext from '../Language-context/LangContext';
 
 import './CountryPage.css';
