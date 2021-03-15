@@ -524,7 +524,7 @@
     "geoCenter": [105.8342, 21.0278],
     "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835115/travel-app/vietnam/vietnam.jpg",
     "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615835349/travel-app/vietnam/vietnam_video.mp4",
-    "videoPoster": "https://res.cloudinary.com/travel-app/video/upload/v1615745745/travel-app/vietnam/video_poster.jpg",
+    "videoPoster": "https://res.cloudinary.com/travel-app/image/upload/v1615837128/travel-app/vietnam/video_poster.jpg",
     "places": [
       {
         "name": {

@@ -1,0 +1,35 @@
+.footer {
+    height: 80px;
+    background-color: #0d0d0d;
+    color: white;
+    /* margin-top: 3rem; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 3rem 1rem;
+    align-items: flex-end;}
+
+.footer .text-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+  .git_link {
+    padding: 0 0.5rem;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #A1A1AA; }
+
+  .git_link:hover {
+    color: #ffb400; }
+  
+  .year {
+    color: #61616C }
+  
+  .logo__img {
+    height: 50px;
+    width: 68px;
+    opacity: 0.5;
+    filter: invert();}
+
+    .logo__img:hover {
+        opacity: 0.8;}
