@@ -8,10 +8,6 @@ interface IList {
   [key:string]: Array<string>
 }
 
-// const getCountriesData = () => {
-//   return require('../../data/data-countries.json');
-// }
-
 const findMatches = (list: IList,textToMatch:String) => {
   const isMatch = (str:string) => str.includes(textToMatch.toLowerCase());
   const results: Array<Array<string|Array<string>>> = Object.entries(list).filter(([id, [country, capital]]) => isMatch(country) || isMatch(capital));
@@ -20,7 +16,6 @@ const findMatches = (list: IList,textToMatch:String) => {
 }
 
 const Search: React.FC<ISearch> = ({updateCountries}) => {
-  // const data = useCallback(() => getCountriesData()); ??
   const data = require('../../data/data-countries.json');
   const { lang } = useContext(LangContext);
   const newData = Object.keys(data).reduce((acc:IList, item:string) => {
@@ -40,10 +35,8 @@ const Search: React.FC<ISearch> = ({updateCountries}) => {
   },[newData, updateCountries]);
 
   const resetInput = useCallback(()=> {
-    const input = (document.getElementById('input-search') as HTMLInputElement);
-    input.value = '';
     setSearchInput('');
-    const matches:Array<string> = findMatches(newData, input.value);
+    const matches:Array<string> = findMatches(newData, '');
     updateCountries(matches);
   },[newData, updateCountries]);
 
