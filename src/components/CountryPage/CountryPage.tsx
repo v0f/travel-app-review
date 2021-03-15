@@ -1,13 +1,14 @@
 import React from 'react';
-import Widgets from '../CountryPage/Widgets/Widgets';
-import Map from '../CountryPage/Map';
-import Video from './Video';
+import Widgets from './Widgets/Widgets';
+import Map from './Map/Map';
+import Video from './Video/Video';
+import Gallery from './Gallery/Gallery';
+import LangContext from '../Language-context/LangContext';
 
 import './CountryPage.css';
 
-import LangContext from '../Language-context/LangContext';
-
 const data = require('../../data/data-countries.json');
+
 interface CountryProps {
   id: string;
 }
@@ -26,8 +27,8 @@ const CountryPage: React.FC<CountryProps> = ({ id }) => {
       </div>
       <div className='main-content'>
         <Widgets
-          countryName={data[id].countryName[lang]}
           capitalName={data[id].capitalName[lang]}
+          capitalNameEN={data[id].capitalName['en']}
           currency={data[id].currency[lang]}
           currencyCode={data[id].currencyCode}
           timeZone={data[id].timeZone}
@@ -37,12 +38,13 @@ const CountryPage: React.FC<CountryProps> = ({ id }) => {
           <p className='country__article'>{data[id].description[lang]}</p>
         </div>
 
-        <Video videoURL={data[id].videoURL} />
+        <Video
+        videoURL={data[id].videoURL}
+        videoPoster={data[id].videoPoster}/>
 
-        <div className='country__places'>
-          <h1 className='country__heading'>Places</h1>
-          <p className='country__article'>Галерея достопримечательностей</p>
-        </div>
+        <Gallery
+        places={data[id].places}
+        />
 
         <Map geoCenter={data[id].geoCenter} countryCode={data[id].countryCode} />
       </div>
