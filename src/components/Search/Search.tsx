@@ -1,6 +1,7 @@
-import { IconButton, InputAdornment, TextField } from '@material-ui/core';
+import { Button, IconButton, InputAdornment, TextField } from '@material-ui/core';
 import CancelIcon from '@material-ui/icons/Cancel';
-import React, { useCallback, useState, useContext } from 'react';
+import SearchIcon from '@material-ui/icons/Search';
+import React, { useCallback, useState, useContext, useEffect } from 'react';
 import {ISearch} from '../types/types';
 import LangContext from '../Language-context/LangContext';
 
@@ -15,6 +16,7 @@ const findMatches = (list: IList,textToMatch:String) => {
   return Object.keys(Object.fromEntries(results));
 }
 
+
 const Search: React.FC<ISearch> = ({updateCountries}) => {
   const data = require('../../data/data-countries.json');
   const { lang } = useContext(LangContext);
@@ -28,6 +30,10 @@ const Search: React.FC<ISearch> = ({updateCountries}) => {
 
   const [searchInput, setSearchInput] = useState('');
 
+  useEffect(() => {
+    document.getElementById('input-search')?.focus();
+  },[]);
+
   const handleChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchInput(e.target.value);
     const matches:Array<string> = findMatches(newData, e.target.value);
@@ -40,8 +46,14 @@ const Search: React.FC<ISearch> = ({updateCountries}) => {
     updateCountries(matches);
   },[newData, updateCountries]);
 
+  const handleSubmit = useCallback((event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const matches:Array<string> = findMatches(newData, searchInput);
+    updateCountries(matches);
+  },[newData, searchInput, updateCountries]);
+
   return(
-      <form className='g' noValidate autoComplete="off">
+      <form noValidate autoComplete="off" onSubmit={handleSubmit}>
         <TextField id='input-search' label="Search" variant="outlined" placeholder="Search"
           value={searchInput}
           onChange={handleChange}
@@ -55,6 +67,11 @@ const Search: React.FC<ISearch> = ({updateCountries}) => {
             </InputAdornment>,
           }}
         />
+        <Button
+          type="submit"
+          color="default"
+          startIcon={<SearchIcon />}
+        ><>search</></Button>
     </form>
   );
 };
