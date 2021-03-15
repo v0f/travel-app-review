@@ -175,19 +175,6 @@
     "places": [
       {
         "name": {
-          "en": "Changdeokgung",
-          "ru": "Чхандоккун",
-          "be": "Чхандоккун"
-        },
-        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745058/travel-app/korea/palace.jpg",
-        "description": {
-          "en": "The World Heritage–listed Changdeokgung is the most beautiful of Seoul's five main palaces. The 'Palace of Illustrious Virtue' was built in the early 15th century as a secondary palace to Gyeongbukgung, but when Gyeongbokgung was destroyed during the Japanese invasion in the 1590s, it became the primary royal residence until 1872. Many of its buildings were actually lived in by members of the royal family well into the 20th century. Like all Joseon palaces, it has a mountain behind it and a small stream in front – good pungsu (feng shui). The most charming section is the Huwon, a ‘secret garden’ that is a royal horticultural idyll.",
-          "ru": "Чхандоккун, внесенный в список всемирного наследия, является самым красивым из пяти главных дворцов Сеула. «Дворец выдающейся добродетели» был построен в начале 15 века как второй дворец после Кёнбуккуна, но когда Кёнбоккун был разрушен во время японского вторжения в 1590-х годах, он стал главной королевской резиденцией до 1872 года. В его стенах жили члены королевской семьи вплоть до ХХ века. Как и все дворцы Чосон, за ним виднеется гора, а спереди небольшой ручей - хорошее пунгсу (фэн-шуй). Самая очаровательная часть дворца - Хувон, «секретный сад», представляющий собой королевскую садоводческую идиллию.",
-          "be": "Чхандоккун, унесены ў спіс сусветнай спадчыны, з'яўляецца самым прыгожым з пяці галоўных палацаў Сеула. «Палац выбітнай цноты» быў пабудаваны ў пачатку 15 стагоддзя як другі палац пасля Кёнбуккуна, але калі Кёнбоккун быў разбураны падчас японскага ўварвання ў 1590-х гадах, ён стаў галоўнай каралеўскай рэзідэнцыяй да 1872 года. У яго сценах жылі члены каралеўскай сям'і аж да ХХ стагоддзя. Як і ўсе палацы Чосон, за ім віднеецца гара, а спераду невялікі ручай - добрае пунгсу (фэн-шуй). Самая чароўная частка палаца - Хувон, «сакрэтны сад», які ўяўляе сабой каралеўскую садаводчых ідылію."
-        }
-      },
-      {
-        "name": {
           "en": "Bukchon Hanok Village",
           "ru": "Деревня Букчон Ханок",
           "be": "Вёска Букчон Ханок"
@@ -197,7 +184,22 @@
           "en": "Check out this folk village if you're interested in seeing how people lived in South Korea a long time ago. It is an open-air museum of small tiled houses selling souvenirs, tea ceremonies and small museums that tell the story of the country.",
           "ru": "Загляни в эту фольклорную деревню, если тебе интересно увидеть, как жили в Южной Корее энное количество времени назад. Это музей под открытым небом, состоящий из маленьких домиков, покрытых черепицей, в которых продаются сувениры, устраиваются чайные церемонии и находятся небольшие музеи, рассказывающие об истории страны.",
           "be": "Зазірні ў гэтую фальклорную вёску, калі табе цікава ўбачыць, як жылі ў Паўднёвай Карэі энная колькасць часу таму. Гэта музей пад адкрытым небам, які складаецца з маленькіх домікаў, пакрытых дахоўкай, у якіх прадаюцца сувеніры, уладкоўваюцца чайныя цырымоніі і знаходзяцца невялікія музеі, якія распавядаюць пра гісторыю краіны."
-        }
+        },
+        "rating": 4
+      },
+      {
+        "name": {
+          "en": "Changdeokgung",
+          "ru": "Чхандоккун",
+          "be": "Чхандоккун"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745058/travel-app/korea/palace.jpg",
+        "description": {
+          "en": "The World Heritage–listed Changdeokgung is the most beautiful of Seoul's five main palaces. The 'Palace of Illustrious Virtue' was built in the early 15th century as a secondary palace to Gyeongbukgung, but when Gyeongbokgung was destroyed during the Japanese invasion in the 1590s, it became the primary royal residence until 1872. Many of its buildings were actually lived in by members of the royal family well into the 20th century. Like all Joseon palaces, it has a mountain behind it and a small stream in front – good pungsu (feng shui). The most charming section is the Huwon, a ‘secret garden’ that is a royal horticultural idyll.",
+          "ru": "Чхандоккун, внесенный в список всемирного наследия, является самым красивым из пяти главных дворцов Сеула. «Дворец выдающейся добродетели» был построен в начале 15 века как второй дворец после Кёнбуккуна, но когда Кёнбоккун был разрушен во время японского вторжения в 1590-х годах, он стал главной королевской резиденцией до 1872 года. В его стенах жили члены королевской семьи вплоть до ХХ века. Как и все дворцы Чосон, за ним виднеется гора, а спереди небольшой ручей - хорошее пунгсу (фэн-шуй). Самая очаровательная часть дворца - Хувон, «секретный сад», представляющий собой королевскую садоводческую идиллию.",
+          "be": "Чхандоккун, унесены ў спіс сусветнай спадчыны, з'яўляецца самым прыгожым з пяці галоўных палацаў Сеула. «Палац выбітнай цноты» быў пабудаваны ў пачатку 15 стагоддзя як другі палац пасля Кёнбуккуна, але калі Кёнбоккун быў разбураны падчас японскага ўварвання ў 1590-х гадах, ён стаў галоўнай каралеўскай рэзідэнцыяй да 1872 года. У яго сценах жылі члены каралеўскай сям'і аж да ХХ стагоддзя. Як і ўсе палацы Чосон, за ім віднеецца гара, а спераду невялікі ручай - добрае пунгсу (фэн-шуй). Самая чароўная частка палаца - Хувон, «сакрэтны сад», які ўяўляе сабой каралеўскую садаводчых ідылію."
+        },
+        "rating": 3.5
       },
       {
         "name": {
@@ -210,7 +212,8 @@
           "en": "This beautiful national park includes miles of raw coastline on over 300 separate islands. Each has hiking trails with spectacular ocean and cliff views. The area also features a cable car, known as the Hallyeosudo Viewing Ropeway. The ride is almost 2.4 kilometers long and takes nine minutes to reach the summit. You're rewarded with sweeping views of the countryside and coastline, including the Japanese island of Daemado.",
           "ru": "Этот красивый национальный парк включает километры необработанной береговой линии на более чем 300 отдельных островах. У каждого есть пешеходные тропы с захватывающим видом на океан и скалы. В этом районе также есть канатная дорога, известная как канатная дорога Халлиёсудо. Поездка протяженностью почти 2,4 километра занимает девять минут, чтобы добраться до вершины. Вы будете вознаграждены потрясающим видом на сельскую местность и побережье, в том числе на японский остров Дэмадо.",
           "be": "Гэты прыгожы нацыянальны парк ўключае кіламетры неапрацаванай берагавой лініі на больш чым 300 асобных выспах. У кожнага ёсць пешаходныя сцежкі з захапляльным выглядам на акіян і скалы. У гэтым раёне таксама ёсць канатная дарога, вядомая як канатная дарога Халлиёсудо. Паездка працягласцю амаль 2,4 кіламетра займае дзевяць хвілін, каб дабрацца да вяршыні. Вы будзеце ўзнагароджаныя узрушаючым выглядам на сельскую мясцовасць і ўзбярэжжа, у тым ліку на японскі востраў Дэмадо."
-        }
+        },
+        "rating": 5
       },
       {
         "name": {
@@ -223,7 +226,8 @@
           "en": "Jeju is a volcanic island, nicknamed the Hawaii of South Korea. The island boasts beautiful beaches along with a lot of culture and history. The highest mountain in South Korea (a dormant volcano called Hallasan) is here along with miles of giant lava tubes. The lava tubes, which can be explored, are natural air pockets in the hardened lava, the size of railway tunnels.",
           "ru": "Чеджу - вулканический остров, прозванный южнокорейскими Гавайями. Остров может похвастаться прекрасными пляжами, а также богатой культурой и историей. Здесь находится самая высокая гора в Южной Корее (спящий вулкан Халласан), а также километры гигантских лавовых труб. Лавовые трубы, которые можно исследовать, представляют собой естественные воздушные карманы в затвердевшей лаве размером с железнодорожные туннели.",
           "be": "Чеджу - вулканічны востраў, празваны паўднёвакарэйскімі Гаваях. Востраў можа пахваліцца выдатнымі пляжамі, а таксама багатай культурай і гісторыяй. Тут знаходзіцца самая высокая гара ў Паўднёвай Карэі (спячы вулкан Халласан), а таксама кіламетры гіганцкіх лававых труб. Лававыя трубы, якія можна даследаваць, ўяўляюць сабой натуральныя паветраныя кішэні ў зацвярдзелай лаве памерам з чыгуначныя тунэлі."
-        }
+        },
+        "rating": 2.5
       },
       {
         "name": {
@@ -236,7 +240,8 @@
           "en": "If you want to go hiking, see the best known mountain range in South Korea or just get some epic photos, then make sure you visit the Seoraksan National Park. Within the park you’ll find pine forests, jagged and rocky mountain peaks, crystal clear streams and stunning lakes. The park is also known for its natural diversity, it is home to over 2,000 animal species.",
           "ru": "Если вы хотите отправиться в поход, увидеть самый известный горный хребет в Южной Корее или просто сделать несколько эпических фотографий, обязательно посетите национальный парк Сораксан. В парке вы найдете сосновые леса, неровные и скалистые горные вершины, кристально чистые ручьи и потрясающие озера. Парк также известен своим природным разнообразием, в нем обитает более 2000 видов животных.",
           "be": "Калі вы жадаеце адправіцца ў паход, убачыць самы вядомы горны хрыбет у Паўднёвай Карэі ці проста зрабіць некалькі эпічных фотаздымкаў, абавязкова наведайце нацыянальны парк Сораксан. У парку вы знойдзеце сасновыя лясы, няроўныя і скалістыя горныя вяршыні, крышталёва чыстыя ручаі і цудоўныя возера. Парк таксама вядомы сваім прыродным разнастайнасцю, і ў ім прабывае больш за 2000 відаў жывёл."
-        }
+        },
+          "rating": 3.5
       },
       {
         "name": {
@@ -249,7 +254,8 @@
           "en": "The 4km-wide, 240km-long buffer known as the Demilitarized Zone (DMZ) slashes across the peninsula, separating North and South Korea. From Freedom House, tourists can observe the North Korean side through binoculars. Also, depending on the chosen tour, you will have the opportunity to go down into the underground military tunnel and visit the 'blue houses' of the UN. Inside them is the official border of the two countries - an invisible line dividing South and North Korea.",
           "ru": "Буферная зона шириной 4 км и длиной 240 км, известная как демилитаризованная зона (ДМЗ), пересекает полуостров, разделяя Северную и Южную Корею. Из Дома свободы туристы могут понаблюдать за северокорейской стороной через бинокль. Также, в зависимости от выбранного тура, у тебя будет возможность спуститься в подземный военный туннель и посетить «голубые домики» ООН. Внутри них проходит официальная граница двух стран – невидимая линия, разделяющая Южную и Северную Кореи.",
           "be": "Буферная зона шырынёй 4 км і даўжынёй 240 км, вядомая як дэмілітарызаваная зона (ДМЗ), перасякае паўвостраў, падзяляючы Паўночную і Паўднёвую Карэю. З Дома свабоды турысты могуць паназіраць за паўночнакарэйскай бокам праз бінокль. Таксама, у залежнасці ад абранага тура, у цябе будзе магчымасць спусціцца ў падземны ваенны тунэль і наведаць «блакітныя домікі» ААН. Унутры іх праходзіць афіцыйная мяжа дзвюх краін - нябачная лінія, якая падзяляе Паўднёвую і Паўночную Карэі."
-        }
+        },
+        "rating": 4
       }
     ]
   },

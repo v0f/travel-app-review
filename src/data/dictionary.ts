@@ -60,6 +60,11 @@ const dict: iDict = {
     ru: 'Столица:',
     be: 'Сталіца:',
   },
+  places: {
+    en: 'Places',
+    ru: 'Места',
+    be: 'Cлавутасці',
+  }
 };
 
 export default dict;

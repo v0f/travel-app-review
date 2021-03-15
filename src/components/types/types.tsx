@@ -11,6 +11,9 @@ export interface iDict {
   capital: {
     [key: string]: string;
   };
+  places: {
+    [key: string]: string;
+  }
 }
 
 export interface ICountryData {

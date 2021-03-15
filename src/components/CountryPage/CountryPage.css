@@ -53,4 +53,23 @@
 .country__heading {
   font-family: 'Cormorant', serif;
   font-size: 4rem;
-  color: black; }
+  color: black;
+  margin-bottom: 0;
+  line-height: 1.1; }
+
+.country__subheading {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  text-transform: uppercase; }
+
+.raiting-wrapper {
+  margin: 0;
+  padding: 0; }
+
+.raiting-box {
+  margin: 0;
+  padding: 0; }
+
+.raiting-box > .MuiRating-root {
+  font-size: 1.2rem; }
