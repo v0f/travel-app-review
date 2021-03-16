@@ -12,7 +12,6 @@ import ICountry from '../types/ICountry';
 import { API_URL } from '../constants';
 
 import './App.css';
-// import '../CountryPage/Gallery/Gallery.css'
 
 interface MatchParams {
   id: string;
@@ -42,12 +41,12 @@ const App: React.FC = () => {
   // const updateCountries = useCallback((list: Array<string>) => {
   const updateCountries = useCallback((list: Array<ICountry>) => {
     setCountries(list);
-  },[]);
+  }, []);
 
   const changeLang = useCallback((language: string) => {
     setLang(language);
     localStorage.setItem('lang', language);
-  },[]);
+  }, []);
 
   return (
     <Router>
@@ -57,12 +56,14 @@ const App: React.FC = () => {
           <Header countries={countriesList} updateCountries={updateCountries} />
 
           <Route
-          path='/'
-          render={({ history }: HistoryProps) => (
-            // <MainPage history={history} countriesList={countriesList}>{countries}</MainPage>
-            <MainPage history={history} countriesList={countries}>{[]}</MainPage>
-          )}
-          exact
+            path='/'
+            render={({ history }: HistoryProps) => (
+              // <MainPage history={history} countriesList={countriesList}>{countries}</MainPage>
+              <MainPage history={history} countriesList={countries}>
+                {[]}
+              </MainPage>
+            )}
+            exact
           />
 
           <Route

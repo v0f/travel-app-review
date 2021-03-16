@@ -5,7 +5,7 @@ import Weather from './Weather';
 import LangContext from '../../Language-context/LangContext';
 import dict from '../../../data/dictionary';
 
-import './Widgets.css';
+import './widgets.css';
 
 interface IWidgets {
   capitalName: string;
@@ -15,7 +15,13 @@ interface IWidgets {
   currencyCode: string;
 }
 
-const Widgets: React.FC<IWidgets> = ({ capitalName, capitalNameEN, timeZone, currency, currencyCode }) => {
+const Widgets: React.FC<IWidgets> = ({
+  capitalName,
+  capitalNameEN,
+  timeZone,
+  currency,
+  currencyCode,
+}) => {
   const { lang } = React.useContext(LangContext);
 
   return (

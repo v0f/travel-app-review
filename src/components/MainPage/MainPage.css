@@ -3,28 +3,27 @@
   row-gap: 2rem;
   padding: 3rem;
   justify-content: center; }
-
-.cards-container .MuiTypography-h4 {
-  font-size: 2.1rem;
-  line-height: 1.235;
-  margin-bottom: 0; }
-
-.cards-container .MuiTypography-h5 {
-  font-size: 1.3rem;
-  margin-bottom: 1rem; }
+  .cards-container .MuiTypography-h4 {
+    font-size: 2.1rem;
+    line-height: 1.235;
+    margin-bottom: 0; }
+  .cards-container .MuiTypography-h5 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem; }
 
 .main-gallery .image-gallery-slides {
-  height: 450px;
-  width: 100vw;
-  background-size: cover; }
-
-.main-gallery .image-gallery-slides::before {
-  height: 450px;
-  width: 100vw;
-  position: absolute;
-  z-index: 2;
-  content: '';
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.81) 0%, rgba(0, 0, 0, 0.61) 58%, rgba(0, 0, 0, 0) 100%); }
+  height: 45vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top center; }
+  .main-gallery .image-gallery-slides::before {
+    height: 45vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    content: '';
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.81) 0%, rgba(0, 0, 0, 0.61) 58%, rgba(0, 0, 0, 0) 100%); }
 
 .main-gallery .image-gallery-content .image-gallery-slide .image-gallery-image {
   max-height: 100% !important; }
@@ -46,11 +45,11 @@
   padding: 0; }
 
 .country-card:hover {
-  transition: background-size  0.5s ease;
+  transition: background-size 0.5s ease;
   box-shadow: 0px 5px 10px 0px rgba(34, 60, 80, 0.2); }
 
 .MuiCardMedia-root {
-  transition: background-size  0.5s ease; }
+  transition: background-size 0.5s ease; }
 
 .country-card:hover .MuiCardMedia-root {
   animation: bg-scale 0.5s forwards;
