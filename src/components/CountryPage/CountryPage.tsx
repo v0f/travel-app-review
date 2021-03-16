@@ -41,7 +41,7 @@ const CountryPage: React.FC<CountryProps> = ({ id }) => {
     <React.Fragment>
       <div className='cover' style={{ backgroundImage: `url(${countryData.imageURL})` }}>
         <div className='cover__text'>
-          <h1 className='cover__title'>{countryData.countryName}</h1>
+          <h2 className='cover__title'>{countryData.countryName}</h2>
           <hr />
           <p className='cover__subtitle'>{countryData.shortDescription}</p>
         </div>
@@ -59,13 +59,9 @@ const CountryPage: React.FC<CountryProps> = ({ id }) => {
           <p className='country__article'>{countryData.description}</p>
         </div>
 
-        <Video
-        videoURL={countryData.videoURL || ''}
-        videoPoster={countryData.videoPoster || ''}/>
+        <Video videoURL={countryData.videoURL || ''} videoPoster={countryData.videoPoster || ''} />
 
-        <Gallery
-        places={places}
-        />
+        <Gallery places={places} />
 
         <Map geoCenter={countryData.geoCenter || [0, 0]} countryCode={countryData.countryCode} />
       </div>
