@@ -10,6 +10,7 @@ const Header: React.FC<ISearch> = ({countries, updateCountries}) => {
   return(
   <header>
     <SelectLang />
+    <span>.goAsia.</span>
     {isMainPage && <Search
     countries={countries}
     updateCountries={updateCountries}
