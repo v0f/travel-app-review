@@ -7,6 +7,7 @@ const placeSchema = new Schema({
   name: i18nSchema,
   imageURL: String,
   description: i18nSchema,
+  rating: Number,
 });
 
 const Place = model('Place', placeSchema);
