@@ -6,6 +6,7 @@ import Footer from '../Footer/Footer';
 import MainPage from '../MainPage/MainPage';
 import CountryPage from '../CountryPage/CountryPage';
 import LangContext from '../Language-context/LangContext';
+import ScrollToTop from '../ScrollToTop/ScrollToTop';
 
 import './App.css';
 import '../CountryPage/Gallery/gallery.css'
@@ -43,6 +44,7 @@ const App: React.FC = () => {
 
   return (
     <Router>
+      <ScrollToTop />
       <React.Fragment>
         <LangContext.Provider value={{ lang, changeLang }}>
           <Header countries={countries} updateCountries={updateCountries} />
