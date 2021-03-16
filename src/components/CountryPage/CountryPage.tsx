@@ -10,8 +10,6 @@ import { API_URL } from '../constants';
 
 import './CountryPage.css';
 
-const data = require('../../data/data-countries.json');
-
 interface CountryProps {
   id: string;
 }
@@ -49,7 +47,7 @@ const CountryPage: React.FC<CountryProps> = ({ id }) => {
       <div className='main-content'>
         <Widgets
           capitalName={countryData.capitalName}
-          capitalNameEN={data[id].capitalName['en']}
+          capitalNameEN={countryData.capitalNameEN}
           currency={countryData.currency}
           currencyCode={countryData.currencyCode}
           timeZone={countryData.timeZone}

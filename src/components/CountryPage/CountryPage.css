@@ -81,23 +81,23 @@
 
 @media (max-width: 768px) {
   .country__text,
-  .country__places {
-    padding: 4rem; }
+  .main-content .country__places {
+    padding: 0 2rem; }
   .country__article {
     font-size: 1rem; }
   .country__text,
   .country__places {
-    padding: 3rem; } }
+    padding: 3rem; }
+  .widgets-wrapper {
+    flex-direction: column; } }
 
 @media (max-width: 500px) {
-  .country__places {
+  .main-content .country__places {
     padding: 0 1rem; }
   .country__text {
     padding: 2rem; }
   .cover__text {
     width: 80vw; }
-  .widgets-wrapper {
-    flex-direction: column; }
   .country__article {
     font-size: 0.9rem; }
   .country__heading {

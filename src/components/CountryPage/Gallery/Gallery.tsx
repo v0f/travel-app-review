@@ -6,17 +6,6 @@ import dict from '../../../data/dictionary';
 import IPlace from '../../types/IPlace';
 import './Gallery.css';
 
-// interface IDataPlaces{
-//   name: {
-//     [key: string]: string;
-//   };
-//   imageURL: string;
-//   description: {
-//     [key: string]: string;
-//   };
-//   rating: number;
-// }
-
 interface IGallery {
   places: Array<IPlace>;
 }

@@ -31,6 +31,7 @@ const Search: React.FC<IApiSearch> = ({setSearchQuery}) => {
   return(
       <form noValidate autoComplete="off" onSubmit={handleSubmit}>
         <TextField id='input-search' label="Search" variant="outlined" placeholder="Search"
+          className='search-input'
           value={searchInput}
           onChange={handleChange}
           InputProps={{
@@ -44,6 +45,7 @@ const Search: React.FC<IApiSearch> = ({setSearchQuery}) => {
           }}
         />
         <Button
+          className='search-btn'
           type="submit"
           color="default"
           startIcon={<SearchIcon />}
