@@ -5,7 +5,7 @@ import Select from '@material-ui/core/Select';
 
 import LangContext from '../Language-context/LangContext';
 
-import './Select.scss';
+import './Select.css';
 
 const SelectLang: React.FC = () => {
   const { lang, changeLang } = React.useContext(LangContext);
@@ -18,9 +18,9 @@ const SelectLang: React.FC = () => {
   return (
     <FormControl className='select-lang'>
       <Select value={lang} onChange={handleChange}>
-        <MenuItem value={'en'}>EN</MenuItem>
-        <MenuItem value={'ru'}>RU</MenuItem>
-        <MenuItem value={'be'}>BE</MenuItem>
+        <MenuItem value={'en'} >EN</MenuItem>
+        <MenuItem value={'ru'} >RU</MenuItem>
+        <MenuItem value={'be'} >BE</MenuItem>
       </Select>
     </FormControl>
   );

@@ -16,4 +16,20 @@ header {
     color: #fff;
     text-decoration: none;
   }
+
+  .MuiInputBase-input {
+    color: white;
+  }
+
+  .MuiButtonBase-root {
+    opacity: 0.2;
+  }
+
+  .MuiButtonBase-root:hover {
+    opacity: 0.8;
+  }
+
+  .MuiInput-underline:after{
+    border-bottom: 2px solid #eabc12;
+  }
 }

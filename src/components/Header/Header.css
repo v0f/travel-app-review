@@ -7,11 +7,18 @@ header {
   column-gap: 6%;
   width: 100%;
   padding: 0.8rem 1rem; }
-
-header .logo {
-  font-family: 'Cormorant', serif;
-  font-size: 2rem;
-  font-weight: 800;
-  opacity: 0.9;
-  color: #fff;
-  text-decoration: none; }
+  header .logo {
+    font-family: 'Cormorant', serif;
+    font-size: 2rem;
+    font-weight: 800;
+    opacity: 0.9;
+    color: #fff;
+    text-decoration: none; }
+  header .MuiInputBase-input {
+    color: white; }
+  header .MuiButtonBase-root {
+    opacity: 0.2; }
+  header .MuiButtonBase-root:hover {
+    opacity: 0.8; }
+  header .MuiInput-underline:after {
+    border-bottom: 2px solid #eabc12; }
