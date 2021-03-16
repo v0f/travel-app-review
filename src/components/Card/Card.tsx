@@ -6,9 +6,10 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 
-import LangContext from '../Language-context/LangContext';
+// import LangContext from '../Language-context/LangContext';
+import ICountry from '../types/ICountry';
 
-const data = require('../../data/data-countries.json');
+// const data = require('../../data/data-countries.json');
 
 const useStyles = makeStyles({
   root: {
@@ -22,10 +23,11 @@ const useStyles = makeStyles({
 interface ICard {
   id: string;
   getId: (id: string) => void;
+  country: ICountry;
 }
 
-const CountryCard: React.FC<ICard> = ({ id, getId }) => {
-  const { lang } = React.useContext(LangContext);
+const CountryCard: React.FC<ICard> = ({ id, getId, country }) => {
+  // const { lang } = React.useContext(LangContext);
 
   const classes = useStyles();
 
@@ -34,17 +36,17 @@ const CountryCard: React.FC<ICard> = ({ id, getId }) => {
       <CardActionArea>
         <CardMedia
           className={classes.media + ' card-img' }
-          image={data[id].imageURL}
+          image={country.imageURL}
         />
         <CardContent>
           <Typography gutterBottom variant='h4' component='h2'>
-            {data[id].countryName[lang]}
+            {country.countryName}
           </Typography>
           <Typography gutterBottom variant='h5' component='h2'>
-            {data[id].capitalName[lang]}
+            {country.capitalName}
           </Typography>
           <Typography variant='body2' color='textSecondary' component='p'>
-            {data[id].shortDescription[lang]}
+            {country.shortDescription}
           </Typography>
         </CardContent>
       </CardActionArea>
