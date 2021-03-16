@@ -27,22 +27,24 @@ const App: React.FC = () => {
   const [lang, setLang] = useState<string>(fromLS);
   const [countries, setCountries] = useState<ICountry[]>([]);
 
-  const [countriesList, setCountriesList] = useState<ICountry[]>([]);
+  // const [countriesList, setCountriesList] = useState<ICountry[]>([]);
+
+  const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
-    fetch(`${API_URL}/countries?lang=${lang}`)
+    fetch(`${API_URL}/countries?lang=${lang}&search=${searchQuery}`)
       .then((data) => data.json())
       .then((countriesResult) => {
-        setCountriesList(countriesResult);
+        // setCountriesList(countriesResult);
         setCountries(countriesResult);
       })
       .catch();
-  }, [lang]);
+  }, [lang, searchQuery]);
 
   // const updateCountries = useCallback((list: Array<string>) => {
-  const updateCountries = useCallback((list: Array<ICountry>) => {
-    setCountries(list);
-  },[]);
+  // const updateCountries = useCallback((list: Array<ICountry>) => {
+  //   setCountries(list);
+  // },[]);
 
   const changeLang = useCallback((language: string) => {
     setLang(language);
@@ -54,7 +56,8 @@ const App: React.FC = () => {
       <ScrollToTop />
       <React.Fragment>
         <LangContext.Provider value={{ lang, changeLang }}>
-          <Header countries={countriesList} updateCountries={updateCountries} />
+          {/* <Header countries={countriesList} updateCountries={updateCountries} /> */}
+          <Header setSearchQuery={setSearchQuery} />
 
           <Route
           path='/'

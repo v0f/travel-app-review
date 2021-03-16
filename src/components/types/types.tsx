@@ -30,4 +30,6 @@ export interface ISearch {
   updateCountries: (list: Array<ICountry>) => void;
 }
 
-
+export interface IApiSearch {
+  setSearchQuery: (newState: string) => void;
+}
