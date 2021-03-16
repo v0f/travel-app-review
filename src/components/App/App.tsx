@@ -25,45 +25,35 @@ const App: React.FC = () => {
   const fromLS = localStorage.getItem('lang') || 'en';
   const [lang, setLang] = useState<string>(fromLS);
   const [countries, setCountries] = useState<ICountry[]>([]);
-
-  const [countriesList, setCountriesList] = useState<ICountry[]>([]);
+  const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
-    fetch(`${API_URL}/countries?lang=${lang}`)
+    fetch(`${API_URL}/countries?lang=${lang}&search=${searchQuery}`)
       .then((data) => data.json())
       .then((countriesResult) => {
-        setCountriesList(countriesResult);
         setCountries(countriesResult);
       })
       .catch();
-  }, [lang]);
-
-  // const updateCountries = useCallback((list: Array<string>) => {
-  const updateCountries = useCallback((list: Array<ICountry>) => {
-    setCountries(list);
-  }, []);
+  }, [lang, searchQuery]);
 
   const changeLang = useCallback((language: string) => {
     setLang(language);
     localStorage.setItem('lang', language);
-  }, []);
+  },[]);
 
   return (
     <Router>
       <ScrollToTop />
       <React.Fragment>
         <LangContext.Provider value={{ lang, changeLang }}>
-          <Header countries={countriesList} updateCountries={updateCountries} />
+          <Header setSearchQuery={setSearchQuery} />
 
           <Route
-            path='/'
-            render={({ history }: HistoryProps) => (
-              // <MainPage history={history} countriesList={countriesList}>{countries}</MainPage>
-              <MainPage history={history} countriesList={countries}>
-                {[]}
-              </MainPage>
-            )}
-            exact
+          path='/'
+          render={({ history }: HistoryProps) => (
+            <MainPage history={history} countriesList={countries}>{[]}</MainPage>
+          )}
+          exact
           />
 
           <Route

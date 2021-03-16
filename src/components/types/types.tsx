@@ -29,3 +29,7 @@ export interface ISearch {
   countries: Array<ICountry>;
   updateCountries: (list: Array<ICountry>) => void;
 }
+
+export interface IApiSearch {
+  setSearchQuery: (newState: string) => void;
+}
