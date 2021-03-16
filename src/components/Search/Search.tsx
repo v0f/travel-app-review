@@ -17,8 +17,8 @@ import ICountry from '../types/ICountry';
 //   return Object.keys(Object.fromEntries(results));
 // }
 
-const getMatches = (countries: ICountry[], textToMatch: string): ICountry[] => {
-  const text = textToMatch.toLowerCase();
+export const getMatches = (countries: ICountry[], textToMatch: string): ICountry[] => {
+  const text = textToMatch? textToMatch.toLowerCase(): '';
   const isMatch = (str: string) => str.toLowerCase().includes(text);
   return countries.filter((country) => {
     const { countryName, capitalName } = country;
