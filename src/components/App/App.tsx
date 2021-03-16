@@ -24,16 +24,7 @@ interface HistoryProps extends RouteComponentProps<any> {}
 const App: React.FC = () => {
   const fromLS = localStorage.getItem('lang') || 'en';
   const [lang, setLang] = useState<string>(fromLS);
-  const [countries, setCountries] = useState<Array<string>>([
-    'japan',
-    'korea',
-    'indonesia',
-    'philippines',
-    'vietnam',
-    'laos',
-    'myanmar',
-    'singapore',
-  ]);
+  const [countries, setCountries] = useState<ICountry[]>([]);
 
   const [countriesList, setCountriesList] = useState<ICountry[]>([]);
 
@@ -42,11 +33,13 @@ const App: React.FC = () => {
       .then((data) => data.json())
       .then((countriesResult) => {
         setCountriesList(countriesResult);
+        setCountries(countriesResult);
       })
       .catch();
   }, [lang]);
 
-  const updateCountries = useCallback((list: Array<string>) => {
+  // const updateCountries = useCallback((list: Array<string>) => {
+  const updateCountries = useCallback((list: Array<ICountry>) => {
     setCountries(list);
   },[]);
 
@@ -59,12 +52,13 @@ const App: React.FC = () => {
     <Router>
       <React.Fragment>
         <LangContext.Provider value={{ lang, changeLang }}>
-          <Header countries={countries} updateCountries={updateCountries} />
+          <Header countries={countriesList} updateCountries={updateCountries} />
 
           <Route
           path='/'
           render={({ history }: HistoryProps) => (
-            <MainPage history={history} countriesList={countriesList}>{countries}</MainPage>
+            // <MainPage history={history} countriesList={countriesList}>{countries}</MainPage>
+            <MainPage history={history} countriesList={countries}>{[]}</MainPage>
           )}
           exact
           />

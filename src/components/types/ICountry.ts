@@ -2,6 +2,7 @@ export default interface ICountry {
   slug: string;
   countryName: string;
   capitalName: string;
+  capitalNameEN: string;
   shortDescription: string;
   description: string;
   currency: string;

@@ -1,3 +1,5 @@
+import ICountry from './ICountry';
+
 interface iDictObj {
   [key: string]: Array<string>;
 }
@@ -21,8 +23,8 @@ export interface ICountryData {
 }
 
 export interface ISearch {
-  countries: Array<string>;
-  updateCountries: (list: Array<string>) => void;
+  countries: Array<ICountry>;
+  updateCountries: (list: Array<ICountry>) => void;
 }
 
 
