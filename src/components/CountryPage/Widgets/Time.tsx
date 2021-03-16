@@ -9,6 +9,8 @@ interface ITime {
   timeZone: string;
 }
 
+export const getLocaleTime = (time:string) => new Date(new Date().toLocaleString('en-US', { timeZone: time }))
+
  const Time: React.FC<ITime> = ({ timeZone }) => {
     const { lang } = React.useContext(LangContext);
     const [ time, setTime ] = useState<string>('');
@@ -16,26 +18,26 @@ interface ITime {
 
     const showTime = useCallback(
       () => {
-          const today = new Date(new Date().toLocaleString('en-US', { timeZone: timeZone }))
+          const today = getLocaleTime(timeZone);
           const hour = today.getHours(),
                 min  = today.getMinutes(),
                 sec  = today.getSeconds(),
                 day  = today.getDate(),
                 month  = today.getMonth(),
                 week = today.getDay();
-              
+
           const time: string = `${addZeroBeforeNumber(hour)}:${addZeroBeforeNumber(min)}:${addZeroBeforeNumber(sec)}`;
 
-          const date: string = `${day} 
-                                ${dict['months'][lang][month]}, 
-                                ${dict['weekDay'][lang][week]}`; 
+          const date: string = `${day}
+                                ${dict['months'][lang][month]},
+                                ${dict['weekDay'][lang][week]}`;
 
           setTime(time);
           setDate(date);
 
       }, [timeZone, lang]
     )
-    
+
     useEffect(()=> {
         const updateTime = setInterval(() => { showTime() }, 1000);
 
