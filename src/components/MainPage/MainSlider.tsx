@@ -13,7 +13,7 @@ const MainSlider = () => {
     useEffect(() => {
       const imgs: Array<ISlide> = [];
 
-      for( let i = 1; i<= 11; i += 1) {
+      for( let i = 1; i<= 13; i += 1) {
         imgs.push({
             original: `https://res.cloudinary.com/travel-app/image/upload/v1615838588/travel-app/main/${i}.jpg`,
         })
