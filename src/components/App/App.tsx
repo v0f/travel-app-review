@@ -12,7 +12,7 @@ import ICountry from '../types/ICountry';
 import { API_URL } from '../constants';
 
 import './App.css';
-import '../CountryPage/Gallery/gallery.css'
+// import '../CountryPage/Gallery/Gallery.css'
 
 interface MatchParams {
   id: string;

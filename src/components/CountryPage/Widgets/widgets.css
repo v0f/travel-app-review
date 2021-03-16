@@ -16,6 +16,8 @@
     box-shadow: 1px -7px 0px -5px rgba(41, 51, 58, 0.6) inset; }
     .widgets-wrapper .MuiPaper-root {
       background-color: transparent; }
+    .widgets-wrapper .MuiPaper-elevation1 {
+      box-shadow: none; }
   .widgets-city {
     padding: 0 1rem;
     font-weight: 400;
@@ -67,9 +69,6 @@
 
 .wind, .humidity {
   margin-right: 0.5rem; }
-
-.widgets-wrapper > .MuiPaper-elevation1 {
-  box-shadow: none; }
 
 .fa-money-bill, .fa-clock, .fa-university {
   font-size: 2rem;

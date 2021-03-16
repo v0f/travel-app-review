@@ -1,6 +1,5 @@
 import React from 'react';
 import { Player, ControlBar} from 'video-react';
-import './video.css';
 
 interface IVideo{
   videoURL: string;

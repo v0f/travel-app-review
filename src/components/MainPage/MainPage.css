@@ -14,12 +14,12 @@
   margin-bottom: 1rem; }
 
 .main-gallery .image-gallery-slides {
-  height: 600px;
+  height: 450px;
   width: 100vw;
   background-size: cover; }
 
 .main-gallery .image-gallery-slides::before {
-  height: 600px;
+  height: 450px;
   width: 100vw;
   position: absolute;
   z-index: 2;
@@ -29,11 +29,21 @@
 .main-gallery .image-gallery-content .image-gallery-slide .image-gallery-image {
   max-height: 100% !important; }
 
+.main-heading-wrapper {
+  position: absolute;
+  top: 6rem;
+  z-index: 30;
+  color: white;
+  padding-left: 8rem; }
+
 .main-heading {
-  color: black;
+  color: white;
   font-family: 'Cormorant', serif;
-  font-size: 4rem;
-  text-align: center; }
+  font-size: 6rem;
+  text-align: left;
+  line-height: 5rem;
+  margin: 0;
+  padding: 0; }
 
 .country-card:hover {
   transition: background-size  0.5s ease;

@@ -20,12 +20,16 @@ const MainPage: React.FC<Props> = (props) => {
 
   return (
     <>
-      <MainSlider />
-      <h1 className="main-heading"> Visit countries </h1>
+      <div>
+        <MainSlider />
+        <div className="main-heading-wrapper">
+        <h1 className="main-heading"> Visit </h1>
+        <h1 className="main-heading"> Asia </h1>
+        <h1 className="main-heading"> Countries </h1>
+      </div>
+      </div>
+
       <Grid className='cards-container' container spacing={4}>
-        {/* {React.Children.map(props.children, (countryName) => {
-          return <CountryCard id={countryName} getId={getCountryId} />;
-        })} */}
         {
           props.countriesList.map((country) => (
             <CountryCard

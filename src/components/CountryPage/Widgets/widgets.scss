@@ -21,6 +21,10 @@
         .MuiPaper-root {
             background-color: transparent;
         }
+
+        .MuiPaper-elevation1 {
+          box-shadow: none;
+       }
     }
     
     
@@ -44,6 +48,7 @@
     padding: 0;
     margin: 0;
   }
+
 }
 
 .currency-content,
@@ -54,13 +59,13 @@
     align-items: center;
   }
 
-  .currency,
-  .weather,
-  .time {
+.currency,
+.weather,
+.time {
     align-items: flex-end;
  }
 
-  .currency-content {
+.currency-content {
       span {
         font-size: 1.1rem;
       }
@@ -68,15 +73,14 @@
       .currency-country {
         font-size: 1.5rem;
       }
-  }
+}
 
-
-    
-  .owf {
+   
+.owf {
     font: normal normal normal 3rem/1 owfont;
 }
   
-  .icon-and-temp {
+.icon-and-temp {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -86,21 +90,17 @@
     flex-direction: column;
 }
   
-  .temperature,
-  .timer,
-  .currency-h {
+.temperature,
+.timer,
+.currency-h {
     font-size: 1.7rem;
 }
   
-  .wind, .humidity {
+.wind, .humidity {
     margin-right: 0.5rem;
  }
 
- .widgets-wrapper > .MuiPaper-elevation1 {
-    box-shadow: none;
- }
-
- .fa-money-bill, .fa-clock, .fa-university {
+.fa-money-bill, .fa-clock, .fa-university {
     font-size: 2rem;
     margin-bottom: 1rem;
 }

@@ -5,6 +5,7 @@ import LangContext from '../../Language-context/LangContext';
 import ImageGallery from 'react-image-gallery';
 import dict from '../../../data/dictionary';
 import IPlace from '../../types/IPlace';
+import './Gallery.css'
 
 // interface IDataPlaces{
 //   name: {
