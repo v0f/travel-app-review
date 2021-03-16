@@ -33,6 +33,12 @@
     font-family: 'Cormorant', serif;
     font-size: 4rem;
   }
+
+  @media (max-width: 500px) {
+    &__title {
+      font-size: 3rem;
+    }
+  }
 }
 
 .main-content {

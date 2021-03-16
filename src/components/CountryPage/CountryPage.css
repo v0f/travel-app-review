@@ -26,6 +26,10 @@
   font-family: 'Cormorant', serif;
   font-size: 4rem; }
 
+@media (max-width: 500px) {
+  .cover__title {
+    font-size: 3rem; } }
+
 .main-content .country__places {
   padding: 0 1rem;
   color: black; }
