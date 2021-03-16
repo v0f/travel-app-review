@@ -1,6 +1,7 @@
-import { IconButton, InputAdornment, TextField } from '@material-ui/core';
+import { Button, IconButton, InputAdornment, TextField } from '@material-ui/core';
 import CancelIcon from '@material-ui/icons/Cancel';
-import React, { useCallback, useState } from 'react';
+import SearchIcon from '@material-ui/icons/Search';
+import React, { useCallback, useState, useEffect } from 'react';
 import {ISearch} from '../types/types';
 // import LangContext from '../Language-context/LangContext';
 import ICountry from '../types/ICountry';
@@ -38,6 +39,10 @@ const Search: React.FC<ISearch> = ({countries, updateCountries}) => {
 
   const [searchInput, setSearchInput] = useState('');
 
+  useEffect(() => {
+    document.getElementById('input-search')?.focus();
+  },[]);
+
   const handleChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchInput(e.target.value);
     // const matches:Array<string> = findMatches(newData, e.target.value);
@@ -51,8 +56,14 @@ const Search: React.FC<ISearch> = ({countries, updateCountries}) => {
     updateCountries(matches);
   },[countries, updateCountries]);
 
+  const handleSubmit = useCallback((event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const matches:Array<ICountry> = getMatches(countries, searchInput);
+    updateCountries(matches);
+  },[countries, searchInput, updateCountries]);
+
   return(
-      <form className='g' noValidate autoComplete="off">
+      <form noValidate autoComplete="off" onSubmit={handleSubmit}>
         <TextField id='input-search' label="Search" variant="outlined" placeholder="Search"
           value={searchInput}
           onChange={handleChange}
@@ -66,6 +77,11 @@ const Search: React.FC<ISearch> = ({countries, updateCountries}) => {
             </InputAdornment>,
           }}
         />
+        <Button
+          type="submit"
+          color="default"
+          startIcon={<SearchIcon />}
+        ><>search</></Button>
     </form>
   );
 };

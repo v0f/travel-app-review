@@ -32,10 +32,10 @@ const CountryCard: React.FC<ICard> = ({ id, getId, country }) => {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root} id={id} onClick={() => getId(id)}>
+    <Card className={classes.root + ' country-card'} id={id} onClick={() => getId(id)}>
       <CardActionArea>
         <CardMedia
-          className={classes.media}
+          className={classes.media + ' card-img' }
           image={country.imageURL}
         />
         <CardContent>

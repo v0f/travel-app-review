@@ -6,6 +6,7 @@ import Footer from '../Footer/Footer';
 import MainPage from '../MainPage/MainPage';
 import CountryPage from '../CountryPage/CountryPage';
 import LangContext from '../Language-context/LangContext';
+import ScrollToTop from '../ScrollToTop/ScrollToTop';
 
 import ICountry from '../types/ICountry';
 import { API_URL } from '../constants';
@@ -50,6 +51,7 @@ const App: React.FC = () => {
 
   return (
     <Router>
+      <ScrollToTop />
       <React.Fragment>
         <LangContext.Provider value={{ lang, changeLang }}>
           <Header countries={countriesList} updateCountries={updateCountries} />
