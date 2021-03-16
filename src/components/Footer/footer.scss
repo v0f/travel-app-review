@@ -37,7 +37,7 @@
         height: 50px;
         width: 68px;
         opacity: 0.5;
-        // filter: invert(1); TODO
+        filter: invert(1);
     
         &:hover {
             opacity: 0.8;

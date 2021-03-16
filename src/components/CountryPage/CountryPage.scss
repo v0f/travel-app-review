@@ -44,7 +44,7 @@
 .main-content {
   .country {
     &__places {
-      padding: 0 1rem;
+      padding: 0 8rem;
       color: black;
     }
 
@@ -129,7 +129,7 @@
 
 @media (max-width: 500px) {
   .country__places {
-    padding: 0 0.5rem;
+    padding: 0 1rem;
   }
 
   .country__text {

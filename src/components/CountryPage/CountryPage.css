@@ -31,7 +31,7 @@
     font-size: 3rem; } }
 
 .main-content .country__places {
-  padding: 0 1rem;
+  padding: 0 8rem;
   color: black; }
 
 .main-content .country__heading {
@@ -91,7 +91,7 @@
 
 @media (max-width: 500px) {
   .country__places {
-    padding: 0 0.5rem; }
+    padding: 0 1rem; }
   .country__text {
     padding: 2rem; }
   .cover__text {
