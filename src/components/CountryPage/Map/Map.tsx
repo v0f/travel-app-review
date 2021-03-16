@@ -29,9 +29,8 @@ const Map: React.FC<IMap> = ({geoCenter, countryCode}) => {
             type: 'vector',
             url: 'mapbox://mapbox.country-boundaries-v1'
             });
-
             const matchExpression = ['match', ['get', 'iso_3166_1_alpha_3']];
-                matchExpression.push(countryCode, 'rgba(201, 171, 248, 0.2)'); //color for choose country
+                matchExpression.push(countryCode, 'rgba(201, 171, 248, 0.2)'); // color for choose country
                 matchExpression.push('rgba(0, 0, 0, 0)'); //transparent color for other country
             
             map.addLayer(
@@ -51,10 +50,14 @@ const Map: React.FC<IMap> = ({geoCenter, countryCode}) => {
         marker.setLngLat(geoCenter)
             .addTo(map);
 
-    }, [geoCenter, countryCode ]
+    }, [ geoCenter, countryCode ]
   )
 
-  useEffect(() => { createMap() }, [createMap])
+  useEffect(() => { 
+      if (countryCode) {
+        createMap() 
+      }
+}, [createMap, countryCode])
   
   return (
       <div id="map"/>

@@ -15,6 +15,9 @@ export interface iDict {
   };
   places: {
     [key: string]: string;
+  };
+  limit: {
+    [key: string]: string;
   }
 }
 

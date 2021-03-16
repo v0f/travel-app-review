@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
+import LangContext from '../../Language-context/LangContext';
+import dict from '../../../data/dictionary';
 
 interface ICurrency {
     currency: string;
@@ -8,9 +10,13 @@ interface ICurrency {
 }
 
 const Currency: React.FC<ICurrency> =  ({ currency, currencyCode }) => {
+    const { lang } = React.useContext(LangContext);
+
     const [ toRUB, setToRUB ] = useState<string>('');
     const [ toUSD, setToUSD] = useState<string>('');
     const [ toEUR, setToEUR ] = useState<string>('');
+
+    
 
     useEffect(() => {
 
@@ -24,25 +30,27 @@ const Currency: React.FC<ICurrency> =  ({ currency, currencyCode }) => {
               const result: string = String((currencyObject.val * 100).toFixed(2));
 
               if (toCurrency === 'RUB') {
-                setToRUB(result);
+                setToRUB(`${result} ₽ `);
               }  else if (toCurrency === 'USD') {
-                setToUSD(result);
+                setToUSD(`${result} $ `);
               }  else if (toCurrency === 'EUR') {
-                setToEUR(result);
+                setToEUR(`${result} € `);
               } 
               
             } catch(err){
-              setToRUB('-');
-              setToUSD('-');
-              setToEUR('-');
+              setToRUB('');
+              setToUSD('');
+              setToEUR('');
             }
         }
 
-        getCurrencyData(currencyCode, 'RUB')
-        getCurrencyData(currencyCode, 'USD')
-        getCurrencyData(currencyCode, 'EUR')
+         if (currencyCode) {
+          getCurrencyData(currencyCode, 'RUB')
+          getCurrencyData(currencyCode, 'USD')
+          getCurrencyData(currencyCode, 'EUR')
+         }
 
-      }, [currency, currencyCode]
+      }, [currencyCode]
     );
 
   return (
@@ -51,7 +59,7 @@ const Currency: React.FC<ICurrency> =  ({ currency, currencyCode }) => {
         <i className="fas fa-money-bill"></i>
         <span className="currency-country"> {`100 ${currencyCode}`} </span>
         <span className="currency-h">{`${currency}`}</span>
-        <span> {`${toRUB} ₽ | ${toUSD} $ | ${toEUR} €`}  </span>
+        <span> { toRUB ? `${toRUB} | ${toUSD} | ${toEUR}` : dict['limit'][lang]} </span>
       </CardContent>
     </Card>
   );

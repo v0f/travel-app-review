@@ -26,7 +26,7 @@ const StyledRating = withStyles({
         <StyledRating
           name="customized-color"
           value={rating}
-          //@ts-ignore
+         //@ts-ignore
           onChange={(event: React.ChangeEvent<{}>, newValue: number) => { ratingChanged(newValue) }}
           precision={0.5}
           icon={<FavoriteIcon fontSize="inherit" />}
