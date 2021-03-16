@@ -1,38 +1,62 @@
 import { API_URL } from '../constants';
-import { getMatches } from './Search';
 
-it('check getMatches from search component', async () => {
+it('check search request', async () => {
 
-  const dataEn = await new Promise((resolve, reject) => {
+  const allDataEn = await new Promise((resolve, reject) => {
     const xhr = new XMLHttpRequest();
     const en = 'en';
-    xhr.open('GET', `${API_URL}/countries?lang=${en}`);
+    xhr.open('GET', `${API_URL}/countries?lang=${en}&search=`);
+    xhr.onload = () => resolve(xhr.response);
+    xhr.onerror = () => reject(xhr.statusText);
+    xhr.send();
+  });
+  const someDataEn = await new Promise((resolve, reject) => {
+    const xhr = new XMLHttpRequest();
+    const en = 'en';
+    xhr.open('GET', `${API_URL}/countries?lang=${en}&search=o`);
     xhr.onload = () => resolve(xhr.response);
     xhr.onerror = () => reject(xhr.statusText);
     xhr.send();
   });
 
-  const dataRu = await new Promise((resolve, reject) => {
+  const allDataRu = await new Promise((resolve, reject) => {
     const xhr = new XMLHttpRequest();
     const ru = 'ru';
-    xhr.open('GET', `${API_URL}/countries?lang=${ru}`);
+    xhr.open('GET', `${API_URL}/countries?lang=${ru}&search=`);
+    xhr.onload = () => resolve(xhr.response);
+    xhr.onerror = () => reject(xhr.statusText);
+    xhr.send();
+  });
+  const someDataRu = await new Promise((resolve, reject) => {
+    const xhr = new XMLHttpRequest();
+    const ru = 'ru';
+    xhr.open('GET', `${API_URL}/countries?lang=${ru}&search=а`);
     xhr.onload = () => resolve(xhr.response);
     xhr.onerror = () => reject(xhr.statusText);
     xhr.send();
   });
 
-  const dataBe = await new Promise((resolve, reject) => {
+  const allDataBe = await new Promise((resolve, reject) => {
     const xhr = new XMLHttpRequest();
     const be = 'be';
-    xhr.open('GET', `${API_URL}/countries?lang=${be}`);
+    xhr.open('GET', `${API_URL}/countries?lang=${be}&search=`);
+    xhr.onload = () => resolve(xhr.response);
+    xhr.onerror = () => reject(xhr.statusText);
+    xhr.send();
+  });
+  const someDataBe = await new Promise((resolve, reject) => {
+    const xhr = new XMLHttpRequest();
+    const be = 'be';
+    xhr.open('GET', `${API_URL}/countries?lang=${be}&search=і`);
     xhr.onload = () => resolve(xhr.response);
     xhr.onerror = () => reject(xhr.statusText);
     xhr.send();
   });
 
-  expect(getMatches(JSON.parse(dataEn), '').length).toEqual(8);
-  expect(getMatches(JSON.parse(dataEn), 'ja').length).toEqual(2);
-  expect(getMatches(JSON.parse(dataEn), 'o').length).toEqual(6);
-  expect(getMatches(JSON.parse(dataRu), '').length).toEqual(8);
-  expect(getMatches(JSON.parse(dataBe), '').length).toEqual(8);
+  expect(JSON.parse(allDataEn).length).toEqual(8);
+  expect(JSON.parse(someDataRu).length).toEqual(7);
+  expect(JSON.parse(someDataEn).length).toEqual(6);
+  expect(JSON.parse(someDataBe).length).toEqual(4);
+  expect(JSON.parse(allDataRu).length).toEqual(8);
+  expect(JSON.parse(allDataBe).length).toEqual(8);
 })
