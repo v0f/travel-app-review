@@ -6,6 +6,8 @@ import {ISearch} from '../types/types';
 // import LangContext from '../Language-context/LangContext';
 import ICountry from '../types/ICountry';
 
+// TODO посмотреть что тут и решить за запросы
+
 // interface IList {
 //   [key:string]: Array<string>
 // }
@@ -17,8 +19,8 @@ import ICountry from '../types/ICountry';
 //   return Object.keys(Object.fromEntries(results));
 // }
 
-const getMatches = (countries: ICountry[], textToMatch: string): ICountry[] => {
-  const text = textToMatch.toLowerCase();
+export const getMatches = (countries: ICountry[], textToMatch: string): ICountry[] => {
+  const text = textToMatch? textToMatch.toLowerCase(): '';
   const isMatch = (str: string) => str.toLowerCase().includes(text);
   return countries.filter((country) => {
     const { countryName, capitalName } = country;
