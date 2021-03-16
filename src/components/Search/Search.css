@@ -1,0 +1,20 @@
+.search-btn {
+  padding: 0.2rem;
+  border-radius: 50%; }
+  .search-btn svg {
+    color: rgba(255, 255, 255, 0.75); }
+  .search-btn .MuiButton-iconSizeMedium > *:first-child {
+    font-size: 1.6rem; }
+
+.search-input label,
+.search-input svg {
+  color: rgba(255, 255, 255, 0.75); }
+
+.search-input input::placeholder {
+  color: #fff; }
+
+.search-input div:before {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.75); }
+
+.search-input .MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7); }

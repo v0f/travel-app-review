@@ -7,7 +7,7 @@ interface iDictObj {
 export interface iDict {
   months: iDictObj;
   weekDay: iDictObj;
-  lang: {
+  search: {
     [key: string]: string;
   };
   capital: {
@@ -18,7 +18,7 @@ export interface iDict {
   };
   limit: {
     [key: string]: string;
-  }
+  };
 }
 
 export interface ICountryData {
@@ -29,5 +29,3 @@ export interface ISearch {
   countries: Array<ICountry>;
   updateCountries: (list: Array<ICountry>) => void;
 }
-
-
