@@ -1,7 +1,7 @@
 import countryRepo from './country.repository';
 
-const getAll = async (lang) => {
-  const countries = await countryRepo.getAllByLang(lang);
+const getAll = async (lang, search) => {
+  const countries = await countryRepo.getAllByLang(lang, search);
   return countries;
 };
 

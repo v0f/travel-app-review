@@ -7,16 +7,27 @@ const saveCountry = async (body) => {
   return savedCountry;
 };
 
-const getAllByLang = async (lang) => {
+const getAllByLang = async (lang, search) => {
   const countries = await Country.find({}).exec();
-  if (lang) {
-    return countries.map(
-      (country) => country.toObject({
-        transform: (doc, docObj) => doc instanceof Country ? docObj : docObj[lang]
-      })
-    );
-  }
-  return countries;
+  const transform = (doc, docObj) => doc instanceof Country ? docObj : docObj[lang];
+  const isMatch = (str: string) => str.toLowerCase().includes(search.toLowerCase());
+  return countries
+    .map(
+      (country) => lang ? country.toObject({transform: transform}) : country.toObject()
+    )
+    .filter((country) => {
+      if (!search) return true;
+      const { countryName, capitalName } = country as { countryName: string, capitalName: string };
+      return (isMatch(capitalName) || isMatch(countryName));
+    })
+  // if (lang) {
+  //   return countries.map(
+  //     (country) => country.toObject({
+  //       transform: (doc, docObj) => doc instanceof Country ? docObj : docObj[lang]
+  //     })
+  //   );
+  // }
+  // return countries;
 };
 
 const getOneByLang = async (id, lang) => {

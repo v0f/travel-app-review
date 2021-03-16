@@ -20,7 +20,8 @@ router.route('/')
   .get(
     wrap(async (req, res) => {
       const lang = req.query.lang || DEFAULT_LANG;
-      const data = await countryService.getAll(lang);
+      const search = req.query.search || '';
+      const data = await countryService.getAll(lang, search);
       res.send(data);
     })
   )
