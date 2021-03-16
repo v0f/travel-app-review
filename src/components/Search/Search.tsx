@@ -6,8 +6,6 @@ import {ISearch} from '../types/types';
 // import LangContext from '../Language-context/LangContext';
 import ICountry from '../types/ICountry';
 
-// TODO посмотреть что тут и решить за запросы
-
 // interface IList {
 //   [key:string]: Array<string>
 // }
