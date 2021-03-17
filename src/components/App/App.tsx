@@ -11,7 +11,7 @@ import ScrollToTop from '../ScrollToTop/ScrollToTop';
 import ICountry from '../types/ICountry';
 import { API_URL } from '../constants';
 
-import './App.css';
+import './App.scss';
 
 interface MatchParams {
   id: string;
