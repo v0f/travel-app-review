@@ -39,7 +39,11 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const LoginPage = () => {
+type Props = {
+  history: any;
+};
+
+const LoginPage: React.FC<Props> = (props) => {
   const { lang } = React.useContext(LangContext);
 
   const classes = useStyles();
@@ -49,12 +53,13 @@ const LoginPage = () => {
 
   const { login } = useAuth();
 
-  const handleSignIn = (event: React.FormEvent<HTMLFormElement>) => {
+  const handleSignIn = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const loginValue = loginInput?.current.value;
     const passwordValue = passwordInput?.current.value;
-    login(loginValue, passwordValue);
-  }
+    const success = await login(loginValue, passwordValue);
+    if (success) props.history.push('/');
+  };
   return (
     <Grid container component='main' className={classes.root + ' login-wrapper'}>
       <CssBaseline />

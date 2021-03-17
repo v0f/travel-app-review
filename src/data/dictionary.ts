@@ -85,10 +85,25 @@ const dict: iDict = {
     ru: 'Эл. адрес',
     be: 'Эл. пошта',
   },
+  name: {
+    en: 'Name',
+    ru: 'Имя',
+    be: 'Iмя',
+  },
   pass: {
     en: 'Password',
     ru: 'Пароль',
     be: 'Пароль',
+  },
+  done: {
+    en: 'done',
+    ru: 'готово',
+    be: 'гатова',
+  },
+  loaded: {
+    en: 'upload avatar',
+    ru: 'загрузить аватар',
+    be: 'загрузіць аватар',
   },
   signupSugg: {
     en: "Don't have an account? Sign Up.",
@@ -110,6 +125,21 @@ const dict: iDict = {
     ru: 'Разработано',
     be: 'Распрацавана',
   },
+  rate: {
+    en: 'Rate',
+    ru: 'Оценили',
+    be: 'Ацанілі',
+  },
+  avgRate: {
+    en: 'Average rating',
+    ru: 'Средняя оценка',
+    be: 'Сярэдняя адзнака',
+  },
+  noData: {
+    en: 'Nothing found',
+    ru: 'Ничего не найдено',
+    be: 'Нічога не знойдзена',
+  }
 };
 
 export default dict;

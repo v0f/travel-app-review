@@ -1,0 +1,36 @@
+.login-wrapper .MuiAvatar-root {
+  opacity: 0; }
+
+.login-wrapper .MuiButton-containedPrimary {
+  color: #fff;
+  background-color: #222222; }
+
+.login-wrapper .MuiTypography-colorPrimary {
+  color: #686868; }
+
+.login-wrapper .MuiTypography-h5 {
+  font-family: 'Cormorant', serif;
+  font-size: 3.5rem;
+  font-weight: 800; }
+
+.login-wrapper .login-img {
+  filter: brightness(0.7); }
+
+.login-wrapper a {
+  text-decoration: none;
+  color: #7c7c7c; }
+
+.login-wrapper a:hover {
+  color: #141414; }
+
+.login-wrapper .Mui-focused {
+  color: #414141 !important; }
+
+.login-wrapper .MuiButton-containedPrimary:hover {
+  background-color: #ffc400; }
+
+.login-wrapper .Mui-disabled {
+  background-color: gray; }
+
+.login-wrapper .MuiOutlinedInput-root {
+  border-radius: 0; }

@@ -49,23 +49,27 @@ const App: React.FC = () => {
         <AuthProvider>
           <LangContext.Provider value={{ lang, changeLang }}>
             <Header setSearchQuery={setSearchQuery} />
-          <Route
-            path='/'
-            render={({ history }: HistoryProps) => (
-              <MainPage history={history} countriesList={countries}>
-                {[]}
-              </MainPage>
-            )}
-            exact
-          />
-          <Route
-            path='/country/:id'
-            render={({ match }: MatchProps) => <CountryPage id={match.params.id} />}
-          />
-          <Route path='/login' component={LoginPage} />
-          <Route path='/register' component={Register} />
+            <Route
+              path='/'
+              render={({ history }: HistoryProps) => (
+                <MainPage history={history} countriesList={countries}></MainPage>
+              )}
+              exact
+            />
+            <Route
+              path='/country/:id'
+              render={({ match }: MatchProps) => <CountryPage id={match.params.id} />}
+            />
+            <Route
+              path='/login'
+              render={({ history }: HistoryProps) => <LoginPage history={history} />}
+            />
+            <Route
+              path='/register'
+              render={({ history }: HistoryProps) => <Register history={history} />}
+            />
 
-            <Footer />
+            <Footer class={!countries.length ? 'footer-not-found' : ''}/>
           </LangContext.Provider>
         </AuthProvider>
       </React.Fragment>

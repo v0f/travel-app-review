@@ -4,6 +4,7 @@ import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
 import AddIcon from '@material-ui/icons/Add';
+import CheckIcon from '@material-ui/icons/Check';
 import { Fab } from '@material-ui/core';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
@@ -46,7 +47,11 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Register = () => {
+type Props = {
+  history: any;
+};
+
+const Register: React.FC<Props> = (props) => {
   const { lang } = React.useContext(LangContext);
 
   const classes = useStyles();
@@ -57,41 +62,43 @@ const Register = () => {
 
   const loginInput = useRef<HTMLInputElement>(null!);
   const passwordInput = useRef<HTMLInputElement>(null!);
+  const nameInput = useRef<HTMLInputElement>(null!);
 
-  const uploadPhoto = useCallback((event:React.ChangeEvent<{}>) => {
-    const input: FileList| null = (document.getElementById('upload-photo') as HTMLInputElement)?.files;
+  const uploadPhoto = useCallback((event: React.ChangeEvent<{}>) => {
+    const input: FileList | null = (document.getElementById('upload-photo') as HTMLInputElement)
+      ?.files;
     if (input?.length && input.length === 1) {
       const file = input[0];
       const formData = new FormData();
-      formData.append("file", file);
-      formData.append("upload_preset", "travel-app");
+      formData.append('file', file);
+      formData.append('upload_preset', 'travel-app');
       fetch('https://api.cloudinary.com/v1_1/rssteam69/image/upload', {
-        method: "POST",
-        body: formData
+        method: 'POST',
+        body: formData,
       })
-      .then((response) => {
-        return response.json();
-      })
-      .then((data) => {
-        // console.log(data);
-        const imgURL = data.url;
-        // console.log(imgURL);
-        setIsLoaded(imgURL);
-      });
+        .then((response) => {
+          return response.json();
+        })
+        .then((data) => {
+          const imgURL = data.url;
+          setIsLoaded(imgURL);
+        });
     }
-  },[]);
+  }, []);
 
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const loginValue = loginInput?.current.value;
+    const nameValue = nameInput?.current.value;
     const passwordValue = passwordInput?.current.value;
-    register(loginValue, passwordValue, isLoaded);
-  }
+    const success = await register(loginValue, nameValue, passwordValue, isLoaded);
+    if (success) props.history.push('/');
+  };
 
   return (
     <Grid container component='main' className={classes.root + ' login-wrapper'}>
       <CssBaseline />
-      <Grid item xs={false} sm={4} md={7} className={classes.image} />
+      <Grid item xs={false} sm={4} md={7} className={classes.image + ' login-img'} />
       <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
         <div className={classes.paper}>
           <Typography component='h1' variant='h5'>
@@ -108,6 +115,18 @@ const Register = () => {
               label={dict.email[lang]}
               name='email'
               autoComplete='email'
+              autoFocus
+            />
+            <TextField
+              inputRef={nameInput}
+              variant='outlined'
+              margin='normal'
+              required
+              fullWidth
+              id='name'
+              label={dict.name[lang]}
+              name='name'
+              autoComplete='name'
               autoFocus
             />
             <TextField
@@ -135,10 +154,14 @@ const Register = () => {
                 component='span'
                 aria-label='add'
                 variant='extended'
-                className={classes.file}>
-                <AddIcon /> {isLoaded ? 'done': 'upload'}
+                className={classes.file + ' avatar-btn'}>
+                {isLoaded ? <CheckIcon /> : <AddIcon />}
+                {isLoaded ? dict.done[lang] : dict.loaded[lang]}
               </Fab>
             </label>
+            <a href={isLoaded} className='img-link'>
+              {isLoaded ? isLoaded : null}
+            </a>
             <Button
               type='submit'
               fullWidth

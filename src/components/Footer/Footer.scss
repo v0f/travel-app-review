@@ -45,5 +45,38 @@
     }
 }
 
+.footer-not-found {
+    position: absolute;
+    bottom: 0;
+    width: -webkit-fill-available;
+}
+
+
+@media (max-width: 500px) {
+    .footer {
+        .text-wrapper {
+            .git_links {
+                font-size: 0.6rem;
+    
+                .git_link {
+                    padding: 0 0.3rem;
+                    font-size: 0.6rem;
+            }
+    
+            
+        }
+    
+    
+        .year {
+            font-size: 0.6rem;
+        }
+    }
+
+    .logo__img {
+        height: 30px;
+        width: 55px;
+    }
+}
+}
 
 

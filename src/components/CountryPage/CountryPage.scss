@@ -93,10 +93,91 @@
     padding: 0;
   }
 
+  &__wrapper {
+    .raiting__box {
+      margin-bottom: 0rem;
+    }
+  }
+
+
   &__box > .MuiRating-root {
     font-size: 1.2rem;
   }
 }
+
+// Стилизация тега details https://web3r.ru/css-spoilers
+
+  $img-marker: 'data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjM0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIzNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOC41OSAxNi4zNGw0LjU4LTQuNTktNC41OC00LjU5TDEwIDUuNzVsNiA2LTYgNnoiLz48L3N2Zz4=';
+
+  details {
+    position: relative;
+    margin-bottom: 2rem;
+    min-height: 1rem;
+    max-height: 3rem;
+    transition: min-height .15s linear, max-height .5s linear;
+    -webkit-transition: min-height .15s linear, max-height .15s linear;
+    overflow: hidden;
+
+
+    p {
+      padding-top: 0.2rem;
+      margin-top: 0.2rem;
+      font-size: 1rem;
+      }
+
+    summary {
+      &::-webkit-details-marker { display: none; }
+      &::-moz-list-bullet { list-style-type: none; }
+      display: inline-block;
+      padding-left: 1.2em;
+      cursor: pointer;
+      outline: 0;
+      transition: color .12s;
+      -webkit-transition: color .12s;
+      opacity: 0.6;
+
+      span { border-bottom: 1px currentColor dotted; }
+      &:hover { color: #ffb400; }
+
+      &::before {
+        content: "";
+        left: 0;
+        top: .4em;
+        position: absolute;
+        background: url($img-marker) no-repeat 50% 50% / 1em 1em;
+        width: 1em;
+        height: 1em;
+        transition: transform .1s linear;
+        -webkit-transition: transform .1s linear;
+      }
+
+      & ~ * {
+        padding-left: 1.2rem;;
+        opacity: 0;
+        transition: opacity .15s linear;
+        -webkit-transition: opacity .15s linear;
+      }
+
+    }
+
+    &[open] {
+      min-height: 2em;
+      max-height: 20em;
+      summary {
+        opacity: 0.4;
+
+        & ~ * {
+          opacity: 1;
+        }
+        &:before {
+          transform: rotate(90deg);
+          -webkit-transform: rotate(90deg);
+          -moz-transform: rotate(90deg);
+        }
+      }
+    }
+  }
+
 
 .video-react {
   &-poster {
@@ -108,14 +189,14 @@
   }
 }
 
+
+
 #map {
   height: 400px;
   margin: 4rem 0 0;
 }
 
-// #map .mapboxgl-canvas{
-//   width: 100%;
-// }
+
 
 @media (max-width: 768px) {
   .country__text,

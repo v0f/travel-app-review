@@ -47,4 +47,34 @@
     .MuiOutlinedInput-root {
       border-radius: 0;
     }
+
+    .MuiFab-extended.MuiFab-sizeSmall {
+      padding: 1rem;
+    }
+
+    .avatar-btn:hover {
+      background-color:  rgb(255, 196, 0);
+      color: black;
+
+    }
+
+    .MuiSvgIcon-root {
+      margin-right: 0.3rem;
+    }
+
+    .img-link {
+      font-size: 0.6rem;
+      padding: 0.5rem;
+      display: block;
+    }
+}
+
+
+@media (max-width: 500px) {
+  .login-wrapper {
+
+    .img-link {
+      font-size: 0.5rem;
+    }
+  }
 }

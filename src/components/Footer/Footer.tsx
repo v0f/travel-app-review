@@ -4,12 +4,15 @@ import dict from '../../data/dictionary';
 
 import './Footer.scss'
 
+interface IFooter {
+    class: string;
+}
 
-const Footer: React.FC = () => {
+const Footer: React.FC<IFooter> = ( props)  => {
     const { lang } = React.useContext(LangContext);
 
     return (
-        <footer className="footer">
+        <footer className={'footer ' + props.class}>
             <div className="text-wrapper">
                 <span className="git_links">
                     {dict.madeBy[lang]}

@@ -28,6 +28,15 @@ export interface iDict {
   email: {
     [key: string]: string;
   };
+  name: {
+    [key: string]: string;
+  };
+  done:{
+    [key: string]: string;
+  };
+  loaded: {
+    [key: string]: string;
+  };
   pass: {
     [key: string]: string;
   };
@@ -39,10 +48,19 @@ export interface iDict {
   };
   weatherError: {
     [key: string]: string;
-  }
+  };
   madeBy: {
     [key: string]: string;
-  }
+  };
+  rate: {
+    [key: string]: string;
+  };
+  avgRate: {
+    [key: string]: string;
+  };
+  noData: {
+    [key: string]: string;
+  };
 }
 
 export interface ICountryData {
