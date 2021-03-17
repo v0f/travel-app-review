@@ -15,16 +15,22 @@ const Header: React.FC<IApiSearch> = ({ setSearchQuery }) => {
 
   return (
     <header>
-      <SelectLang />
-      <Link to='/' className='logo'>
-        .goAsia.
-      </Link>
-      {isMainPage && <Search setSearchQuery={setSearchQuery} />}
-      {!isLoginPage && (
-        <Link to='/login'>
-          <AccountCircle className='login-icon' />
-        </Link>
-      )}
+      <div className="header-wrapper">
+          <div className="header-left">
+            <Link to='/' className='logo'>
+              .goAsia.
+            </Link>
+            {isMainPage && <Search setSearchQuery={setSearchQuery} />}
+          </div>
+          <div className="header-right">
+            <SelectLang />
+            {!isLoginPage && (
+              <Link to='/login'>
+                <AccountCircle className='login-icon' />
+              </Link>
+             )}
+          </div>
+        </div>
     </header>
   );
 };
