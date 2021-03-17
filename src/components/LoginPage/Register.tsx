@@ -68,9 +68,7 @@ const Register = () => {
         return response.json();
       })
       .then((data) => {
-        console.log(data);
         const imgURL = data.url;
-        console.log(imgURL);
         setIsLoaded(true);
       });
     }

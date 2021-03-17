@@ -90,12 +90,12 @@ const dict: iDict = {
     ru: 'Пароль',
     be: 'Пароль',
   },
-  logSugg: {
+  signupSugg: {
     en: "Don't have an account? Sign Up.",
     ru: 'Нет аккаунта? Создать.',
     be: 'Няма акаўнта? Стварыць.',
   },
-  signupSugg: {
+  logSugg: {
     en: 'Already have an account? Sign In.',
     ru: 'Уже есть аккаунт? Войти.',
     be: 'Ужо ёсць акаўнт? Ўвайсці.',

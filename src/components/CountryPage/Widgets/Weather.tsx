@@ -38,12 +38,13 @@ interface IWeather {
                     setHumidity('');
                     setWeatherDescription(dict.weatherError[lang]);
               }
-        } 
+
+        }
 
         if (capitalNameEN) {
           getWeather(capitalNameEN)
         }
-       
+
     }, [capitalNameEN, lang]);
 
   return (
