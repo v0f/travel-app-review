@@ -23,7 +23,7 @@ const Gallery: React.FC<IGallery> = ({ places }) => {
   const { lang } = React.useContext(LangContext);
   const [currentSlideTitle, setSlideTitle] = useState<string>('');
   const [images, setImages] = useState<Array<ISlide>>([]);
-  const [placeRating, setPlaceRating] = useState<number>(2.5); // middle rating
+  const [placeRating, setPlaceRating] = useState<number|null>(null); // middle rating
 
   useEffect(() => {
     const imgs: Array<ISlide> = [];
@@ -39,16 +39,27 @@ const Gallery: React.FC<IGallery> = ({ places }) => {
     });
 
     setImages(imgs);
-    setSlideTitle(imgs[0]?.originalTitle || '');
-    setPlaceRating(imgs[0]?.rating || 0);
+    if (imgs && imgs.length) {
+      setSlideTitle(imgs[0]?.originalTitle || '');
+      setPlaceRating(imgs[0]?.rating || 0);
+    }
   }, [lang, places]);
+
+  useEffect(() => {
+    console.log('useEffect', placeRating);
+    console.log('currentSlideTitle', currentSlideTitle);
+    // fetch('http://travel69.herokuapp.com/ratings/', {
+
+    // })
+  }, [placeRating]);
+
 
   const updateNameAndRating = (id: number) => {
     setSlideTitle(images[id].originalTitle);
     setPlaceRating(images[id].rating);
   };
 
-  const ratingChanged = (value: number) => {
+  const ratingChanged = (value: number | null) => {
     setPlaceRating(value);
   };
 

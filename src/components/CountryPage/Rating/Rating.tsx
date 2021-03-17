@@ -5,8 +5,8 @@ import FavoriteIcon from '@material-ui/icons/Favorite';
 import Box from '@material-ui/core/Box';
 
 interface IRating{
-    rating: number;
-    ratingChanged: (value: number) => void;
+    rating: number | null;
+    ratingChanged: (value: number| null) => void;
 }
 
 const StyledRating = withStyles({
@@ -26,8 +26,7 @@ const StyledRating = withStyles({
         <StyledRating
           name="customized-color"
           value={rating}
-         //@ts-ignore
-          onChange={(event: React.ChangeEvent<{}>, newValue: number) => { ratingChanged(newValue) }}
+          onChange={(event: React.ChangeEvent<{}>, newValue: number | null) => { ratingChanged(newValue) }}
           precision={0.5}
           icon={<FavoriteIcon fontSize="inherit" />}
         />
