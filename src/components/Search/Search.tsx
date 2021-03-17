@@ -6,6 +6,8 @@ import { ISearch } from '../types/types';
 import LangContext from '../Language-context/LangContext';
 import dict from '../../data/dictionary';
 import ICountry from '../types/ICountry';
+import dict from '../../data/dictionary';
+import LangContext from '../Language-context/LangContext';
 
 import './Search.css';
 
@@ -20,8 +22,8 @@ import './Search.css';
 //   return Object.keys(Object.fromEntries(results));
 // }
 
-const getMatches = (countries: ICountry[], textToMatch: string): ICountry[] => {
-  const text = textToMatch.toLowerCase();
+export const getMatches = (countries: ICountry[], textToMatch: string): ICountry[] => {
+  const text = textToMatch? textToMatch.toLowerCase(): '';
   const isMatch = (str: string) => str.toLowerCase().includes(text);
   return countries.filter((country) => {
     const { countryName, capitalName } = country;
@@ -41,7 +43,7 @@ const Search: React.FC<ISearch> = ({ countries, updateCountries }) => {
   //   ]
   //   return acc;
   // },{});
-
+  const { lang } = React.useContext(LangContext);
   const [searchInput, setSearchInput] = useState('');
 
   useEffect(() => {
