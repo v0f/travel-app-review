@@ -33,11 +33,11 @@ interface IWeather {
               } catch(err) {
                   console.log('error')
               }
-        } 
+        }
         if (capitalNameEN) {
           getWeather(capitalNameEN)
         }
-       
+
     }, [capitalNameEN, lang]);
 
   return (

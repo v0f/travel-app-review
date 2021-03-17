@@ -25,7 +25,6 @@ const AuthProvider: React.FC = (props) => {
         if (data.user) {
           localStorage.setItem('token', data.user.token);
           setUser({userLogin: data.user.login, token: data.user.token});
-          console.log(data.user.login);
         }
       })
       .catch();

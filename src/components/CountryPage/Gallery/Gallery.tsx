@@ -4,8 +4,11 @@ import LangContext from '../../Language-context/LangContext';
 import ImageGallery from 'react-image-gallery';
 import dict from '../../../data/dictionary';
 import IPlace from '../../types/IPlace';
+import { useAuth } from '../../AuthContext/AuthContext';
+import request from '../../../helpers/request';
 
 import './gallery.css';
+import { API_URL } from '../../constants';
 
 interface IGallery {
   places: Array<IPlace>;
@@ -19,11 +22,17 @@ interface ISlide {
   rating: number;
 }
 
+const sendRating = (user: string, token: string, place: string, rating: number) => {
+  request('POST', `${API_URL}/ratings/`, {user, place, rating}, token)
+  .then((data) => console.log('govno', data));
+}
+
 const Gallery: React.FC<IGallery> = ({ places }) => {
   const { lang } = React.useContext(LangContext);
   const [currentSlideTitle, setSlideTitle] = useState<string>('');
   const [images, setImages] = useState<Array<ISlide>>([]);
   const [placeRating, setPlaceRating] = useState<number|null>(null); // middle rating
+  const {userLogin} = useAuth();
 
   useEffect(() => {
     const imgs: Array<ISlide> = [];
@@ -46,11 +55,12 @@ const Gallery: React.FC<IGallery> = ({ places }) => {
   }, [lang, places]);
 
   useEffect(() => {
-    console.log('useEffect', placeRating);
-    console.log('currentSlideTitle', currentSlideTitle);
-    // fetch('http://travel69.herokuapp.com/ratings/', {
 
-    // })
+    const token: string = localStorage.getItem('token') || '';
+
+    if (userLogin && token && currentSlideTitle && placeRating) {
+      sendRating(userLogin, token, currentSlideTitle, placeRating);
+    }
   }, [placeRating]);
 
 
