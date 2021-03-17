@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react';
+import React, { useCallback, useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -12,6 +12,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import './LoginPage.css';
 import dict from '../../data/dictionary';
 import LangContext from '../Language-context/LangContext';
+import { useAuth } from '../AuthContext/AuthContext';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -50,8 +51,12 @@ const Register = () => {
 
   const classes = useStyles();
 
-  const [isLoaded, setIsLoaded] = useState(false);
+  const [isLoaded, setIsLoaded] = useState('');
 
+  const { register } = useAuth();
+
+  const loginInput = useRef<HTMLInputElement>(null!);
+  const passwordInput = useRef<HTMLInputElement>(null!);
 
   const uploadPhoto = useCallback((event:React.ChangeEvent<{}>) => {
     const input: FileList| null = (document.getElementById('upload-photo') as HTMLInputElement)?.files;
@@ -68,18 +73,19 @@ const Register = () => {
         return response.json();
       })
       .then((data) => {
-        console.log(data);
+        // console.log(data);
         const imgURL = data.url;
-        console.log(imgURL);
-        setIsLoaded(true);
+        // console.log(imgURL);
+        setIsLoaded(imgURL);
       });
     }
-
-
   },[]);
 
-  const handleSubmit = () => {
-    // TODO send form for vof
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const loginValue = loginInput?.current.value;
+    const passwordValue = passwordInput?.current.value;
+    register(loginValue, passwordValue, isLoaded);
   }
 
   return (
@@ -93,6 +99,7 @@ const Register = () => {
           </Typography>
           <form className={classes.form} noValidate onSubmit={handleSubmit}>
             <TextField
+              inputRef={loginInput}
               variant='outlined'
               margin='normal'
               required
@@ -104,6 +111,7 @@ const Register = () => {
               autoFocus
             />
             <TextField
+              inputRef={passwordInput}
               variant='outlined'
               margin='normal'
               required

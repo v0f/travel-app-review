@@ -22,7 +22,7 @@ const request = async (method: string, url: string, body: {}|boolean = false, to
   }
   if (token) {
     reqParams.withCredentials = true;
-    reqParams.headers.Authorization = `Bearer: ${token}`;
+    reqParams.headers.Authorization = `Bearer ${token}`;
   }
   const response = await fetch(`${url}`, reqParams as {});
   return response.json();
