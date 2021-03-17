@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -10,6 +10,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import './LoginPage.css';
 import dict from '../../data/dictionary';
 import LangContext from '../Language-context/LangContext';
+import { useAuth } from '../AuthContext/AuthContext';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -43,6 +44,17 @@ const LoginPage = () => {
 
   const classes = useStyles();
 
+  const loginInput = useRef<HTMLInputElement>(null!);
+  const passwordInput = useRef<HTMLInputElement>(null!);
+
+  const { login } = useAuth();
+
+  const handleSignIn = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const loginValue = loginInput?.current.value;
+    const passwordValue = passwordInput?.current.value;
+    login(loginValue, passwordValue);
+  }
   return (
     <Grid container component='main' className={classes.root + ' login-wrapper'}>
       <CssBaseline />
@@ -52,8 +64,9 @@ const LoginPage = () => {
           <Typography component='h1' variant='h5'>
             {`.${dict.log[lang]}.`}
           </Typography>
-          <form className={classes.form} noValidate>
+          <form className={classes.form} noValidate onSubmit={handleSignIn}>
             <TextField
+              inputRef={loginInput}
               variant='outlined'
               margin='normal'
               required
@@ -65,6 +78,7 @@ const LoginPage = () => {
               autoFocus
             />
             <TextField
+              inputRef={passwordInput}
               variant='outlined'
               margin='normal'
               required
