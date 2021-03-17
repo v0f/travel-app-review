@@ -47,6 +47,7 @@ const Search: React.FC<IApiSearch> = ({setSearchQuery}) => {
           }}
         />
         <Button
+          className='search-btn'
           type="submit"
           color="default"
           startIcon={<SearchIcon />}

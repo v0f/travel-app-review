@@ -1,0 +1,10 @@
+.select-lang label,
+.select-lang div,
+.select-lang svg {
+  color: rgba(255, 255, 255, 0.75); }
+
+.select-lang div:before {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.75); }
+
+.select-lang .MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7); }

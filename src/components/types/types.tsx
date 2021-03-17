@@ -7,7 +7,7 @@ interface iDictObj {
 export interface iDict {
   months: iDictObj;
   weekDay: iDictObj;
-  lang: {
+  search: {
     [key: string]: string;
   };
   capital: {
@@ -17,9 +17,6 @@ export interface iDict {
     [key: string]: string;
   };
   limit: {
-    [key: string]: string;
-  };
-  search: {
     [key: string]: string;
   };
 }

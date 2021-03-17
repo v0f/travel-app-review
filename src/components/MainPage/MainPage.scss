@@ -1,0 +1,142 @@
+.cards-container {
+  column-gap: 2rem;
+  row-gap: 2rem;
+  padding: 3rem;
+  justify-content: center;
+
+  .MuiTypography-h4 {
+    font-size: 2.1rem;
+    line-height: 1.235;
+    margin-bottom: 0;
+  }
+
+  .MuiTypography-h5 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.main-gallery {
+  .image-gallery-slides {
+    height: 45vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top center;
+
+    &::before {
+      height: 45vh;
+      position: absolute;
+      left: 0;
+      right: 0;
+      z-index: 2;
+      content: '';
+      background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.81) 0%,
+        rgba(0, 0, 0, 0.61) 58%,
+        rgba(0, 0, 0, 0) 100%
+      );
+    }
+  }
+
+  .image-gallery-content .image-gallery-slide .image-gallery-image {
+    max-height: 100% !important;
+  }
+}
+
+.main-heading-wrapper {
+  position: absolute;
+  top: 6rem;
+  z-index: 30;
+  color: white;
+  padding-left: 8rem;
+}
+
+.main-heading {
+  color: white;
+  font-family: 'Cormorant', serif;
+  font-size: 6rem;
+  text-align: left;
+  line-height: 5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.country-card:hover {
+  transition: background-size 0.5s ease;
+  box-shadow: 0px 5px 10px 0px rgba(34, 60, 80, 0.2);
+}
+
+.MuiCardMedia-root {
+  transition: background-size 0.5s ease;
+}
+
+.country-card:hover .MuiCardMedia-root {
+  animation: bg-scale 0.5s forwards;
+  transform-origin: top;
+  transform: scale(1);
+  will-change: transform;
+}
+
+@keyframes bg-scale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.02);
+  }
+}
+
+
+@media (max-width: 850px) {
+  .main-gallery .image-gallery-slides {
+    height: 37vh;
+  }
+
+  .main-gallery .image-gallery-slides::before {
+      height: 37vh;
+  }
+}
+
+
+
+@media (max-width: 700px) {
+  .main-gallery .image-gallery-slides {
+    height: 30vh;
+  }
+
+  .main-gallery .image-gallery-slides::before {
+      height: 30vh;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .main-heading {
+    font-size: 2.5rem;
+  }
+
+  .MuiTypography-gutterBottom {
+    margin-bottom: 0.35em;
+  }
+
+  .MuiTypography-h4 {
+    font-size: 1.5rem;
+    line-height: 0.5;
+  }
+
+  .main-gallery .image-gallery-slides {
+    display: none;
+  }
+
+  .main-gallery .image-gallery-swipe {
+    background-color: black;
+    height: 120px;
+  }
+}
+
+// ANTI-SCROLL
+#root > .MuiGrid-spacing-xs-4 {
+   width: auto;
+   margin: 0; 
+}

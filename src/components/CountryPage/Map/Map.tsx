@@ -8,6 +8,10 @@ interface IMap {
 const mapboxgl = require('mapbox-gl');
 mapboxgl.accessToken = 'pk.eyJ1Ijoia29waWthdCIsImEiOiJja203amx5dmkwNGt2Mm9waHd0NG82MWFtIn0.h_8idiDKrB-FaaE6eX8ixg';
 
+// @ts-ignore
+// eslint-disable-next-line import/no-webpack-loader-syntax
+mapboxgl.workerClass = require("worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker").default;
+
 const Map: React.FC<IMap> = ({geoCenter, countryCode}) => {
 
   const createMap = useCallback(

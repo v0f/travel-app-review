@@ -1,11 +1,13 @@
 
 import React, { useEffect, useState } from 'react';
 import ImageGallery from 'react-image-gallery';
+import mainSliderImgs from '../../data/images';
 
 
 interface ISlide {
     original: string;
 }
+
 
 const MainSlider = () => {
     const [images, setImages] = useState<Array<ISlide>>([]);
@@ -13,11 +15,12 @@ const MainSlider = () => {
     useEffect(() => {
       const imgs: Array<ISlide> = [];
 
-      for( let i = 1; i<= 13; i += 1) {
+      mainSliderImgs.forEach( img => {
         imgs.push({
-            original: `https://res.cloudinary.com/travel-app/image/upload/v1615838588/travel-app/main/${i}.jpg`,
+            original: `https://res.cloudinary.com/travel-app/image/upload/${img}`,
         })
-      }
+      })
+      
       imgs.sort(() => Math.random() - 0.5);
       setImages(imgs);
     }, [])

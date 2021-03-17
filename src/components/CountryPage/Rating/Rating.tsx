@@ -21,8 +21,8 @@ const StyledRating = withStyles({
  const CustomizedRatings: React.FC<IRating> = ({rating, ratingChanged}) => {
 
   return (
-    <div className="raiting-wrapper">
-      <Box component="fieldset" mb={3} borderColor="transparent" className={"raiting-box"}>
+    <div className="raiting__wrapper">
+      <Box component="fieldset" mb={3} borderColor="transparent" className={"raiting__box"}>
         <StyledRating
           name="customized-color"
           value={rating}
