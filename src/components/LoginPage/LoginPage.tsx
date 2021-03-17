@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
@@ -9,6 +9,7 @@ import Grid from '@material-ui/core/Grid';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
+import { useAuth } from '../AuthContext/AuthContext';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -44,6 +45,17 @@ const useStyles = makeStyles((theme) => ({
 const LoginPage = () => {
   const classes = useStyles();
 
+  const loginInput = useRef<HTMLInputElement>(null!);
+  const passwordInput = useRef<HTMLInputElement>(null!);
+
+  const { login } = useAuth();
+
+  const handleSignIn = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const loginValue = loginInput?.current.value;
+    const passwordValue = passwordInput?.current.value;
+    login(loginValue, passwordValue);
+  }
   return (
     <Grid container component='main' className={classes.root}>
       <CssBaseline />
@@ -56,8 +68,9 @@ const LoginPage = () => {
           <Typography component='h1' variant='h5'>
             Sign in
           </Typography>
-          <form className={classes.form} noValidate>
+          <form className={classes.form} noValidate onSubmit={handleSignIn}>
             <TextField
+              inputRef={loginInput}
               variant='outlined'
               margin='normal'
               required
@@ -69,6 +82,7 @@ const LoginPage = () => {
               autoFocus
             />
             <TextField
+              inputRef={passwordInput}
               variant='outlined'
               margin='normal'
               required
@@ -84,7 +98,8 @@ const LoginPage = () => {
               fullWidth
               variant='contained'
               color='primary'
-              className={classes.submit}>
+              className={classes.submit}
+            >
               Sign In
             </Button>
             <Grid container>

@@ -9,6 +9,7 @@ import LoginPage from '../LoginPage/LoginPage';
 import Register from '../LoginPage/Register';
 import LangContext from '../Language-context/LangContext';
 import ScrollToTop from '../ScrollToTop/ScrollToTop';
+import { AuthProvider } from '../AuthContext/AuthContext';
 
 import ICountry from '../types/ICountry';
 import { API_URL } from '../constants';
@@ -47,8 +48,9 @@ const App: React.FC = () => {
     <Router>
       <ScrollToTop />
       <React.Fragment>
-        <LangContext.Provider value={{ lang, changeLang }}>
-          <Header setSearchQuery={setSearchQuery} />
+        <AuthProvider>
+          <LangContext.Provider value={{ lang, changeLang }}>
+            <Header setSearchQuery={setSearchQuery} />
 
           <Route
             path='/'
@@ -66,8 +68,9 @@ const App: React.FC = () => {
           <Route path='/login' component={LoginPage} />
           <Route path='/register' component={Register} />
 
-          <Footer />
-        </LangContext.Provider>
+            <Footer />
+          </LangContext.Provider>
+        </AuthProvider>
       </React.Fragment>
     </Router>
   );
