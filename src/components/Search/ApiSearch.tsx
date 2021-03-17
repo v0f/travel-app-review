@@ -43,6 +43,7 @@ const Search: React.FC<IApiSearch> = ({ setSearchQuery }) => {
     <form noValidate autoComplete='off' onSubmit={handleSubmit}>
       <TextField
         id='search-input'
+        className='search-input'
         placeholder={dict.search[lang]}
         value={searchInput}
         onChange={handleChange}

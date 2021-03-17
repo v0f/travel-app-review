@@ -12,4 +12,8 @@
   .MuiInput-underline:hover:not(.Mui-disabled):before {
     border-bottom: 2px solid rgba(255, 255, 255, 0.7);
   }
+
+  .MuiInput-underline:after {
+    border-bottom: 2px solid #eabc12;
+  }
 }

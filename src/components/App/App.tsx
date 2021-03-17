@@ -5,8 +5,11 @@ import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import MainPage from '../MainPage/MainPage';
 import CountryPage from '../CountryPage/CountryPage';
+import LoginPage from '../LoginPage/LoginPage';
+import Register from '../LoginPage/Register';
 import LangContext from '../Language-context/LangContext';
 import ScrollToTop from '../ScrollToTop/ScrollToTop';
+import { AuthProvider } from '../AuthContext/AuthContext';
 
 import ICountry from '../types/ICountry';
 import { API_URL } from '../constants';
@@ -37,30 +40,34 @@ const App: React.FC = () => {
   const changeLang = useCallback((language: string) => {
     setLang(language);
     localStorage.setItem('lang', language);
-  },[]);
+  }, []);
 
   return (
     <Router>
       <ScrollToTop />
       <React.Fragment>
-        <LangContext.Provider value={{ lang, changeLang }}>
-          <Header setSearchQuery={setSearchQuery} />
-
+        <AuthProvider>
+          <LangContext.Provider value={{ lang, changeLang }}>
+            <Header setSearchQuery={setSearchQuery} />
           <Route
-          path='/'
-          render={({ history }: HistoryProps) => (
-            <MainPage history={history} countriesList={countries}>{[]}</MainPage>
-          )}
-          exact
+            path='/'
+            render={({ history }: HistoryProps) => (
+              <MainPage history={history} countriesList={countries}>
+                {[]}
+              </MainPage>
+            )}
+            exact
           />
-
           <Route
             path='/country/:id'
             render={({ match }: MatchProps) => <CountryPage id={match.params.id} />}
           />
+          <Route path='/login' component={LoginPage} />
+          <Route path='/register' component={Register} />
 
-          <Footer />
-        </LangContext.Provider>
+            <Footer />
+          </LangContext.Provider>
+        </AuthProvider>
       </React.Fragment>
     </Router>
   );

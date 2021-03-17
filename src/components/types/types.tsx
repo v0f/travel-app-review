@@ -19,6 +19,24 @@ export interface iDict {
   limit: {
     [key: string]: string;
   };
+  log: {
+    [key: string]: string;
+  };
+  signup: {
+    [key: string]: string;
+  };
+  email: {
+    [key: string]: string;
+  };
+  pass: {
+    [key: string]: string;
+  };
+  logSugg: {
+    [key: string]: string;
+  };
+  signupSugg: {
+    [key: string]: string;
+  };
   weatherError: {
     [key: string]: string;
   }
