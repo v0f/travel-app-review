@@ -14,6 +14,7 @@ import requestLogMiddleware from './middleware/request-logger';
 import countryRouter from './modules/countries/country.router';
 import placeRouter from './modules/places/place.router';
 import userRouter from './modules/users/user.router';
+import ratingRouter from './modules/ratings/rating.router';
 
 const app = express();
 // const swaggerDoc = YAML.load(path.join(__dirname, './docs/doc.yaml'));
@@ -30,6 +31,7 @@ app.use('/favicon.ico', (req, res) => res.sendStatus(StatusCodes.NO_CONTENT));
 app.use('/countries', countryRouter);
 app.use('/places', placeRouter);
 app.use('/users', userRouter);
+app.use('/ratings', ratingRouter);
 
 app.use((req, res) => {
   res.status(StatusCodes.NOT_IMPLEMENTED).send(ReasonPhrases.NOT_IMPLEMENTED);
