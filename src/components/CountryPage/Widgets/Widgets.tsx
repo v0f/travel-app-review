@@ -5,7 +5,7 @@ import Weather from './Weather';
 import LangContext from '../../Language-context/LangContext';
 import dict from '../../../data/dictionary';
 
-import './widgets.css';
+import './Widgets.scss';
 
 interface IWidgets {
   capitalName: string;

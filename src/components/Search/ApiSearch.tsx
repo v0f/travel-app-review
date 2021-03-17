@@ -6,15 +6,16 @@ import { IApiSearch } from '../types/types';
 import dict from '../../data/dictionary';
 import LangContext from '../Language-context/LangContext';
 
-import './Search.css';
+import './Search.scss';
 
 const Search: React.FC<IApiSearch> = ({ setSearchQuery }) => {
   const [searchInput, setSearchInput] = useState('');
   const { lang } = React.useContext(LangContext);
 
   useEffect(() => {
-    document.getElementById('input-search')?.focus();
-  }, []);
+    document.getElementById('search-input')?.focus();
+    setSearchQuery('');
+  }, [setSearchQuery]);
 
   const handleChange = useCallback(
     (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -41,6 +42,7 @@ const Search: React.FC<IApiSearch> = ({ setSearchQuery }) => {
   return (
     <form noValidate autoComplete='off' onSubmit={handleSubmit}>
       <TextField
+        id='search-input'
         className='search-input'
         placeholder={dict.search[lang]}
         value={searchInput}

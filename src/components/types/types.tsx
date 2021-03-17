@@ -37,6 +37,12 @@ export interface iDict {
   signupSugg: {
     [key: string]: string;
   };
+  weatherError: {
+    [key: string]: string;
+  }
+  madeBy: {
+    [key: string]: string;
+  }
 }
 
 export interface ICountryData {

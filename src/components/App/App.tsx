@@ -14,8 +14,6 @@ import { AuthProvider } from '../AuthContext/AuthContext';
 import ICountry from '../types/ICountry';
 import { API_URL } from '../constants';
 
-import './App.css';
-
 interface MatchParams {
   id: string;
 }
@@ -51,7 +49,6 @@ const App: React.FC = () => {
         <AuthProvider>
           <LangContext.Provider value={{ lang, changeLang }}>
             <Header setSearchQuery={setSearchQuery} />
-
           <Route
             path='/'
             render={({ history }: HistoryProps) => (

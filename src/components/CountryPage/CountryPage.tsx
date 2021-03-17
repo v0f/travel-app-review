@@ -8,7 +8,7 @@ import ICountry from '../types/ICountry';
 import IPlace from '../types/IPlace';
 import { API_URL } from '../constants';
 
-import './CountryPage.css';
+import './CountryPage.scss';
 
 interface CountryProps {
   id: string;
