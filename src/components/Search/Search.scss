@@ -21,6 +21,10 @@
     color: #fff;
   }
 
+  .MuiInputBase-input {
+    color: white;
+  }
+
   .MuiInput-underline:before {
     border-bottom: 1px solid rgba(255, 255, 255, 0.75);
   }
@@ -30,5 +34,17 @@
 
   .MuiInput-underline:hover:not(.Mui-disabled):before {
     border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+  }
+
+  .MuiButtonBase-root {
+    opacity: 0.2;
+  }
+
+  .MuiButtonBase-root:hover {
+    opacity: 0.8;
+  }
+
+  .MuiInput-underline:after {
+    border-bottom: 2px solid #eabc12;
   }
 }

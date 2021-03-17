@@ -5,6 +5,7 @@ import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import MainPage from '../MainPage/MainPage';
 import CountryPage from '../CountryPage/CountryPage';
+import LoginPage from '../LoginPage/LoginPage';
 import LangContext from '../Language-context/LangContext';
 import ScrollToTop from '../ScrollToTop/ScrollToTop';
 
@@ -39,7 +40,7 @@ const App: React.FC = () => {
   const changeLang = useCallback((language: string) => {
     setLang(language);
     localStorage.setItem('lang', language);
-  },[]);
+  }, []);
 
   return (
     <Router>
@@ -49,17 +50,21 @@ const App: React.FC = () => {
           <Header setSearchQuery={setSearchQuery} />
 
           <Route
-          path='/'
-          render={({ history }: HistoryProps) => (
-            <MainPage history={history} countriesList={countries}>{[]}</MainPage>
-          )}
-          exact
+            path='/'
+            render={({ history }: HistoryProps) => (
+              <MainPage history={history} countriesList={countries}>
+                {[]}
+              </MainPage>
+            )}
+            exact
           />
 
           <Route
             path='/country/:id'
             render={({ match }: MatchProps) => <CountryPage id={match.params.id} />}
           />
+
+          <Route path='/login' component={LoginPage} />
 
           <Footer />
         </LangContext.Provider>
