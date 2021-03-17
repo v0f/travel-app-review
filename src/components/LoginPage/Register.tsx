@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useCallback, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
@@ -43,8 +43,40 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Register = () => {
+const Register: React.FC = () => {
   const classes = useStyles();
+
+  const [isLoaded, setIsLoaded] = useState(false);
+
+
+  const uploadPhoto = useCallback((event:React.ChangeEvent<{}>) => {
+    const input: FileList| null = (document.getElementById('upload-photo') as HTMLInputElement)?.files;
+    if (input?.length && input.length === 1) {
+      const file = input[0];
+      const formData = new FormData();
+      formData.append("file", file);
+      formData.append("upload_preset", "travel-app");
+      fetch('https://api.cloudinary.com/v1_1/rssteam69/image/upload', {
+        method: "POST",
+        body: formData
+      })
+      .then((response) => {
+        return response.json();
+      })
+      .then((data) => {
+        console.log(data);
+        const imgURL = data.url;
+        console.log(imgURL);
+        setIsLoaded(true);
+      });
+    }
+
+
+  },[]);
+
+  const handleSubmit = () => {
+    // TODO send form for vof
+  }
 
   return (
     <Grid container component='main' className={classes.root}>
@@ -58,7 +90,7 @@ const Register = () => {
           <Typography component='h1' variant='h5'>
             Sign up
           </Typography>
-          <form className={classes.form} noValidate>
+          <form className={classes.form} noValidate onSubmit={handleSubmit}>
             <TextField
               variant='outlined'
               margin='normal'
@@ -83,6 +115,7 @@ const Register = () => {
             />
             <label htmlFor='upload-photo'>
               <input
+                onChange={uploadPhoto}
                 style={{ display: 'none' }}
                 id='upload-photo'
                 name='upload-photo'
@@ -94,7 +127,7 @@ const Register = () => {
                 component='span'
                 aria-label='add'
                 variant='extended'>
-                <AddIcon /> Upload photo
+                <AddIcon /> {isLoaded ? 'done': 'upload'}
               </Fab>
             </label>
             <Button
@@ -102,6 +135,7 @@ const Register = () => {
               fullWidth
               variant='contained'
               color='primary'
+              disabled={!isLoaded}
               className={classes.submit}>
               Sign Up
             </Button>
