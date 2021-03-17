@@ -1,0 +1,26 @@
+.login-wrapper {
+
+    .MuiAvatar-root {
+        opacity: 0;
+    }
+    
+    .MuiButton-containedPrimary {
+        color: #fff;
+        background-color: #222222;
+    }
+    
+    .MuiTypography-colorPrimary {
+        color: #686868;
+    }
+
+    .MuiTypography-h5 {
+        font-family: 'Cormorant', serif;
+        font-size: 3.5rem;
+        font-weight: 800;
+    }
+
+    .login-img {
+        filter: brightness(0.7);
+    }
+
+}

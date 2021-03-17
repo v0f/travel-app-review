@@ -47,8 +47,9 @@ const App: React.FC = () => {
       <ScrollToTop />
       <React.Fragment>
         <LangContext.Provider value={{ lang, changeLang }}>
+   
           <Header setSearchQuery={setSearchQuery} />
-
+       
           <Route
             path='/'
             render={({ history }: HistoryProps) => (
