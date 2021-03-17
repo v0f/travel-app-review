@@ -5,6 +5,8 @@ import React, { useCallback, useState, useEffect } from 'react';
 import {ISearch} from '../types/types';
 // import LangContext from '../Language-context/LangContext';
 import ICountry from '../types/ICountry';
+import dict from '../../data/dictionary';
+import LangContext from '../Language-context/LangContext';
 
 // interface IList {
 //   [key:string]: Array<string>
@@ -36,7 +38,7 @@ const Search: React.FC<ISearch> = ({countries, updateCountries}) => {
   //   ]
   //   return acc;
   // },{});
-
+  const { lang } = React.useContext(LangContext);
   const [searchInput, setSearchInput] = useState('');
 
   useEffect(() => {
@@ -64,7 +66,7 @@ const Search: React.FC<ISearch> = ({countries, updateCountries}) => {
 
   return(
       <form noValidate autoComplete="off" onSubmit={handleSubmit}>
-        <TextField id='input-search' label="Search" variant="outlined" placeholder="Search"
+        <TextField id='input-search' label={dict.search[lang]} variant="outlined" placeholder={dict.search[lang]}
           value={searchInput}
           onChange={handleChange}
           InputProps={{
@@ -81,7 +83,7 @@ const Search: React.FC<ISearch> = ({countries, updateCountries}) => {
           type="submit"
           color="default"
           startIcon={<SearchIcon />}
-        ><>search</></Button>
+        >{dict.search[lang]}</Button>
     </form>
   );
 };

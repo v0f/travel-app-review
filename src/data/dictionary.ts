@@ -69,6 +69,11 @@ const dict: iDict = {
     en: 'Limit reached :(',
     ru: 'Кол-во запросов истекло :(',
     be: 'Кол-сць запытаў скончылася :(',
+  },
+  search: {
+    en: 'Search',
+    ru: 'Поиск',
+    be: 'Пошук',
   }
 };
 

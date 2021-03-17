@@ -18,7 +18,10 @@ export interface iDict {
   };
   limit: {
     [key: string]: string;
-  }
+  };
+  search: {
+    [key: string]: string;
+  };
 }
 
 export interface ICountryData {
