@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import LangContext from '../../Language-context/LangContext';
+import dict from '../../../data/dictionary';
 
 interface IWeather {
   capitalNameEN: string;
@@ -27,13 +28,18 @@ interface IWeather {
             try {
                 setWeatherIcon(`weather-icon owf owf-${data.weather[0].id}`);
                 setTemperature(`${Math.round(data.main.temp)}°C`);
-                setWind(`${data.wind.speed}м/с`);
+                setWind(`${data.wind.speed} ${lang === 'en' ? 'm/s' : 'м/с'}`);
                 setHumidity(`${data.main.humidity}%`);
                 setWeatherDescription(data.weather[0].description);
               } catch(err) {
-                  console.log('error')
+                    setWeatherIcon('');
+                    setTemperature('');
+                    setWind('');
+                    setHumidity('');
+                    setWeatherDescription(dict.weatherError[lang]);
               }
         } 
+
         if (capitalNameEN) {
           getWeather(capitalNameEN)
         }

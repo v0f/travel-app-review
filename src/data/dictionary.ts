@@ -100,6 +100,16 @@ const dict: iDict = {
     ru: 'Уже есть аккаунт? Войти.',
     be: 'Ужо ёсць акаўнт? Ўвайсці.',
   },
+  weatherError: {
+    en: 'Smth went wrong :(',
+    ru: 'Что-то пошло не так :(',
+    be: 'Нешта пайшло не так :(',
+  },
+  madeBy: {
+    en: 'Made by',
+    ru: 'Разработано',
+    be: 'Распрацавана',
+  },
 };
 
 export default dict;

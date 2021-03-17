@@ -4,8 +4,7 @@ import LangContext from '../../Language-context/LangContext';
 import ImageGallery from 'react-image-gallery';
 import dict from '../../../data/dictionary';
 import IPlace from '../../types/IPlace';
-
-import './gallery.css';
+import './Gallery.scss';
 
 interface IGallery {
   places: Array<IPlace>;
@@ -59,7 +58,13 @@ const Gallery: React.FC<IGallery> = ({ places }) => {
 
       <CustomizedRatings rating={placeRating} ratingChanged={ratingChanged} />
 
-      <ImageGallery items={images} showPlayButton={false} onSlide={updateNameAndRating} />
+      <div className="country-gallery">
+        <ImageGallery
+        items={images}
+        showPlayButton={false}
+        onSlide={updateNameAndRating}
+        />
+      </div>
     </div>
   );
 };

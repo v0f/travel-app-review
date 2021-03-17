@@ -14,8 +14,6 @@ import { AuthProvider } from '../AuthContext/AuthContext';
 import ICountry from '../types/ICountry';
 import { API_URL } from '../constants';
 
-import './App.css';
-
 interface MatchParams {
   id: string;
 }

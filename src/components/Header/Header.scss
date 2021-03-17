@@ -67,10 +67,7 @@ header {
     flex-direction: column;
   }
 
-  .header-wrapper {
-    align-items: baseline;
-  }
-
+ 
   header {
     .search-input {
       width: 8rem;
@@ -78,6 +75,11 @@ header {
         .MuiSvgIcon-root {
       font-size: 1.2rem;
     }
+
+    .header-wrapper {
+      align-items: baseline;
+    }
+  
   }
 
   .search-btn .MuiButton-iconSizeMedium > *:first-child {

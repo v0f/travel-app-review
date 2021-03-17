@@ -2,7 +2,7 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import MainSlider from './MainSlider';
 
-import './MainPage.css';
+import './MainPage.scss';
 
 import CountryCard from '../Card/Card';
 import ICountry from '../types/ICountry';
