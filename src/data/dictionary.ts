@@ -70,6 +70,16 @@ const dict: iDict = {
     ru: 'Кол-во запросов истекло :(',
     be: 'Кол-сць запытаў скончылася :(',
   },
+  weatherError: {
+    en: 'Smth went wrong :(',
+    ru: 'Что-то пошло не так :(',
+    be: 'Нешта пайшло не так :(',
+  },
+  madeBy: {
+    en: 'Made by',
+    ru: 'Разработано',
+    be: 'Распрацавана',
+  },
 };
 
 export default dict;

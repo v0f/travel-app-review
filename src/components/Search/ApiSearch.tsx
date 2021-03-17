@@ -6,8 +6,6 @@ import { IApiSearch } from '../types/types';
 import dict from '../../data/dictionary';
 import LangContext from '../Language-context/LangContext';
 
-import './Search.css';
-
 const Search: React.FC<IApiSearch> = ({ setSearchQuery }) => {
   const [searchInput, setSearchInput] = useState('');
   const { lang } = React.useContext(LangContext);

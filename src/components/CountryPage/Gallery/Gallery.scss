@@ -1,3 +1,5 @@
+@import "node_modules/react-image-gallery/styles/scss/image-gallery.scss";
+
 .image-gallery {
     
     &-slides {
@@ -38,14 +40,14 @@
             filter: none;
         }
     }
-
-    &-svg {
-        height: 4rem;
+    
+    &-left-nav &-svg , &-right-nav &-svg  {
+        height: 3rem;
     }
 
-    &-fullscreen-button, .image-gallery-svg {
-        height: 20px;
-        width: 20px;
+    &-fullscreen-button  &-svg{
+        height: 1.5rem;
+        width: 1.5rem;
     }
 
     &-fullscreen-button{
@@ -53,6 +55,13 @@
         bottom: auto;
     }
 } 
+
+.country-gallery {
+
+    .image-gallery-slide .image-gallery-image {
+        width: 65%;
+    }
+}
 
 :focus {
     outline: none;

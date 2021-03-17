@@ -58,7 +58,13 @@ const Gallery: React.FC<IGallery> = ({ places }) => {
 
       <CustomizedRatings rating={placeRating} ratingChanged={ratingChanged} />
 
-      <ImageGallery items={images} showPlayButton={false} onSlide={updateNameAndRating} />
+      <div className="country-gallery">
+        <ImageGallery
+        items={images}
+        showPlayButton={false}
+        onSlide={updateNameAndRating}
+        />
+      </div>
     </div>
   );
 };

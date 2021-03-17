@@ -19,6 +19,12 @@ export interface iDict {
   limit: {
     [key: string]: string;
   };
+  weatherError: {
+    [key: string]: string;
+  }
+  madeBy: {
+    [key: string]: string;
+  }
 }
 
 export interface ICountryData {
