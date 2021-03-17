@@ -3,6 +3,7 @@ import { withStyles } from '@material-ui/core/styles';
 import { Rating }  from '@material-ui/lab';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import Box from '@material-ui/core/Box';
+import { useAuth } from '../../AuthContext/AuthContext';
 
 interface IRating{
     rating: number | null;
@@ -20,6 +21,7 @@ const StyledRating = withStyles({
 
  const CustomizedRatings: React.FC<IRating> = ({rating, ratingChanged}) => {
 
+  const { userLogin } = useAuth();
   return (
     <div className="raiting__wrapper">
       <Box component="fieldset" mb={3} borderColor="transparent" className={"raiting__box"}>
@@ -31,6 +33,7 @@ const StyledRating = withStyles({
           icon={<FavoriteIcon fontSize="inherit" />}
         />
       </Box>
+      <span>{userLogin}</span>
     </div>
   );
 }
