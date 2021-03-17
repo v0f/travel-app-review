@@ -11,6 +11,7 @@ import './Header.scss';
 const Header: React.FC<IApiSearch> = ({ setSearchQuery }) => {
   const route = useLocation();
   const isMainPage = route.pathname === '/';
+  const isLoginPage = route.pathname === '/login' || route.pathname === '/register';
 
   return (
     <header>
@@ -19,9 +20,11 @@ const Header: React.FC<IApiSearch> = ({ setSearchQuery }) => {
         .goAsia.
       </Link>
       {isMainPage && <Search setSearchQuery={setSearchQuery} />}
-      <Link to='/login'>
-        <AccountCircle className='login-icon' />
-      </Link>
+      {!isLoginPage && (
+        <Link to='/login'>
+          <AccountCircle className='login-icon' />
+        </Link>
+      )}
     </header>
   );
 };

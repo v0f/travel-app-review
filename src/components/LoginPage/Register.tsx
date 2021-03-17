@@ -4,6 +4,8 @@ import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
+import AddIcon from '@material-ui/icons/Add';
+import { Fab } from '@material-ui/core';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
@@ -41,7 +43,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const LoginPage = () => {
+const Register = () => {
   const classes = useStyles();
 
   return (
@@ -54,7 +56,7 @@ const LoginPage = () => {
             <LockOutlinedIcon />
           </Avatar>
           <Typography component='h1' variant='h5'>
-            Sign in
+            Sign up
           </Typography>
           <form className={classes.form} noValidate>
             <TextField
@@ -79,16 +81,32 @@ const LoginPage = () => {
               id='password'
               autoComplete='current-password'
             />
+            <label htmlFor='upload-photo'>
+              <input
+                style={{ display: 'none' }}
+                id='upload-photo'
+                name='upload-photo'
+                type='file'
+              />
+              <Fab
+                color='secondary'
+                size='small'
+                component='span'
+                aria-label='add'
+                variant='extended'>
+                <AddIcon /> Upload photo
+              </Fab>
+            </label>
             <Button
               type='submit'
               fullWidth
               variant='contained'
               color='primary'
               className={classes.submit}>
-              Sign In
+              Sign Up
             </Button>
             <Grid container>
-              <Link to='/register'>{"Don't have an account? Sign Up"}</Link>
+              <Link to='/login'>{'Already have an account? Sign In'}</Link>
             </Grid>
           </form>
         </div>
@@ -97,4 +115,4 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
+export default Register;

@@ -6,6 +6,7 @@ import Footer from '../Footer/Footer';
 import MainPage from '../MainPage/MainPage';
 import CountryPage from '../CountryPage/CountryPage';
 import LoginPage from '../LoginPage/LoginPage';
+import Register from '../LoginPage/Register';
 import LangContext from '../Language-context/LangContext';
 import ScrollToTop from '../ScrollToTop/ScrollToTop';
 
@@ -58,13 +59,12 @@ const App: React.FC = () => {
             )}
             exact
           />
-
           <Route
             path='/country/:id'
             render={({ match }: MatchProps) => <CountryPage id={match.params.id} />}
           />
-
           <Route path='/login' component={LoginPage} />
+          <Route path='/register' component={Register} />
 
           <Footer />
         </LangContext.Provider>
