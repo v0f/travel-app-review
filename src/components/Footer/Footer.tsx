@@ -1,5 +1,5 @@
 import React from 'react';
-import './footer.css'
+import './Footer.scss'
 
 const Footer: React.FC = () => {
 
@@ -7,7 +7,7 @@ return (
     <footer className="footer">
         <div className="text-wrapper">
             <span className="git_links">
-                Made by 
+                Made by
                 <a className="git_link" href="https://github.com/katkopikat">katkopikat</a>  |
                 <a className="git_link"href="https://github.com/yulia-kri">yulia-kri</a>  |
                 <a className="git_link" href="https://github.com/v0f">v0f</a>  |

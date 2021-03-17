@@ -5,7 +5,7 @@ import Select from '@material-ui/core/Select';
 
 import LangContext from '../Language-context/LangContext';
 
-import './Select.css';
+import './Select.scss';
 
 const SelectLang: React.FC = () => {
   const { lang, changeLang } = React.useContext(LangContext);
