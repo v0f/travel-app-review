@@ -1,0 +1,22 @@
+.login-wrapper {
+  .MuiButton-containedPrimary {
+    color: #fafafa;
+    background-color: #212121;
+  }
+
+  .MuiTypography-colorPrimary {
+    color: #686868;
+  }
+
+  .MuiTypography-h5 {
+    font-family: 'Cormorant', serif;
+    font-size: 3.5rem;
+    font-weight: 800;
+  }
+
+  .MuiGrid-grid-sm-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

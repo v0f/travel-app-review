@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
@@ -8,13 +7,15 @@ import AddIcon from '@material-ui/icons/Add';
 import { Fab } from '@material-ui/core';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
+import './LoginPage.css';
+import dict from '../../data/dictionary';
+import LangContext from '../Language-context/LangContext';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    height: '100vh',
+    height: 'calc(100vh - 80px)',
   },
   image: {
     backgroundImage: 'url(https://source.unsplash.com/random/?asia)',
@@ -30,13 +31,14 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'column',
     alignItems: 'center',
   },
-  avatar: {
-    margin: theme.spacing(1),
-    backgroundColor: theme.palette.secondary.main,
-  },
   form: {
     width: '100%',
     marginTop: theme.spacing(1),
+  },
+  file: {
+    margin: theme.spacing(2, 0, 1),
+    backgroundColor: theme.palette.grey[900],
+    color: theme.palette.grey[50],
   },
   submit: {
     margin: theme.spacing(3, 0, 2),
@@ -44,19 +46,18 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const Register = () => {
+  const { lang } = React.useContext(LangContext);
+
   const classes = useStyles();
 
   return (
-    <Grid container component='main' className={classes.root}>
+    <Grid container component='main' className={classes.root + ' login-wrapper'}>
       <CssBaseline />
       <Grid item xs={false} sm={4} md={7} className={classes.image} />
       <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
         <div className={classes.paper}>
-          <Avatar className={classes.avatar}>
-            <LockOutlinedIcon />
-          </Avatar>
           <Typography component='h1' variant='h5'>
-            Sign up
+            {`.${dict.signup[lang]}.`}
           </Typography>
           <form className={classes.form} noValidate>
             <TextField
@@ -65,7 +66,7 @@ const Register = () => {
               required
               fullWidth
               id='email'
-              label='Email Address'
+              label={dict.email[lang]}
               name='email'
               autoComplete='email'
               autoFocus
@@ -76,7 +77,7 @@ const Register = () => {
               required
               fullWidth
               name='password'
-              label='Password'
+              label={dict.pass[lang]}
               type='password'
               id='password'
               autoComplete='current-password'
@@ -89,11 +90,11 @@ const Register = () => {
                 type='file'
               />
               <Fab
-                color='secondary'
                 size='small'
                 component='span'
                 aria-label='add'
-                variant='extended'>
+                variant='extended'
+                className={classes.file}>
                 <AddIcon /> Upload photo
               </Fab>
             </label>
@@ -103,10 +104,10 @@ const Register = () => {
               variant='contained'
               color='primary'
               className={classes.submit}>
-              Sign Up
+              {dict.signup[lang]}
             </Button>
             <Grid container>
-              <Link to='/login'>{'Already have an account? Sign In'}</Link>
+              <Link to='/login'>{dict.logSugg[lang]}</Link>
             </Grid>
           </form>
         </div>
