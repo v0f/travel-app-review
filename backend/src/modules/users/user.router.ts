@@ -47,7 +47,7 @@ router.post('/', wrap(async (req, res) => {
 }));
 
 router.get('/current', checkAuth, wrap(async (req, res) => {
-  const user = await User.find({login: res.locals.userLogin}).exec();
+  const user = await User.findOne({login: res.locals.userLogin}).exec();
   res.json(user);
 }));
 
