@@ -70,6 +70,36 @@ const dict: iDict = {
     ru: 'Кол-во запросов истекло :(',
     be: 'Кол-сць запытаў скончылася :(',
   },
+  log: {
+    en: 'Sign in',
+    ru: 'Войти',
+    be: 'Увайсці',
+  },
+  signup: {
+    en: 'Sign up',
+    ru: 'Создать',
+    be: 'Стварыць',
+  },
+  email: {
+    en: 'Email',
+    ru: 'Эл. адрес',
+    be: 'Эл. пошта',
+  },
+  pass: {
+    en: 'Password',
+    ru: 'Пароль',
+    be: 'Пароль',
+  },
+  logSugg: {
+    en: "Don't have an account? Sign Up.",
+    ru: 'Нет аккаунта? Создать.',
+    be: 'Няма акаўнта? Стварыць.',
+  },
+  signupSugg: {
+    en: 'Already have an account? Sign In.',
+    ru: 'Уже есть аккаунт? Войти.',
+    be: 'Ужо ёсць акаўнт? Ўвайсці.',
+  },
 };
 
 export default dict;
