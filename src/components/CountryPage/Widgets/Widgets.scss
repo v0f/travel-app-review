@@ -1,0 +1,107 @@
+.widgets {
+    background-color: rgb(230, 187, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 13rem;
+
+
+    &-wrapper {
+      width: 70%;
+      margin: 0 auto;
+      padding: 3rem 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      color: #282828;
+      background-color: #ffffff;
+      box-shadow: 1px -7px 0px -5px rgba(41, 51, 58, 0.6) inset;
+
+
+        .MuiPaper-root {
+            background-color: transparent;
+        }
+
+        .MuiPaper-elevation1 {
+          box-shadow: none;
+       }
+    }
+    
+    
+    &-city {
+        padding: 0 1rem;
+        font-weight: 400;
+        color: black;
+    }
+
+}
+
+.capital-wrapper {
+  text-align: center;
+  padding: 1rem;
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h2, h3 {
+    padding: 0;
+    margin: 0;
+  }
+
+}
+
+.currency-content,
+.time-content,
+.weather-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+.currency,
+.weather,
+.time {
+    align-items: flex-end;
+ }
+
+.currency-content {
+      span {
+        font-size: 1.1rem;
+      }
+      
+      .currency-country {
+        font-size: 1.5rem;
+      }
+}
+
+   
+.owf {
+    font: normal normal normal 3rem/1 owfont;
+}
+  
+.icon-and-temp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+  
+.temperature,
+.timer,
+.currency-h {
+    font-size: 1.7rem;
+}
+  
+.wind, .humidity {
+    margin-right: 0.5rem;
+ }
+
+.fa-money-bill, .fa-clock, .fa-university {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}

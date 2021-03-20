@@ -1,0 +1,980 @@
+{
+  "japan": {
+    "id": "japan",
+    "countryName": {
+      "en": "Japan",
+      "ru": "Япония",
+      "be": "Японія"
+    },
+    "capitalName": {
+      "en": "Tokyo",
+      "ru": "Токио",
+      "be": "Токіо"
+    },
+    "shortDescription": {
+      "en": "The land of the rising sun. Consisting of more than 3000 islands. Homeland of sushi, geisha, robots, anime, minimalism and Mount Fuji",
+      "ru": "Страна восходящего солнца. состоящая из более чем 3000 островов. Родина суши, гейш, роботов, аниме, минимализма и горы Фудзи",
+      "be": "Краіна ўзыходзячага сонца. Якая складаецца з больш чым 3000 выспаў. Радзіма сушы, гейш, робатаў, анімэ, мінімалізму і горы Фуджы"
+    },
+    "description": {
+      "en": "Japan is probably the most unusual country on the planet. Many of those who have been here call it a country of anothercivilization. Indeed, there is much that is unusual and sometimes defies standard logical, ethical and cultural thinking. And all due to the fact that for a long time Japan was a closed country for all foreigners. be limiting foreign presence in the country in the 17th century, Japan thus protected its culture and traditions from foreign influence. For almost 250 years, until the Meiji Restoration, the country developed in its own way. This period was marked be the flourishing of many trends in art and culture, which to this day are strongly associated with Japan. At this time, haiku poetry, kabuki drama, plebeian novels, woodcuts appeared, as well as the Ura Senke tea ceremony school - the largest of the modern ones. This is the heyday of the samurai class with its moral code bushi-do  - literally 'the way of the warrior. All this has left a significant imprint on modern Japanese society, and althoughin recent years Japanese culture has been increasingly influenced be Western cultures, it still remains one of the most amazing and controversial in the world.",
+      "ru": "Япония – это, наверное, самая необычная страна на планете. Многие из тех, кто побывал здесь, называют ее страной иной цивилизации. И правда, здесь много что необычно и подчас не поддается стандартному логическому, этическому и культурному мышлению. А все из-за того, что долгое время Япония была закрытой страной для всех иностранцев. Ограничив в XVII веке иностранное присутствие в стране, Япония таким образом защитила свою культуру и традиции от иностранного влияния. На протяжении почти 250 лет, вплоть до реставрации Мэйдзи, страна развивалась своим собственным путем. Этот период ознаменовался расцветом многих направлений в искусстве и культуре, которые по сей день прочно ассоциируются с Японией. В это время появились поэзия хайку, драма кабуки, плебейские романы, гравюры по дереву, а также школа чайной церемонии Ура Сэнкэ — самая крупная из современных. Это период расцвета самурайского сословия с его моральным кодексом буси-до - дословно «путь воина». Все это наложило существенный отпечаток на современное японское общество, и хоть в последние годы японская культура все больше и больше подвергается влиянию западных культур, она до сих пор остается одной из самых удивительных и спорных в мире.",
+      "be": "Японія - гэта, напэўна, самая незвычайная краіна на планеце. Многія з тых, хто пабываў тут, называюць яе краінай іншай цывілізацыі. І праўда, тут шмат што незвычайна і часам не паддаецца стандартнага лагічнага, этычнаму і культурнаму мыслення. А ўсё з-за таго, што доўгі час Японія была закрытай краінай для ўсіх замежнікаў. Абмежаваўшы ў XVII стагоддзі замежнае прысутнасць у краіне, Японія такім чынам абараніла сваю культуру і традыцыі ад замежнага ўплыву. На працягу амаль 250 гадоў, аж да рэстаўрацыі Мэйдзі, краіна развівалася сваім уласным шляхам. Гэты перыяд адзначыўся росквітам многіх напрамкаў у мастацтве і культуры, якія па гэты дзень трывала асацыююцца з Японіяй. У гэты час з'явіліся паэзія хайку, драма кабукі, плебейскай раманы, гравюры па дрэве, а таксама школа чайнай цырымоніі Ура Сэнкэ - самая буйная з сучасных. Гэта перыяд росквіту самурайскага саслоўя з яго маральным кодэксам буси-да - даслоўна «шлях ваяра». Усё гэта наклала істотны адбітак на сучаснае японскае грамадства, і хоць у апошнія гады японская культура ўсё больш і больш падвяргаецца ўплыву заходніх культур, яна да гэтага часу застаецца адной з самых дзіўных і спрэчных у свеце."
+    },
+    "currencyCode": "JPY",
+    "currency": {
+      "en": "Japanese yen",
+      "ru": "Японская иена",
+      "be": "Іена"
+    },
+    "timeZone": "Asia/Tokyo",
+    "geoCenter": [139.77098768864576, 35.69016815938184],
+    "countryCode": "JPN",
+    "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615734320/travel-app/japan/main.jpg",
+    "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615735378/travel-app/japan/japan_video.mp4",
+    "videoPoster": "https://res.cloudinary.com/travel-app/image/upload/v1615838987/travel-app/japan/video_poster.jpg",
+    "places": [
+      {
+        "name": {
+          "en": "Fuji",
+          "ru": "Фудзи",
+          "be": "Фудзі"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615734319/travel-app/japan/place_fuji.jpg",
+        "description": {
+          "en": "Mount Fuji is the tallest mountain in Japan (3776 meters). The exceptionally symmetrical cone of the volcano is a world famous symbol of Japan. Fuji-san is a popular attraction for hikers and climbers. Every year about 200 thousand people climb Mount Fuji, 30% of whom are foreigners. The ascent can take from 3 to 8 hours, and the descent can take from 2 to 5 hours.",
+          "ru": "Гора Фудзи - самая высокая гора в Японии (3776 метров). Исключительно симметричный конус вулкана является всемирно известным символом Японии. Фудзи-сан - популярная достопримечательность для туристов и альпинистов. Ежегодно около 200 тысяч человек поднимаются на гору Фудзи, 30% из которых - иностранцы. Подъем может занять от 3 до 8 часов, а спуск - от 2 до 5 часов.",
+          "be": "Гара Фудзі - самая высокая гара ў Японіі (3776 метраў). Выключна сіметрычны конус вулкана з'яўляецца сусветна вядомым сімвалам Японіі. Фудзі-сан - папулярная славутасць для турыстаў і альпіністаў. Штогод каля 200 тысяч чалавек падымаюцца на гару Фудзі, 30% з якіх - замежнікі. Ўздым можа заняць ад 3 да 8 гадзін, а спуск - ад 2 да 5 гадзін."
+        }
+      },
+      {
+        "name": {
+          "en": "Jigokudani Monkey Park",
+          "ru": "Парк обезьян Джигокудани",
+          "be": "Парк малпаў Джигокудани"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615734319/travel-app/japan/place_monkey.jpg",
+        "description": {
+          "en": "Jigokudani Monkey Park is a famous hot spring area near Nagano. The park got its name Jigokudani (which means 'Hell Valley') for the steam and boiling water that bubbles in the springs surrounded be steep rocks and dense forests. This park is famous for its large population of wild snow monkeys that travel to the valley in winter when snow covers everything around. Monkeys descend from steep cliffs and forests to bask in warm hot springs, and return to the woods in the evenings.",
+          "ru": "Парк обезьян Дзигокудани - это известная область с горячими источниками недалеко от Нагано. Название Джигокудани (что означает «Адская долина») парк получил за пар и кипящую воду, которая пузырится в источниках, окружённых крутыми скалами и густыми лесами. Данный парк славится большой популяцией диких снежных обезьян, которые отправляются в долину зимой, когда снег покрывает всё вокруг. Обезьяны спускаются с крутых скал и лесов, чтобы погреться в теплых горячих источниках, а по вечерам возвращаются обратно в леса.",
+          "be": "Парк малпаў Дзигокудани - гэта вядомая вобласць з гарачымі крыніцамі недалёка ад Нагана. Назва Джигокудани (што азначае «Адская даліна») парк атрымаў за пар і кіпячую ваду, якая бурбалкі ў крыніцах, акружаных стромкімі скаламі і густымі лясамі. Дадзены парк славіцца вялікай папуляцыяй дзікіх снежных малпаў, якія адпраўляюцца ў даліну зімой, калі снег пакрывае ўсё вакол. Малпы спускаюцца з стромкіх скал і лясоў, каб пагрэцца ў цёплых гарачых крыніцах, а па вечарах вяртаюцца назад у лясы."
+        }
+      },
+      {
+        "name": {
+          "en": "Himeji castle",
+          "ru": "Замок Химэдзи",
+          "be": "Замак Хімэдзі"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615734626/travel-app/japan/place_himeji.jpg",
+        "description": {
+          "en": "Himeji is called the White Heron's castle. Its walls are snow-white, and the lines and features are graceful, like a bird. During its existence, the castle did not suffer from fires or enemy raids. And if anyone tried to capture the castle, he would be entangled in the maze of gardens and rooms. The whole complex is 83 buildings. Sakura blossoms around them, which makes the castle even more beautiful. Not surprisingly, he has been featured in films on numerous occasions.",
+          "ru": "Химэдзи называют замком Белой Цапли. Его стены белоснежные, а линии и черты грациозные, как у птицы. За время своего существования замок не страдал от пожаров или вражеских набегов. А если бы кто и попытался захватить замок, то запутался бы в лабиринтах садов и комнат. Весь комплекс – это 83 сооружения. Вокруг них цветет сакура, что делает замок еще прекраснее. Не удивительно, что его неоднократно снимали в фильмах.",
+          "be": "Химэдзи называюць замкам белай чаплі. Яго сцены беласнежныя, а лініі і рысы грацыёзныя, як у птушкі. За час свайго існавання замак не пакутаваў ад пажараў або варожых набегаў. А калі б хто і паспрабаваў захапіць замак, то заблытаўся бы ў лабірынтах садоў і пакояў. Увесь комплекс - гэта 83 збудавання. Вакол іх квітнее сакура, што робіць замак яшчэ выдатней. Не дзіўна, што яго неаднаразова здымалі ў фільмах."
+        }
+      },
+      {
+        "name": {
+          "en": "Arashiyama Bamboo Forest",
+          "ru": "Бамбуковая роща Арасияма",
+          "be": "Бамбукавая гай Арасияма"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615734320/travel-app/japan/place_bamboo.jpg",
+        "description": {
+          "en": "Arashiyama Bamboo Grove, also known as Sagano Bamboo Forest, is located in the west of Kyoto city. The size of the bamboo forest is more like a small park. The area of this picturesque place is about 16 sq. km. Some plants reach a height of 40-50 meters, covering the sky. There is a network of paths in the territory of the bamboo grove. At night, the paths in the park are illuminated with artificial light, and the entire park can be walked in half an hour.",
+          "ru": "Бамбуковая роща Арасияма, также известная под названием бамбуковый лес Сагано, расположена на западе города Киото. По своим размерам бамбуковый лес больше похож на небольшой парк. Площадь этого живописного места около 16 кв. км. Некоторые растения достигают в высоту 40–50 метров, закрывая небосклон. На территории бамбуковой рощи находится сеть тропинок. Ночью дорожки в парке подсвечены искусственным светом, а весь парк можно пройти за полчаса.",
+          "be": "Бамбукавая гай Арасияма, таксама вядомая пад назвай бамбукавы лес сага, размешчаная на захадзе горада Кіёта. Па сваіх памерах бамбукавы лес больш падобны на невялікі парк. Плошча гэтага жывапіснага месца каля 16 кв. км. Некаторыя расліны дасягаюць у вышыню 40-50 метраў, зачыняючы небасхіл. На тэрыторыі бамбукавай гаі знаходзіцца сетка сцяжынак. Ноччу дарожкі ў парку падсвечаны штучным святлом, а ўвесь парк можна прайсці за паўгадзіны."
+        }
+      },
+      {
+        "name": {
+          "en": "Itsukushima Shrine",
+          "ru": "Святилище Ицукусима",
+          "be": "Сьвятыню Ицукусима"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615734321/travel-app/japan/place_itsukushima.jpg",
+        "description": {
+          "en": "This Shinto shrine, nestled in a cozy bay, sheltered from stormy winds, is one of the most revered in the country. Itsukushima shrine ritual gate or torii is one of the most popular attractions in Japan. Along with the Amanohashidate sand spit and Matsushima Bay, the view of the torii from one of the island's hills is part of the so-called Three Famous Landscapes of Japan.",
+          "ru": "Эта синтоистская святыня, расположенная в уютной бухте, закрытой от штормовых ветров, является одной из самых почитаемых в стране. Ритуальные врата или тории святилища Ицукусима являются одной из наиболее популярных достопримечательностей Японии. Наряду с песчаной косой Аманохасидатэ и заливом Мацусима вид на тории со стороны одной из возвышенностей острова входит в так называемые «Три знаменитых пейзажа Японии».",
+          "be": "Гэтая сінтаісцкімі святыня, размешчаная ва ўтульнай бухце, закрытай ад штармавых вятроў, з'яўляецца адной з самых паважаных у краіне. Рытуальныя браму або тории сьвятыні Ицукусима з'яўляюцца адной з найбольш папулярных славутасцяў Японіі. Нароўні з пясчанай касой Аманохасидатэ і залівам Мацусима від на тории з боку адной з узвышшаў выспы уваходзіць у так званыя «Тры знакамітых пейзажу Японіі»."
+        }
+      },
+      {
+        "name": {
+          "en": "Shibuya area",
+          "ru": "Район Сибуя",
+          "be": "Раён Сибуя"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615734320/travel-app/japan/place_shibuja.jpg",
+        "description": {
+          "en": "It is one of Tokyo's 23 special districts. Once it was a village, then a small town. It is now part of the capital and the center of nightlife, entertainment, fashion and shopping. There are also some of the tallest skyscrapers in the city, Microsoft and Coca-Cola offices. The center of the district is the Hachiko monument. In addition to boutiques and entertainment centers, there are museums and temples.",
+          "ru": "Это один из 23 специальных районов Токио. Когда-то он был деревней, потом небольшим городком. Теперь это часть столицы и центр ночной жизни, развлечений, моды и шопинга. Также тут расположены одни из самых высоких небоскребов города, офисы Майкрософт и Кока-Кола. Центром района считают памятник Хатико. Кроме бутиков и развлекательных центров тут есть музеи и храмы.",
+          "be": "Гэта адзін з 23 спецыяльных раёнаў Токіо. Калісьці ён быў вёскай, потым невялікім мястэчкам. Цяпер гэта частка сталіцы і цэнтр начнога жыцця, забаў, моды і шопінгу. Таксама тут размешчаны адны з самых высокіх хмарачосаў горада, офісы Майкрасофт і Кока-Кола. Цэнтрам раёна лічаць помнік Хатико. Акрамя буцікаў і забаўляльных цэнтраў тут ёсць музеі і храмы."
+        }
+      },
+      {
+        "name": {
+          "en": "Fushimi Inari shrine in Kyoto",
+          "ru": "Храм Фусими Инари в Киото",
+          "be": "Храм Фусими Інара ў Кіёта"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615734321/travel-app/japan/place_inari.jpg",
+        "description": {
+          "en": "Fushimi Inari Shrine is known mainly for the myriad Torii Gates donated be the faithful. The gate is located along the road to the temple, which goes up a wooded mountain to Inari-san, where the main building of the temple is located. It takes about two hours to walk to the temple along this alley. On the way to the top, passing through the torii, you will see small chapels, tombs and statues of foxes that are the messengers of this god. Also, about halfway up there will be an observation deck overlooking Kyoto.",
+          "ru": "Храм Фусими Инари известен, главным образом, несметным количеством Ворот-Тории, которые были пожертвованы верующими. Ворота располагаются по дороге к храму, которая уходит в лесистую гору к Инари-сан, где расположено основное здание храма. Чтобы дойти пешком до храма по этой аллее, необходимо около двух часов. По пути к вершине, проходя через тории, вы будете видеть небольшие часовни, могилы и статуи лис, которые являются посланниками этого бога. Так же где-то на полпути наверх будет обзорная площадка с видом на Киото.",
+          "be": "Храм Фусими Інара вядомы, галоўнай выявай, незлічоным колькасцю Брамы-Тории, якія былі ахвяраваны вернікамі. Вароты размяшчаюцца па дарозе да храма, якая сыходзіць у лясістую гару да Інара-сан, дзе размешчана асноўны будынак храма. Каб дайсці пешшу да храма па гэтай алеі, неабходна каля двух гадзін. Па шляху да вяршыні, праходзячы праз тории, вы будзеце бачыць невялікія капліцы, магілы і статуі ліс, якія з'яўляюцца пасланцамі гэтага бога. Гэтак жа дзесьці на паўшляху наверх будзе аглядная пляцоўка з выглядам на Кіёта."
+        }
+      },
+      {
+        "name": {
+          "en": "Kinkakuji Temple",
+          "ru": "Храм Кинкакудзи",
+          "be": "Храм Кинкакудзи"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615734319/travel-app/japan/place_kinkakuji.jpg",
+        "description": {
+          "en": "The three-story Kinkakuji Temple or Golden Pavilion is a repository of Buddhist relics on the territory of the Rokuonji temple complex in the Japanese city of Kyoto. The Buddhist temple began to be called the 'Golden Pavilion' because it is covered with gold leaf, on top of which a layer of protective varnish is applied. Kinkakuji Temple is famous as an architectural monument of Japanese culture of the early XIV century and fits perfectly into the surrounding landscape.",
+          "ru": "Трехэтажный храм Кинкакудзи или Золотой павильон – это хранилище буддистских реликвий на территории храмового комплекса Рокуондзи в японском городе Киото. «Золотым павильоном» буддистский храм стали называть потому, что он покрыт сусальным золотом, поверх которого нанесен слой защитного лака. Храм Кинкакудзи знаменит как архитектурный памятник японской культуры начала XIV века и прекрасно вписывается в окружающий ландшафт.",
+          "be": "Трохпавярховы храм Кинкакудзи або Залаты павільён - гэта сховішча будысцкіх рэліквій на тэрыторыі храмавага комплексу Рокуондзи ў японскім горадзе Кіёта. «Залатым павільёнам» будысцкі храм сталі называць таму, што ён пакрыты сусальным золатам, па-над якім нанесены пласт ахоўнага лаку. Храм Кинкакудзи знакаміты як архітэктурны помнік японскай культуры пачатку XIV стагоддзя і выдатна ўпісваецца ў навакольны ландшафт."
+        }
+      }
+    ]
+  },
+  "korea": {
+    "id": "korea",
+    "geoCenter": [127.047325, 37.517235],
+    "countryCode": "KOR",
+    "countryName": {
+      "en": "South Korea",
+      "ru": "Южная Корея",
+      "be": "Паўднёвая Карэя"
+    },
+    "capitalName": {
+      "en": "Seoul",
+      "ru": "Сеул",
+      "be": "Сеул"
+    },
+    "description": {
+      "en": "Korea might be known as the Land of the Morning Calm, but dive into its capital Seoul, the powerhouse of Asia’s third-largest economy, and serenity may be the last thing you’ll perceive. This round-the-clock city is constantly in motion. It captivates with its contrasts: an ancient Buddhist temple surrounded by skyscrapers, plastic surgery clinics at every corner, women of fashion walking in stilettos and light coats in 12-degree frost, grandmothers with the same hairstyle and traditional street food. Here, always and everywhere, you can catch high-speed free Internet. It's never boring in South Korea.",
+      "ru": "Южная Корея, так же известна как Страна утреннего спокойствия, но погрузитесь в ее столицу Сеул, центр третьей по величине экономики Азии, и спокойствие может быть последним, что вы почувствуете. Этот город постоянно находится в движении. Он подкупает своими контрастами: древний буддистский храм, окруженный небоскребами, клиники пластической хирургии на каждом углу, модницы, вышагивающие в туфлях на шпильке и легких пальто в 12-градусный мороз, бабушки с одинаковыми прическами и традиционная уличная еда. Здесь всегда и везде можно поймать скоростной бесплатный интернет. В Южной Корее никогда не бывает скучно.",
+      "be": "Паўднёвая Карэя можа быць вядомая як Краіна ранішняга спакою, але акунуцца ў яе сталіцу Сеул, цэнтр трэцяй па велічыні эканомікі Азіі, і спакой можа быць апошнім, што вы адчуеце. Гэты горад пастаянна знаходзіцца ў руху. Ён падкупляе сваімі кантрастамі: старажытны будысцкі храм, акружаны хмарачосамі, клінікі пластычнай хірургіі на кожным куце, модніцы, крочыў у туфлях на шпільцы і лёгкіх паліто ў 12-градусны мароз, бабулі з аднолькавымі прычоскамі і традыцыйная вулічная ежа. Тут заўсёды і паўсюль можна злавіць хуткасны бясплатны інтэрнэт. У Паўднёвай Карэі ніколі не бывае сумна."
+    },
+    "shortDescription": {
+      "en": "The Land of Morning Calm, the birthplace of k-pop, k-dramas, k-fashion, k-beauty. Maybe it's time to find out why the whole world is crazy about South Korea?",
+      "ru": "Страна Утренней Свежести, родина k-pop, k-dramas, k-fashion, k-beauty. Может пора узнать, почему весь мир без ума от Южной Кореи?",
+      "be": "Краіна ранішняй свежасці, радзіма k-pop, k-dramas, k-fashion, k-beauty. Может пора даведацца, чаму ўвесь свет без розуму ад Паўднёвай Карэі?"
+    },
+    "currency": {
+      "en": "Korean Republic won",
+      "ru": "Южнокорейская вона",
+      "be": "Паўднёвакарэйская вона"
+    },
+    "currencyCode": "KRW",
+    "timeZone": "Asia/Seoul",
+    "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745059/travel-app/korea/korea.jpg",
+    "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615745745/travel-app/korea/korea_video.mp4",
+    "videoPoster": "https://res.cloudinary.com/travel-app/image/upload/v1615839030/travel-app/korea/video_poster.jpg",
+    "places": [
+      {
+        "name": {
+          "en": "Bukchon Hanok Village",
+          "ru": "Деревня Букчон Ханок",
+          "be": "Вёска Букчон Ханок"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745059/travel-app/korea/village.jpg",
+        "description": {
+          "en": "Check out this folk village if you're interested in seeing how people lived in South Korea a long time ago. It is an open-air museum of small tiled houses selling souvenirs, tea ceremonies and small museums that tell the story of the country.",
+          "ru": "Загляни в эту фольклорную деревню, если тебе интересно увидеть, как жили в Южной Корее энное количество времени назад. Это музей под открытым небом, состоящий из маленьких домиков, покрытых черепицей, в которых продаются сувениры, устраиваются чайные церемонии и находятся небольшие музеи, рассказывающие об истории страны.",
+          "be": "Зазірні ў гэтую фальклорную вёску, калі табе цікава ўбачыць, як жылі ў Паўднёвай Карэі энная колькасць часу таму. Гэта музей пад адкрытым небам, які складаецца з маленькіх домікаў, пакрытых дахоўкай, у якіх прадаюцца сувеніры, уладкоўваюцца чайныя цырымоніі і знаходзяцца невялікія музеі, якія распавядаюць пра гісторыю краіны."
+        },
+        "rating": 4
+      },
+      {
+        "name": {
+          "en": "Changdeokgung",
+          "ru": "Чхандоккун",
+          "be": "Чхандоккун"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745058/travel-app/korea/palace.jpg",
+        "description": {
+          "en": "The World Heritage–listed Changdeokgung is the most beautiful of Seoul's five main palaces. The 'Palace of Illustrious Virtue' was built in the early 15th century as a secondary palace to Gyeongbukgung, but when Gyeongbokgung was destroyed during the Japanese invasion in the 1590s, it became the primary royal residence until 1872. Many of its buildings were actually lived in by members of the royal family well into the 20th century. Like all Joseon palaces, it has a mountain behind it and a small stream in front – good pungsu (feng shui). The most charming section is the Huwon, a ‘secret garden’ that is a royal horticultural idyll.",
+          "ru": "Чхандоккун, внесенный в список всемирного наследия, является самым красивым из пяти главных дворцов Сеула. «Дворец выдающейся добродетели» был построен в начале 15 века как второй дворец после Кёнбуккуна, но когда Кёнбоккун был разрушен во время японского вторжения в 1590-х годах, он стал главной королевской резиденцией до 1872 года. В его стенах жили члены королевской семьи вплоть до ХХ века. Как и все дворцы Чосон, за ним виднеется гора, а спереди небольшой ручей - хорошее пунгсу (фэн-шуй). Самая очаровательная часть дворца - Хувон, «секретный сад», представляющий собой королевскую садоводческую идиллию.",
+          "be": "Чхандоккун, унесены ў спіс сусветнай спадчыны, з'яўляецца самым прыгожым з пяці галоўных палацаў Сеула. «Палац выбітнай цноты» быў пабудаваны ў пачатку 15 стагоддзя як другі палац пасля Кёнбуккуна, але калі Кёнбоккун быў разбураны падчас японскага ўварвання ў 1590-х гадах, ён стаў галоўнай каралеўскай рэзідэнцыяй да 1872 года. У яго сценах жылі члены каралеўскай сям'і аж да ХХ стагоддзя. Як і ўсе палацы Чосон, за ім віднеецца гара, а спераду невялікі ручай - добрае пунгсу (фэн-шуй). Самая чароўная частка палаца - Хувон, «сакрэтны сад», які ўяўляе сабой каралеўскую садаводчых ідылію."
+        },
+        "rating": 3.5
+      },
+      {
+        "name": {
+          "en": "Hallyeohaesang National Park",
+          "ru": "Национальный парк Халлеохэсан",
+          "be": "Нацыянальны парк Халлеохэсан"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745059/travel-app/korea/park.jpg",
+        "description": {
+          "en": "This beautiful national park includes miles of raw coastline on over 300 separate islands. Each has hiking trails with spectacular ocean and cliff views. The area also features a cable car, known as the Hallyeosudo Viewing Ropeway. The ride is almost 2.4 kilometers long and takes nine minutes to reach the summit. You're rewarded with sweeping views of the countryside and coastline, including the Japanese island of Daemado.",
+          "ru": "Этот красивый национальный парк включает километры необработанной береговой линии на более чем 300 отдельных островах. У каждого есть пешеходные тропы с захватывающим видом на океан и скалы. В этом районе также есть канатная дорога, известная как канатная дорога Халлиёсудо. Поездка протяженностью почти 2,4 километра занимает девять минут, чтобы добраться до вершины. Вы будете вознаграждены потрясающим видом на сельскую местность и побережье, в том числе на японский остров Дэмадо.",
+          "be": "Гэты прыгожы нацыянальны парк ўключае кіламетры неапрацаванай берагавой лініі на больш чым 300 асобных выспах. У кожнага ёсць пешаходныя сцежкі з захапляльным выглядам на акіян і скалы. У гэтым раёне таксама ёсць канатная дарога, вядомая як канатная дарога Халлиёсудо. Паездка працягласцю амаль 2,4 кіламетра займае дзевяць хвілін, каб дабрацца да вяршыні. Вы будзеце ўзнагароджаныя узрушаючым выглядам на сельскую мясцовасць і ўзбярэжжа, у тым ліку на японскі востраў Дэмадо."
+        },
+        "rating": 5
+      },
+      {
+        "name": {
+          "en": "Jeju Island",
+          "ru": "Чеджу",
+          "be": "Чеджу"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745059/travel-app/korea/island.jpg",
+        "description": {
+          "en": "Jeju is a volcanic island, nicknamed the Hawaii of South Korea. The island boasts beautiful beaches along with a lot of culture and history. The highest mountain in South Korea (a dormant volcano called Hallasan) is here along with miles of giant lava tubes. The lava tubes, which can be explored, are natural air pockets in the hardened lava, the size of railway tunnels.",
+          "ru": "Чеджу - вулканический остров, прозванный южнокорейскими Гавайями. Остров может похвастаться прекрасными пляжами, а также богатой культурой и историей. Здесь находится самая высокая гора в Южной Корее (спящий вулкан Халласан), а также километры гигантских лавовых труб. Лавовые трубы, которые можно исследовать, представляют собой естественные воздушные карманы в затвердевшей лаве размером с железнодорожные туннели.",
+          "be": "Чеджу - вулканічны востраў, празваны паўднёвакарэйскімі Гаваях. Востраў можа пахваліцца выдатнымі пляжамі, а таксама багатай культурай і гісторыяй. Тут знаходзіцца самая высокая гара ў Паўднёвай Карэі (спячы вулкан Халласан), а таксама кіламетры гіганцкіх лававых труб. Лававыя трубы, якія можна даследаваць, ўяўляюць сабой натуральныя паветраныя кішэні ў зацвярдзелай лаве памерам з чыгуначныя тунэлі."
+        },
+        "rating": 2.5
+      },
+      {
+        "name": {
+          "en": "Seoraksan National Park",
+          "ru": "Национальный парк Сораксан",
+          "be": "Нацыянальны парк Сораксан"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745059/travel-app/korea/park2.jpg",
+        "description": {
+          "en": "If you want to go hiking, see the best known mountain range in South Korea or just get some epic photos, then make sure you visit the Seoraksan National Park. Within the park you’ll find pine forests, jagged and rocky mountain peaks, crystal clear streams and stunning lakes. The park is also known for its natural diversity, it is home to over 2,000 animal species.",
+          "ru": "Если вы хотите отправиться в поход, увидеть самый известный горный хребет в Южной Корее или просто сделать несколько эпических фотографий, обязательно посетите национальный парк Сораксан. В парке вы найдете сосновые леса, неровные и скалистые горные вершины, кристально чистые ручьи и потрясающие озера. Парк также известен своим природным разнообразием, в нем обитает более 2000 видов животных.",
+          "be": "Калі вы жадаеце адправіцца ў паход, убачыць самы вядомы горны хрыбет у Паўднёвай Карэі ці проста зрабіць некалькі эпічных фотаздымкаў, абавязкова наведайце нацыянальны парк Сораксан. У парку вы знойдзеце сасновыя лясы, няроўныя і скалістыя горныя вяршыні, крышталёва чыстыя ручаі і цудоўныя возера. Парк таксама вядомы сваім прыродным разнастайнасцю, і ў ім прабывае больш за 2000 відаў жывёл."
+        },
+          "rating": 3.5
+      },
+      {
+        "name": {
+          "en": "Demilitarized Zone DMZ",
+          "ru": "Демилитаризованная зона DMZ",
+          "be": "Дэмілітарызаваная зона DMZ"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745059/travel-app/korea/dmz.jpg",
+        "description": {
+          "en": "The 4km-wide, 240km-long buffer known as the Demilitarized Zone (DMZ) slashes across the peninsula, separating North and South Korea. From Freedom House, tourists can observe the North Korean side through binoculars. Also, depending on the chosen tour, you will have the opportunity to go down into the underground military tunnel and visit the 'blue houses' of the UN. Inside them is the official border of the two countries - an invisible line dividing South and North Korea.",
+          "ru": "Буферная зона шириной 4 км и длиной 240 км, известная как демилитаризованная зона (ДМЗ), пересекает полуостров, разделяя Северную и Южную Корею. Из Дома свободы туристы могут понаблюдать за северокорейской стороной через бинокль. Также, в зависимости от выбранного тура, у тебя будет возможность спуститься в подземный военный туннель и посетить «голубые домики» ООН. Внутри них проходит официальная граница двух стран – невидимая линия, разделяющая Южную и Северную Кореи.",
+          "be": "Буферная зона шырынёй 4 км і даўжынёй 240 км, вядомая як дэмілітарызаваная зона (ДМЗ), перасякае паўвостраў, падзяляючы Паўночную і Паўднёвую Карэю. З Дома свабоды турысты могуць паназіраць за паўночнакарэйскай бокам праз бінокль. Таксама, у залежнасці ад абранага тура, у цябе будзе магчымасць спусціцца ў падземны ваенны тунэль і наведаць «блакітныя домікі» ААН. Унутры іх праходзіць афіцыйная мяжа дзвюх краін - нябачная лінія, якая падзяляе Паўднёвую і Паўночную Карэі."
+        },
+        "rating": 4
+      }
+    ]
+  },
+  "indonesia": {
+    "id": "indonesia",
+    "geoCenter": [106.774124, -6.121435],
+    "countryCode": "IDN",
+    "countryName": {
+      "en": "Indonesia",
+      "ru": "Индонезия",
+      "be": "Інданезія"
+    },
+    "capitalName": {
+      "en": "Jakarta",
+      "ru": "Джакарта",
+      "be": "Джакарта"
+    },
+    "description": {
+      "en": "Indonesia is the world's largest island country. It consists of more than seventeen thousand islands, including Sumatra, Java, Sulawesi, Bali, parts of Borneo (Kalimantan) and the western half of New Guinea. With more than 270 million people, Indonesia is the world's fourth-most populous country and the most populous Muslim-majority country.",
+      "ru": "Индонезия является крупнейшим островным государством в мире. Расположена на более чем семнадцати тысяч островов, включая Суматру, Яву, Сулавеси, Бали, части Борнео (Калимантан) и западную половину Новой Гвинеи. Индонезия с населением более 270 миллионов человек занимает четвёртое место в мире по численности населения. Около 88 % населения исповедует ислам, что делает её страной с наибольшим мусульманским населением в мире.",
+      "be": "Інданезія з'яўляецца найбуйнейшай астраўной дзяржавай у свеце. Размешчана на больш чым семнаццаць тысяч выспаў, уключаючы Суматру, Яву, Сулавесі, Балі, часткі Барнэа (Калімантан) і заходнюю палову Новай Гвінеі. Інданезія з насельніцтвам больш за 270 мільёнаў чалавек займае чацвёртае месца ў свеце па колькасці насельніцтва. Каля 88% насельніцтва вызнае іслам, што робіць яе краінай з найбольшым мусульманскім насельніцтвам у свеце."
+    },
+    "shortDescription": {
+      "en": "Travel to Indonesia can be as varied as possible: there are majestic mountains, glorious temples, national parks, several volcanoes, and paradise beaches where you can watch turtles or learn how to surf.",
+      "ru": "Путешествие в Индонезию может получиться максимально разнообразным: тут и величественные горы, и храмы, и национальные парки, и несколько вулканов, и райские пляжи, где можно понаблюдать за черепахами или научиться серфингу.",
+      "be": "Падарожжа ў Інданэзію можа атрымацца максімальна разнастайным: тут і велічныя горы, і храмы, і нацыянальныя паркі, і некалькі вулканаў, і райскія пляжы, дзе можна паназіраць за чарапахамі або навучыцца серфінгу."
+    },
+    "currency": {
+      "en": "Indonesian rupiah",
+      "ru": "Индонезийская рупия",
+      "be": "Інданезійская рупія"
+    },
+    "currencyCode": "IDR",
+    "timeZone": "Asia/Jakarta",
+    "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745249/travel-app/indonesia/indonesia.jpg",
+    "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615746953/travel-app/indonesia/video_indonesia.mp4",
+    "videoPoster": "https://res.cloudinary.com/travel-app/image/upload/v1615838636/travel-app/indonesia/video_poster.jpg",
+    "places": [
+      {
+        "name": {
+          "en": "Dieng Plateau",
+          "ru": "Плато Диенг",
+          "be": "Плато Диенг"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745246/travel-app/indonesia/dieng.jpg",
+        "description": {
+          "en": "The lofty volcanic plateau of Dieng (Abode of the Gods), a fertile landscape laced with terraced potato and tobacco fields, is home to some of the oldest Hindu architecture in Java. More than 400 temples, most dating from the 8th and 9th centuries, originally covered this 2000m-high plain, but they were abandoned and forgotten and only rediscovered in 1856 by the archaeologist Van Kinsbergen. In addition, there are many interesting natural attractions formed by volcanic activity: geysers, volcanic lakes, hot springs, inactive volcanoes.",
+          "ru": "Высокогорное вулканическое плато Диенг (Обитель богов), плодородный ландшафт, пронизанный террасами картофельных и табачных полей, является домом для некоторых из старейших индуистских построек на Яве. Более 400 храмов, большинство из которых относятся к VIII и IX векам, первоначально занимали эту равнину высотой 2000 м, но они были заброшены и забыты, и вновь обнаружены только в 1856 году археологом Ван Кинсбергеном. Кроме того, здесь находится множество природных достопримечательностей, образованных вулканической активностью: гейзеры, вулканические озера, горячие источники, неактивные вулканы.",
+          "be": "Высакагорнае вулканічнае плато Диенг (Прыстанак багоў), урадлівы ландшафт, працяты тэрасамі бульбяных і тытунёвых палёў, з'яўляецца домам для некаторых з найстарэйшых індуісцкіх пабудоў на Яве. Больш за 400 храмаў, большасць з якіх адносяцца да VIII і IX стагоддзям, першапачаткова займалі гэтую раўніну вышынёй 2000 м, але яны былі закінуты і забыты, і зноў выяўлены толькі ў 1856 году археолагам Ван Кинсбергеном. Акрамя таго, тут знаходзіцца мноства прыродных славутасцяў, адукаваных вулканічнай актыўнасцю: гейзеры, вулканічныя возера, гарачыя крыніцы, неактыўныя вулканы."
+        }
+      },
+      {
+        "name": {
+          "en": "Borobudur",
+          "ru": "Боробудур",
+          "be": "Барабудур"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745246/travel-app/indonesia/borobudur.jpg",
+        "description": {
+          "en": "The Borobudur Temple is one of the greatest Buddhist monuments in the world, and was built in the 8th and 9th centuries. For hundreds of years, Borobudur lay covered with volcanic ash and overgrown with jungle and was discovered only in 1814 during the Anglo-Dutch war. After the monument was plundered, the reliefs, sculptures, ornaments were taken away by the merchants of souvenirs. And only in the 1970s the monument was restored with UNESCO's help. Until now, Borobudur is a place of pilgrimage and prayer. Pilgrims walk seven times clockwise at each level. Touching each Buddha from the stupas on the upper tier, according to beliefs, brings happiness.",
+          "ru": "Храм Боробудур - один из величайших буддийских памятников в мире, он был построен в 8-м и 9-м веках. Сотни лет Боробудур лежал покрытый вулканическим пеплом и заросший джунглями и обнаружен лишь в 1814 году во время англо-голландской войны. После памятник разворовывали, рельефы, скульптуры, орнамент растаскивали торговцы сувенирами. И только в 1970-е гг. была проведена реставрация под эгидой ЮНЕСКО. До сих пор Боробудур является местом паломничества и молитв. Паломники проходят семь раз по часовой стрелке на каждом уровне. Прикосновение к каждому Будде из ступ на верхнем ярусе, согласно повериям, приносит счастье.",
+          "be": "Храм Боробудур - адзін з найвялікшых будыйскіх помнікаў у свеце, ён быў пабудаваны ў 8-м і 9-м стагоддзях. Сотні гадоў Барабудур ляжаў пакрыты вулканічным попелам і зарослы джунглямі, і знойдзены толькі ў 1814 годзе падчас англа-галандскай вайны. Пасля помнік раскрадалі, рэльефы, скульптуры, арнамент развалакалі гандляры сувенірамі. І толькі ў 1970-я гг. была праведзена рэстаўрацыя пад эгідай ЮНЕСКА. Да гэтага часу Барабудур з'яўляецца месцам паломніцтва і малітваў. Паломнікі праходзяць сем разоў па гадзіннікавай стрэлцы на кожным узроўні. Дотык да кожнага Буды з ступ на верхнім ярусе, паводле павер'яў, прыносіць шчасце."
+        }
+      },
+      {
+        "name": {
+          "en": "Tanjung Puting National Park",
+          "ru": "Национальный парк Танджунгпутинг",
+          "be": "Нацыянальны парк Танджунгпутінг"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745246/travel-app/indonesia/orangutan.jpg",
+        "description": {
+          "en": "No trip to Indonesia would be complete without seeing some orangutans, and Tanjung Puting is home to the largest orangutan population in the world, as well as other primates, birds, and reptiles. Also you will get a vast, mostly untouched tropical jungle with fresh air, mystical morning fog, birds chirping, and rivers gushing.",
+          "ru": "Ни одно путешествие в Индонезию не будет полным, если вы не увидите орангутанов, а Танджунг Путинг является домом для самой большой в мире популяции орангутанов, а также других приматов, птиц и рептилий. Также вас ждут обширные, в основном нетронутые тропические джунгли со свежим воздухом, мистическим утренним туманом, щебетанием птиц и фонтаном рек.",
+          "be": "Ні адно падарожжа ў Інданэзію не будзе поўным, калі вы не ўбачыце арангутанаў, а Танджунг Путинг з'яўляецца домам для самай вялікай у свеце папуляцыі арангутанаў, а таксама іншых прыматаў, птушак і рэптылій. Таксама вас чакаюць шырокія, у асноўным некранутыя трапічныя джунглі са свежым паветрам, містычным ранішнім туманам, ціўканнем птушак і фантанам рэк."
+        }
+      },
+      {
+        "name": {
+          "en": "Raja Ampat",
+          "ru": "Раджа-Ампат",
+          "be": "Раджа-Ампат"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745246/travel-app/indonesia/island.jpg",
+        "description": {
+          "en": "The fairlyland of lush, cone-shaped islands set against blue and turquoise waters is one of Indonesia's most spectacular sights. Hundreds of islands and cays make up this tropical paradise, but the beauty extends beneath the surface as well. Colorful fish and a diverse variety of marine life thrive in the warm, clear waters. In fact, the coral reefs here are some of the most biodiverse on the planet, making it a popular area for diving in Indonesia.",
+          "ru": "Волшебный мир пышных островов конической формы на фоне голубых и бирюзовых вод - одна из самых впечатляющих достопримечательностей Индонезии. Сотни островов и рифов составляют этот тропический рай, но красота простирается и под водой. Яркие рыбы и разнообразные морские обитатели прекрасно чувствуют себя в теплых, чистых водах. Находящиеся здесь коралловые рифы одни из самых биоразнообразных на планете, что делает Раджа-Ампат популярным местом для дайвинга.",
+          "be": "Чароўны свет пышных выспаў канічнай формы на фоне блакітных і бірузовы вод - адна з самых уражлівых славутасцяў Інданезіі. Сотні выспаў і рыфаў складаюць гэты трапічны рай, але прыгажосць распасціраецца і пад вадой. Яркія рыбы і разнастайныя марскія насельнікі выдатна адчуваюць сябе ў цёплых, чыстых водах. Каралавыя рыфы, што знаходзяцца тут, адны з самых біяразнастайных на планеце, што робіць Раджа-Ампат папулярным месцам для дайвінга."
+        }
+      },
+      {
+        "name": {
+          "en": "Komodo National Park",
+          "ru": "Национальный парк Комодо",
+          "be": "Нацыянальны парк Комодо"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745246/travel-app/indonesia/komodo.jpg",
+        "description": {
+          "en": "A mighty and otherworldly lizard, the Komodo is arguably one of the most fascinating creatures on earth—one you can only encounter in the wild at Indonesia’s Komodo National Park. Captivating as it is, the Komodo is hardly the only interesting thing in this string of exotic islands that constitute the Komodo National Park. The three islands—Komodo, Padar, and Rinca—have glorious tropical hills and a beach view, along with a breathtaking coastline and thriving underwater wildlife. The Komodo Island even has the famed pink sand beach, while Padar Island has an iconic hill with a view of three magnificent bays.",
+          "ru": "Могучий и опасный дракон Комодо, возможно, является одним из самых очаровательных существ на земле, с которым вы можете встретиться в дикой природе только в национальном парке Комодо. Комодо - увлекательный, но далеко не единственный интересный остров в национальном парке. Все три острова - Комодо, Падар и Ринка - могут похвастаться пышными тропическими холмами и великолепными пляжами, а также захватывающую дух береговой линией и богатым подводным миром. На острове Комодо найдете знаменитый пляж с розовым песком, а на острове Падар есть знаменитый холм с видом на три великолепных залива.",
+          "be": "Магутны і небяспечны цмок Комодо, магчыма, з'яўляецца адным з самых чароўных істот на зямлі, з якім вы можаце сустрэцца ў дзікай прыродзе толькі ў нацыянальным парку Комодо. Комодо - займальны, але далёка не адзіны цікавы востраў у нацыянальным парку. Усе тры выспы - Комодо, Падар і Рынке - могуць пахваліцца пышнымі трапічнымі пагоркамі і пышнымі пляжамі, а таксама захапляльны дух берагавой лініяй і багатым падводным светам. На выспе Комодо знойдзеце знакаміты пляж з ружовым пяском, а на востраве Падар ёсць знакаміты пагорак з выглядам на тры цудоўных заліва."
+        }
+      },
+      {
+        "name": {
+          "en": "Jatiluwih Rice Terraces",
+          "ru": "Рисовые террасы Джатилувих",
+          "be": "Рысавыя тэрасы Джацілувіх"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615745246/travel-app/indonesia/rice.jpg",
+        "description": {
+          "en": "One of UNESCO Cultural Heritage Sites, the Jatiluwih rice terraces comprise over 600 hectares of rice fields that follow the flowing topography of the Batukaru mountain range. These rice terraces are maintained the local culture heritage in form of water irrigation system managed traditionally called by subak. It is one of recommended places to visit in Bali with the beautiful view. They give new meaning to the word green. They crawl up the sides of the hills like steps leading you towards the sky.",
+          "ru": "Один из объектов культурного наследия ЮНЕСКО, рисовые террасы Джатилувих составляют более 600 гектаров рисовых полей, которые повторяют рельеф горного хребта Батукару. Эти рисовые террасы сохраняют местное культурное наследие в виде системы водного орошения, которая называется субак. Это одно из самых рекомендуемых к посещению мест на Бали с прекрасными видами. Они придают новое значение слову зеленый. Рисовые террасы ползут вверх по склонам холмов, как ступеньки, ведущие к небу.",
+          "be": "Адзін з аб'ектаў культурнай спадчыны ЮНЕСКА, рысавыя тэрасы Джацілувіх складаюць больш за 600 гектараў рысавых палёў, якія паўтараюць рэльеф горнага хрыбта Батукару. Гэтыя рысавыя тэрасы захоўваюць мясцовую культурную спадчыну ў выглядзе сістэмы воднага арашэння, якая называецца субак. Гэта адно з самых рэкамендуемых да наведвання месцаў на Балі з выдатнымі відамі. Яны надаюць новае значэнне слову зялёны. Рысавыя тэрасы паўзуць уверх па схілах пагоркаў, як прыступкі, якія вядуць да неба."
+        }
+      }
+    ]
+  },
+  "philippines": {
+    "id": "philippines",
+    "countryName": {
+      "en": "Philippines",
+      "ru": "Филиппины",
+      "be": "Філіпіны"
+    },
+    "capitalName": {
+      "en": "Manila",
+      "ru": "Манила",
+      "be": "Маніла"
+    },
+    "description": {
+      "en": "The Philippines is truly a holiday paradise. This island nation in Southeast Asia is becoming more and more popular with tourists. And if a couple of decades ago, mainly vacationers from Japan, South Korea and the United States came to the Philippines, then in recent years the islands have really attracted tourists from all over the world. And all because independent vacation in the Philippines is incredibly diverse and exciting.The nature of the Philippines will surprise even the most sophisticated traveler - on the islands there is an opportunity to visit remote corners and reserves with landscapes untouched by the human hand and the best beaches washed by the seas of the Philippines, the zest of which is given by volcanic rocks covered with greenery.Absolutely everyone, even the most demanding tourist, young and old, will find something to their liking in the Philippines.Beach lovers in the Philippines will be happy to spend time on the white beaches in the shade of tall palm trees, swimming in the emerald water.At the same time, on the best beaches in the world, you can spend time not only passively - the rich underwater world of the Philippines provides an opportunity for: fascinating snorkeling - colorful coral forests, starfish and urchins, a variety of bizarre underwater plants, fish and turtles - all this can be seen right next to the coast of the islands.The Philippines is popular with diving and freediving enthusiasts, with over 7,000 diving spots near the islands. The richest underwater world with coral reefs and their inhabitants, coupled with many wrecks from the Second World War, create ideal conditions for diving.Holidays in the Philippines are truly varied. Interesting and beautiful natural attractions are found throughout the Philippines. As a result, it is truly difficult for many travelers to choose which islands of the archipelago to visit.",
+      "ru": "Филиппины — поистине райское место для отдыха. Это островное государство в юго-восточной Азии становится все более популярным среди туристов. И если еще пару десятков лет назад на Филиппины приезжали в основном отдыхающие из Японии, Южной Кореи и США, то в последние годы острова привлекают туристов действительно со всего мира. А все потому, что самостоятельный отдых на Филиппинах невероятно разнообразен и увлекателен.Природа Филиппин удивит даже самого искушенного путешественника — на островах есть возможность посетить отдаленные уголки и заповедники с нетронутыми рукой человека пейзажами и лучшими пляжами, омываемыми морями Филиппин, изюминку которым придают вулканические скалы, покрытые зеленью.Абсолютно каждый, даже самый притязательный турист от мала до велика, найдет на Филиппинах занятие себе по душе. Любители пляжного отдыха на Филиппинах будут рады провести время на белоснежных пляжах в тени высоких пальм, купаясь в изумрудной воде.В то же время на лучших пляжах мира можно проводить время не только пассивно — богатый подводный мир Филиппин предоставляет возможность: увлекательного сноркелинга — разноцветные коралловые леса, морские звезды и ежи, разнообразные подводные растения причудливых форм, рыбки и черепахи — все это можно увидеть прямо у берегов островов.Филиппины популярны среди любителей дайвинга и фридайвинга — близ островов находится свыше 7,000 мест для дайвинга. Богатейший подводный мир с коралловыми рифами и их обитателями вкупе со множеством затонувших кораблей времен Второй мировой войны создают идеальные условия для дайвинга.Отдых на Филиппинах действительно разнообразен. Интересные и красивые природные достопримечательности находятся на Филиппинах повсеместно. И как следствие, многим путешественникам поистине сложно выбрать, какие именно острова архипелага выбрать для посещения.",
+      "be": "Філіпіны - сапраўды райскае месца для адпачынку. Гэта астраўная дзяржава ў паўднёва-ўсходняй Азіі становіцца ўсё больш папулярным сярод турыстаў. І калі яшчэ пару дзесяткаў гадоў таму на Філіпіны прыязджалі ў асноўным адпачывальнікі з Японіі, Паўднёвай Карэі і ЗША, то ў апошнія гады выспы прыцягваюць турыстаў сапраўды з усяго свету. А ўсё таму, што самастойны адпачынак на Філіпінах неверагодна разнастайны і цікавы.Прырода Філіпін здзівіць нават самага спрактыкаванага вандроўцы - на астравах ёсць магчымасць наведаць аддаленыя куткі і запаведнікі з некранутымі рукой чалавека краявідамі і лепшымі пляжамі, абмываецца морамі Філіпін, разыначку якім надаюць вулканічныя скалы, пакрытыя зелянінай.Абсалютна кожны, нават самы дамагальны турыст ад малога да вялікага, знойдзе на Філіпінах занятак сабе па душы.Аматары пляжнага адпачынку на Філіпінах будуць рады правесці час на беласнежных пляжах у цені высокіх пальмаў, купаючыся ў смарагдавай вадзе.У той жа час на лепшых пляжах свету можна праводзіць час не толькі пасіўна - багаты падводны свет Філіпін дае магчымасць: займальнага сноркелінга - рознакаляровыя каралавыя лясы, марскія зоркі і вожыкі, разнастайныя падводныя расліны мудрагелістых формаў, рыбкі і чарапахі - усё гэта можна ўбачыць прама ў берагоў астравоў.Філіпіны папулярныя сярод аматараў дайвінга і фрідайвінга - блізу выспаў знаходзіцца звыш 7,000 месцаў для дайвінга. Найбагацейшы падводны свет з каралавымі рыфамі і іх насельнікамі разам са мноствам патанулых караблёў часоў Другой сусветнай вайны ствараюць ідэальныя ўмовы для дайвінга.Адпачынак на Філіпінах сапраўды разнастайны. Цікавыя і прыгожыя прыродныя славутасці знаходзяцца на Філіпінах паўсюдна. І як вынік, многім падарожнікам сапраўды складана выбраць, якія менавіта выспы архіпелага выбраць для наведвання."
+    },
+    "shortDescription": {
+      "en": "The state, consisting of 7641 islands, fully corresponds to the image of 'paradise on Earth': the warm waters of the Pacific Ocean, the silence of cozy lagoons, white beaches, the charm of volcanoes, sunsets of unique beauty and picturesque coral reefs with their colorful inhabitants.",
+      "ru": "Государство, состоящее из 7641 островов, полностью соответствующее образу «рая на Земле»: тёплые воды Тихого окена, тишина уютных лагун, белоснежные пляжи, очарование вулканов, неповторимой красоты закаты и живописные коралловые рифы с их красочными обитателями. ",
+      "be": "Дзяржава, якая складаецца з 7641 выспаў, цалкам адпаведае вобразу «раю на Зямлі»: цёплыя воды Ціхага Окена, цішыня ўтульных лагун, беласнежныя пляжы, зачараванне вулканаў, непаўторнай прыгажосці заходы і жывапісныя каралавыя рыфы з іх маляўнічымі насельнікамі."
+    },
+    "currencyCode": "PHP",
+    "currency": {
+      "en": "Philippine peso",
+      "ru": "Филиппинское песо",
+      "be": "Філіпінскія песа"
+    },
+    "timeZone": "Asia/Manila",
+    "countryCode": "PHL",
+    "geoCenter": [120.966667, 14.583333],
+    "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615729162/travel-app/philippines/main.jpg",
+    "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615735890/travel-app/philippines/video_philippines.mp4",
+    "videoPoster": "https://res.cloudinary.com/travel-app/image/upload/v1615839084/travel-app/philippines/video_poster.jpg",
+    "places": [
+      {
+        "name": {
+          "en": "El Nido",
+          "ru": "Эль-Нидо",
+          "be": "Эль-Нидо"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615730355/travel-app/philippines/place_el_nido.jpg",
+        "description": {
+          "en": "Almost all of the natural wonders of Palawan Island are concentrated in the El Nido conservation area. El Nido and its Bakuit Bay are 39 small, mostly uninhabited islands, hidden coves, virgin lagoons hidden from prying eyes by majestic limestone cliffs, deserted beaches, tropical forests, and the sea here is rich in all kinds of tropical fish and corals.",
+          "ru": "Почти все чудеса природы острова Палаван сосредоточены в заповедной области Эль Нидо. Эль Нидо и его залив Бакуит – это 39 небольших, в большинстве своем необитаемых островов, потаенные бухты, девственные лагуны, скрытые от посторонних глаз величественными известняковыми скалами, пустынные пляжи, тропические леса, а море здесь богато всевозможными тропическими рыбками и кораллами.",
+          "be": "Амаль усе цуды прыроды выспы Палаван сканцэнтраваны ў запаведнай вобласці Эль Нидо. Эль Нидо і яго заліў Баку - гэта 39 невялікіх, у большасці сваёй незаселеных выспаў, патайныя бухты, цнатлівыя лагуны, схаваныя ад старонніх вачэй велічнымі вапняковымі скаламі, пустынныя пляжы, трапічныя лясы, а мора тут багата разнастайнымі трапічнымі рыбкамі і караламі."
+        }
+      },
+      {
+        "name": {
+          "en": "Boracay",
+          "ru": "Боракай",
+          "be": "Боракай"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615730113/travel-app/philippines/place_boracay.jpg",
+        "description": {
+          "en": "The small island of Boracay has become world famous for the beauty of its beaches. The main beach of the island - White beach (White Beach) has been leading the ratings of the best beaches in the world according to the largest travel publications for many years. In addition to a relaxed beach holiday, Boracay is an ideal place for diving, snorkeling, kite surfing and windsurfing.",
+          "ru": "Маленький остров Боракай стал известен на весь мир благодаря красоте своих пляжей. Главный пляж острова – White beach (Белый пляж) уже много лет лидирует в рейтингах лучших пляжей мира по версиям крупнейших туристических изданий. Кроме раслабленного пляжного отдыха Боракай - олтичное место для дайвинга, сноргклинга, кайт-серфинга и виндсерфинга.",
+          "be": "Маленькі востраў Боракай стаў вядомы на ўвесь свет дзякуючы прыгажосці сваіх пляжаў. Галоўны пляж выспы - White beach (Белы пляж) ужо шмат гадоў лідзіруе ў рэйтынгах лепшых пляжаў свету па версіях найбуйнейшых турыстычных выданняў. Акрамя раслабленного пляжнага адпачынку Боракай - олтичное месца для дайвінга, сноргклинга, кайт-серфінгу і віндсерфінгу."
+        }
+      },
+      {
+        "name": {
+          "en": "Bohol Chocolate Hills",
+          "ru": "Шоколадные холмы Бохоль",
+          "be": "Шакаладныя пагоркі Бохол"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615729315/travel-app/philippines/place_bohol.jpg",
+        "description": {
+          "en": "In the vastness of the island of Bohol, there are unusual geological formations, which are popularly called the Chocolate Hills. During the dry season, the green hills turn brown, which is why they got such a sweet name. According to various estimates, on an area of almost 50 hectares, there are from 1,260 to 1,770 hills of various shapes and heights.",
+          "ru": "На просторах острова Бохоль раскинулись необычные геологические образования, которые в народе получили наименование Шоколадные холмы. В период засухи покрытые зеленью холмы приобретают коричневый цвет, из-за чего и получили такое сладкое наименование. По разным подсчетам на площади почти 50 га расположено от 1 260 до 1 770 холмов разной формы и высоты.",
+          "be": "На прасторах выспы Бохол раскінуліся незвычайныя геалагічныя адукацыі, якія ў народзе атрымалі найменне Шакаладныя пагоркі. У перыяд засухі пакрытыя зелянінай пагоркі набываюць карычневы колер, з-за чаго і атрымалі такое салодкае найменне. Па розных падліках на плошчы амаль 50 га размешчана ад 1 260 да 1 770 пагоркаў рознай формы і вышыні."
+        }
+      },
+      {
+        "name": {
+          "en": "Swimming with whale sharks",
+          "ru": "Плавание с китовыми акулами",
+          "be": "Плаванне з кітоў акула"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615729415/travel-app/philippines/place_shark.jpg",
+        "description": {
+          "en": "Whale sharks, reaching a length of up to 12 meters, are completely safe creatures for people, because owls are not by nature huts, and feed mainly on plankt. That is why it is completely safe to be very close to them. There are only a few places in the world to swim with whale sharks, and one of them is in the village of Oslob on the island of Cebu.",
+          "ru": "Китовые акулы,  достигающие в длину до 12 метров, совершенно безопасные существа для людей, т.к. по природе совей не хижники, и питаются в основном планктом. Именно поэтому с ними можно совершенно безопасно находиться совсем рядом. Поплавать с китовыми акулами можно всего лишь в нескольких местах в мире, и одно из них — в деревушке Ослоб на острове Себу. ",
+          "be": "Кітоў акулы, якія дасягаюць у даўжыню да 12 метраў, цалкам бяспечныя істоты для людзей, бо па прыродзе савей ня хижники, і сілкуюцца ў асноўным планктом. Менавіта таму з імі можна цалкам бяспечна знаходзіцца зусім побач. Паплаваць з кітоў акула можна ўсяго толькі ў некалькіх месцах у свеце, і адно з іх - у вёсачцы Ослоб на востраве Себу."
+        }
+      },
+      {
+        "name": {
+          "en": "Banau rice fields",
+          "ru": "Рисовые поля Банау",
+          "be": "Рысавыя палі Банан"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615730061/travel-app/philippines/place_rice.jpg",
+        "description": {
+          "en": "Banaue rice terraces are called the Eighth Wonder of the World and are listed as UNESCO World Heritage Sites. The terraces are located in the picturesque province of Luzon, where the topography is characterized by tall, forested mountains that rise more than 1,500 meters above sea level. The terraces are a seemingly endless staircase of vegetable gardens and flooded rice fields. Following the shape of the mountain slopes, Banaue Terraces are 22,000 meters long and took the Batad people more than 2,000 years to create these terraces with primitive tools.",
+          "ru": "Рисовые террасы Банауэ называют Восьмым чудом света, они занесены в список объектов Всемирного наследия ЮНЕСКО. Террасы находятся в живописной провинции Лусон, где рельеф характеризуется высокими, поросшими лесом горами, поднимающимися более чем на 1500 м над уровнем моря. Террасы представляют собой кажущуюся бесконечной лестницу огородов и заливных рисовых полей. Повторяя очертания горных склонов , террасы Банауэ простираются в длину на 22 000 метров, а на создание этих террас с помощью примитивных инструментов народу батад потребовалось более 2000 лет.",
+          "be": "Рысавыя тэрасы Банауэ называюць Восьмым цудам свету, яны занесены ў спіс аб'ектаў Сусветнай спадчыны ЮНЕСКА. Тэрасы знаходзяцца ў маляўнічай правінцыі Лусон, дзе рэльеф характарызуецца высокімі, парослымі лесам гарамі, узнімальнымі больш чым на 1500 м над узроўнем мора. Тэрасы ўяўляюць сабой ўяўную бясконцай лесвіцу агародаў і заліўных рысавых палёў. Паўтараючы абрысы горных схілаў, тэрасы Банауэ распасціраюцца ў даўжыню на 22 000 метраў, а на стварэнне гэтых тэрас з дапамогай прымітыўных прылад народу батад спатрэбілася больш за 2000 гадоў."
+        }
+      },
+      {
+        "name": {
+          "en": "Volcano Pinatubo",
+          "ru": "Вулкан Пинатубо",
+          "be": "Вулкан Пінатуба"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615733156/travel-app/philippines/place_volcano.jpg",
+        "description": {
+          "en": "Pinatubo is an active volcano located on the island of Luzon. The eruption of this volcano in 1991 was one of the most powerful in the 20th century. There are two options to see the volcano: a one-day trekking to the volcano, including a guide, all permits, and a jeep ride to the starting point of the ascent. At the same time, you can swim in the lake itself in the crater! The second option is to look at Pinatubo from above from a small, light, single-engine aircraft.",
+          "ru": "Пинатубо — действующий вулкан, расположенный на острове Лусон. Извержение этого вулкана в 1991 году стало одним из самых сильных в 20 веке. Есть два варианта увидеть вулкан: однодневный трекинг к вулкану, включающий проводника, все пермиты, проезд на джипе к точке начала восхождения. В самом озере в кратере при этом можно покупаться! Второй вариант - это посмотреть на Пинатубо сверху из маленького легкого одномоторного самолета.",
+          "be": "Пінатуба - дзеючы вулкан, размешчаны на востраве Лусон. Вывяржэнне гэтага вулкана ў 1991 годзе стала адным з самых моцных у 20 стагоддзі. Ёсць два варыянты убачыць вулкан: аднадзённы трэкінг да вулкану, які ўключае правадыра, усе пермиты, праезд на джыпе да кропкі пачатку ўзыходжання. У самым возеры ў кратары пры гэтым можна купляцца! Другі варыянт - гэта паглядзець на Пінатуба зверху з маленькага лёгкага аднаматорнага самалёта."
+        }
+      }
+    ]
+  },
+  "vietnam": {
+    "id": "vietnam",
+    "countryName": {
+      "en": "Vietnam",
+      "ru": "Вьетнам",
+      "be": "В'етнам"
+    },
+    "capitalName": {
+      "en": "Hanoi",
+      "ru": "Ханой",
+      "be": "Ханой"
+    },
+    "description": {
+      "en": "Vietnam is a rather large and very rich in sights country. The turquoise waters of the South China Sea, miles of white sand beaches and lobsters in basins are what you get at all resorts in Vietnam. Whirling in the streams of bikes, eating seafood delicacies, lying on the beaches, learning more about the ancient Champ culture and relaxing in one of the mud baths is the minimum program for them. But if you are interested in a different vacation, choose North Vietnam. There are mountains with deep caves, limestone islands and beautiful beaches in Halong Bay, and, of course, Hanoi, the capital of Vietnam. Hanoi is very lively at any time of the day: during the day the locals cook, trade, build something, make noise, chase chickens from food and dogs from chickens. Those who come for the winter are looking for their hostels, while those who have settled down work in cafes and enjoy the views by the lake, while local Vietnamese children run up to them to practice their English. In general, there are a million and one discussions on the Internet about which of the regions to choose, so spend more time in Vietnam.",
+      "ru": "Вьетнам – довольно большая и очень богатая на достопримечательности страна. Бирюзовые воды Южно-Китайского моря, многокилометровый пляжи с белоснежным песком и лобстеры в тазиках - все это курорты Вьетнама. Закружиться в потоках байков, поесть морских деликатесов, отлежаться на пляжах, узнать больше о старинной чампской культуре и отдохнуть в одной из грязелечебниц – программа минимум для них. Но если тебя интересует другой отдых, выбрай Северный Вьетнам. Там есть и горы с глубокими пещерами, известняковые острова и прекрасные пляжи в Халонг-заливе, и, конечно же, Ханой – столица Вьетнама. Ханой – очень живой в любое время суток: днем местные готовят, торгуют, строят что-то, шумят, гоняют кур от еды и собак от кур. Приезжие на зимовку ищут свои хостелы, осевшие же работают по кафе и наслаждаются видами у озера, пока к ним подбегают местные вьетнамские дети, чтобы потренироваться в английском. Вообще, в интернете есть миллион и одна дискуссия, какой из регионов выбрать, поэтому удели Вьетнаму побольше времени.",
+      "be": "В'етнам - даволі вялікая і вельмі багатая на славутасці краіна. Бірузовыя вады Паўднёва-Кітайскага мора, шматкіламятровы пляжы з белым пяском і лобстары ў тазіках - усё гэта курорты В'етнама. Закруціцца ў патоках байкаў, паесці марскіх далікатэсаў, адляжацца на пляжах, даведацца больш пра старадаўняй чампской культуры і адпачыць у адной з гразелячэбніца - праграма мінімум для іх. Але калі цябе цікавіць іншы адпачынак, выбрай Паўночны В'етнам. Там ёсць і горы з глыбокімі пячорамі, вапняковыя выспы і выдатныя пляжы ў Халонг-заліве, і, вядома ж, Ханой - сталіца В'етнама. Ханой - вельмі жывы ў любы час сутак: днём мясцовыя рыхтуюць, гандлююць, будуюць нешта, шумяць, ганяюць курэй ад ежы і сабак ад курэй. Прыезджыя на зімоўку шукаюць свае хостелы, аселыя ж працуюць па кавярнях і атрымліваюць асалоду ад відамі ля возера, пакуль да іх падбягаюць мясцовыя в'етнамскія дзеці, каб патрэніравацца ў англійскай. Наогул, у інтэрнэце ёсць мільён і адна дыскусія, які з рэгіёнаў выбраць, таму надай В'етнаму пабольш часу."
+    },
+    "shortDescription": {
+      "en": "Vietnam with its socialist dreams, friendly smiles and breathtaking nature is unlikely to leave you indifferent, so quickly master the profession of a web-developer and fly away for the winter.",
+      "ru": "Вьетнам с его социалистическими мечтами, дружелюбными улыбками и умопомрачительной природой вряд ли оставит тебя равнодушным, поэтому скорей осваивай профессию программиста и улетай на зимовку.",
+      "be": "В'етнам з яго сацыялістычнымі марамі, прыязнымі ўсмешкамі і ашаламляльнай прыродай наўрад ці пакіне цябе абыякавым, таму хутчэй асвойвай прафесію праграміста і ляці на зімоўку."
+    },
+    "currencyCode": "VND",
+    "currency": {
+      "en": "Vietnamese dong",
+      "ru": "Вьетнамский донг",
+      "be": "В’етнамскі донг"
+    },
+    "timeZone": "Asia/Ho_Chi_Minh",
+    "countryCode": "VNM",
+    "geoCenter": [105.8342, 21.0278],
+    "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835115/travel-app/vietnam/vietnam.jpg",
+    "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615835349/travel-app/vietnam/vietnam_video.mp4",
+    "videoPoster": "https://res.cloudinary.com/travel-app/image/upload/v1615837128/travel-app/vietnam/video_poster.jpg",
+    "places": [
+      {
+        "name": {
+          "en": "Halong Bay",
+          "ru": "Залив Халонг",
+          "be": "Залів Халонг"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835115/travel-app/vietnam/bay.jpg",
+        "description": {
+          "en": "The karst seascape of Halong Bay is one of the world's most spellbinding sea views and is a UNESCO World Heritage Site. Thousands of limestone islands sit within this bay in the Gulf of Tonkin, eroded into jagged pinnacles by wind and water action over millennia. There are plenty of caves in the bay that can be entered including the Hang Sung Sot, with three mammoth caverns, and the Hang Dao Go, with superbly weird stalagmites and stalactites. For most people though, the highlight is simply cruising amid the karsts and soaking up the changing scenery of pinnacles as you pass by.",
+          "ru": "Карстовый морской пейзаж залива Халонг является одним из самых завораживающих видовв мире и внесен в список Всемирного наследия ЮНЕСКО. Тысячи известняковых островов расположены в этой бухте Тонкинского залива, которые за тысячелетия превратились в зазубренные вершины под действием ветра и воды. В заливе есть множество пещер, в которые можно попасть, включая Ханг Сунг Сот с тремя гигантскими пещерами и Ханг Дао Го с невероятно странными сталагмитами и сталактитами. Однако для большинства людей изюминкой является просто путешествие среди карстов и погружение в постоянно меняющийся мир вершин, пока вы проплываете мимо.",
+          "be": "Карстовый пейзаж заліва Халонг з'яўляецца адным з самых зачаравальных відаў свету і ўнесены ў спіс Сусветнай спадчыны. Тысячы вапняковых прылад у гэтай бухце Тонкинского заліва, якія за тысячагоддзе ператварыліся ў вышчэрбленыя вяршыні пад уздзеяннем ветру і вады. У заліве ёсць мноства пячор, у якія можна трапіць, уключаючы Ганс Сунг. Аднак вы праплывалі міма Карстэн і апускаецеся ў пастаянна змяняецца свет вяршыняў, пакуль вы праплывалі міма."
+        }
+      },
+      {
+        "name": {
+          "en": "Phong Nha-Ke Bang National Park",
+          "ru": "Национальный парк Фонг Нха-Ке Банг",
+          "be": "Нацыянальны парк Фонг Нха-Ке Банг"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835115/travel-app/vietnam/cave.jpg",
+        "description": {
+          "en": "Designated a Unesco World Heritage Site in 2003, the remarkable Phong Nha-Ke Bang National Park contains the oldest karst mountains in Asia, riddled with hundreds of cave systems. One of them is Hang Son Doong - world's biggest cave. It's so large, that even a skyscraper could fit into. It is more than 5 km long, 200 meters high and 150 meters wide and has its own spectacular underground river, jungle (as sunlight enters sections of it resulting in the growth of trees and other vegetation) and climate. The caves are the region's absolute highlights, but the above-ground attractions of forest trekking, the area's war history, and rural mountain biking means it deserves a stay of around three days.",
+          "ru": "Внесенный в список Всемирного наследия ЮНЕСКО в 2003 году национальный парк Фонг Нха-Ке Банг содержит самые старые карстовые горы в Азии, пронизанные сотнями пещерных систем. Одна из них - Ханг Сон Дунг - самая большая пещера в мире. Она настолько огромна, что может вместить даже небоскреб. Длина пещеры - более 5 км, высота - 200 метров и ширина - 150 метров. Она имеет свою собственную впечатляющую подземную реку, джунгли (поскольку солнечный свет проникает, что позовляет расти деревьям и другой растительности) и климат. Конечно, пещеры - абсолютная жемчужина региона, но такие наземные развлечения, как походы по лесу и катание на горных велосипедах в сельской местности, означают, что вам следует задержаться здесь хотя бы на три дня.",
+          "be": "Унесены ў спіс Сусветнай спадчыны ЮНЕСКА ў 2003 годзе нацыянальны парк Фонг Нха-Ке Банг змяшчае самыя старыя карставыя горы ў Азіі, працятыя сотнямі пячорных сістэм. Адна з іх - Ганс Сон Дунг - самая вялікая пячора ў свеце. Яна настолькі велізарная, што можа змясціць нават хмарачос. Даўжыня пячоры - больш за 5 км, вышыня - 200 метраў і шырыня - 150 метраў. Яна мае сваю ўласную ўражальную падземную раку, джунглі (паколькі сонечнае святло пранікае, што позовляет расці дрэвам і іншай расліннасці) і клімат. Вядома, пячоры - абсалютная жамчужына рэгіёну, але такія наземныя забавы, як паходы па лесе і катанне на горных роварах ў сельскай мясцовасці, азначаюць, што вам варта затрымацца тут хоць бы на тры дні."
+        }
+      },
+      {
+        "name": {
+          "en": "Sapa Countryside",
+          "ru": "Сельская местность Сапа",
+          "be": "Сельская мясцовасць Сапа"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835115/travel-app/vietnam/countryside.jpg",
+        "description": {
+          "en": "The verdant rice field countryside surrounding Sapa, bordered by the jagged peaks of the Hoang Lien Mountains, are home to Vietnam's most beautiful rural vistas. This is the top trekking destination in Vietnam with all these tiny villages and experience the staggering mountain views. The deep valleys here are home to a diverse mix of the country's ethnic minorities, including the Hmong, Giay, and Red Dzao people, while the rippling hills are terraced with rice fields and overlooked by the country's tallest peak, Fansipan Mountain.",
+          "ru": "Зеленые рисовые поля, окружающие Сапу, граничащие с зазубренными пиками гор Хоанг Лиен, являются домом для самых красивых сельских пейзажей Вьетнама. Это лучшее место для треккинга во Вьетнаме, с множеством крошечных деревень и захватывающими видами на горы. Глубокие долины являются домом для разнообразных этнических меньшинств, включая народы хмонг, гай и красный дзао, а волнистые холмы с рисовыми террасами выходят на самую высокую вершину страны, гору Фансипан.",
+          "be": "Зялёныя рысавыя палі, навакольныя Сапу, якія мяжуюць з вышчэрбленымі пікамі гор Хаанг Ліене, з'яўляюцца домам для самых прыгожых сельскіх пейзажаў В'етнама. Гэта лепшае месца для треккинга ў В'етнаме, з мноствам маленькіх вёсак і захапляльнымі відамі на горы. Глыбокія даліны з'яўляюцца домам для разнастайных этнічных меншасцяў, уключаючы народы Хмонг, гай і чырвоны дзао, а хвалістыя пагоркі з рысавымі тэрасамі выходзяць на самую высокую вяршыню краіны, гару Фансипан."
+        }
+      },
+      {
+        "name": {
+          "en": "Ninh Binh Province",
+          "ru": "Провинция Ниньбинь",
+          "be": "Правінцыя Ніньбінь"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835115/travel-app/vietnam/province.jpg",
+        "description": {
+          "en": "It can be said that the province contains all the scenic quintessence of whole Vietnam within its relatively small size. Ninh Binh is also known as the Ha Long Bay on land for an obvious reason – it looks like Ha Long Bay but on land instead of water. There are hundreds of limestone monoliths topped by dense greenery that emerge from the ground, scattered around the city with rivers flowing through them and caves formed in them. Not only that, Ninh Binh represents typical rural villages with vast green paddy field and a lot of goats. Enjoy being peddled around and through limestone mountains with  many pagodas set within them and breathe in the fresh air.",
+          "ru": "Можно сказать, что провинция Ниньбинь содержит всю живописную квинтэссенцию Вьетнама при ее относительно небольших размерах. Ниньбинь также известна как залив Халонг на суше по очевидной причине - она выглядит как залив Халонг, только на суше, а не на воде. Сотни известняковых монолитов, увенчанных густой зеленью, выходят из-под земли, разбросанных по всей провинции с текущими через них реками и образованными в них пещерами. Мало того, в Ниньбинь вы найдете и типичные сельские деревни с огромным зелеными рисовыми полями и множеством коз. Наслаждайтесь прогулками по горам с живописными пагодами внутри них и дышите свежим воздухом.",
+          "be": "Можна сказаць, што правінцыя Ниньбинь змяшчае ўсю жывапісную квінтэсенцыю В'етнама пры яе адносна невялікіх памерах. Ниньбинь таксама вядома як заліў Халонг на сушы па відавочнай прычыне - яна выглядае як заліў Халонг, толькі на сушы, а не на вадзе. Сотні вапняковых маналітных, увянчаных густой зелянінай, выходзяць з-пад зямлі, якія былі раскіданыя па ўсёй правінцыі з бягучымі праз іх рэкамі і адукаванымі ў іх пячорамі. Мала таго, у Ниньбинь вы знойдзеце і тыповыя сельскія вёскі з велізарным зялёнымі рысавымі палямі і мноствам коз. Атрымлівайце асалоду ад шпацырамі па горах з маляўнічымі пагадамі ўнутры іх і дыхайце свежым паветрам."
+        }
+      },
+      {
+        "name": {
+          "en": "Cuc Phuong National Park",
+          "ru": "Национальный парк Кук Фыонг",
+          "be": "Нацыянальны парк Кук Пхуонг"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835115/travel-app/vietnam/park.jpg",
+        "description": {
+          "en": "This national park is one of Vietnam’s most important protected areas. Though wildlife has suffered a precipitous decline in Vietnam in recent decades, the park’s 222 sq km of primary tropical forest remains home to an amazing variety of animal and plant life: 336 species of bird, 135 species of mammal, 122 species of reptile, 2000 plant species and counting. The park is also a home to the minority Muong people. Every April and May, the park is always dotted with thousands of colorful butterflies, which is one of the highlights there. During the period of time, you may feel that you are in a butterfly paradise in the park. They may stand on your shoulder, head or just fly around you.",
+          "ru": "Этот национальный парк - одна из самых охраняемых территорий Вьетнама. Несмотря на то, что за последние десятилетия в стране произошло резкое сокращение популяций дикой природы, эти 222 кв.км девственных тропических лесов по-прежнему являются домом для удивительного разнообразия животных и растений: 336 видов птиц, 135 видов млекопитающих, 122 вида рептилий, 2000 виды растений. Парк также является домом и для людей - меньшинства мыонг. Один из лучших месяцев для посещения будет апрель и май, когда парк усеян тысячами разноцветных бабочек. Вы словно в раю, где бабочки сидят у вас на плече, на голове или просто летают вокруг.",
+          "be": "Гэты нацыянальны парк - адна з самых ахоўных тэрыторый В'етнама. Нягледзячы на ​​тое, што за апошнія дзесяцігоддзі ў краіне адбылося рэзкае скарачэнне папуляцый дзікай прыроды, гэтыя 222 кв.км цнатлівых трапічных лясоў па-ранейшаму з'яўляюцца домам для дзіўнага разнастайнасці жывёл і раслін: 336 відаў птушак, 135 відаў млекакормячых, 122 віду рэптылій, 2000. віды раслін. Парк таксама з'яўляецца домам і для людзей - меншасці мыонг. Адзін з лепшых месяцаў для наведвання будзе красавік і травень, калі парк усеяны тысячамі рознакаляровых матылькоў. Вы нібы ў раі, дзе матылі сядзяць у вас на плячы, на галаве, альбо проста лётаюць вакол."
+        }
+      },
+      {
+        "name": {
+          "en": "Ban Gioc Waterfall",
+          "ru": "Водопад Бан Джок",
+          "be": "Вадаспад Бан Джок"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835115/travel-app/vietnam/waterfall.jpg",
+        "description": {
+          "en": "Ban Gioc is one of Vietnam’s best-known waterfalls, and its image adorns the lobby of many a cheap guesthouse. The falls, fed by the Quay Son River that marks the border with China, are an impressive sight in a highly scenic location. Boat owners here will punt you on bamboo rafts close enough to the waterfall so you can feel the spray on your face. Rafts on the Vietnamese side have blue canopies; on the Chinese side canopies are green.",
+          "ru": "Бан Джок - один из самых известных водопадов Вьетнама, и его изображение украшает вестибюль многих дешевых гостевых домов. Водопад, питаемый рекой Набережная Сон, которая отмечает границу с Китаем, представляет собой впечатляющее зрелище в очень живописном месте. Владельцы лодок бамбуковых плотов будут подъезжать достаточно близко к водопаду, чтобы вы могли почувствовать брызги на своем лице. Плоты на вьетнамской стороне имеют голубые навесы; с китайской стороны навесы зеленые.",
+          "be": "Бан Джок - адзін з самых вядомых вадаспадаў В'етнама, і яго малюнак упрыгожвае вестыбюль многіх танных гасцявых дамоў. Вадаспад, кормлены ракой Набярэжная Сон, якая адзначае мяжу з Кітаем, уяўляе сабой ўражлівае відовішча ў вельмі маляўнічым месцы. Уладальнікі лодак бамбукавых плытоў будуць пад'язджаць досыць блізка да вадаспаду, каб вы маглі адчуць пырскі на сваім твары. Плыты на в'етнамскай баку маюць блакітныя навесы; з кітайскага боку навесы зялёныя."
+        }
+      }
+    ]
+  },
+  "laos": {
+    "id": "laos",
+    "geoCenter": [102.630867, 17.974855],
+    "countryCode": "LAO",
+    "countryName": {
+      "en": "Laos",
+      "ru": "Лаос",
+      "be": "Лаос"
+    },
+    "capitalName": {
+      "en": "Vientiane",
+      "ru": "Вьентьян",
+      "be": "Вьентьян"
+    },
+    "description": {
+      "en": "Even though many long-term travelers in the region only stop in Laos on the way to Thailand or Vietnam, the country is still waiting to be discovered by people around the world. The best that this country can offer people traveling in Laos is its wild nature. From wild waterfalls tucked away in the jungle, to lush green rice fields and winding mountain roads connecting all the best Laos must-see spots, discovering Laos will be exciting. And the undeniable French influence that you see on the streets and in Laotian food makes the experience even more interesting. The country is still growing in terms of honest, responsible and hospitable tourism.",
+      "ru": "Лаос известен как одно из самых неизведанных мест в Юго-Восточной Азии. Несмотря на то, что многие путешественники, давно путешествующие по региону, останавливаются в Лаосе только по пути в Таиланд или Вьетнам, страна все еще ждет, чтобы ее открыли люди со всего мира. Лучшее, что эта страна может предложить людям, путешествующим по Лаосу - это дикая природа. От диких водопадов, спрятанных в джунглях, до пышных зеленых рисовых полей и извилистых горных дорог, соединяющих все лучшие места Лаоса, которые стоит посетить  - открытие Лаоса будет захватывающим. А неоспоримое французское влияние, которое вы видите на улицах и в лаосской кухне, делает этот опыт еще более интересным. Страна продолжает расти в плане честного, ответственного и гостеприимного туризма.",
+      "be": "Лаос вядомы як адно з самых нязведаных месцаў у Паўднёва-Усходняй Азіі. Нягледзячы на ​​тое, што многія вандроўнікі, даўно якія вандруюць па рэгіёне, спыняюцца ў Лаосе толькі па шляху ў Тайланд або В'етнам, краіна ўсё яшчэ чакае, каб яе адкрылі людзі з усяго свету. Лепшае, што гэтая краіна можа прапанаваць людзям, якія вандруюць па Лаосу - гэта дзікая прырода. Ад дзікіх вадаспадаў, схаваных у джунглях, да пышных зялёных рысавых палёў і звілістых горных дарог, якія вядуць у ўсе лепшыя месцы Лаоса, якія варта наведаць - адкрыццё Лаоса будзе захапляльным. А бясспрэчныфранцузскi ўплыў, якi вы ўбачыце на вуліцах і ў лаоскай кухні, робіць гэты вопыт яшчэ больш цікавым. Краіна працягвае расці ў плане сумленнага, адказнага і гасціннага турызму."
+    },
+    "shortDescription": {
+      "en": "Laotians are some of the shortest people in the world. Laotians drink coffee in a plastic bag! They also have papayas – lots and lots of papayas – some of which are absolutely ginormous!",
+      "ru": "Лаосцы - одни из самых низких людей в мире. Лаосцы пьют кофе в полиэтиленовом пакете! У них также есть папайи - много-много папай, некоторые из которых просто огромны!",
+      "be": "Лаосцы - аднi з самых нізкіх людзей у свеце. Лаосцы п'юць каву ў поліэтыленавым пакеце! У іх таксама ёсць папаі - шмат-шмат папай, некаторыя з якіх проста велізарныя!"
+    },
+    "currency": {
+      "en": "Lao kip",
+      "ru": "Лаосский кип",
+      "be": "Лаоскі кіп"
+    },
+    "currencyCode": "LAK",
+    "timeZone": "Asia/Vientiane",
+    "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835690/travel-app/laos/laos.jpg",
+    "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615840877/travel-app/laos/laos_video.mp4",
+    "videoPoster": "https://res.cloudinary.com/travel-app/image/upload/v1615837289/travel-app/laos/video_poster.jpg",
+    "places": [
+      {
+        "name": {
+          "en": "Vang Vieng",
+          "ru": "Ванг Вьенг",
+          "be": "Ванг Вьенг"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835691/travel-app/laos/VangVieng.jpg",
+        "description": {
+          "en": "Backpackers “discovered” this little town in the late 1990s. It didn’t take long to develop into a crazy, hedonistic city. Nowadays, things have calmed down and Vang Vieng has become a hub for outdoor adventure, jungle hikes, and lazy days on the river. There’s still a party scene but now it’s focused on a handful of bars.",
+          "ru": "Путешественники «открыли» этот городок в конце 1990-х годов. Он быстро превратился в сумасшедший гедонистический город. В настоящее время все успокоилось, и Ванг-Вьенг стал центром приключений на свежем воздухе, походов в джунгли и ленивых дней на реке. Есть еще вечеринки, но теперь они сосредоточены в нескольких барах.",
+          "be": "Вандроўцы «адкрылі» гэты гарадок у канцы 1990-х гадоў. Ён хутка ператварыўся ў вар'ят геданічным горад. У цяперашні час усё супакоілася, і Ванг-Вьенг стаў цэнтрам прыгод на свежым паветры, паходаў у джунглі і лянівых дзён на рацэ. Ёсць яшчэ вечарынкі, але цяпер яны сканцэнтраваны ў некалькіх барах."
+        }
+      },
+      {
+        "name": {
+          "en": "Luang Prabang",
+          "ru": "Луангпхабанг",
+          "be": "Луангпхабанг"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835691/travel-app/laos/LuangPrabang.jpg",
+        "description": {
+          "en": "Luang Prabang is a slow-paced city. There is not much to do here other than enjoy epic sunsets over the Mekong River, spend time at the incredible Kuang Si Waterfalls, and shop at the night market. Every morning at sunrise, the monks walk through the main streets receiving alms from the local residents.",
+          "ru": "Луангпхабанг - это тихий город. Здесь нечего делать, кроме как наслаждаться эпическими закатами над рекой Меконг, проводить время у невероятных водопадов Куанг Си и делать покупки на ночном рынке. Каждое утро с восходом солнца монахи гуляют по центральным улицам, получая милостыню от местных жителей.",
+          "be": "Луангпхабанг - гэта ціхі горад. Тут няма чаго рабіць, акрамя як атрымліваць асалоду ад эпічных заходаў над ракой Меконг, праводзіць час у неверагодных вадаспадаў Куанг Сі і рабіць пакупкі на начным рынку. Кожную раніцу з узыходам сонца манахі шпацыруюць па цэнтральных вуліцах, атрымліваючы міласціну ад мясцовых жыхароў."
+        }
+      },
+      {
+        "name": {
+          "en": "4000 islands",
+          "ru": "4000 островов",
+          "be": "4000 выспаў"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835689/travel-app/laos/4kLands.jpg",
+        "description": {
+          "en": "Located in Southern Laos, the 4,000 Islands are an area of tiny inhabited islands in the Mekong River near the Cambodian border. They are popular with backpackers and the vibe is laid-back and chill. Accommodation is cheap, and there’s really not much to do here besides chill in the river and relax at night. You’ll have to take a boat from Pakse to reach the islands.",
+          "ru": "Расположенные в Южном Лаосе, 4000 островов представляют собой крошечные населенные острова на реке Меконг недалеко от границы с Камбоджей. Они популярны среди туристов, здесь царит непринужденная и расслабляющая атмосфера. Проживание дешевое, и здесь действительно нечем заняться, кроме как расслабиться в реке и расслабиться ночью. Чтобы добраться до островов, вам нужно будет сесть на лодку из Паксе.",
+          "be": "Размешчаныя ў Паўднёвым Лаосе, 4000 выспаў ўяўляюць сабой малюсенькія населеныя выспы на рацэ Меконг недалёка ад мяжы з Камбоджай. Яны папулярныя сярод турыстаў, тут пануе нязмушаная і расслабляльная атмасфера. Пражыванне таннае, і тут сапраўды няма чым заняцца, акрамя як расслабіцца ў рацэ і расслабіцца ноччу. Каб дабрацца да выспаў, вам трэба будзе сесці на лодку з Пакс."
+        }
+      },
+      {
+        "name": {
+          "en": "Vientiane",
+          "ru": "Вьентьян",
+          "be": "Вьентьян"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835690/travel-app/laos/Vientiane.jpg",
+        "description": {
+          "en": "The capital and largest city in Laos is full of important national monuments and temples, like the Great Stupa and the Sisaket Temple. While there, be sure to check out Buddha Park, a sculpture garden full of giant Buddha statues. It’s the most cosmopolitan city in the country, and you’ll find an up and coming foodie scene here",
+          "ru": "Столица и самый большой город Лаоса полон важных национальных памятников и храмов, таких как Великая ступа и храм Сисакет. Находясь там, обязательно посетите Парк Будды, сад скульптур, полный гигантских статуй Будды. Это самый космополитичный город в стране, и вы найдете здесь многообещающую кулинарную сцену.",
+          "be": "Сталіца і самы вялікі горад Лаоса поўны важных нацыянальных помнікаў і храмаў, такіх як Вялікая ступа і храм Сисакет. Знаходзячыся там, абавязкова наведайце Парк Буды, сад скульптур, поўны гіганцкіх статуй Буды. Гэта самы касмапалітычным горад у краіне, і вы знойдзеце тут шматспадзеўную кулінарную сцэну."
+        }
+      },
+      {
+        "name": {
+          "en": "Chat with a monk",
+          "ru": "Пообщайтесь с монахом",
+          "be": "Пагутарыце з манахам"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835690/travel-app/laos/monk.jpg",
+        "description": {
+          "en": "On the first Sunday of every month, monks gather at the Sangha College in Vientiane to chat with tourists. You’re able to ask them about their practice and daily life, and in return, they’ll practice their English.",
+          "ru": "В первое воскресенье каждого месяца монахи собираются в колледже Сангха во Вьентьяне, чтобы пообщаться с туристами. Вы можете спросить их об их практике и повседневной жизни, и в ответ они будут практиковать свой английский",
+          "be": "У першую нядзелю кожнага месяца манахі збіраюцца ў каледжы Сангха у Вьентьяне, каб пагутарыць з турыстамі. Вы можаце спытаць іх аб іх практыцы і штодзённым жыцці, і ў адказ яны будуць практыкаваць свой англійскi"
+        }
+      },
+      {
+        "name": {
+          "en": "Nong Kiew (Muang Ngoi)",
+          "ru": "Нонг Кие (Муанг Нгой)",
+          "be": "Нонг кіі (Муанг Нгой)"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835689/travel-app/laos/nongKiew.jpg",
+        "description": {
+          "en": "Life in this quaint village on the Nam Ou River is slow and peaceful, but Nong Kiew is a popular draw for outdoor lovers. The towering limestone cliffs are ideal for experienced climbers, and there are many hiking trails leading to nearby waterfalls and caves. To get there, you can take a bus from Luang Prabang to Pak Mong and then a tuk-tuk the rest of the way",
+          "ru": "Жизнь в этой причудливой деревне на реке Нам Оу протекает медленно и мирно, но Нонг Кие является популярным местом для любителей активного отдыха. Высокие известняковые скалы идеально подходят для опытных альпинистов, а также есть множество пешеходных троп, ведущих к близлежащим водопадам и пещерам. Чтобы добраться туда, вы можете сесть на автобус из Луангпхабанга в Пак Монг, а затем на тук-туке до конца пути",
+          "be": "Жыццё ў гэтай мудрагелістай вёсцы на рацэ Нам Оу працякае павольна і мірна, але Нонг кіі з'яўляецца папулярным месцам для аматараў актыўнага адпачынку. Высокія вапняковыя скалы ідэальна падыходзяць для вопытных альпіністаў, а таксама ёсць мноства пешаходных сцежак, якія вядуць да найбліжэйшых вадаспадаў і пячор. Каб дабрацца туды, вы можаце сесці на аўтобус з Луангпхабанг ў Пак Монг, а затым на тук-тлушчы да канца шляху"
+        }
+      }
+    ]
+  },
+  "myanmar": {
+    "id": "myanmar",
+    "countryName": {
+      "en": "Myanmar",
+      "ru": "Мьянма",
+      "be": "М'янма"
+    },
+    "capitalName": {
+      "en": "Naypyidaw",
+      "ru": "Нейпьидо",
+      "be": "Нейпьидо"
+    },
+    "description": {
+      "en": "Myanmar (aka Burma in the recent past) is the same mysterious East that prompted Hermann Hesse to write his immortal Siddharta. A country where Buddhism and military dictatorship peacefully coexist; government policy of 'closed doors' and the hospitality of ordinary people; high prices for hotels and cheap - for everything else; modern airliners and Wi-Fi - and the railroad built during the Kipling era; bustling 'capital' Yangon - and ancient Bagan with its two thousand temples and the great Ayeyarwaddy River. When you read about Myanmar, it seems that the journey will be very difficult: a geopolitical situation in which it is almost impossible to understand, conflicting information about currencies and exchange, hotels where foreigners cannot live, an unreadable language, myths about the absence of the Internet. But in reality, Myanmar is a very pleasant country where all tourist problems are solved by themselves: you will not face difficulties if you come to see popular places. At the same time, the originality of Myanmar is shocking: this archaic country seems to take you back to colonial times, when British officials roamed the streets in horse carts - and people sowed rice in the fields, and buffaloes pulled into a plow plowed the land. Since then, little has changed - except that the place of the British was taken by wealthy tourists: the country, which “opened” in the early 2000s, still retains its charm. Myanmar is a very underestimated country, and there are a huge number of attractions here. The main attractions for tourists are local attractions: cultural and historical monuments, thousands of religious buildings, museums and much more. There are hundreds of pagodas in Bagan alone! Myanmar was also noted in the UNESCO World Cultural Heritage List (Pada Lin Caves, Ancient cities of northern Myanmar, Bagan), and this, you see, is worth a lot!",
+      "ru": "Мьянма (она же в недавнем прошлом Бирма) – это тот самый таинственный Восток, что побудил Германа Гессе написать своего бессмертного «Сиддхарту». Страна, где мирно уживаются буддизм и военная диктатура; государственная политика «закрытых дверей» и радушие обычных людей; высокие цены на отели и копеечные — на все остальное; современные авиалайнеры и вайфай — и железная дорога, построенная во времена Киплинга; суетливый «столичный» Янгон — и древний Баган со своими двумя тысячами храмов и великой рекой Иравади.Когда читаешь про Мьянму, кажется, что путешествие будет очень сложным: геополитическая ситуация, в которой почти невозможно разобраться, противоречивая информация о валютах и обмене, отели, где нельзя жить иностранцам, нечитабельный язык, мифы об отсутствии интернета. Но в реальности Мьянма – очень приятная страна, где все туристические проблемы решаются сами собой: вы не столкнетесь со сложностями, если приедете посмотреть популярные места.При этом самобытность Мьянмы потрясает: эта архаичная страна как будто возвращает тебя в колониальные времена, когда по улицам в конных повозках перемещались британские чиновники – а в полях люди сеяли рис, и запряженные в плуг буйволы вспахивали землю. С тех пор мало что изменилось – разве что место британцев заняли богатые туристы: страна, которая “открылась” в начале нулевых, все еще сохраняет свой шарм. Мьянма — весьма недооцененная страна, и достопримечательностей здесь — огромное количество. Основной интерес для туристов здесь представляют местные достопримечательности: памятники культуры и истории, тысячи религиозных сооружений, музеи и многое другое. Одних пагод в Багане — сотни! Отметилась Мьянма и в списке всемирного культурного наследия ЮНЕСКО (Пещеры Пада-Лин, Древние города северной Мьянмы, Баган), а это, согласитесь, дорогого стоит!",
+      "be": "М'янма (яна ж у нядаўнім мінулым Бірма) - гэта той самы таямнічы Усход, што заахвоціў Германа Гесэ напісаць свайго бессьмяротнага 'Сиддхарту'. Краіна, дзе мірна ўжываюцца будызм і ваенная дыктатура; дзяржаўная палітыка «зачыненых дзвярэй» і гасціннасць звычайных людзей; высокія цэны на гатэлі і капеечныя - на ўсё астатняе; сучасныя авіялайнеры і вайфай - і чыгунка, пабудаваная ў часы Кіплінга; мітуслівы «сталічны» Янгон - і старажытны Баган са сваімі двума тысячамі храмаў і вялікай ракой Іравадзі. Калі чытаеш пра М'янму, здаецца, што падарожжа будзе вельмі складаным: геапалітычная сітуацыя, у якой амаль немагчыма разабрацца, супярэчлівая інфармацыя аб валютах і абмене, гатэлі, дзе нельга жыць замежнікам, нечитабельный мова, міфы аб адсутнасці інтэрнэту. Але ў рэальнасці М'янма - вельмі прыемная краіна, дзе ўсе турыстычныя праблемы вырашаюцца самі сабой: вы не сутыкнецеся з цяжкасцямі, калі прыедзеце паглядзець папулярныя месцы. Пры гэтым самабытнасць М'янмы трасе: гэтая архаічная краіна як быццам вяртае цябе ў каланіяльныя часы, калі па вуліцах у конных павозках перамяшчаліся брытанскія чыноўнікі - а ў палях людзі сеялі рыс, і запрэжаныя ў плуг буйвалы узорваюць зямлю. З тых часоў мала што змянілася - хіба што месца брытанцаў занялі багатыя турысты: краіна, якая 'адкрылася' у пачатку нулявых, усё яшчэ захоўвае свой шарм. М'янма - вельмі недаацэненая краіна, і славутасцяў тут - велізарная колькасць. Найбольш цікавымі для турыстаў тут прадстаўляюць мясцовыя славутасці: помнікі культуры і гісторыі, тысячы рэлігійных збудаванняў, музеі і многае іншае. Адных пагад ў Багане - сотні! Адзначылася М'янма і ў спісе сусветнай культурнай спадчыны ЮНЕСКА Пячоры падала-Лін, Старажытныя горада паўночнай М'янмы, Баган, а гэта, пагадзіцеся, дарагога варта!"
+    },
+    "shortDescription": {
+      "en": "Myanmar, or, as it used to be called, Burma is one of the brightest and most mysterious countries in Asia, which has not yet suffered from mass package tourism. A state where a tough military junta ruled in an Asian way for 39 years, which surrendered part of its powers only in 2011, after which the borders of Myanmar began to gradually open up to the world - is not an ideal scenario for travel?",
+      "ru": "Мьянма, или, как ее раньше называли, Бирма – одна из самых ярких и загадочных стран Азии, которая еще не пострадала от массового пакетного туризма. Государство, где 39 лет правила на азиатский лад жесткая военная хунта, которая сдала часть своих полномочий лишь в 2011 году, после чего границы Мьянмы стали понемногу открываться миру – чем не идеальный сценарий для путешествия? ",
+      "be": "М'янма, або, як яе раней называлі, Бірма - адна з самых яркіх і загадкавых краін Азіі, якая яшчэ не пацярпела ад масавага пакетнага турызму. Дзяржава, дзе 39 гадоў правілы на азіяцкі лад жорсткая ваенная хунта, якая здала частку сваіх паўнамоцтваў толькі ў 2011 годзе, пасля чаго мяжы М'янмы сталі патроху адчыняцца свеце - чым не ідэальны сцэнар для падарожжа?"
+    },
+    "currencyCode": "MMK",
+    "currency": {
+      "en": "Myanmar kyat",
+      "ru": "Мьянманский кьят",
+      "be": "М'янманскай Кьят"
+    },
+    "timeZone": "Asia/Yangon",
+    "geoCenter": [96.09939477593335, 19.75669005040409],
+    "countryCode": "MMR",
+    "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615901176/travel-app/myanmar/main.jpg",
+    "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615901464/travel-app/myanmar/myanmar.mp4",
+    "videoPoster": "https://res.cloudinary.com/travel-app/image/upload/v1615901166/travel-app/myanmar/video.jpg",
+    "places": [
+      {
+        "name": {
+          "en": "The ancient city of Bagan (Pagan)",
+          "ru": "Древний город Баган (Баган)",
+          "be": "Старажытны горад Баган (Баган)"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615902597/travel-app/myanmar/bagan.jpg",
+        "description": {
+          "en": "Bagan (aka Pagan) is an ancient city of Myanmar, with 4,000 pagodas and temples, each of which has a special value and its own history. The combination of buildings with natural landscapes creates an indelible impression, and to enjoy the views, in Bagan there are many viewing platforms, as well as a meeting of dawn with a balloon ($ 120 for 4 hours). You can see all the shrines of Pagan in 2 days.",
+          "ru": "Баган (он же Паган) – древний город Мьянмы, насчитывающий 4000 пагод и храмов, каждый из которых имеет особую ценность и свою историю. Сочетание построек с естественными пейзажами создает неизгладимое впечатление, и, чтобы насладиться видами, в Багане есть множество смотровых площадок, а так же встреча рассвета с воздушного шара (120$ за 4 ч.). Осмотреть все святилища Пагана можно за 2 дня.",
+          "be": "Баган (ён жа Паган) - старажытны горад М'янмы, які налічвае 4000 пагад і храмаў, кожны з якіх мае асаблівую каштоўнасць і сваю гісторыю. Спалучэнне пабудоў з натуральнымі краявідамі стварае незгладжальнае ўражанне, і, каб атрымаць асалоду ад відамі, у Багане ёсць мноства назіральных пляцовак, а так жа сустрэча світання з паветранага шара (120 $ за 4 ч.). Агледзець усе сьвятыні паган можна за 2 дні."
+        }
+      },
+      {
+        "name": {
+          "en": "Inle lake",
+          "ru": "Озеро Инле",
+          "be": "Возера Инле"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615901188/travel-app/myanmar/inle.jpg",
+        "description": {
+          "en": "An incredibly beautiful freshwater lake with rich fauna. Local residents build their houses and farm directly on the water, setting up artificial plantations on the surface of the lake. Once every five days, you can find a floating market - many boats are lined up together, offering various goods. September-October is considered to be the best time to visit Inle. At this time, the festival begins, and the entire lake is filled with glowing bright lights of boats.",
+          "ru": "Невероятно красивое пресноводное озеро с богатой фауной. Местные жители строят свои дома и ведут хозяйство прямо на воде, разбивая искусственные плантации на глади озера. Раз в пять дней можно застать плавучий рынок – множество лодок выстраиваются вместе, предлагая различные товары. Сентябрь-октябрь по праву считается лучшим временем для посещения Инле. В это время начинается фестиваль, и все озеро заполняется светящимися яркими огнями лодками.",
+          "be": "Неверагодна прыгожае прэснаводнай возера з багатай фаунай. Мясцовыя жыхары будуюць свае дамы і вядуць гаспадарку прама на вадзе, разбіваючы штучныя плантацыі на роўнядзі возера. Раз у пяць дзён можна застаць плывучы рынак - мноства лодак выстройваюцца разам, прапаноўваючы розныя тавары. Верасень-кастрычнік па праве лічыцца лепшым часам для наведвання Инле. У гэты час пачынаецца фестываль, і ўсе возера запаўняецца святлівымі яркімі агнямі лодкамі."
+        }
+      },
+      {
+        "name": {
+          "en": "Ubain wooden bridge",
+          "ru": "Деревянный мост Убэйн",
+          "be": "Драўляны мост Убэйн"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615901176/travel-app/myanmar/bridge.jpg",
+        "description": {
+          "en": "An old teak pedestrian bridge, 1.2 km long, originates in the city of Amarapura and leads across Lake Tauntome. Ubain is popular with visitors to Burma for its beautiful views, especially at sunset. The crossing is no less significant for the indigenous population, especially during the rainy season, when the water level rises significantly, flooding other roads.",
+          "ru": "Старый тиковый пешеходный мост, длиной 1,2 км берет свое начало в городе Амарапура и ведет через озеро Таунтоме. Убэйн пользуется популярностью у гостей Бирмы из-за прекрасных видов, открывающихся с него, особенно на закате. Не менее значима переправа и для коренного населения, особенно в сезон дождей, когда уровень воды значительно поднимается, затапливая прочие дороги",
+          "be": "Стары цікаў пешаходны мост, даўжынёй 1,2 км бярэ свой пачатак у горадзе Амарапура і вядзе праз возера Таунтоме. Убэйн карыстаецца папулярнасцю ў гасцей Бірмы з-за цудоўных відаў, якія адкрываюцца з яго, асабліва на заходзе. Ня менш значная пераправа і для карэннага насельніцтва, асабліва ў сезон дажджоў, калі ўзровень вады значна падымаецца, падпальваючы іншыя дарогі."
+        }
+      },
+      {
+        "name": {
+          "en": "Kakku Pagodas",
+          "ru": "Пагода Какку",
+          "be": "Пагада Какку"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615901166/travel-app/myanmar/kakku.jpg",
+        "description": {
+          "en": "Kakku is one of the largest pagoda complexes in all of Asia. It contains about 2,500 Buddhist stupas, assembled together, each of which is decorated with ancient sculptures. Giant sacred Bodhi trees are planted around the pagodas.",
+          "ru": "Какку – один из самых больших пагодовых комплексов во всей Азии. Он насчитывает в себе около 2500 буддийский ступ, собранных вместе, каждая из которых украшена древними скульптурами. Вокруг пагод посажены гигантские священные деревья Бодхи.",
+          "be": "Какку - адзін з самых вялікіх пагодовых комплексаў ва ўсёй Азіі. Ён налічвае ў сабе каля 2500 будыйскі ступ, сабраных разам, кожная з якіх ўпрыгожана старажытнымі скульптурамі. Вакол пагад пасаджаныя гіганцкія святыя дрэвы Бодхі."
+        }
+      },
+      {
+        "name": {
+          "en": "Hsinbyume Pagoda",
+          "ru": "Пагода Синбьюме",
+          "be": "Пагада Синбьюме"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615901157/travel-app/myanmar/hsinbyume.jpg",
+        "description": {
+          "en": "Completely different from the rest of the sanctuary. The grandiose white temple embodies the legendary abode of the spirit of Indra, located on the edge of the mythical Meru volcano. Seven arcuate terraces, with fabulous animals in niches, rise up around the main building, symbolizing the mountain ranges that frame the path to the mountain.",
+          "ru": "Совершенно не похожее на остальные святилище. Грандиозный храм белого цвета олицетворяет легендарное жилище духа Индру, находящегося на краю мифического вулкана Меру. Семь дугообразный террас, со сказочными животными в нишах, возвышаются вокруг главного здания, символизируя горные хребты, обрамляющие путь к горе.",
+          "be": "Зусім не падобнае на астатнія сьвятыні. Грандыёзны храм белага колеру ўвасабляе легендарнае жыллё духу Індра, які знаходзіцца на краі міфічнага вулкана Меру. Сем дугападобны тэрас, з казачнымі жывёламі ў нішах, узвышаюцца вакол галоўнага будынка, сімвалізуючы горныя хрыбты, якія атачаюць шлях да гары."
+        }
+      },
+      {
+        "name": {
+          "en": "Gokteik Viaduct",
+          "ru": "Железнодорожный мост Гоктейк",
+          "be": "Чыгуначны мост Гоктейк"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615901166/travel-app/myanmar/railway.jpg",
+        "description": {
+          "en": "The largest railway in Myanmar, built in 1900, connects Pyin-u-Lion and the city of Lashio. It was built by the British to expand their influence, and now has become a popular attraction among especially daring tourists. The train travels over a dizzying abyss, moving slowly so as not to damage the ancient structure, and at this time travelers have the opportunity to take stunning photos and admire exotic views.",
+          "ru": "Крупнейшая железная дорога Мьянмы, построенная еще в 1900 г., соединяет Пьин-у-Льви и город Лашио. Она была построена британцами для расширения их влияния, а ныне стала популярным аттракционом среди особо смелых туристов. Поезд едет над головокружительной бездной, двигаясь неспешно, чтобы не повредить старинную конструкцию, и в это время у путешественников есть возможность сделать потрясающие фото и полюбоваться экзотическими видами.",
+          "be": "Найбуйнейшая чыгунка М'янмы, пабудаваная яшчэ у 1900 г., злучае Пьин-у-Льви і горад Лашио. Яна была пабудавана брытанцамі для пашырэння іх уплыву, а цяпер стала папулярным атракцыёнам сярод асабліва смелых турыстаў. Цягнік едзе над галавакружнай безданню, рухаючыся павольна, каб не пашкодзіць старадаўнюю канструкцыю, і ў гэты час у падарожнікаў ёсць магчымасць зрабіць цудоўныя фота і палюбавацца экзатычнымі відамі."
+        }
+      },
+      {
+        "name": {
+          "en": "Caittijo Pagoda",
+          "ru": "Пагода Чайттийо",
+          "be": "Пагода Чайтціё"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615901188/travel-app/myanmar/caittijo.jpg",
+        "description": {
+          "en": "A small 5-meter pagoda is located in an extremely unusual place, namely on a huge golden stone standing on the cliff of the mountain. How it keeps there is unknown, but a couple of adult men swing it with ease, while the stone does not fall. According to legend, it is held by several Buddha hairs hidden in a stupa, and only a woman can destroy the protective power, therefore they are forbidden not only to touch the sanctuary, but also to come closer than 10 m.A lot of pilgrims flock here every year, especially in March, when the Burmese year ends.",
+          "ru": "Небольшая 5-ти метровая пагода находится в крайне необычном месте, а именно на огромном золотом камне, стоящем на обрыве горы. Как он там держится – неизвестно, но пара взрослых мужчин с легкостью раскачивают его, при этом камень не падает. По легенде, его удерживают несколько волосков Будды, спрятанных в ступе, и лишь женщина может разрушить оберегающую силу, поэтому им запрещено не только касаться святилища, но и подходить ближе, чем на 10 м. Сюда ежегодно стекается множество паломников, особенно в марте, когда заканчивается бирманский год.",
+          "be": "Невялікая 5-ці метровая пагада знаходзіцца ў вельмі незвычайным месцы, а менавіта на велізарным золатам камені, які стаіць на абрыве горы. Як ён там трымаецца - невядома, але пара дарослых мужчын з лёгкасцю разгойдваюць яго, пры гэтым камень не падае. Паводле легенды, яго ўтрымліваюць некалькі валасінак Буды, схаваных у ступе, і толькі жанчына можа разбурыць аберагаюць сілу, таму ім забаронена не толькі дакранацца да сьвятыні, але і падыходзіць бліжэй, чым на 10 м. Сюды штогод сцякаецца мноства паломнікаў, асабліва ў сакавіку, калі заканчваецца бірманскі год."
+        }
+      },
+      {
+        "name": {
+          "en": "Taung Kalat monastery",
+          "ru": "Монастырь Таунг Калат",
+          "be": "Манастыр Таунг Калат"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615901187/travel-app/myanmar/taung.jpg",
+        "description": {
+          "en": "It is located at the top of the extinct volcano of Mount Pope, and practically floats in the air. The monastery can be seen from the ground 60 km away in good weather, and from its observation platforms the whole city is in full view. To get to the top, you need to overcome a large number of steps cut right into the rock. On the way, there are temples for a little rest while climbing.",
+          "ru": "Находится на вершине потухшего вулкана горы Поупа, и практически парит в воздухе. Монастырь видно с земли за 60 км в хорошую погоду, а с его смотровых площадок весь город как на ладони. Чтобы попасть наверх, нужно преодолеть большое количество ступеней, вырубленных прямо в скале. По дороге встречаются храмы для небольшого отдыха при подъеме.",
+          "be": "Знаходзіцца на вяршыні патухлага вулкана горы Поупа, і практычна парыць у паветры. Манастыр відаць з зямлі за 60 км у добрае надвор'е, а з яго назіральных пляцовак увесь горад як на далоні. Каб трапіць наверх, трэба пераадолець вялікая колькасць прыступак, высечаных прама ў скале. Па дарозе сустракаюцца храмы для невялікага адпачынку пры ўздыме."
+        }
+      }
+    ]
+  },
+  "singapore": {
+    "id": "singapore",
+    "geoCenter": [103.851959, 1.290270],
+    "countryCode": "SGP",
+    "countryName": {
+      "en": "Singapore",
+      "ru": "Сингапур",
+      "be": "Сінгапур"
+    },
+    "capitalName": {
+      "en": "Singapore",
+      "ru": "Сингапур",
+      "be": "Сінгапур"
+    },
+    "description": {
+      "en": "Singapore is a tiny island nation in Southeast Asia that’s become one of the world’s most prosperous countries. Walk around for a day and you’ll see all the features of an ultramodern society with its impressive skyline, contemporary architecture, high-end shopping malls, and highly efficient subway system. But in spite of its facade of steel and glass, Singapore retains much of the ethnic and cultural diversity that earned it its nickname – “the melting pot of Asia”. Iconic structures like Marina Bay Sands and Supertree Grove are impressive but equally of note are the ethnic pockets within the city that preserve each culture’s unique heritage and traditions. In spite of being a city-state with 100% of its population urbanized, over 50% of Singapore’s area is covered by greenery. It boasts over 50 major parks and 4 nature reserves, all within a 720 sq km area.",
+      "ru": "Сингапур - крошечное островное государство в Юго-Восточной Азии, ставшее одной из самых процветающих стран мира. Погуляйте по городу в течение дня, и вы увидите все черты ультрасовременного общества с его впечатляющим горизонтом, современной архитектурой, элитными торговыми центрами и высокоэффективной системой метро. Но, несмотря на свой фасад из стали и стекла, Сингапур сохраняет большую часть этнического и культурного разнообразия, за которое он получил свое прозвище - «плавильный котел Азии». Знаменитые сооружения, такие как Marina Bay Sands и Supertree Grove, впечатляют, но не менее примечательны этнические районы города, которые хранят уникальное наследие и традиции каждой культуры. Несмотря на то, что это город-государство, 100% населения которого урбанизировано, более 50% территории Сингапура покрыто зеленью. Он может похвастаться более чем 50 крупными парками и 4 заповедниками на площади 720 кв. км.",
+      "be": "Сінгапур - малюсенькая астраўная дзяржава ў Паўднёва-Усходняй Азіі, якае стала адной з самых заможных краінаў свету. Пагуляйце па горадзе на працягу дня, і вы ўбачыце ўсе рысы ўльтрасучаснага грамадства з яго уражлівым гарызонтам, сучаснай архітэктурай, элітнымі гандлёвымі цэнтрамі і высокаэфектыўнай сістэмай метро. Але, нягледзячы на ​​свой фасад з сталі і шкла, Сінгапур захоўвае большую частку этнічнай і культурнай разнастайнасці, за што ён атрымаў сваю мянушку - «плавільны кацёл Азіі». Знакамітыя будынкі, такія як Marina Bay Sands і Supertree Grove, уражваюць, але не меней характэрныя этнічныя раёны горада, якія захоўваюць унікальную спадчыну і традыцыі кожнай культуры. Нягледзячы на ​​тое, што гэта горад-дзяржава, 100% насельніцтва якога ўрбанізавана, больш за 50% тэрыторыі Сінгапура пакрыта зелянінай. Ён можа пахваліцца больш чым 50 буйнымі паркамі і 4 запаведнікамі на плошчы 720 кв. км."
+    },
+    "shortDescription": {
+      "en": "Since 1905, Singapore has changed its time zones 6 times! Presently its time zone is GMT+8 (just to be in synch with Malaysia), but it is technically still incorrect. Singapore should be in the GMT +7.5 time zone. Chewing gum is banned in Singapore. Only those with medical prescription can chew gum!",
+      "ru": "С 1905 года Сингапур 6 раз менял часовые пояса! В настоящее время его часовой пояс GMT + 8 (просто для синхронизации с Малайзией), но технически он все еще неверен. Сингапур должен находиться в часовом поясе GMT   +7,5. Жевательная резинка запрещена в Сингапуре. Жевать жевательную резинку могут только те, у кого есть рецепт врача!",
+      "be": "З 1905 года Сінгапур 6 разоў мяняў гадзінныя паясы! У цяперашні час яго гадзінны пояс GMT + 8 (проста для сінхранізацыі з Малайзіяй), але тэхнічна ён усё яшчэ з'яўляецца памылковым. Сінгапур павінен знаходзіцца ў часавым поясе GMT   7,5. Жавальная гумка забароненая ў Сінгапуры. Жаваць жавальную гумку могуць толькі тыя, у каго ёсць рэцэпт лекара!"
+    },
+    "currency": {
+      "en": "Singapore dollar",
+      "ru": "Сингапурский доллар",
+      "be": "Сінгапурскі долар"
+    },
+    "currencyCode": "SGD",
+    "timeZone": "Asia/Singapore",
+    "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835535/travel-app/singapore/Singapore.jpg",
+    "videoURL": "https://res.cloudinary.com/travel-app/video/upload/v1615841149/travel-app/singapore/singapore_video.mp4",
+    "videoPoster": "https://res.cloudinary.com/travel-app/image/upload/v1615837411/travel-app/singapore/video_poster.jpg",
+    "places": [
+      {
+        "name": {
+          "en": "Marina Bay Sands",
+          "ru": "Марина Бей Сандс",
+          "be": "Марына Бэй Сандс"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835534/travel-app/singapore/marinaBaySands.jpg",
+        "description": {
+          "en": "The opulent Marina Bay Sands resort complex includes a high-end luxury hotel, a mall with a canal running through it, the ArtScience Museum, and the Marina Bay Sands Skypark Observation Deck—a vantage point for taking in the entire city. The Skypark's viewing deck and infinity pool are found in the ship (yes, ship) that tops the hotel. Only hotel guests are allowed to use the infinity pool, but anyone can visit the observation deck. From the Skypark, you can see the innovative double helix bridge, the port, the Gardens by the Bay (101 hectares of land converted into waterfront gardens), and the impressive skyline.",
+          "ru": "Роскошный курортный комплекс Marina Bay Sands включает в себя элитный роскошный отель, торговый центр с проходящим через него каналом, Музей ArtScience и смотровую площадку Marina Bay Sands Skypark - точку обзора для осмотра всего города. Смотровая площадка Skypark и пейзажный бассейн находятся на корабле (да, корабле), который возглавляет отель. Только гости отеля могут пользоваться пейзажным бассейном, но любой желающий может посетить смотровую площадку.Из Skypark вы можете увидеть инновационный мост с двойной спиралью, порт, Сады у залива (101 га земли, преобразованные в сады на набережной) и впечатляющий горизонт.",
+          "be": "Раскошны курортны комплекс Marina Bay Sands ўключае ў сябе элітны раскошны гатэль, гандлёвы цэнтр з праходзілым праз яго каналам, Музей ArtScience і назіральную пляцоўку Marina Bay Sands Skypark - кропку агляду для агляду ўсяго горада. Назіральная пляцоўка Skypark і пейзажны басейн знаходзяцца на караблі (так, караблі), які ўзначальвае гатэль. Толькі госці гатэля могуць карыстацца пейзажных басейнам, але любы жадаючы можа наведаць назіральную пляцоўку. Skypark вы можаце ўбачыць інавацыйны мост з двайны спіраллю, порт, Сады ў заліва (101 га зямлі, ператвораныя ў сады на набярэжнай) і ўражлівы гарызонт."
+        }
+      },
+      {
+        "name": {
+          "en": "Gardens by the Bay",
+          "ru": "Сады у залива",
+          "be": "Сады ў заліва"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835535/travel-app/singapore/gardensByTheBay.jpg",
+        "description": {
+          "en": "Once you've glimpsed this beautifully designed green space (from the top of the Marina Bay Sands, perhaps) you won't be able to stay away. Wander through the Bay East Garden, perfect for enjoying the vibrant plant life and escaping the city bustle for a moment. You won't want to miss Supertree Grove, where you'll find a cluster of the iconic, futuristic structures designed to perform environmentally sustainable functions. Then, head to the Cloud Forest Dome to see the world's tallest indoor waterfall and learn a bit about biodiversity",
+          "ru": "Как только вы увидите это красиво оформленное зеленое пространство (возможно, с вершины Marina Bay Sands), вы не сможете оставаться в стороне. Прогуляйтесь по Восточному саду залива, который идеально подходит для того, чтобы насладиться яркой растительностью и на мгновение уйти от городской суеты. Вы не захотите пропустить Supertree Grove, где вы найдете группу культовых футуристических построек, предназначенных для выполнения экологически безопасных функций. Затем отправляйтесь к Куполу Облачного леса, чтобы увидеть самый высокий в мире закрытый водопад и немного узнать о биоразнообразии",
+          "be": "Як толькі вы ўбачыце гэта прыгожа аформленае зялёная прастора (магчыма, з вяршыні Marina Bay Sands), вы не зможаце заставацца ў баку. Прагуляйцеся па Ўсходнім садзе заліва, які ідэальна падыходзіць для таго, каб атрымаць асалоду ад яркай расліннасцю і на імгненне адысці ад гарадской мітусні. Вы не захочаце прапусціць Supertree Grove, дзе вы знойдзеце групу культавых футурыстычных пабудоў, прызначаных для выканання экалагічна бяспечных функцый. Затым адпраўляйцеся да купалы Хмарнага лесу, каб убачыць самы высокі ў свеце зачынены вадаспад і трохі даведацца аб біяразнастайнасці"
+        }
+      },
+      {
+        "name": {
+          "en": "Botanic Gardens",
+          "ru": "Ботанический сад",
+          "be": "Батанічны сад"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835533/travel-app/singapore/botanicGardens.jpg",
+        "description": {
+          "en": "Not to be confused with the Gardens on the Bay, the Botanic Gardens are also worth a visit. Singapore received its first UNESCO World Heritage nomination for its botanical gardens, and with good reason. The city can sometimes feel like a concrete jungle, albeit a clean and comfortable one, but the botanic gardens preserve pieces of Singapore's wilder heritage. Here, a walking trail leads to the gardens' heritage trees, which are conserved as part of an effort to protect the city's mature tree species. Make sure to visit the impressive National Orchid Garden as well.",
+          "ru": "Не путайте с Садами на берегу залива, стоит посетить и Ботанические сады. Сингапур получил свою первую номинацию в список Всемирного наследия ЮНЕСКО за свои ботанические сады, и не без оснований. Город иногда может казаться бетонными джунглями, хотя и чистыми и удобными, но ботанические сады хранят кусочки дикой природы Сингапура. Здесь пешеходная тропа ведет к историческим деревьям в саду, которые сохраняются в рамках усилий по защите зрелых пород деревьев в городе. Не забудьте также посетить впечатляющий Национальный сад орхидей.",
+          "be": "Не блытайце з садамі на беразе заліва, варта наведаць і Батанічныя сады. Сінгапур атрымаў сваю першую намінацыю ў спіс Сусветнай спадчыны ЮНЕСКА за свае батанічныя сады, і не без падстаў. Горад часам можа здавацца бетоннымі джунглямі, хоць і чыстымі і зручнымі, але батанічныя сады захоўваюць кавалачкі дзікай прыроды Сінгапура. Тут пешаходная сцежка вядзе да гістарычных дрэваў у садзе, якія захоўваюцца ў рамках намаганняў па абароне спелых парод дрэў у горадзе. Не забудзьцеся таксама наведаць ўражлівы Нацыянальны сад архідэй."
+        }
+      },
+      {
+        "name": {
+          "en": "Orchard Road",
+          "ru": "Орчард-роуд",
+          "be": "Орчард-роўд"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835534/travel-app/singapore/orchardRoad.jpg",
+        "description": {
+          "en": "One could be forgiven for coming to Singapore and doing nothing but shopping, as this is a world-class city for style and designer chic. The Orchard Road area is a great place to start a shopping spree, as there are high-end stores at every turn. You'd expect nothing less from a neighborhood that boasts 22 malls and six department stores. There are also four movie theaters, including an IMAX cinema, and a KTV karaoke establishment.",
+          "ru": "Можно простительно приехать в Сингапур и ничего не делать, кроме покупок, поскольку это город мирового класса по стилю и дизайнерскому шику. Район Орчард-роуд - отличное место для начала покупок, так как элитные магазины есть на каждом шагу. Вы не ожидаете ничего меньшего от района, в котором есть 22 торговых центра и шесть универмагов. Есть также четыре кинотеатра, включая кинотеатр IMAX и караоке KTV.",
+          "be": "Можна даравальна прыехаць у Сінгапур і нічога не рабіць, акрамя пакупак, паколькі гэта горад сусветнага класа па стылі і дызайнерскаму шыку. Раён Орчард-роўд - выдатнае месца для пачатку пакупак, так як элітныя крамы ёсць на кожным кроку. Вы не чакаеце нічога меншага ад раёна, у якім ёсць 22 гандлёвых цэнтра і шэсць універмагаў. Ёсць таксама чатыры кінатэатра, уключаючы кінатэатр IMAX і караоке KTV."
+        }
+      },
+      {
+        "name": {
+          "en": "Singapore Flyer",
+          "ru": "Сингапурский флаер",
+          "be": "Cінгапурскі флаер"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835535/travel-app/singapore/singaporeFlyer.jpg",
+        "description": {
+          "en": "If the observation deck at the Marina Bay Sands doesn't quite do it for you, try taking in high tea while looking out over the city from the Singapore Flyer, the world's largest giant observation wheel. Choose from several different packages that allow you to be served and pampered while enjoying a view that encompasses not only the Singapore skyline but as far away as the Spice Islands of Indonesia and Malaysia's Straits of Johor.",
+          "ru": "Если смотровая площадка в Marina Bay Sands не совсем подходит для вас, попробуйте полдник, глядя на город с Singapore Flyer, самого большого в мире гигантского колеса обозрения. Выберите один из нескольких различных пакетов, которые позволят вам обслужить и побаловать себя, наслаждаясь видом, который охватывает не только панораму Сингапура, но и даже острова специй в Индонезии и Малайзийский пролив Джохор.",
+          "be": "Калі назіральная пляцоўка ў Marina Bay Sands не зусім падыходзіць для вас, паспрабуйце падвячорак, гледзячы на горад з Singapore Flyer, самага вялікага ў свеце гіганцкага колы агляду. Выбераце адзін з некалькіх розных пакетаў, якія дазволяць вам абслужыць і папесціць сябе, атрымліваючы асалоду ад выглядам, які ахоплівае не толькі панараму Сінгапура, але і нават выспы спецый ў Інданезіі і Малайзійскі праліў Джахор."
+        }
+      },
+      {
+        "name": {
+          "en": "Chinatown",
+          "ru": "Китайский квартал",
+          "be": "Кітайскі квартал"
+        },
+        "imageURL": "https://res.cloudinary.com/travel-app/image/upload/v1615835557/travel-app/singapore/chinatown.jpg",
+        "description": {
+          "en": "If you've ever visited China, Singapore's Chinatown neighborhood will bring you right back here. From the small mom-and-pop stores and authentic Chinese food to the bright red lanterns, there's excitement and hustle in this district. You can visit the Chinese Heritage Centre and see the impressive and beautiful Sri Mariamman Hindu temple. Another temple worth seeing is the Buddha Tooth Relic temple. If you're up early enough (think 4am), you can hear the morning drum ceremony. Or you can just check out the closing ceremony in the evening after viewing the relic",
+          "ru": "Если вы когда-либо были в Китае, китайский квартал Сингапура вернет вас сюда. От небольших семейных магазинов и аутентичной китайской еды до ярко-красных фонарей - в этом районе царит оживление и суеты. Вы можете посетить Центр китайского наследия и увидеть впечатляющий и красивый индуистский храм Шри Мариамман. Еще один храм, который стоит посетить, - это храм реликвии Зуба Будды. Если вы встаете достаточно рано (представьте, 4 часа ночи), вы можете услышать утреннюю барабанную церемонию. А можно просто посмотреть церемонию закрытия вечером после осмотра реликвии.",
+          "be": "Калі вы калі-небудзь былі ў Кітаі, кітайскі квартал Сінгапура верне вас сюды. Ад невялікіх сямейных магазінаў і аўтэнтычнай кітайскай ежы да ярка-чырвоных ліхтароў - у гэтым раёне пануе ажыўленне і мітусні. Вы можаце наведаць Цэнтр кітайскай спадчыны і ўбачыць ўражлівы і прыгожы індуісцкай храм Шры Мариамман. Яшчэ адзін храм, які варта наведаць, - гэта храм рэліквіі зуба Буды. Калі вы ўстаяце досыць рана (уявіце, 4 гадзіны ночы), вы можаце пачуць ранішнюю барабанную цырымонію. А можна проста паглядзець цырымонію закрыцця вечарам пасля агляду рэліквіі."
+        }
+      }
+    ]
+  }
+}

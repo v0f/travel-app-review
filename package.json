@@ -1,0 +1,69 @@
+{
+  "name": "travel-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@mapbox/mapbox-gl-language": "^0.10.1",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.8.1",
+    "@types/jest": "^26.0.20",
+    "mapbox-gl": "^2.1.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-animated-slider": "^2.0.0",
+    "react-dom": "^17.0.1",
+    "react-image-gallery": "^1.0.9",
+    "react-player": "^2.9.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "redux": "^4.0.5",
+    "typescript": "^4.2.3",
+    "video-react": "^0.14.1",
+    "web-vitals": "^1.1.0"
+  },
+  "scripts": {
+    "build:css": "node-sass src/ -o src/ ",
+    "watch:css": "npm run build:css && node-sass src/ -o src/ -w -r",
+    "start": "react-scripts start",
+    "start:js": "react-scripts start",
+    "start:all": "npm-run-all -p watch:css start:js",
+    "build:js": "react-scripts build",
+    "build": "npm-run-all build:*",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/material-ui": "^0.21.8",
+    "@types/node": "^14.14.34",
+    "@types/node-sass": "^4.11.1",
+    "@types/prop-types": "^15.7.3",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.2",
+    "@types/react-router-dom": "^5.1.7",
+    "node-sass": "^5.0.0",
+    "npm-run-all": "^4.1.5",
+    "worker-loader": "^3.0.8"
+  }
+}

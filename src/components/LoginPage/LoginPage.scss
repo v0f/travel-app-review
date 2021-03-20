@@ -1,0 +1,80 @@
+.login-wrapper {
+
+    .MuiAvatar-root {
+        opacity: 0;
+    }
+    
+    .MuiButton-containedPrimary {
+        color: #fff;
+        background-color: #222222;
+    }
+    
+    .MuiTypography-colorPrimary {
+        color: #686868;
+    }
+
+    .MuiTypography-h5 {
+        font-family: 'Cormorant', serif;
+        font-size: 3.5rem;
+        font-weight: 800;
+    }
+
+    .login-img {
+        filter: brightness(0.7);
+    }
+
+    a {
+      text-decoration: none;
+      color: #7c7c7c;
+    }
+
+    a:hover {
+      color: #141414;
+    }
+
+    .Mui-focused {
+      color: rgb(65, 65, 65) !important;
+    }
+
+    .MuiButton-containedPrimary:hover {
+      background-color: rgb(255, 196, 0);
+    }
+
+    .Mui-disabled {
+      background-color: gray;
+    }
+
+    .MuiOutlinedInput-root {
+      border-radius: 0;
+    }
+
+    .MuiFab-extended.MuiFab-sizeSmall {
+      padding: 1rem;
+    }
+
+    .avatar-btn:hover {
+      background-color:  rgb(255, 196, 0);
+      color: black;
+
+    }
+
+    .MuiSvgIcon-root {
+      margin-right: 0.3rem;
+    }
+
+    .img-link {
+      font-size: 0.6rem;
+      padding: 0.5rem;
+      display: block;
+    }
+}
+
+
+@media (max-width: 500px) {
+  .login-wrapper {
+
+    .img-link {
+      font-size: 0.5rem;
+    }
+  }
+}
